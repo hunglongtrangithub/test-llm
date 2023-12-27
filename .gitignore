@@ -1,0 +1,30 @@
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore virtual environment
+venv/
+bin/
+include/
+lib/
+pyvenv.cfg
+
+# Ignore environment variables
+.env
+
+# Ignore data files
+input/
+output/
+answer_keys/
+
+# Ignore system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore JSON files generated during development
+*.json
