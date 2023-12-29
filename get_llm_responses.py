@@ -1,6 +1,7 @@
 from openai import OpenAI
 import google.generativeai as genai
 import os
+from helper import save_json_file, load_json_file
 
 
 def get_gpt4_response(system_prompt, user_prompt):
@@ -45,7 +46,6 @@ def get_llm_response(model_name, system_prompt, user_prompt):
     return message
 
 
-# TODO: Add caching to this function by saving the responses to a json file, and update only the missing responses (new models, new documents, new questions)
 def collect_llm_responses(
     model_name: str,
     system_prompt: str,
@@ -54,18 +54,26 @@ def collect_llm_responses(
     document_name: str,
     questions: dict[str, str],
 ) -> dict[str, str]:
-    # This function is for collecting the responses for a single document
-    # Initialize the dictionary
-    responses = {}
+    # Check if the responses have already been collected
+    try:
+        responses = load_json_file(f"responses/{patient_name}/{document_name}.json")
+    except FileNotFoundError:
+        # Initialize the dictionary
+        responses = {}
+    print(f"Collecting responses of {model_name} for {document_name}")
+    model_responses = {}
     for question_type, question in questions.items():
         # Construct the user prompt
         user_prompt = make_user_prompt(question, patient_name, document_name)
         # Get the response
         response = get_llm_response(model_name, system_prompt, user_prompt)
         # Add the response to the dictionary
-        responses[question_type] = response
-    # Get the responses
-    return responses
+        model_responses[question_type] = response
+    # Save the responses
+    responses[model_name] = model_responses
+    save_json_file(responses, f"responses/{patient_name}/{document_name}.json")
+    # Return the model responses
+    return model_responses
 
 
 if __name__ == "__main__":

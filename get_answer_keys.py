@@ -41,6 +41,7 @@ def get_answer_keys(patient_name, document_name):
     # Get the note according to the document name
     note = get_note(data, document_name)
     # Generate the answer keys
+    print(f"Generating answer keys for {document_name}")
     answer_keys = generate_answer_keys(data, note)
     # Save the answer keys
     save_json_file(f"answer_keys/{patient_name}/{document_name}.json", answer_keys)
