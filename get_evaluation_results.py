@@ -10,7 +10,7 @@ def evaluate(response, answer, model_name="roberta-large-mnli"):
     return label, score
 
 
-def compare_responses_with_keys(responses, answer_keys):
+def get_evaluation_results(responses, answer_keys):
     # This function is for comparing the responses with the answer keys for a single document
     if len(responses) != len(answer_keys):
         raise ValueError("The length of responses and answer keys must be the same")
