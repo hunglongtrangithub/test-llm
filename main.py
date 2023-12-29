@@ -56,28 +56,6 @@ def make_user_prompt(question, patient_name, document_name):
     return user_prompt
 
 
-# TODO: Add caching to this function by saving the responses to a json file, and update only the missing responses (new models, new documents, new questions)
-def collect_llm_responses(
-    model_name: str,
-    system_prompt: str,
-    patient_name: str,
-    document_name: str,
-    questions: dict[str, str],
-) -> dict[str, str]:
-    responses = {}
-    # Initialize the dictionary
-    responses = {}
-    for question_type, question in questions.items():
-        # Construct the user prompt
-        user_prompt = make_user_prompt(question, patient_name, document_name)
-        # Get the response
-        response = get_llm_response(model_name, system_prompt, user_prompt)
-        # Add the response to the dictionary
-        responses[question_type] = response
-    # Get the responses
-    return responses
-
-
 def main():
     # Load the questions
     questions = load_questions()
