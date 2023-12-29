@@ -64,7 +64,7 @@ def collect_llm_responses(
         ) from e
     # Check if the responses have already been collected
     try:
-        responses = load_json_file(f"responses/{patient_name}/{document_name}.json")
+        responses = load_json_file(f"llm_responses/{patient_name}/{document_name}.json")
     except FileNotFoundError:
         # Initialize the dictionary
         responses = {}
@@ -79,7 +79,7 @@ def collect_llm_responses(
         model_responses[question_type] = response
     # Save the responses
     responses[model_name] = model_responses
-    save_json_file(f"responses/{patient_name}/{document_name}.json", responses)
+    save_json_file(f"llm_responses/{patient_name}/{document_name}.json", responses)
     # Return the model responses
     return model_responses
 

@@ -18,6 +18,6 @@ def get_evaluation_results(
         raise ValueError("The keys of the responses and answer keys must match.")
     evaluation_results = {}
     for question_type in responses.keys():
-        evaluation = evaluate(responses[question_type], answer_keys[question_type])
-        evaluation_results[question_type] = evaluation
+        label, score = evaluate(responses[question_type], answer_keys[question_type])
+        evaluation_results[question_type] = {"label": label, "score": score}
     return evaluation_results
