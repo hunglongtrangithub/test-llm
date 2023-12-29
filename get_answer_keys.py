@@ -19,8 +19,8 @@ def get_note(data, document_name):
             return n
 
 
+# TODO: make the attributes extensible and configurable
 def generate_answer_keys(data, note):
-    print(f"Generating answer keys for {note}")
     # Generate the answer keys with the following format:
     answer_keys = {}
     answer_keys["name"] = data["patient"]["name"]
@@ -58,22 +58,53 @@ def get_answer_keys(patient_name, document_name):
     return answer_keys
 
 
-def load_answer_keys(patient_name, document_name=None):
-    if document_name is None:
+def load_answer_keys(
+    patient_name: str = None, document_name: str = None
+) -> dict[str, dict[str, str]]:
+    if patient_name is None:
+        # Load the answer keys for all patients
         answer_keys = {}
+        for d in os.listdir("input"):
+            if not os.path.isdir(os.path.join("input", d)):
+                continue
+            patient = d
+            # print(f"Loading answer keys for {patient}")
+            answer_keys.update(load_answer_keys(patient_name=patient))
+        return answer_keys
+    if document_name is None:
+        # Load the answer keys for a single patient (all documents)
+        answer_keys = {}
+        answer_keys[patient_name] = {}
         for file in os.listdir(f"input/{patient_name}"):
             document, extension = os.path.splitext(file)
             # Skip non-text files
             if extension != ".txt":
                 continue
-            answer_keys[document] = get_answer_keys(patient_name, document)
+            # print(f"Loading answer keys for {document}")
+            answer_keys[patient_name][document] = get_answer_keys(
+                patient_name, document
+            )
         return answer_keys
     else:
-        return get_answer_keys(patient_name, document_name)
+        # Load the answer keys for a single document
+        # print(f"Loading answer keys for {document_name}")
+        answer_keys = {}
+        answer_keys[patient_name] = {}
+        answer_keys[patient_name][document_name] = get_answer_keys(
+            patient_name, document_name
+        )
+        return answer_keys
 
 
 if __name__ == "__main__":
     # Test the get_answer_keys function
-    patient_name = "fake_patient2"
-    document_name = "fake_patient1_doc1_RAD"
-    answer_keys = load_answer_keys(patient_name)
+    answer_keys = load_answer_keys(
+        patient_name="fake_patient1",
+        document_name=None,
+    )
+    # print(json.dumps(answer_keys, indent=4))
+    # print all the keys of the dictionary for all levels
+    from test import print_keys_recursively
+
+    print("Answer keys:")
+    print_keys_recursively(answer_keys)
