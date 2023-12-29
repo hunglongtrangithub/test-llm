@@ -38,6 +38,13 @@ def test_get_evaluation_results():
     print(json.dumps(evaluations, indent=4))
 
 
+def test_make_user_prompt():
+    question = "What is the capital of France?"
+    document = "The capital of France is Paris."
+    print(make_user_prompt(question, document))
+
+
 if __name__ == "__main__":
-    test_collect_llm_responses()
+    # test_collect_llm_responses()
     # test_get_evaluation_results()
+    test_make_user_prompt()

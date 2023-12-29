@@ -48,6 +48,7 @@ def get_answer_keys(patient_name, document_name):
     return answer_keys
 
 
+# TODO: consider removing document_name from the function parameters
 def load_answer_keys(
     patient_name: str = None, document_name: str = None
 ) -> dict[str, dict[str, dict]]:
