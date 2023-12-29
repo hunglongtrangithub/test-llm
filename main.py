@@ -17,22 +17,16 @@ MODEL_LIST = [
 
 
 def get_patient_to_document_names(
-    path: str = "input", patient_name: str = None, document_name: str = None
+    path: str = "input", patient_name: str = None
 ) -> list[tuple[str, str]]:
     # The path must contain only subdirectories as patients and only .txt files in each subdirectory as documents
     patient_document_names = []
     if patient_name is not None:
+        # Get the document names for the patient
         for filename in os.listdir(f"{path}/{patient_name}"):
             if filename.endswith(".txt"):
-                patient_document_names.append((patient_name, filename))
-        return patient_document_names
-    if document_name is not None:
-        # Search for the document name in the path. If there are multiple documents with the same name, return all of them
-        for dirpath, _, filenames in os.walk(path):
-            for filename in filenames:
-                if filename == document_name:
-                    patient_name = os.path.basename(dirpath)
-                    patient_document_names.append((patient_name, filename))
+                document_name = os.path.splitext(filename)[0]
+                patient_document_names.append((patient_name, document_name))
         return patient_document_names
     for dirpath, _, filenames in os.walk(path):
         for filename in filenames:
@@ -120,5 +114,6 @@ def main():
 if __name__ == "__main__":
     # print(json.dumps(load_questions(), indent=4))
     # print(get_patient_to_document_names())
-    make_user_prompt("question1", "fake_patient1_doc1_RAD.txt")
-    assert len(get_patient_to_document_names()) == 59
+    # make_user_prompt("question1", "fake_patient1_doc1_RAD.txt")
+    # assert len(get_patient_to_document_names()) == 59
+    print(get_patient_to_document_names())

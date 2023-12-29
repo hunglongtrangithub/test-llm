@@ -104,7 +104,7 @@ if __name__ == "__main__":
     )
     # print(json.dumps(answer_keys, indent=4))
     # print all the keys of the dictionary for all levels
-    from test import print_keys_recursively
+    from helper import print_keys_recursively
 
     print("Answer keys:")
     print_keys_recursively(answer_keys)
