@@ -1,6 +1,6 @@
 from get_answer_keys import load_answer_keys
 from get_llm_responses import collect_llm_responses
-from get_evaluation_results import compare_responses_with_keys
+from get_evaluation_results import get_evaluation_results
 import json
 import os
 
@@ -10,10 +10,10 @@ USER_PROMPT_TEMPLATE = "{question}\n{document}"
 MODEL_LIST = [
     "gpt-4",
     "gemini-pro",
-    "gpt-3.5-turbo-0613",
-    "llama-2-70b-chat",
-    "llama-2-7b-chat",
-    "code-llama-34b",
+    # "gpt-3.5-turbo-0613",
+    # "llama-2-70b-chat",
+    # "llama-2-7b-chat",
+    # "code-llama-34b",
 ]
 
 
@@ -34,10 +34,8 @@ def get_patient_to_document_names(
         if dirpath == path:
             continue
         patient_name = os.path.basename(dirpath)
-        patient_document_names[patient_name] = []
-        for filename in filenames:
-            if filename.endswith(".txt"):
-                patient_document_names[patient_name].append(filename)
+        txt_files = [filename for filename in filenames if filename.endswith(".txt")]
+        patient_document_names[patient_name] = txt_files
     return patient_document_names
 
 
@@ -52,41 +50,40 @@ def make_user_prompt(question, document):
 
 
 def main():
+    # This functions loads the questions, answer keys, and collect LLM responses, and then evaluates the responses
     # Load the questions
     questions = load_questions()
+    print("Loaded questions from questions.json")
     # Load the answer keys
-    answer_keys = load_answer_keys()
-    # Get the patient to document names
-    patient_to_document_names = get_patient_to_document_names()
-    # Get the responses
-    responses = collect_llm_responses(
-        MODEL_LIST, SYSTEM_PROMPT, questions, patient_to_document_names
+    answer_keys = load_answer_keys(patient_name="fake_patient1")
+    print("Loaded answer keys from answer_keys.json")
+    # Get patient to document names
+    patient_to_document_names = get_patient_to_document_names(
+        patient_name="fake_patient1"
     )
-
-    # Compare the responses with the answer keys
-    results = {}
-    for model_name, document_responses in responses.items():
-        results[model_name] = {}
-        for document_name, question_responses in document_responses.items():
-            results[model_name][document_name] = {}
-            for question_type, response in question_responses.items():
-                print(
-                    f"Model: {model_name}\nDocument: {document_name}\nQuestion type: {question_type}\nResponse: {response}\n"
+    # Collect LLM responses and evaluation
+    evaluations = {}
+    for patient_name, document_names in patient_to_document_names.items():
+        evaluations[patient_name] = {}
+        for document_name in document_names:
+            evaluations[patient_name][document_name] = {}
+            for model_name in MODEL_LIST:
+                llm_respones = collect_llm_responses(
+                    model_name,
+                    SYSTEM_PROMPT,
+                    make_user_prompt,
+                    patient_name,
+                    document_name,
+                    questions,
                 )
-            # Save to results
-            results[model_name][document_name] = compare_responses_with_keys(
-                question_responses, answer_keys[document_name]
-            )
-    # Print the results
-    print(json.dumps(results, indent=4))
-    # Write the results to a file
-    with open("results.json", "w") as f:
-        json.dump(results, f, indent=4)
+                evals = get_evaluation_results(
+                    llm_respones, answer_keys[patient_name][document_name]
+                )
+                evaluations[patient_name][document_name][model_name] = evals
+    # Save the evaluations
+    json.dump(evaluations, open("evaluation_results.json", "w"), indent=4)
+    print("Evaluation results saved to evaluation_results.json")
 
 
 if __name__ == "__main__":
-    # print(json.dumps(load_questions(), indent=4))
-    # print(get_patient_to_document_names())
-    # make_user_prompt("question1", "fake_patient1_doc1_RAD.txt")
-    # assert len(get_patient_to_document_names()) == 59
-    print(get_patient_to_document_names(patient_name=None))
+    main()
