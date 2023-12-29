@@ -19,21 +19,25 @@ MODEL_LIST = [
 
 def get_patient_to_document_names(
     path: str = "input", patient_name: str = None
-) -> list[tuple[str, str]]:
+) -> dict[str, list[str]]:
     # The path must contain only subdirectories as patients and only .txt files in each subdirectory as documents
-    patient_document_names = []
+    patient_document_names = {}
     if patient_name is not None:
         # Get the document names for the patient
+        patient_document_names[patient_name] = []
         for filename in os.listdir(f"{path}/{patient_name}"):
             if filename.endswith(".txt"):
                 document_name = os.path.splitext(filename)[0]
-                patient_document_names.append((patient_name, document_name))
+                patient_document_names[patient_name].append(document_name)
         return patient_document_names
     for dirpath, _, filenames in os.walk(path):
+        if dirpath == path:
+            continue
+        patient_name = os.path.basename(dirpath)
+        patient_document_names[patient_name] = []
         for filename in filenames:
             if filename.endswith(".txt"):
-                patient_name = os.path.basename(dirpath)
-                patient_document_names.append((patient_name, filename))
+                patient_document_names[patient_name].append(filename)
     return patient_document_names
 
 
@@ -56,25 +60,33 @@ def make_user_prompt(question, document_name):
     return user_prompt
 
 
+# TODO: Add caching to this function by saving the responses to a json file, and update only the missing responses (new models, new documents, new questions)
 def collect_llm_responses(
     model_list: list[str],
     system_prompt: str,
     questions: dict[str, str],
     patient_to_document_names: list[tuple[str, str]],
-) -> dict[str, dict[str, dict[str, str]]]:
+) -> dict[str, dict[str, dict[str, dict[str, str]]]]:
     responses = {}
     # For each model, document, and question, get the response
     for model_name in model_list:
         responses[model_name] = {}
-        for patient_name, document_name in patient_to_document_names:
-            responses[model_name][document_name] = {}
-            for question_type, question in questions.items():
-                # Construct the user prompt
-                user_prompt = make_user_prompt(question, patient_name, document_name)
-                # Get the response
-                response = get_llm_response(model_name, system_prompt, user_prompt)
-                # Add the response to the dictionary
-                responses[model_name][document_name][question_type] = response
+        for patient_name, document_names in patient_to_document_names.items():
+            responses[model_name][patient_name] = {}
+            for document_name in document_names:
+                # Initialize the dictionary
+                responses[model_name][patient_name][document_name] = {}
+                for question_type, question in questions.items():
+                    # Construct the user prompt
+                    user_prompt = make_user_prompt(
+                        question, patient_name, document_name
+                    )
+                    # Get the response
+                    response = get_llm_response(model_name, system_prompt, user_prompt)
+                    # Add the response to the dictionary
+                    responses[model_name][patient_name][document_name][
+                        question_type
+                    ] = response
     # Get the responses
     return responses
 
@@ -117,4 +129,4 @@ if __name__ == "__main__":
     # print(get_patient_to_document_names())
     # make_user_prompt("question1", "fake_patient1_doc1_RAD.txt")
     # assert len(get_patient_to_document_names()) == 59
-    print(get_patient_to_document_names())
+    print(get_patient_to_document_names(patient_name=None))
