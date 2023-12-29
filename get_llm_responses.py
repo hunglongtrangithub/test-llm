@@ -54,6 +54,14 @@ def collect_llm_responses(
     document_name: str,
     questions: dict[str, str],
 ) -> dict[str, str]:
+    # Check if the document exists
+    try:
+        document = load_json_file(f"input/{patient_name}/{document_name}.json")
+    except FileNotFoundError as e:
+        # Raise an error
+        raise FileNotFoundError(
+            f"Document {document_name} for patient {patient_name} not found"
+        ) from e
     # Check if the responses have already been collected
     try:
         responses = load_json_file(f"responses/{patient_name}/{document_name}.json")
@@ -64,7 +72,7 @@ def collect_llm_responses(
     model_responses = {}
     for question_type, question in questions.items():
         # Construct the user prompt
-        user_prompt = make_user_prompt(question, patient_name, document_name)
+        user_prompt = make_user_prompt(question, document)
         # Get the response
         response = get_llm_response(model_name, system_prompt, user_prompt)
         # Add the response to the dictionary

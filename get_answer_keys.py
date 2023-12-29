@@ -1,4 +1,3 @@
-import json
 import os
 from helper import load_json_file, save_json_file
 
@@ -56,6 +55,7 @@ def load_answer_keys(
         # Load the answer keys for all patients
         answer_keys = {}
         for d in os.listdir("input"):
+            # Skip non-directories
             if not os.path.isdir(os.path.join("input", d)):
                 continue
             patient = d

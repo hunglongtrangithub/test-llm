@@ -1,5 +1,5 @@
 from get_answer_keys import load_answer_keys
-from get_llm_responses import get_llm_response
+from get_llm_responses import collect_llm_responses
 from get_evaluation_results import compare_responses_with_keys
 import json
 import os
@@ -45,12 +45,7 @@ def load_questions():
     return json.load(open("questions.json", "r"))
 
 
-def make_user_prompt(question, patient_name, document_name):
-    # Get the document
-    try:
-        document = open(f"input/{patient_name}/{document_name}", "r").read()
-    except FileNotFoundError:
-        print(f"File not found: {document_name}")
+def make_user_prompt(question, document):
     # Construct the user prompt
     user_prompt = USER_PROMPT_TEMPLATE.format(question=question, document=document)
     return user_prompt
