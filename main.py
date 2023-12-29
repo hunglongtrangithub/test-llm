@@ -58,31 +58,22 @@ def make_user_prompt(question, patient_name, document_name):
 
 # TODO: Add caching to this function by saving the responses to a json file, and update only the missing responses (new models, new documents, new questions)
 def collect_llm_responses(
-    model_list: list[str],
+    model_name: str,
     system_prompt: str,
+    patient_name: str,
+    document_name: str,
     questions: dict[str, str],
-    patient_to_document_names: list[tuple[str, str]],
-) -> dict[str, dict[str, dict[str, dict[str, str]]]]:
+) -> dict[str, str]:
     responses = {}
-    # For each model, document, and question, get the response
-    for model_name in model_list:
-        responses[model_name] = {}
-        for patient_name, document_names in patient_to_document_names.items():
-            responses[model_name][patient_name] = {}
-            for document_name in document_names:
-                # Initialize the dictionary
-                responses[model_name][patient_name][document_name] = {}
-                for question_type, question in questions.items():
-                    # Construct the user prompt
-                    user_prompt = make_user_prompt(
-                        question, patient_name, document_name
-                    )
-                    # Get the response
-                    response = get_llm_response(model_name, system_prompt, user_prompt)
-                    # Add the response to the dictionary
-                    responses[model_name][patient_name][document_name][
-                        question_type
-                    ] = response
+    # Initialize the dictionary
+    responses = {}
+    for question_type, question in questions.items():
+        # Construct the user prompt
+        user_prompt = make_user_prompt(question, patient_name, document_name)
+        # Get the response
+        response = get_llm_response(model_name, system_prompt, user_prompt)
+        # Add the response to the dictionary
+        responses[question_type] = response
     # Get the responses
     return responses
 
