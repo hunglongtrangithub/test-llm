@@ -56,7 +56,7 @@ def collect_llm_responses(
 ) -> dict[str, str]:
     # Check if the document exists
     try:
-        document = load_json_file(f"input/{patient_name}/{document_name}.json")
+        document = open(f"input/{patient_name}/{document_name}.txt", "r").read()
     except FileNotFoundError as e:
         # Raise an error
         raise FileNotFoundError(
@@ -79,7 +79,7 @@ def collect_llm_responses(
         model_responses[question_type] = response
     # Save the responses
     responses[model_name] = model_responses
-    save_json_file(responses, f"responses/{patient_name}/{document_name}.json")
+    save_json_file(f"responses/{patient_name}/{document_name}.json", responses)
     # Return the model responses
     return model_responses
 
