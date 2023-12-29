@@ -60,7 +60,7 @@ def get_answer_keys(patient_name, document_name):
 
 def load_answer_keys(
     patient_name: str = None, document_name: str = None
-) -> dict[str, dict[str, str]]:
+) -> dict[str, dict[str, dict]]:
     if patient_name is None:
         # Load the answer keys for all patients
         answer_keys = {}

@@ -6,6 +6,7 @@ import os
 
 # SYSTEM_PROMPT = "Your task is to analyze the provided medical document and answer the following questions accurately. For each question, only answer with relevant information from the document and present your answers in the specified format. Pay close attention to the format requirements for each question to ensure your responses align with the expected structure. Your goal is to provide clear, concise, and correctly formatted answers based on the content of the document."
 SYSTEM_PROMPT = "Your task is to analyze the provided medical document and answer the following question accurately. Only answer with relevant information from the document and present your answer in the specified format. Pay close attention to the format requirements for the question to ensure your response align with the expected structure. Your goal is to provide a clear, concise, and correctly formatted answer based on the content of the document."
+USER_PROMPT_TEMPLATE = "{question}\n{document}"
 MODEL_LIST = [
     "gpt-4",
     "gemini-pro",
@@ -51,7 +52,7 @@ def make_user_prompt(question, document_name):
     except FileNotFoundError:
         print(f"File not found: {document_name}")
     # Construct the user prompt
-    user_prompt = f"{question}\n{document}"
+    user_prompt = USER_PROMPT_TEMPLATE.format(question=question, document=document)
     return user_prompt
 
 
