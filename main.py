@@ -45,11 +45,7 @@ def load_questions():
     return json.load(open("questions.json", "r"))
 
 
-def make_user_prompt(question, document_name):
-    # Find the index of the second underscore in the string
-    second_underscore_index = document_name.find("_", document_name.find("_") + 1)
-    # Get the patient name
-    patient_name = document_name[:second_underscore_index]
+def make_user_prompt(question, patient_name, document_name):
     # Get the document
     try:
         document = open(f"input/{patient_name}/{document_name}", "r").read()
