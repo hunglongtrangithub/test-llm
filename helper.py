@@ -1,4 +1,5 @@
 import requests
+import json
 import os
 
 CHIMERA_GPT_KEY = os.getenv("CHIMERA_GPT_KEY")
@@ -24,12 +25,10 @@ def fetch_chat_models():
 
 
 def list_paths(start_dir):
-    import os
-
     for dirpath, dirnames, filenames in os.walk(start_dir):
-        # print(f"Found directory: {dirpath}")
-        # for dirname in dirnames:
-        # print(f"Subdirectory: {dirname}")
+        print(f"Found directory: {dirpath}")
+        for dirname in dirnames:
+            print(f"Subdirectory: {dirname}")
         for filename in filenames:
             print(f"File: {filename}")
 
@@ -41,6 +40,17 @@ def print_keys_recursively(d, indent=0):
             print_keys_recursively(
                 value, indent + 2
             )  # Increase indentation for nested dictionaries
+
+
+def load_json_file(file_path):
+    with open(file_path, "r") as f:
+        return json.load(f)
+
+
+def save_json_file(file_path, data):
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w") as f:
+        json.dump(data, f, indent=4)
 
 
 if __name__ == "__main__":

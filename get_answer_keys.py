@@ -1,16 +1,6 @@
 import json
 import os
-
-
-def load_json_file(file_path):
-    with open(file_path, "r") as f:
-        return json.load(f)
-
-
-def save_json_file(file_path, data):
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
-    with open(file_path, "w") as f:
-        json.dump(data, f, indent=4)
+from helper import load_json_file, save_json_file
 
 
 def get_note(data, document_name):
