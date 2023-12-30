@@ -18,13 +18,9 @@ pyvenv.cfg
 # Ignore data files
 input/
 output/
-answer_keys/
 
 # Ignore system files
 .DS_Store
 
 # Ignore log files
 *.log
-
-# Ignore JSON files generated during development
-*.json
