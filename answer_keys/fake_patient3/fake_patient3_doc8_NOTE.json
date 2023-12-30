@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient3",
+    "type": "Clinical Note",
+    "date": "201006241230",
+    "episode": "unknown",
+    "sections": "History of Present Illness, Past Medical History, Impression",
+    "classUri-mentions": "Breast_Carcinoma, Right_Breast, Vertebral_Column, Metastasis, Vertebral_Column, Lung, Multiple_Pulmonary_Nodules, Entire_Lower_Back, Lung, Upper_Lobe_Of_The_Right_Lung, Metastasis, Lumbar_Spine, Lumbar_Spine, Metastasis, Lung, Middle_Lobe_Of_The_Right_Lung, Lumbar_Spine, Right_Lower_Lung_Lobe, Abdomen_And_Pelvis, Thorax, Right, Metastasis, Left_Sixth_Rib, Secondary_Neoplasm, Lumbar_Spine, Multiple_Pulmonary_Nodules, Right_Axillary_Lymph_Node, Right_Axillary_Lymph_Node, Right_Fifth_Rib",
+    "classUri-begins-ends": "964:977, 958:970, 1330:1335, 694:712, 662:667, 1473:1482, 747:764, 469:479, 1591:1600, 1665:1681, 1547:1565, 1377:1392, 1780:1795, 1079:1097, 747:756, 1729:1740, 720:735, 1615:1631, 856:874, 850:855, 958:963, 1351:1369, 1842:1856, 1757:1767, 1519:1531, 1591:1607, 1105:1130, 1038:1063, 1861:1876",
+    "attributes": "Breast_Carcinoma: historic, Right_Breast: uncertain, Right_Breast: historic, Vertebral_Column: historic, Metastasis: negated, Metastasis: historic, Vertebral_Column: historic, Multiple_Pulmonary_Nodules: negated, Multiple_Pulmonary_Nodules: historic, Entire_Lower_Back: historic, Lumbar_Spine: historic, Metastasis: historic, Lung: negated, Lung: historic, Lumbar_Spine: negated, Lumbar_Spine: historic, Abdomen_And_Pelvis: negated, Abdomen_And_Pelvis: historic, Thorax: negated, Thorax: historic, Right: uncertain, Right: historic, Metastasis: historic, Right_Axillary_Lymph_Node: historic, Right_Axillary_Lymph_Node: historic"
+}

@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The date of the medical document is March 1, 2011.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axilla, Lower_outer_Left_Breast, 4_O\u2019clock_Region, Left_Surgical_Incision, Right_Breast_Incision",
+        "classUri-begins-ends": "'left breast': 177:187, 808:818, 950:960, 1071:1081, 1115:1125, 1147:1157, 1258:1268, 1477:1487, 'right breast': 358:369, 452:463, 1078:1089, 'axilla area': 507:518, 'left surgical incision': 1129:1150, 'right breast is': 1172:1186, 'left axillary lymph node':956:979, 1136:1159, 1475:1498",
+        "attributes": "'Left_Breast: historic, generic, temporality, Right_Breast: historic, generic, temporality, Left_Axillary_Lymph_Node: historic, temporality, Right_Axillary_Lymph_Node: historic'"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient1",
+        "type": "Clinical Note",
+        "date": "Date: 20110301",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axilla, Lower_outer_left_breast, 4_o\u2019clock_region, Left_axillary",
+        "classUri-begins-ends": "left breast: 1589:1599, 2157:2167, 2257:2267\nright breast: 2228:2238",
+        "attributes": "Left_Breast: historic, Left_Axillary_Lymph_Node: historic, Right_Breast: historic, Right_Axillary_Lymph_Nodes: historic"
+    }
+}

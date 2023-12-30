@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of the medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The date of the medical document as noted in the text is 20100830 1115.",
+        "episode": "The stage of patient care the document relates to is 'Medical Decision-making'.",
+        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Chest, Tumor_Bed, Cardiac, Lungs, Abdomen, Extremities, Left_Breast, Left_Axillary_Lymph_Node",
+        "classUri-begins-ends": "'103:108, 190:197, 240:245, 257:264, 369:376, 445:450, 502:508, 543:548, 616:623, 831:836, 848:855, 1054:1059, 1165:1172'",
+        "attributes": "'Right Breast: historic, Right Axillary Lymph Node: historic, Surgical Incision: conditional, Chest: generic, Tumor Bed: generic, Left Breast: historic, Left Axillary Lymph Node: historic'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient1",
+        "type": "Clinical Note",
+        "date": "20100830",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Right_Axillary, Lymph_Node, Chest, Right_Tumor_Bed",
+        "classUri-begins-ends": "breast: 2832:2838, 2913:2919\nlymph node: 2863:2872",
+        "attributes": "Left_Breast: negated, historic\nLeft_Axillary_Lymph_Nodes: negated, historic"
+    }
+}

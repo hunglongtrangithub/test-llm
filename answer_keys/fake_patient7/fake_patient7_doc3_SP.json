@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient7",
+    "type": "Surgical Pathology Report",
+    "date": "201005161130",
+    "episode": "Pre-diagnostic",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "Lymph_Node, _10_O_clock, Left, Left, ER_, Left, Ductal_Carcinoma, Mass, PR_, Ductal_Breast_Carcinoma_In_Situ, Breast, Breast, HER2, Axillary_Lymph_Node, Left_Axillary_Lymph_Node, Left_Breast",
+    "classUri-begins-ends": "851:861, 507:518, 501:505, 673:677, 927:935, 368:372, 572:588, 356:360, 973:981, 725:749, 493:499, 665:671, 1006:1014, 784:803, 395:419, 368:379",
+    "attributes": "Left: historic, Mass: historic, Left_Axillary_Lymph_Node: historic, Left_Breast: historic"
+}

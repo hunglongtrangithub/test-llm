@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient2",
+    "type": "Clinical Note",
+    "date": "201008191130",
+    "episode": "unknown",
+    "sections": "History of Present Illness, Past Medical History, Impression",
+    "classUri-mentions": "Metastasis, Abdomen_And_Pelvis, Neoplasm, ER_, Left, Stage_3A, Lung, Thoracic_Spine, Lung, Vertebral_Column, Metastasis, Vertebral_Column, Secondary_Malignant_Neoplasm_Of_Bone, HER2, Left_Breast, Multiple_Pulmonary_Nodules, Left_Breast, Left_Sixth_Rib, Middle_Lobe_Of_The_Right_Lung, Left, Thorax, Left, Invasive_Ductal_Breast_Carcinoma, Vertebral_Column, Metastasis, Lung, PR_, Metastasis, Right_Fifth_Rib, Multiple_Pulmonary_Nodules, Right_Lower_Lung_Lobe, Left_Axillary_Lymph_Node, Stage_IIIA_Breast_Carcinoma, Upper_Lobe_Of_The_Right_Lung, Thoracic_Spine",
+    "classUri-begins-ends": "2255:2273, 1096:1114, 1484:1492, 2364:2372, 2344:2348, 2302:2310, 1729:1738, 1775:1789, 977:986, 949:965, 1816:1834, 891:896, 2096:2111, 2382:2390, 1204:1215, 1928:1944, 2344:2355, 2206:2220, 2073:2084, 1204:1208, 1090:1095, 2068:2072, 2311:2336, 2124:2140, 1284:1302, 1928:1937, 2364:2372, 923:941, 2225:2240, 977:994, 1960:1976, 1310:1334, 1209:1233, 2009:2025, 468:482",
+    "attributes": "Abdomen_And_Pelvis: negated, Abdomen_And_Pelvis: historic, Neoplasm: uncertain, Neoplasm: historic, Lung: negated, Lung: historic, Vertebral_Column: negated, Vertebral_Column: historic, Metastasis: uncertain, Vertebral_Column: historic, Left_Breast: uncertain, Left_Breast: historic, Left: uncertain, Left: historic, Thorax: negated, Thorax: historic, Metastasis: historic, Metastasis: negated, Metastasis: historic, Multiple_Pulmonary_Nodules: negated, Multiple_Pulmonary_Nodules: historic, Left_Axillary_Lymph_Node: historic, Stage_IIIA_Breast_Carcinoma: uncertain, Stage_IIIA_Breast_Carcinoma: historic, Thoracic_Spine: historic"
+}

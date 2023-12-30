@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient3",
+    "type": "Clinical Note",
+    "date": "201005081045",
+    "episode": "Treatment",
+    "sections": "Final Diagnosis, Past Medical History, Examination, Impression",
+    "classUri-mentions": "N1_Stage, Breast_Carcinoma, Right, Mass, Left, Head, Right_Breast, Heart, ER_, Metastasis, Right_Breast, T2_Stage, Adenocarcinoma, Eye, Invasive_Ductal_Breast_Carcinoma, Right_Axillary_Lymph_Node, Stage_2, Right_Breast, Right, HER2, Right, Left_Breast, M0_Stage, Metastasis, Lung, Invasive_Ductal_Breast_Carcinoma, Stage_2B, Axillary_Lymph_Node, Breast, Axillary_Lymph_Node, PR_, Brodmann_Area_28, Invasive_Ductal_Breast_Carcinoma",
+    "classUri-begins-ends": "337:339, 1058:1071, 623:628, 1097:1101, 1109:1113, 1407:1411, 377:389, 1471:1476, 436:444, 1822:1840, 623:635, 334:336, 1192:1206, 1433:1437, 590:615, 1781:1806, 1683:1690, 1725:1737, 1725:1730, 464:472, 377:382, 1109:1120, 340:342, 661:671, 1512:1517, 1692:1717, 1183:1191, 641:660, 1058:1064, 411:431, 449:457, 1449:1452, 344:369",
+    "attributes": "Breast_Carcinoma: historic, Mass: historic, Left: historic, Adenocarcinoma: historic, Left_Breast: historic, Stage_2B: historic, Breast: uncertain, Breast: historic"
+}

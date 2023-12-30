@@ -1,0 +1,704 @@
+{
+    "fake_patient1": {
+        "fake_patient1_doc10_NOTE": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8923973441123962
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.5176596641540527
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7228874564170837
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.5773402452468872
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.9346147775650024
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.8155750632286072
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4556320607662201
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7322093844413757
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6046385765075684
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5441523790359497
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.48264002799987793
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.5773402452468872
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.9236884713172913
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.5491203665733337
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4936346411705017
+                }
+            }
+        },
+        "fake_patient1_doc3_NOTE": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8923973441123962
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.5318554639816284
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.4299037456512451
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7196388840675354
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.6625064015388489
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.451514333486557
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7410404086112976
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7182680368423462
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6046385765075684
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.3901866376399994
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5219667553901672
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5159050822257996
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.5440332889556885
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4971432387828827
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7478529214859009
+                }
+            }
+        },
+        "fake_patient1_doc4_NOTE": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8627284169197083
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.645272970199585
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.6882135272026062
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7549916505813599
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.43929722905158997
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.48574790358543396
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5267336964607239
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7182680368423462
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6046385765075684
+                },
+                "date": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4507725238800049
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5219667553901672
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.4352727234363556
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6347959041595459
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.41518789529800415
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8386050462722778
+                }
+            }
+        },
+        "fake_patient1_doc1_RAD": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.892971396446228
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.7125004529953003
+                },
+                "episode": {
+                    "label": "CONTRADICTION",
+                    "score": 0.8692706823348999
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.9016144275665283
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6952348351478577
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.9020148515701294
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7619699835777283
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7322093844413757
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6332001090049744
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.49761366844177246
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5592668652534485
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7977679371833801
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8112183213233948
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.8570584654808044
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8611925840377808
+                }
+            }
+        },
+        "fake_patient1_doc9_SP": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.9168179035186768
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8909916281700134
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.5386297702789307
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.9077023267745972
+                },
+                "sections": {
+                    "label": "CONTRADICTION",
+                    "score": 0.5915678143501282
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.4537328779697418
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.42874953150749207
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4801793396472931
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7322093844413757
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6313155293464661
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5130367875099182
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5597884058952332
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.4770219326019287
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5046886801719666
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.6905419826507568
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5870256423950195
+                }
+            }
+        },
+        "fake_patient1_doc5_SP": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8909916281700134
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.7033553123474121
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8588885068893433
+                },
+                "sections": {
+                    "label": "CONTRADICTION",
+                    "score": 0.7387692928314209
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.8273985981941223
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.497511088848114
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.5902372598648071
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7322093844413757
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6313155293464661
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.40457040071487427
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5597884058952332
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.4770219326019287
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.7778932452201843
+                },
+                "classUri-begins-ends": {
+                    "label": "ENTAILMENT",
+                    "score": 0.47175756096839905
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8282495141029358
+                }
+            }
+        },
+        "fake_patient1_doc2_SP": {
+            "gpt-4": {
+                "name": {
+                    "label": "NEUTRAL",
+                    "score": 0.5160359144210815
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.9273566603660583
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.7178560495376587
+                },
+                "episode": {
+                    "label": "CONTRADICTION",
+                    "score": 0.9517865777015686
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.4815490245819092
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.47443678975105286
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.9174975752830505
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6981527209281921
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7182680368423462
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6313155293464661
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.4992285966873169
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5592668652534485
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.47724196314811707
+                },
+                "classUri-mentions": {
+                    "label": "ENTAILMENT",
+                    "score": 0.4459819793701172
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.7922186851501465
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7066115736961365
+                }
+            }
+        },
+        "fake_patient1_doc8_SP": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.9273566603660583
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.6973329782485962
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.5159094333648682
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.4815490245819092
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.7473744750022888
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4926736354827881
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.606823742389679
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7182680368423462
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6313155293464661
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5159713625907898
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.48264002799987793
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6860641241073608
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.5991322994232178
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4329930543899536
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8870426416397095
+                }
+            }
+        },
+        "fake_patient1_doc7_NOTE": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7822433114051819
+                },
+                "date": {
+                    "label": "NEUTRAL",
+                    "score": 0.6709481477737427
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.6584911346435547
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.5773402452468872
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.6968377232551575
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.4597686529159546
+                },
+                "attributes": {
+                    "label": "ENTAILMENT",
+                    "score": 0.36481574177742004
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7322093844413757
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6046385765075684
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5321075320243835
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.48264002799987793
+                },
+                "sections": {
+                    "label": "NEUTRAL",
+                    "score": 0.5773402452468872
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.8078744411468506
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.6830220818519592
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.7428213953971863
+                }
+            }
+        },
+        "fake_patient1_doc6_NOTE": {
+            "gpt-4": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8353262543678284
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7822433114051819
+                },
+                "date": {
+                    "label": "CONTRADICTION",
+                    "score": 0.620640754699707
+                },
+                "episode": {
+                    "label": "NEUTRAL",
+                    "score": 0.4299037456512451
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.8744606375694275
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.761488139629364
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.6634514331817627
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.6327637434005737
+                }
+            },
+            "gemini-pro": {
+                "name": {
+                    "label": "ENTAILMENT",
+                    "score": 0.7182680368423462
+                },
+                "type": {
+                    "label": "ENTAILMENT",
+                    "score": 0.6046385765075684
+                },
+                "date": {
+                    "label": "ENTAILMENT",
+                    "score": 0.4132542312145233
+                },
+                "episode": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5219667553901672
+                },
+                "sections": {
+                    "label": "ENTAILMENT",
+                    "score": 0.5588122010231018
+                },
+                "classUri-mentions": {
+                    "label": "CONTRADICTION",
+                    "score": 0.7703347206115723
+                },
+                "classUri-begins-ends": {
+                    "label": "CONTRADICTION",
+                    "score": 0.5618554949760437
+                },
+                "attributes": {
+                    "label": "CONTRADICTION",
+                    "score": 0.9359942674636841
+                }
+            }
+        }
+    }
+}

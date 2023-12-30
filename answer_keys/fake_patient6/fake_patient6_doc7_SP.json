@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient6",
+    "type": "Surgical Pathology Report",
+    "date": "201103011115",
+    "episode": "Treatment",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "Invasive_Ductal_Breast_Carcinoma, Left, Ductal_Breast_Carcinoma_In_Situ, HER2, Carcinoma, Secondary_Neoplasm, ER_, Right_Breast, PT1_Stage, Axillary_Lymph_Node, Neoplasm, Axillary_Lymph_Node, Left_Breast, Breast, Invasive_Ductal_Breast_Carcinoma, Axillary_Lymph_Node, PR_, PN1_Stage, Axillary_Lymph_Node, Left, Right",
+    "classUri-begins-ends": "630:655, 385:389, 481:485, 1024:1032, 770:779, 678:688, 948:956, 493:505, 1064:1066, 807:827, 870:875, 840:860, 385:396, 553:559, 352:377, 701:721, 993:1001, 1076:1078, 401:421, 561:565, 493:498",
+    "attributes": "Left: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Carcinoma: negated, Right_Breast: uncertain, Right_Breast: historic, Neoplasm: negated, Left_Breast: historic, Invasive_Ductal_Breast_Carcinoma: historic, Axillary_Lymph_Node: historic, Right: uncertain, Right: historic"
+}

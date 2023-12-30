@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient4",
+    "type": "Surgical Pathology Report",
+    "date": "201107121030",
+    "episode": "Treatment",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "Breast, N2_Stage, Malignant_Neoplasm, PT3_Stage, Left, Invasive_Ductal_Breast_Carcinoma, Neoplasm, ER_, _2_O_clock, HER2, Atypical_Lobular_Hyperplasia, T3_Stage, PM0_Stage, Invasive_Lobular_Breast_Carcinoma, Lymph_Node, Invasive_Lobular_Breast_Carcinoma, Right_Breast, Axillary_Lymph_Node, ER_, PR_, Intermediate_Grade, Right, Right, M0_Stage, Invasive_Ductal_Breast_Carcinoma, PN2_Stage, Carcinoma, Invasive_Carcinoma, Breast, PR_, HER2, Right_Breast",
+    "classUri-begins-ends": "930:936, 378:380, 802:817, 1263:1266, 938:942, 680:705, 905:913, 1161:1169, 642:652, 514:522, 1069:1097, 375:377, 1289:1292, 982:1008, 879:890, 435:461, 418:430, 834:853, 486:494, 1207:1215, 1018:1025, 635:640, 418:423, 381:383, 385:410, 1276:1279, 1036:1045, 733:751, 627:633, 499:507, 1240:1248, 469:481",
+    "attributes": "Neoplasm: negated, HER2: historic, Lymph_Node: negated, Invasive_Lobular_Breast_Carcinoma: historic, Right_Breast: historic, ER_: historic, Right: historic, Invasive_Ductal_Breast_Carcinoma: historic, PR_: historic, Right_Breast: historic"
+}

@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name, as mentioned in the document, is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The date of the medical document as noted in the text is January 23, 2010 at 13:15.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Right_Breast, Axillary_Lymph_Node",
+        "classUri-begins-ends": "'right breast': 298:309, 'axillary lymph node': 324:343, 'RIGHT BREAST': 389:400, 'RIGHT AXILLARY LYMPH NODE': 526:549",
+        "attributes": "'Right Breast: historic, Right Breast Ultrasound Guided Core Biopsy: historic, Axillary Lymph Node: historic, Right Axillary Lymph Node Ultrasound Guided Core Biopsy: historic, Estrogen Receptor: negated, Progesterone Receptor: negated, HER2/NEU: negated'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient1",
+        "type": "Surgical Pathology Report",
+        "date": "20100123",
+        "episode": "Diagnostic",
+        "sections": "FINAL DIAGNOSIS, PART 1: RIGHT BREAST ULTRASOUND GUIDED CORE BIOPSY, PART 2: RIGHT AXILLARY LYMPH NODE ULTRASOUND GUIDED CORE BIOPSY, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Axillary_Lymph_Node",
+        "classUri-begins-ends": "I cannot extract the requested data from the provided context because anatomical entities are not mentioned in the document.",
+        "attributes": "Right_Breast: historic,\nRight_Axillary_Lymph_Node: historic"
+    }
+}

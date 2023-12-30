@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name is Fake Patient1.",
+        "type": "The type of the medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The date of the medical document is February 15, 2011.",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY, T STAGE PATHOLOGIC, N STAGE PATHOLOGIC, M STAGE PATHOLOGIC",
+        "classUri-mentions": "Left_Breast, Right_Breast, Left_Breast_Segmental_Mastectomy, Surgical_Margins, Left_Axillary_Lymph_Node_1, Left_Axillary_Lymph_Node_2",
+        "classUri-begins-ends": "'274:279, 287:299, 331:341, 354:359, 380:397, 446:468, 506:518, 523:542, 605:636, 647:677, 741:757, 764:782, 848:892, 904:922, 936:951, 975:994'",
+        "attributes": "'Left Breast: historic, negated', 'Left Axillary Lymph Node #1: negated', 'Left Axillary Lymph Node #2: negated', 'Right Breast: historic'"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient1",
+        "type": "Surgical Pathology Report",
+        "date": "20110215",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axilla, Left_Axillary_Lymph_Node_1, Left_Axillary_Lymph_Node_2",
+        "classUri-begins-ends": "INVASIVE LOBULAR CARCINOMA: 1956:1980\nFOCAL LOBULAR CARCINOMA IN SITU: 2004:2035\nFOCAL DUCTAL CARCINOMA IN SITU: 2048:2080\nLEFT AXILLARY LYMPH NODE #1: 2148:2176\nLEFT AXILLARY LYMPH NODE #2: 2231:2260",
+        "attributes": "Left_Breast: historic\nRight_Breast: historic, stage 2A, infiltrating ductal carcinoma"
+    }
+}

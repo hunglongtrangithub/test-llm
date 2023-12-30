@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient4",
+    "type": "Clinical Note",
+    "date": "201103101025",
+    "episode": "unknown",
+    "sections": "Interim History, Examination, Impression",
+    "classUri-mentions": "Lymph_Node, Sclera, Epithelial_Ovarian_Cancer, Left, Mass_In_Breast, Ovary, Mass, Left, Right_Breast, Upper_inner_Quadrant, Lung, Left_Breast, Mass_In_Breast, Axillary_Lymph_Node, Lobular_Mass, Left_Axilla_Proper, Lymph_Node, Upper_inner_Quadrant, Right, Left_Breast, Right_Breast, Left, Right, Right_Breast, Dysplastic_Nevus, Left_Breast, Mass, Mass, Neck, Breast, Heart",
+    "classUri-begins-ends": "1308:1319, 1683:1689, 1432:1449, 1163:1167, 2007:2018, 1432:1439, 1215:1219, 1427:1431, 1062:1074, 911:931, 1726:1731, 939:950, 2039:2052, 1246:1266, 751:765, 1340:1351, 1378:1389, 773:793, 1062:1067, 2034:2045, 801:813, 2034:2038, 2001:2006, 2001:2013, 1650:1653, 1163:1174, 1107:1111, 899:903, 1702:1706, 1919:1925, 1765:1772",
+    "attributes": "Lymph_Node: historic, Epithelial_Ovarian_Cancer: historic, Left: historic, Ovary: uncertain, Ovary: historic, Mass: historic, Left: uncertain, Left: historic, Right_Breast: historic, Upper_inner_Quadrant: historic, Left_Breast: historic, Axillary_Lymph_Node: historic, Lobular_Mass: historic, Left_Axilla_Proper: historic, Lymph_Node: historic, Upper_inner_Quadrant: historic, Right: historic, Right_Breast: historic, Left_Breast: historic, Mass: historic, Mass: historic"
+}

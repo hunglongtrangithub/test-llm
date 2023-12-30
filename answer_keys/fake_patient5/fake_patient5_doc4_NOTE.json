@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient5",
+    "type": "Clinical Note",
+    "date": "200906301015",
+    "episode": "unknown",
+    "sections": "Final Diagnosis, Clinical History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, Neoplasm, Left, N2_Stage, Left, Axillary_Lymph_Node, Invasive_Ductal_Breast_Carcinoma, Mass, Left_Breast, Cyst_Of_Right_Ovary, Axillary_Lymph_Node, N2_Stage, Ovary, Dysplastic_Nevus, HER2, Left_Breast, Secondary_Neoplasm, T3_Stage, Breast, Neoplasm, Left, Stage_3A, Tumor_Stage_Finding, Left_Breast, T3_Stage, Thorax, Right, Invasive_Ductal_Breast_Carcinoma, Left_Axillary_Lymph_Node, PR_, Invasive_Ductal_Breast_Carcinoma, Left_Breast, Neoplasm, M0_Stage, Heart, Stage_3A, Tumor_Stage_Finding, Limb, Mass, Upper_Outer_Quadrant, M0_Stage, Invasive_Ductal_Breast_Carcinoma, ER_, Neoplasm, Left",
+    "classUri-begins-ends": "582:593, 2098:2103, 742:746, 1996:1998, 582:586, 1869:1889, 549:574, 776:780, 2037:2048, 1314:1332, 896:916, 370:372, 1320:1327, 1400:1403, 1075:1083, 814:825, 2079:2089, 1992:1994, 644:650, 1735:1740, 2037:2041, 356:364, 347:361, 742:753, 366:368, 1503:1508, 1314:1319, 378:403, 2054:2078, 1053:1061, 999:1024, 411:422, 1800:1805, 2000:2002, 1527:1534, 1982:1990, 1973:1987, 1581:1592, 704:708, 838:858, 374:376, 2004:2029, 1040:1048, 1116:1121, 411:415",
+    "attributes": "Left_Breast: historic, Left: historic, Left: historic, Invasive_Ductal_Breast_Carcinoma: historic, Mass: historic, Cyst_Of_Right_Ovary: historic, Axillary_Lymph_Node: historic, Ovary: uncertain, Ovary: historic, HER2: historic, Left_Breast: historic, Breast: historic, Left_Breast: historic, Thorax: negated, Right: uncertain, Right: historic, PR_: historic, Invasive_Ductal_Breast_Carcinoma: historic, Heart: negated, Limb: negated, Mass: historic, Upper_Outer_Quadrant: historic, ER_: historic, Neoplasm: historic"
+}

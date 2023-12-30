@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of the medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The date of the medical document as noted in the text is February 1, 2011.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Nodes, Left_Breast, Axilla, Lower_Outer_Left_Breast, Right_Breast, Left_Breast, Right_Breast, Axillary_Wound, Lower_Outer_Quadrant_of_the_Left_Breast",
+        "classUri-begins-ends": "'314:324, 338:365, 405:415, 690:700, 1032:1042, 1098:1122, 1048:1059, 1263:1273, 730:745, 1348:1358'",
+        "attributes": "Right_Breast: historic, Right_Axilla: historic, Left_Breast: uncertain, generic, Left_Axillary_Lymph_Nodes: historic, Left_Breast_Nodule: uncertain"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient1",
+        "type": "Clinical Note",
+        "date": "20110201",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Nodes, Left_Breast, Lower_Outer_Left_Breast, Lower_Outer_Quadrant_of_the_Left_Breast",
+        "classUri-begins-ends": "left breast: 726:738, 1023:1035",
+        "attributes": "Left_Breast: historic, Left_Axillary_Lymph_Nodes: historic, Right_Breast: historic, Right_Breast_Mass: uncertain, Left_Breast_Mass: uncertain"
+    }
+}

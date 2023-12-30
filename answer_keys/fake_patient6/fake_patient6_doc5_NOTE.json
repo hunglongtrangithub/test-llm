@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient6",
+    "type": "Clinical Note",
+    "date": "201011151045",
+    "episode": "Treatment",
+    "sections": "Clinical History, Interim History, Past Medical History, Impression",
+    "classUri-mentions": "Right_Breast, Ductal_Breast_Carcinoma_In_Situ, Left_Breast, Invasive_Ductal_Breast_Carcinoma, T1_Stage, Left_Axillary_Lymph_Node, Stage_2A, PT1s_Stage, Left_Breast, Left, ER_, PR_, Right, Metastasis, Left, Secondary_Neoplasm, M0_Stage, Neoplasm, Left_Axillary_Lymph_Node, Left_Breast, PR_, Left_Breast, Neoplasm, Left_Axillary_Lymph_Node, Neoplasm, N1_Stage, Invasive_Ductal_Breast_Carcinoma, Tumor_Stage_Finding, Left, Left, PNx_Stage, ER_, HER2, Invasive_Ductal_Breast_Carcinoma",
+    "classUri-begins-ends": "1273:1285, 1261:1265, 1645:1656, 743:768, 1602:1604, 1662:1686, 1592:1600, 1352:1356, 776:787, 776:780, 447:455, 1296:1304, 1273:1278, 835:853, 1645:1649, 1687:1697, 1608:1610, 1703:1708, 1163:1187, 1052:1063, 460:468, 424:435, 1084:1089, 861:885, 960:965, 1605:1607, 1612:1637, 1583:1597, 1052:1056, 424:428, 1358:1361, 1296:1304, 478:486, 391:416",
+    "attributes": "Right_Breast: uncertain, Right_Breast: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Invasive_Ductal_Breast_Carcinoma: historic, Left_Breast: historic, Left: historic, ER_: historic, PR_: historic, Right: uncertain, Right: historic, Metastasis: historic, Left_Axillary_Lymph_Node: historic, Left_Breast: historic, PR_: historic, Left_Breast: historic, Neoplasm: historic, Left_Axillary_Lymph_Node: historic, Neoplasm: historic, Left: historic, Left: historic, ER_: historic, HER2: historic, Invasive_Ductal_Breast_Carcinoma: historic"
+}

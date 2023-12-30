@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient6",
+    "type": "Radiology Report",
+    "date": "201008161045",
+    "episode": "Pre-diagnostic",
+    "sections": "Clinical History, Impression",
+    "classUri-mentions": "Left_Breast, Left_Breast, Malignant_Neoplasm, Left_Breast, Left, Mass, Left, Mass, Left_Axillary_Lymph_Node, Left, Left, Left_Breast, Left, Lymph_Node, Left_Axillary_Lymph_Node, Lymph_Node, Metastasis, Left_Axilla_Proper, Mass, Mass_In_Breast, Left_Axillary_Lymph_Node, Left, Left, Left_Breast, Left_Breast, Metastasis, Mass_In_Breast, Axillary_Lymph_Node, Mass, Left_Breast",
+    "classUri-begins-ends": "736:747, 580:591, 1564:1574, 1382:1393, 1382:1386, 698:702, 858:862, 1245:1249, 1585:1609, 1525:1529, 736:740, 1265:1276, 1028:1032, 799:810, 1461:1485, 1064:1075, 1632:1650, 1028:1039, 952:956, 1387:1398, 437:461, 407:411, 1265:1269, 407:418, 1525:1536, 1178:1196, 412:423, 1326:1346, 907:911, 858:869",
+    "attributes": "Left_Breast: historic, Left_Breast: historic, Malignant_Neoplasm: generic, Mass: historic, Left: historic, Mass: uncertain, Left: historic, Left: historic, Lymph_Node: historic, Lymph_Node: historic, Metastasis: uncertain, Left_Axilla_Proper: historic, Mass: negated, Mass: historic, Left_Axillary_Lymph_Node: historic, Left: historic, Left_Breast: historic, Metastasis: historic, Mass_In_Breast: generic, Mass_In_Breast: historic, Mass: historic, Left_Breast: historic"
+}

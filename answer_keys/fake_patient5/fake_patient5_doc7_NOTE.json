@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient5",
+    "type": "Clinical Note",
+    "date": "201002050300",
+    "episode": "unknown",
+    "sections": "Chief Complaint, Clinical History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "N2_Stage, Stage_3A, Ovary, Abdomen, PR_, Heart, M0_Stage, Lung, Lung, Invasive_Ductal_Breast_Carcinoma, Axillary_Lymph_Node, T3_Stage, Stage_3A, Left_Breast, Lower_Abdomen, Left, ER_, Right, Left_Axillary_Lymph_Node, N2_Stage, Left_Axillary_Lymph_Node, Metastasis, Thorax, Secondary_Neoplasm, Limb, M0_Stage, Cyst_Of_Right_Ovary, Thorax, HER2, Thorax, T3_Stage, Left_Breast, Invasive_Ductal_Breast_Carcinoma, Left, Left_Breast, Secondary_Neoplasm",
+    "classUri-begins-ends": "1570:1572, 1556:1564, 1148:1155, 1398:1405, 866:874, 1249:1256, 846:848, 1379:1384, 1335:1339, 1578:1603, 575:595, 1566:1568, 828:836, 731:742, 1431:1444, 553:557, 853:861, 1142:1147, 1628:1652, 842:844, 748:772, 1809:1827, 1778:1783, 596:606, 1303:1314, 1574:1576, 1142:1160, 372:377, 888:896, 1483:1488, 838:840, 553:564, 520:545, 1611:1615, 1611:1622, 1653:1663",
+    "attributes": "Ovary: uncertain, Ovary: historic, PR_: historic, Heart: negated, Axillary_Lymph_Node: historic, Stage_3A: historic, Left_Breast: historic, Left: historic, ER_: historic, Right: uncertain, Right: historic, Left_Axillary_Lymph_Node: historic, Metastasis: negated, Metastasis: uncertain, Thorax: negated, Secondary_Neoplasm: historic, Limb: negated, Cyst_Of_Right_Ovary: historic, HER2: historic, Left_Breast: historic, Invasive_Ductal_Breast_Carcinoma: historic"
+}

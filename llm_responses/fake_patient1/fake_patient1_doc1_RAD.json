@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The referenced medical document is a 'Radiology Report'.",
+        "date": "The date of the medical document as noted in the text is January 23, 2010 at 10:45 AM.",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Upper_Inner_Quadrant, Right_Axilla, Lymph_Node, Nipple, Skin, Wounds",
+        "classUri-begins-ends": "'right breast': 316:327, 'upper inner quadrant': 358:376, 'right axilla': 440:452, 'lymph node': 453:463, 'right breast': 517:528, 'right axilla': 594:606, 'lymph node': 607:617, 'right breast': 734:745, 'right abnormal axillary lymph node': 882:915, 'right breast': 1222:1233, 'right axillary lymph node': 1322:1342",
+        "attributes": "'Right Breast': historic, 'Right Axilla': historic, 'Abnormal Right Axillary Lymph Node': historic, 'Right 1 O\u2019clock Position': historic, 'Right Breast 1 O\u2019clock Abnormality': historic"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient1",
+        "type": "Radiology Report",
+        "date": "20100123",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axilla, Lymph_Node",
+        "classUri-begins-ends": "right breast: 203:216, right breast: 423:436, right breast: 445:458, right abnormal axillary lymph node: 463:491, right axillary abnormal lymph node: 495:521, right axillary lymph node: 527:544, right breast at the 1 o\u2019clock position: 594:624, right axillary lymph node: 626:643, right breast at the 1 o\u2019clock position: 714:744, right abnormal axillary lymph node: 748:776, right breast: 959:969, right breast: 978:989, right axillary lymph node: 990:996, right axilla abnormal lymph node: 1002:1020, right breast: 1029:1041, right breast: 1147:1159, right axillary lymph node: 1161:1178",
+        "attributes": "Right_Breast: historic, Right_Axilla: historic"
+    }
+}

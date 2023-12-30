@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient6",
+    "type": "Clinical Note",
+    "date": "201102170245",
+    "episode": "Treatment",
+    "sections": "Clinical History, Interim History, Past Medical History, Impression",
+    "classUri-mentions": "Left, Left_Breast, PT1s_Stage, Right, Left_Axillary_Lymph_Node, PR_, Secondary_Neoplasm, Right_Breast, Neoplasm, Left_Breast, Ductal_Breast_Carcinoma_In_Situ, T1_Stage, Left_Breast, Stage_2A, Left_Breast, Left_Axillary_Lymph_Node, ER_, HER2, Left_Axillary_Lymph_Node, Invasive_Ductal_Breast_Carcinoma, Left, Neoplasm, Lung, M0_Stage, Tumor_Stage_Finding, Abdomen, Left_Axillary_Lymph_Node, PNx_Stage, Heart, ER_, PR_, Limb, Breast_Carcinoma, Invasive_Ductal_Breast_Carcinoma, Breast, N1_Stage, Secondary_Neoplasm, Left, Left_Breast, Left",
+    "classUri-begins-ends": "1853:1857, 838:849, 1230:1234, 1151:1156, 1011:1035, 520:528, 1895:1905, 1151:1163, 825:830, 897:908, 1139:1143, 1810:1812, 443:454, 1800:1808, 1997:2008, 2024:2048, 1174:1182, 538:546, 1870:1894, 410:435, 838:842, 1911:1916, 1555:1560, 1816:1818, 1791:1805, 1622:1629, 460:484, 1236:1239, 1483:1490, 507:515, 1174:1182, 1678:1689, 902:915, 1820:1845, 851:857, 1813:1815, 485:495, 897:901, 1853:1864, 443:447",
+    "attributes": "Left_Breast: historic, Right: uncertain, Right: historic, Left_Axillary_Lymph_Node: historic, PR_: historic, Right_Breast: uncertain, Right_Breast: historic, Neoplasm: historic, Left_Breast: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Left_Breast: historic, ER_: historic, HER2: historic, Invasive_Ductal_Breast_Carcinoma: historic, Left: historic, Lung: negated, Lung: historic, Abdomen: negated, Abdomen: historic, Left_Axillary_Lymph_Node: historic, Heart: negated, Heart: historic, ER_: historic, PR_: historic, Limb: negated, Limb: historic, Breast_Carcinoma: historic, Breast: historic, Secondary_Neoplasm: historic, Left: historic, Left: historic"
+}

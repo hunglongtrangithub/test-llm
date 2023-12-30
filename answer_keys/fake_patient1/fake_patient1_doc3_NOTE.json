@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient1",
+    "type": "Clinical Note",
+    "date": "201001311015",
+    "episode": "unknown",
+    "sections": "Clinical History, Interim History, Examination, Impression",
+    "classUri-mentions": "M0_Stage, Lymph_Node, Metastasis, N2_Stage, Thyroid_Gland, Malignant_Neoplasm, Sclera, Secondary_Neoplasm, Right_Axilla_Proper, Malignant_Neoplasm, Right_Breast, Tumor_Stage_Finding, Right_Breast, Right, N2_Stage, Right_Breast, Ductal_Breast_Carcinoma_In_Situ, T1_Stage, Right, Left_Breast, Neoplasm, Right, Breast, Ductal_Carcinoma, Ductal_Carcinoma, Lymph_Node, Stage_2A, Right_Breast, Mass, T1_Stage, Lung, Ductal_Carcinoma, Ductal_Carcinoma, Right_Breast, M0_Stage, Right, Dysplastic_Nevus, Right, Right_Axillary_Lymph_Node, Right, Ductal_Breast_Carcinoma_In_Situ, Heart, Neoplasm, Neck, Stage_2A",
+    "classUri-begins-ends": "1697:1699, 1767:1777, 565:583, 402:404, 1384:1391, 1015:1025, 1340:1346, 1222:1232, 1785:1797, 1162:1172, 880:892, 380:394, 1738:1750, 806:811, 1694:1696, 471:483, 459:463, 399:401, 1738:1743, 1138:1149, 600:605, 1002:1007, 965:971, 782:798, 1714:1730, 897:907, 1680:1689, 1002:1014, 826:831, 1691:1693, 1405:1410, 438:454, 947:963, 806:818, 405:407, 471:476, 1274:1277, 1785:1790, 497:522, 880:885, 835:839, 1444:1447, 1994:1999, 1359:1363, 389:397",
+    "attributes": "Metastasis: historic, Thyroid_Gland: negated, Malignant_Neoplasm: historic, Secondary_Neoplasm: negated, Secondary_Neoplasm: historic, Malignant_Neoplasm: negated, Malignant_Neoplasm: historic, Right_Breast: historic, Tumor_Stage_Finding: historic, Right: historic, Right_Breast: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Left_Breast: negated, Left_Breast: historic, Neoplasm: historic, Right: historic, Breast: historic, Ductal_Carcinoma: generic, Ductal_Carcinoma: historic, Lymph_Node: historic, Right_Breast: historic, Mass: historic, Ductal_Carcinoma: historic, Ductal_Carcinoma: historic, Right_Breast: historic, Right: historic, Dysplastic_Nevus: uncertain, Right_Axillary_Lymph_Node: historic, Right: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Stage_2A: historic"
+}

@@ -1,0 +1,22 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The date of the medical document as noted in the text is February 3, 2011.",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Right_Breast, Axillary_Lymph_Node, Left_Breast, Invasive_Lobular_Carcinoma, Lobular_Carcinoma_In_Situ, Left_Axillary_Lymph_Node, Estrogen_Receptor, Progesterone_Receptor, HER2/NEU",
+        "classUri-begins-ends": "'right breast': 417:428, 'axillary lymph node': 456:474, 'LEFT BREAST': 623:633, 'LEFT AXILLARY LYMPH NODE': 757:780",
+        "attributes": "Right_Breast: historic,\nLeft_Breast: current, \nLeft_Axillary_Lymph_Node: current, negated"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient1",
+        "type": "Surgical Pathology Report",
+        "date": "20110203",
+        "episode": "Diagnostic",
+        "sections": "FINAL DIAGNOSIS",
+        "classUri-mentions": "Right_Breast, Axilla, Left_Breast, LEFT_AXILLARY_LYMPH_NODE",
+        "classUri-begins-ends": "left breast: 419:431, right breast: 48:61, left axillary lymph node: 511:536",
+        "attributes": "Right_Breast: historic\nRight: historic"
+    }
+}

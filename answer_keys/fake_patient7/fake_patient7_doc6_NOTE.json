@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient7",
+    "type": "Clinical Note",
+    "date": "201007120215",
+    "episode": "unknown",
+    "sections": "Clinical History, Interim History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "N1mi_Stage, Heart, Left_Axillary_Lymph_Node, Vascular, Neoplasm, ER_, High_Grade, Chronic_Lymphocytic_Leukemia, Stage_1B, Sclera, T1_Stage, Bone_Marrow, Lymph_Node, Metastatic_Carcinoma, Breast, Neoplasm, HER2, Left_Breast, Ductal_Carcinoma, Neck, M0_Stage, Sentinel_Lymph_Node, Left, Left, Ductal_Breast_Carcinoma_In_Situ, Lung, Ductal_Carcinoma, PR_, Left_Breast, Dysplastic_Nevus, Thyroid_Gland, Tumor_Cell_Invasion",
+    "classUri-begins-ends": "394:397, 1434:1437, 635:659, 784:792, 1740:1748, 473:481, 768:775, 1041:1069, 380:388, 1330:1336, 390:392, 1180:1191, 861:872, 908:928, 1784:1790, 1657:1665, 504:512, 739:750, 417:433, 1349:1353, 400:402, 604:623, 739:743, 450:454, 438:442, 1395:1400, 715:731, 486:494, 450:461, 1264:1267, 1374:1381, 793:801",
+    "attributes": "Left_Axillary_Lymph_Node: historic, Vascular: historic, ER_: historic, High_Grade: historic, Chronic_Lymphocytic_Leukemia: uncertain, Chronic_Lymphocytic_Leukemia: historic, Stage_1B: historic, Bone_Marrow: historic, Lymph_Node: historic, Metastatic_Carcinoma: historic, Neoplasm: generic, HER2: historic, Left_Breast: historic, Ductal_Carcinoma: historic, Sentinel_Lymph_Node: historic, Left: historic, Left: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Ductal_Carcinoma: historic, PR_: historic, Left_Breast: historic, Dysplastic_Nevus: uncertain, Thyroid_Gland: negated, Tumor_Cell_Invasion: historic"
+}

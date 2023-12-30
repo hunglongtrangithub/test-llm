@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient5",
+    "type": "Surgical Pathology Report",
+    "date": "200909020220",
+    "episode": "Diagnostic",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "ER_, HER2, Metastatic_Carcinoma, Invasive_Ductal_Breast_Carcinoma, Tumor_Stage_Finding, Axillary_Lymph_Node, PT3_Stage, Left_Breast, HER2, Upper_Outer_Quadrant, Axillary_Lymph_Node, Ductal_Breast_Carcinoma_In_Situ, Neoplasm, Left, Stage_3A, Tumor_Mass, PM0_Stage, PR_, Upper_Outer_Quadrant, Invasive_Ductal_Breast_Carcinoma, Axillary_Lymph_Node, Neoplasm, Tumor_Mass, Left_Breast, PN2_Stage, Left_Axillary_Lymph_Node",
+    "classUri-begins-ends": "1268:1276, 1376:1389, 1177:1199, 377:402, 468:482, 537:556, 1417:1420, 410:421, 1346:1354, 836:856, 1143:1163, 860:884, 794:799, 410:414, 477:485, 685:695, 1443:1446, 1314:1322, 727:747, 641:666, 446:466, 685:690, 794:804, 597:608, 1430:1433, 1086:1110",
+    "attributes": "Invasive_Ductal_Breast_Carcinoma: historic, Tumor_Stage_Finding: historic, Axillary_Lymph_Node: historic, Left_Breast: historic, Left: historic, Stage_3A: historic, Axillary_Lymph_Node: historic"
+}

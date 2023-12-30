@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient3",
+    "type": "Surgical Pathology Report",
+    "date": "201003010330",
+    "episode": "unknown",
+    "sections": "Final Diagnosis, Comment, Gross Description",
+    "classUri-mentions": "PR_, Metastatic_Breast_Carcinoma, Lymph_Node, Right_Axilla_Proper, Breast, ER_, HER2, Right, HER2, Lymph_Node, Right_Axilla_Proper",
+    "classUri-begins-ends": "592:600, 421:448, 337:348, 793:805, 432:438, 560:568, 641:651, 350:355, 611:619, 396:407, 350:362",
+    "attributes": ""
+}

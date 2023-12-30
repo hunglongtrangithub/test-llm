@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient4",
+    "type": "Surgical Pathology Report",
+    "date": "201103120330",
+    "episode": "Pre-diagnostic",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "Breast, HER2, Atypical_Lobular_Hyperplasia, Breast, Right_Breast, Breast, Invasive_Carcinoma, _2_O_clock, Left_Breast, Right, Invasive_Lobular_Breast_Carcinoma, Left, Left, ER_, Intermediate_Grade, Metastatic_Breast_Carcinoma, Mass, Invasive_Ductal_Breast_Carcinoma, PR_, Carcinoma, Mass, Axillary_Lymph_Node, Malignant_Neoplasm",
+    "classUri-begins-ends": "812:818, 1136:1144, 964:992, 495:501, 419:431, 786:792, 614:632, 510:520, 385:396, 503:508, 877:903, 820:824, 385:389, 1057:1065, 913:920, 775:802, 373:377, 561:586, 1103:1111, 931:940, 407:411, 715:734, 683:698",
+    "attributes": "Right_Breast: historic, Left_Breast: historic, Left: historic, Mass: historic, Mass: historic"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient4",
+    "type": "Clinical Note",
+    "date": "201104041025",
+    "episode": "unknown",
+    "sections": "Final Diagnosis, Examination, Impression",
+    "classUri-mentions": "Bilateral_Breast_Cancer, Lung, Right, Invasive_Ductal_Breast_Carcinoma, Right, Axillary_Lymph_Node, Heart, Left, T3_Stage, Left_Breast, Invasive_Ductal_Breast_Carcinoma, PR_, Breast, Secondary_Neoplasm, Left_Breast, Dysplastic_Nevus, Right_Breast, Mass, Sclera, Bilateral, Bilateral, M0_Stage, Bilateral_Breast_Cancer, ER_, Left, Invasive_Lobular_Breast_Carcinoma, Right_Breast, Ovary, Epithelial_Ovarian_Cancer, Neck, Mass, Right_Axillary_Lymph_Node, Breast, N2_Stage, HER2, Breast, Invasive_Lobular_Breast_Carcinoma",
+    "classUri-begins-ends": "1862:1888, 1589:1594, 380:385, 347:372, 854:859, 1033:1053, 1628:1635, 928:932, 337:339, 432:443, 884:909, 461:469, 808:814, 729:739, 928:939, 1513:1516, 380:392, 916:920, 1546:1552, 674:683, 1862:1871, 343:345, 674:697, 448:456, 1290:1294, 957:983, 854:866, 1295:1302, 1295:1312, 1565:1569, 842:846, 703:728, 684:690, 340:342, 476:484, 1872:1878, 398:424",
+    "attributes": "Left: uncertain, Left: historic, Ovary: uncertain, Ovary: historic, Epithelial_Ovarian_Cancer: historic"
+}

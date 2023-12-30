@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient1",
+    "type": "Clinical Note",
+    "date": "201005311145",
+    "episode": "unknown",
+    "sections": "Final Diagnosis, Interim History, Examination, Impression",
+    "classUri-mentions": "Breast, Upper_inner_Quadrant, Lung, T1_Stage, Secondary_Neoplasm, Right_Breast, Dysplastic_Nevus, Mass, Thyroid_Gland, Right_Breast, Heart, Right_Axillary_Lymph_Node, M0_Stage, Metastasis, Breast, Ductal_Carcinoma, Sclera, Stage_2A, Axillary_Lymph_Node, Right_Breast, Right, N2_Stage, Axillary_Lymph_Node, Right, Ductal_Carcinoma, Right, Right_Breast, Breast_Carcinoma, Neck, Mass",
+    "classUri-begins-ends": "1015:1021, 657:677, 1450:1455, 333:335, 1267:1277, 380:392, 1319:1322, 645:649, 1429:1436, 484:496, 1489:1492, 1151:1176, 339:341, 529:539, 577:583, 1732:1748, 1385:1391, 323:331, 509:528, 685:697, 380:385, 336:338, 773:793, 484:489, 356:372, 1756:1761, 1756:1768, 490:503, 1404:1408, 1050:1054",
+    "attributes": "Breast: historic, Upper_inner_Quadrant: historic, Secondary_Neoplasm: negated, Secondary_Neoplasm: historic, Dysplastic_Nevus: uncertain, Mass: historic, Thyroid_Gland: negated, Right_Breast: historic, Right_Axillary_Lymph_Node: historic, Metastasis: historic, Breast: historic, Axillary_Lymph_Node: historic, Right_Breast: historic, Axillary_Lymph_Node: historic, Right: historic, Breast_Carcinoma: historic, Mass: historic"
+}

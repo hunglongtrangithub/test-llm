@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient3",
+    "type": "Clinical Note",
+    "date": "201002101015",
+    "episode": "Medical Decision-making",
+    "sections": "Final Diagnosis, Procedure, Interim History, Examination, Impression, Recommendation",
+    "classUri-mentions": "Sentinel_Lymph_Node, Sentinel_Lymph_Node, T2_Stage, Right, Invasive_Ductal_Breast_Carcinoma, ER_, Right, Stage_2, N1_Stage, Carcinoma, PR_, Sentinel_Lymph_Node, Right_Axillary_Lymph_Node, Right_Breast, Right_Breast, M0_Stage, Right_Breast, Invasive_Ductal_Breast_Carcinoma, HER2, Right_Axilla_Proper",
+    "classUri-begins-ends": "1172:1191, 1339:1358, 378:380, 423:428, 390:415, 441:449, 1110:1115, 1069:1076, 382:384, 1301:1310, 454:462, 548:567, 1246:1271, 1110:1122, 423:435, 386:388, 884:896, 1077:1102, 473:481, 534:546",
+    "attributes": ""
+}

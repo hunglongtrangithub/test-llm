@@ -1,0 +1,10 @@
+{
+    "name": "fake_patient5",
+    "type": "Clinical Note",
+    "date": "200905101015",
+    "episode": "unknown",
+    "sections": "Clinical History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "Invasive_Ductal_Breast_Carcinoma, Left_Breast, Dysplastic_Nevus, Breast, Tumor_Stage_Finding, Neck, Stage_3A, Right, Left, M0_Stage, ER_, Thyroid_Gland, Invasive_Ductal_Breast_Carcinoma, Lung, Secondary_Neoplasm, Mass, Left_Breast, Sclera, N2_Stage, Left_Axillary_Lymph_Node, HER2, Upper_Outer_Quadrant, Breast_Carcinoma, Left, Left, Neoplasm, Cyst_Of_Right_Ovary, Heart, Ovary, T3_Stage, Left_Breast, PR_",
+    "classUri-begins-ends": "1256:1281, 468:479, 891:894, 481:487, 1227:1241, 976:980, 1236:1244, 805:810, 468:472, 1252:1254, 664:672, 1001:1008, 623:648, 1022:1027, 1331:1341, 428:432, 397:408, 957:963, 1249:1251, 1306:1330, 699:707, 440:460, 402:415, 1289:1293, 397:401, 1489:1494, 805:823, 1061:1064, 811:818, 1246:1248, 1289:1300, 677:685",
+    "attributes": "Left_Breast: historic, Dysplastic_Nevus: uncertain, Breast: historic, Right: uncertain, Right: historic, Left: historic, ER_: historic, Thyroid_Gland: negated, Invasive_Ductal_Breast_Carcinoma: historic, Mass: historic, Left_Breast: historic, HER2: historic, Upper_Outer_Quadrant: historic, Breast_Carcinoma: historic, Left: historic, Cyst_Of_Right_Ovary: historic, Ovary: uncertain, Ovary: historic, PR_: historic"
+}
