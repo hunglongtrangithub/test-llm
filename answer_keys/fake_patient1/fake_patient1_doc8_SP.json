@@ -6,5 +6,5 @@
     "sections": "Clinical History, Final Diagnosis",
     "classUri-mentions": "Ductal_Carcinoma, Mass, HER2, Metastatic_Carcinoma, Right_Breast, ER_, Axillary_Lymph_Node, Left_Axillary_Lymph_Node, Right_Breast, Lymph_Node, Right, Stage_2A, Right, PR_",
     "classUri-begins-ends": "390:406, 496:500, 977:985, 825:845, 414:426, 912:920, 537:556, 737:761, 508:520, 801:811, 414:419, 368:376, 508:513, 951:959",
-    "attributes": "Ductal_Carcinoma: historic, Mass: uncertain, Mass: historic, Metastatic_Carcinoma: negated, Right_Breast: uncertain, Right_Breast: historic, Axillary_Lymph_Node: historic, Right_Breast: historic, Lymph_Node: negated, Right: uncertain, Right: historic, Stage_2A: uncertain, Stage_2A: historic, Right: historic"
+    "attributes": "Ductal_Carcinoma: historic, Mass: uncertain, historic, HER2: , Metastatic_Carcinoma: negated, Right_Breast: uncertain, historic, ER_: , Axillary_Lymph_Node: historic, Left_Axillary_Lymph_Node: , Right_Breast: historic, Lymph_Node: negated, Right: uncertain, historic, Stage_2A: uncertain, historic, Right: historic, PR_: "
 }

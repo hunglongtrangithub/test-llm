@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient1",
+    "name": "Fake Patient1",
     "type": "Radiology Report",
-    "date": "201001231045",
+    "date": "January 23, 2010 at 10:45 AM",
     "episode": "Pre-diagnostic",
     "sections": "Clinical History, Procedure, Findings, Impression",
-    "classUri-mentions": "Axilla, Right, Right_Breast, Upper_inner_Quadrant, Right_Breast, Right_Breast, Mass, Nipple, Skin, Right_Axilla_Proper, Right_Breast, Right_Axillary_Lymph_Node, Mass, Right_Axilla_Proper, Lymph_Node, Lymph_Node, Right_Breast, Lymph_Node, Right, Skin, Axillary_Lymph_Node, Mass",
-    "classUri-begins-ends": "990:996, 436:441, 436:448, 515:535, 817:829, 1960:1972, 424:428, 1112:1118, 1192:1196, 635:647, 973:985, 2012:2037, 503:507, 905:917, 760:770, 617:627, 1844:1856, 927:937, 635:640, 1493:1497, 1413:1432, 738:742",
-    "attributes": "Right: historic, Right_Breast: historic, Upper_inner_Quadrant: historic, Mass: historic, Right_Axilla_Proper: historic, Mass: historic, Lymph_Node: historic, Lymph_Node: historic, Right: historic, Mass: historic"
+    "classUri-mentions": "Mass, Lymph_Node, Right_Breast, Right_Axillary_Lymph_Node, Axillary_Lymph_Node, Axilla, Upper_inner_Quadrant, Nipple, Right_Axilla_Proper, Skin, Right",
+    "attributes": "Axilla: , Right: historic, Right_Breast: historic, Upper_inner_Quadrant: historic, Right_Breast: , Right_Breast: , Mass: historic, Nipple: , Skin: , Right_Axilla_Proper: historic, Right_Breast: , Right_Axillary_Lymph_Node: , Mass: historic, Right_Axilla_Proper: , Lymph_Node: historic, Lymph_Node: historic, Right_Breast: , Lymph_Node: , Right: historic, Skin: , Axillary_Lymph_Node: , Mass: historic"
 }

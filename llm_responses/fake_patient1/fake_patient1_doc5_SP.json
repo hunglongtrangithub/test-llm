@@ -1,22 +1,22 @@
 {
     "gpt-4": {
         "name": "The patient's name as mentioned in the document is Fake Patient1.",
-        "type": "The type of the medical document referenced in the text is a 'Surgical Pathology Report'.",
-        "date": "The date of the medical document as noted in the text is July 10, 2010 at 10:15.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The date of the medical document is July 10, 2010.",
         "episode": "The document relates to the 'Diagnostic' stage of patient care.",
         "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY, T STAGE, PATHOLOGIC, N STAGE, PATHOLOGIC, M STAGE, PATHOLOGIC",
-        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Node, Upper_Inner_Quadrant, Right_Axillary_Lymph_Node",
-        "classUri-begins-ends": "'516:531, 617:639, 754:788, 825:854, 926:966, 1026:1058, 1063:1099, 1118:1138'",
-        "attributes": "'Right_Breast: historic', 'Left_Axillary_Lymph_Node: historic', 'Upper_Inner_Quadrant_of_Right Breast: historic', 'Right_Axillary_Lymph_Node: historic', 'Estrogen_Receptor: negated', 'Progesterone_Receptor: negated', 'HER2/NEU: negated'"
+        "classUri-mentions": "Right_breast, Left_axillary_lymph_node, Upper_inner_quadrant, Axillary_lymph_nodes",
+        "classUri-begins-ends": "'51:53, 71:96, 100:124, 224:240, 246:273, 276:304, 307:333, 336:371, 374:401, 404:434, 492:501, 504:518, 638:649, 652:669, 672:679, 682:698, 787:802, 805:833, 836:861, 864:900, 903:930, 933:958, 1178:1183, 1196:1201, 1214:1219'",
+        "attributes": "'Right Breast': historic, 'Infiltrating Ductal Carcinoma': historic, uncertain, 'Microcalcifications': historic, 'Focal Ductal Carcinoma In Situ': historic, 'Surgical Margins': generic, 'Right Axillary Lymph Node': historic, 'Metastatic Carcinoma': historic, 'Extracapsular Extension': negated, 'Estrogen Receptor': negated, 'Progesterone Receptor': negated, 'HER2/NEU': negated"
     },
     "gemini-pro": {
-        "name": "Patient Name: Fake Patient1",
+        "name": "Fake Patient1",
         "type": "Surgical Pathology Report",
         "date": "20100710",
         "episode": "Diagnostic",
-        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
-        "classUri-mentions": "Right_Breast, Axilla, Axillary_Lymph_Node",
-        "classUri-begins-ends": "right breast: 182:194, upper inner quadrant: 367:386, right axillary lymph nodes: 1115:1135",
-        "attributes": "Right, historic, Right_Breast, historic"
+        "sections": "FINAL DIAGNOSIS, PART 1: RIGHT BREAST MODIFIED RADICAL MASTECTOMY, PART 2: RIGHT AXILLARY LYMPH NODE DISSECTION, IMMUNOHISTOCHEMISTRY, T STAGE, PATHOLOGIC, N STAGE, PATHOLOGIC, M STAGE, PATHOLOGIC",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant",
+        "classUri-begins-ends": "upper inner quadrant: 1686:1698, right axillary lymph node: 2383:2397",
+        "attributes": "Right: historic\nRight_Breast: historic\nRight_Axillary_Lymph_Nodes: historic"
     }
 }

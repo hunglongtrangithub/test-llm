@@ -1,22 +1,22 @@
 {
     "gpt-4": {
         "name": "The patient's name as mentioned in the document is Fake Patient1.",
-        "type": "The referenced medical document is a 'Clinical Note'.",
-        "date": "The date of the medical document as noted in the text is May 31, 2010.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The date of the medical document as noted in the text is May 31, 2010 at 11:45.",
         "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
         "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, DIAGNOSIS, INTERIM HISTORY, Physical Exam, IMPRESSION",
-        "classUri-mentions": "Right_Breast, Axillary_Lymph_Node, Upper_Inner_Quadrant_of_the_Right_Breast, Right_Axillary_Lymph_Nodes, Breast, Neck, Thyroid, Lungs, ABD, EXT",
-        "classUri-begins-ends": "'84:89, 145:150, 211:216, 219:224, 561:566, 642:647, 922:927, 944:949'",
-        "attributes": "'Right breast': historic, '2 cm palpable lump in the upper inner quadrant of the right breast': historic, temporality, conditional, 'abnormally enlarged right axillary lymph nodes': historic, temporality, 'Mass at the 1 o\u2019clock position': historic, temporal, 'metastatic right axillary lymph node': historic, temporality"
+        "classUri-mentions": "Right_Breast, Axillary_Lymph_Node, Upper_Inner_Quadrant_of_the_Right_Breast, Right_Axillary_Lymph_Nodes, Breast, Thyroid, Lungs, Neck, ABD, EXT",
+        "classUri-begins-ends": "'104:155, 214:237, 587:609, 978:1001'",
+        "attributes": "'Right breast: historic, Right breast: generic, Right axillary lymph node: historic, Right axillary lymph node: generic'"
     },
     "gemini-pro": {
-        "name": "Fake Patient1",
+        "name": "Patient Name: Fake Patient1",
         "type": "Clinical Note",
         "date": "Principal Date: 20100531",
-        "episode": "Diagnostic",
-        "sections": "INTERIM HISTORY, Physical Exam, IMPRESSION",
-        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axillary, Lymph_Nodes",
-        "classUri-begins-ends": "breast: 1255:1261",
-        "attributes": "Right_Breast: historic\nRight_Axillary_lymph_nodes: historic"
+        "episode": "Medical Decision-making",
+        "sections": "Interim History, Physical Exam, Impression",
+        "classUri-mentions": "Right_Breast, Axillary_Lymph_Nodes, Breast_Upper_inner_Quadrant, Right_Axillary_Lymph_Nodes",
+        "classUri-begins-ends": "breast: 1137:1142",
+        "attributes": "Right_Breast: historic\nRight_Axillary_Lymph_Node: historic"
     }
 }

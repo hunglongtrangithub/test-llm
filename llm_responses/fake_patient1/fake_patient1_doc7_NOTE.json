@@ -1,22 +1,22 @@
 {
     "gpt-4": {
         "name": "The patient's name as mentioned in the document is Fake Patient1.",
-        "type": "The type of the medical document referenced in the text is a 'Clinical Note'.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
         "date": "The date of the medical document as noted in the text is February 1, 2011.",
         "episode": "The document relates to the 'Diagnostic' stage of patient care.",
-        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
-        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Nodes, Left_Breast, Axilla, Lower_Outer_Left_Breast, Right_Breast, Left_Breast, Right_Breast, Axillary_Wound, Lower_Outer_Quadrant_of_the_Left_Breast",
-        "classUri-begins-ends": "'314:324, 338:365, 405:415, 690:700, 1032:1042, 1098:1122, 1048:1059, 1263:1273, 730:745, 1348:1358'",
-        "attributes": "Right_Breast: historic, Right_Axilla: historic, Left_Breast: uncertain, generic, Left_Axillary_Lymph_Nodes: historic, Left_Breast_Nodule: uncertain"
+        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Nodes, Left_Breast, Lower_Outer_Left_Breast, Axillary_Wound, Left_Breast_Nodule",
+        "classUri-begins-ends": "'207:216, 219:234, 237:245, 250:266, 316:325, 364:371, 428:435, 450:458, 596:605, 619:635, 943:958'",
+        "attributes": "'Right breast: historic, Left breast: historic, Right axilla: historic, Left axillary lymph nodes: historic, Right mastectomy: historic, Left breast nodule: uncertain',"
     },
     "gemini-pro": {
-        "name": "Patient Name: Fake Patient1",
+        "name": "Fake Patient1",
         "type": "Clinical Note",
-        "date": "20110201",
+        "date": "Date of Medical Document: 20110201",
         "episode": "Diagnostic",
-        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
-        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Nodes, Left_Breast, Lower_Outer_Left_Breast, Lower_Outer_Quadrant_of_the_Left_Breast",
-        "classUri-begins-ends": "left breast: 726:738, 1023:1035",
-        "attributes": "Left_Breast: historic, Left_Axillary_Lymph_Nodes: historic, Right_Breast: historic, Right_Breast_Mass: uncertain, Left_Breast_Mass: uncertain"
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Axillary_Lymph_Nodes, Left_Breast, Lower_Outer_Left_Breast_Position, Lower_Outer_Quadrant_of_the_Left_Breast, Right_Axilla",
+        "classUri-begins-ends": "left breast: 436:441, 486:491, 537:542, 650:655, 716:721, 814:820\nright breast: 456:461, 508:513, 537:542, 602:607, 782:787, 814:820",
+        "attributes": "Right_Breast: historic,\nLeft_Breast: uncertain,\nLeft_Axillary_Lymph_Nodes: metastasis,\nInfiltrating_Ductal_Carcinoma: N2, M0, T1, stage_IIa,\nLeft_Breast_Nodule: uncertain"
     }
 }
