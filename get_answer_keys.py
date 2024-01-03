@@ -1,5 +1,5 @@
 import os
-from helper import load_json_file, save_json_file
+from helper import load_json_file, save_json_file, translate_principal_date
 
 
 def get_note(data, document_name):
@@ -10,31 +10,32 @@ def get_note(data, document_name):
 
 # TODO: make the attributes extensible and configurable
 def generate_answer_keys(data, note):
+    # data: the whole JSON file, note: the note to generate the answer keys for
     # Generate the answer keys with the following format:
     answer_keys = {}
-    answer_keys["name"] = data["patient"]["name"]
+    answer_keys["name"] = " ".join(
+        [part.capitalize() for part in data["patient"]["name"].split("_")]
+    )
     answer_keys["type"] = note["type"]
-    answer_keys["date"] = note["date"]
+    answer_keys["date"] = translate_principal_date(note["date"])
     answer_keys["episode"] = note["episode"]
     answer_keys["sections"] = ", ".join([s["type"] for s in note["sections"]])
     answer_keys["classUri-mentions"] = ", ".join(
-        [m["classUri"] for m in note["mentions"]]
+        set([f"{m['classUri']}" for m in note["mentions"]])
     )
-    answer_keys["classUri-begins-ends"] = ", ".join(
-        [f"{m['begin']}:{m['end']}" for m in note["mentions"]]
-    )
+    # answer_keys["classUri-begins-ends"] = ", ".join(
+    #     [f"{m['begin']}:{m['end']}" for m in note["mentions"]]
+    # )
     answer_keys["attributes"] = ", ".join(
-        [f"{m['classUri']}: {a}" for m in note["mentions"] for a in m if m[a] is True]
+        [
+            f"{m['classUri']}: " + ", ".join([a for a in m if m[a] is True])
+            for m in note["mentions"]
+        ]
     )
     return answer_keys
 
 
 def get_answer_keys(patient_name, document_name):
-    # Check if the answer keys have already been generated
-    try:
-        return load_json_file(f"answer_keys/{patient_name}/{document_name}.json")
-    except FileNotFoundError:
-        pass
     # Load the JSON file
     data = load_json_file(f"output/JSON/{patient_name}/{patient_name}.json")
     # Get the note according to the document name
@@ -89,14 +90,16 @@ def load_answer_keys(
 
 
 if __name__ == "__main__":
+    import json
+
     # Test the get_answer_keys function
     answer_keys = load_answer_keys(
         patient_name="fake_patient1",
-        document_name=None,
+        document_name="fake_patient1_doc1_RAD",
     )
-    # print(json.dumps(answer_keys, indent=4))
-    # print all the keys of the dictionary for all levels
-    from helper import print_keys_recursively
+    print(json.dumps(answer_keys, indent=4))
+    # # print all the keys of the dictionary for all levels
+    # from helper import print_keys_recursively
 
-    print("Answer keys:")
-    print_keys_recursively(answer_keys)
+    # print("Answer keys:")
+    # print_keys_recursively(answer_keys)
