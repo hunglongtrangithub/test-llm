@@ -7,11 +7,17 @@ from helper import save_json_file, load_json_file
 def get_gpt4_response(system_prompt, user_prompt):
     client = OpenAI()
     messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
+        # {"role": "user", "content": system_prompt},
+        {"role": "user", "content": system_prompt + "\n" + user_prompt},
     ]
+    # messages = [
+    #     {"role": "system", "content": system_prompt},
+    #     {"role": "user", "content": user_prompt},
+    # ]
+    # print(messages)
     response = client.chat.completions.create(model="gpt-4", messages=messages)
     message = response.choices[0].message.content
+    print(message)
     return message
 
 
@@ -23,8 +29,10 @@ def get_gemini_response(system_prompt, user_prompt):
         # {"role": "system", "parts": [system_prompt]},
         {"role": "user", "parts": [system_prompt, user_prompt]},
     ]
+    # print(messages)
     response = model.generate_content(messages)
     message = response.text
+    print(message)
     return message
 
 
@@ -41,8 +49,10 @@ def get_llm_response(model_name, system_prompt, user_prompt):
         # {"role": "user", "content": system_prompt + "\n" + user_prompt},
         {"role": "user", "content": user_prompt},
     ]
+    print(messages)
     response = client.chat.completions.create(model=model_name, messages=messages)
     message = response.choices[0].message.content
+    print(message)
     return message
 
 
