@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 import json
 import os
 
@@ -51,6 +52,15 @@ def save_json_file(file_path, data):
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
+
+
+def translate_principal_date(principal_date):
+    # Parse the date and time
+    dt = datetime.strptime(principal_date, "%Y%m%d%H%M")
+
+    # Format to a more readable form
+    formatted_date = dt.strftime("%B %d, %Y at %I:%M %p")
+    return formatted_date
 
 
 if __name__ == "__main__":

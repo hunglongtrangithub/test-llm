@@ -49,7 +49,6 @@ def get_llm_response(model_name, system_prompt, user_prompt):
         # {"role": "user", "content": system_prompt + "\n" + user_prompt},
         {"role": "user", "content": user_prompt},
     ]
-    print(messages)
     response = client.chat.completions.create(model=model_name, messages=messages)
     message = response.choices[0].message.content
     print(message)
