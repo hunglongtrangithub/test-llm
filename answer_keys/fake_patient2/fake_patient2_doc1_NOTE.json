@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient2",
+    "name": "Fake Patient2",
     "type": "Clinical Note",
-    "date": "200911031045",
+    "date": "November 03, 2009 at 10:45 AM",
     "episode": "unknown",
     "sections": "History of Present Illness, Allergies, Examination, Assessment",
-    "classUri-mentions": "Neck, Left_Breast, Sclera, Intestine, Mass, Urinary_Bladder, Mass, Breast, Limb, Left, Left, Left, Left, Mass, Abdomen, Left_Breast, Left_Breast, Left_Breast, Right_Breast, Mass, Heart, Mass",
-    "classUri-begins-ends": "1162:1166, 613:624, 1132:1138, 842:847, 1317:1321, 851:858, 1488:1492, 1228:1235, 1407:1418, 553:557, 1500:1504, 613:617, 1237:1241, 1263:1267, 1340:1347, 553:564, 1500:1511, 1237:1248, 1293:1305, 601:605, 1200:1205, 541:545",
-    "attributes": "Left_Breast: historic, Sclera: negated, Intestine: negated, Intestine: historic, Mass: negated, Urinary_Bladder: negated, Urinary_Bladder: historic, Left: historic, Left: historic, Left_Breast: historic, Right_Breast: negated, Mass: historic, Mass: historic"
+    "classUri-mentions": "Left, Sclera, Urinary_Bladder, Neck, Intestine, Right_Breast, Left_Breast, Breast, Heart, Abdomen, Limb, Mass",
+    "attributes": "Neck: , Left_Breast: historic, Sclera: negated, Intestine: negated, historic, Mass: negated, Urinary_Bladder: negated, historic, Mass: , Breast: , Limb: , Left: historic, Left: , Left: historic, Left: , Mass: , Abdomen: , Left_Breast: historic, Left_Breast: , Left_Breast: , Right_Breast: negated, Mass: historic, Heart: , Mass: historic"
 }

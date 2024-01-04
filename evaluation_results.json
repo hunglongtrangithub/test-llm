@@ -3,76 +3,224 @@
         "fake_patient1_doc1_RAD": {
             "gpt-4": {
                 "name": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.8288474082946777,
+                    "nli_label": "entailment",
+                    "nli_score": 0.9316917061805725,
                     "lcs_score": 1.0
                 },
                 "type": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.911888062953949,
+                    "nli_label": "entailment",
+                    "nli_score": 0.9744759798049927,
                     "lcs_score": 1.0
                 },
                 "date": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.8820120692253113,
+                    "nli_label": "entailment",
+                    "nli_score": 0.748786211013794,
                     "lcs_score": 0.8928571428571429
                 },
                 "episode": {
-                    "nli_label": "CONTRADICTION",
-                    "nli_score": 0.9517865777015686,
+                    "nli_label": "contradiction",
+                    "nli_score": 0.35767972469329834,
                     "lcs_score": 0.7857142857142857
                 },
                 "sections": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.7977679371833801,
+                    "nli_label": "entailment",
+                    "nli_score": 0.9932088851928711,
                     "lcs_score": 0.24489795918367346
                 },
                 "classUri-mentions": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.6758643984794617,
-                    "lcs_score": 0.3933333333333333
+                    "nli_label": "entailment",
+                    "nli_score": 0.8760502338409424,
+                    "lcs_score": 0.38
                 },
                 "attributes": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.5702826380729675,
-                    "lcs_score": 0.305
+                    "nli_label": "entailment",
+                    "nli_score": 0.7881950736045837,
+                    "lcs_score": 0.4375
                 }
             },
             "gemini-pro": {
                 "name": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.7177844643592834,
+                    "nli_label": "entailment",
+                    "nli_score": 0.911188006401062,
                     "lcs_score": 1.0
                 },
                 "type": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.6332001090049744,
+                    "nli_label": "entailment",
+                    "nli_score": 0.9754191040992737,
                     "lcs_score": 1.0
                 },
                 "date": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.8820120692253113,
-                    "lcs_score": 0.8928571428571429
+                    "nli_label": "neutral",
+                    "nli_score": 0.629304051399231,
+                    "lcs_score": 0.32142857142857145
                 },
                 "episode": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.5592668652534485,
+                    "nli_label": "neutral",
+                    "nli_score": 0.36640477180480957,
                     "lcs_score": 0.6428571428571429
                 },
                 "sections": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.7977679371833801,
+                    "nli_label": "entailment",
+                    "nli_score": 0.9922479391098022,
+                    "lcs_score": 0.1836734693877551
+                },
+                "classUri-mentions": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7639120221138,
+                    "lcs_score": 0.38666666666666666
+                },
+                "attributes": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.5524466633796692,
+                    "lcs_score": 0.11
+                }
+            },
+            "gpt-3.5-turbo-0613": {
+                "name": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9185128808021545,
+                    "lcs_score": 1.0
+                },
+                "type": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9744759798049927,
+                    "lcs_score": 1.0
+                },
+                "date": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9311324954032898,
+                    "lcs_score": 0.8928571428571429
+                },
+                "episode": {
+                    "nli_label": "contradiction",
+                    "nli_score": 0.35767972469329834,
+                    "lcs_score": 0.7857142857142857
+                },
+                "sections": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9932088851928711,
                     "lcs_score": 0.24489795918367346
                 },
                 "classUri-mentions": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.7653857469558716,
-                    "lcs_score": 0.34
+                    "nli_label": "entailment",
+                    "nli_score": 0.747229814529419,
+                    "lcs_score": 0.36666666666666664
                 },
                 "attributes": {
-                    "nli_label": "ENTAILMENT",
-                    "nli_score": 0.7512845993041992,
-                    "lcs_score": 0.1425
+                    "nli_label": "entailment",
+                    "nli_score": 0.5029094219207764,
+                    "lcs_score": 0.1475
+                }
+            },
+            "llama-2-70b-chat": {
+                "name": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7252201437950134,
+                    "lcs_score": 1.0
+                },
+                "type": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9344803094863892,
+                    "lcs_score": 1.0
+                },
+                "date": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.8523498177528381,
+                    "lcs_score": 0.8928571428571429
+                },
+                "episode": {
+                    "nli_label": "contradiction",
+                    "nli_score": 0.3548687994480133,
+                    "lcs_score": 0.9285714285714286
+                },
+                "sections": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9582874774932861,
+                    "lcs_score": 0.9387755102040817
+                },
+                "classUri-mentions": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7873055338859558,
+                    "lcs_score": 0.4066666666666667
+                },
+                "attributes": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7734186053276062,
+                    "lcs_score": 0.3125
+                }
+            },
+            "llama-2-13b-chat": {
+                "name": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.8891571760177612,
+                    "lcs_score": 1.0
+                },
+                "type": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.8900057077407837,
+                    "lcs_score": 1.0
+                },
+                "date": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7802124619483948,
+                    "lcs_score": 0.8928571428571429
+                },
+                "episode": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.44578659534454346,
+                    "lcs_score": 0.9285714285714286
+                },
+                "sections": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9896243810653687,
+                    "lcs_score": 0.24489795918367346
+                },
+                "classUri-mentions": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.6911138892173767,
+                    "lcs_score": 0.3333333333333333
+                },
+                "attributes": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7402864098548889,
+                    "lcs_score": 0.3675
+                }
+            },
+            "llama-2-7b-chat": {
+                "name": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.6165223121643066,
+                    "lcs_score": 1.0
+                },
+                "type": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9744759798049927,
+                    "lcs_score": 1.0
+                },
+                "date": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9454220533370972,
+                    "lcs_score": 1.0
+                },
+                "episode": {
+                    "nli_label": "neutral",
+                    "nli_score": 0.3651493787765503,
+                    "lcs_score": 0.8571428571428571
+                },
+                "sections": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.9896243810653687,
+                    "lcs_score": 0.24489795918367346
+                },
+                "classUri-mentions": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7705088257789612,
+                    "lcs_score": 0.24666666666666667
+                },
+                "attributes": {
+                    "nli_label": "entailment",
+                    "nli_score": 0.7845210433006287,
+                    "lcs_score": 0.59
                 }
             }
         }

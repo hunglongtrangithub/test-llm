@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient6",
+    "name": "Fake Patient6",
     "type": "Surgical Pathology Report",
-    "date": "201008181130",
+    "date": "August 18, 2010 at 11:30 AM",
     "episode": "Pre-diagnostic",
     "sections": "Clinical History, Final Diagnosis, Comment",
-    "classUri-mentions": "_4_O_clock, Ductal_Breast_Carcinoma_In_Situ, HER2, Invasive_Ductal_Breast_Carcinoma, Breast, Left_Axillary_Lymph_Node, Left_Breast, Axillary_Lymph_Node, Ductal_Breast_Carcinoma_In_Situ, ER_, Right_Breast, Mass, Left, Left, Right, Invasive_Ductal_Breast_Carcinoma, PR_",
-    "classUri-begins-ends": "570:580, 674:698, 977:985, 793:818, 556:562, 395:419, 368:379, 733:752, 484:488, 901:909, 496:508, 356:360, 564:568, 368:372, 496:501, 621:646, 946:954",
-    "attributes": "Left_Axillary_Lymph_Node: historic, Left_Breast: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Right_Breast: uncertain, Right_Breast: historic, Mass: historic, Left: historic, Right: uncertain, Right: historic"
+    "classUri-mentions": "Axillary_Lymph_Node, ER_, Left, Right, HER2, Ductal_Breast_Carcinoma_In_Situ, _4_O_clock, PR_, Left_Axillary_Lymph_Node, Right_Breast, Left_Breast, Breast, Invasive_Ductal_Breast_Carcinoma, Mass",
+    "attributes": "_4_O_clock: , Ductal_Breast_Carcinoma_In_Situ: , HER2: , Invasive_Ductal_Breast_Carcinoma: , Breast: , Left_Axillary_Lymph_Node: historic, Left_Breast: historic, Axillary_Lymph_Node: , Ductal_Breast_Carcinoma_In_Situ: historic, ER_: , Right_Breast: uncertain, historic, Mass: historic, Left: , Left: historic, Right: uncertain, historic, Invasive_Ductal_Breast_Carcinoma: , PR_: "
 }

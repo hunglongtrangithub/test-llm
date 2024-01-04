@@ -2,21 +2,55 @@
     "gpt-4": {
         "name": "The patient's name as mentioned in the document is Fake Patient1.",
         "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
-        "date": "The date of the medical document is January 31, 2010.",
+        "date": "January 31, 2010 at 10:15",
         "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
-        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, IMPRESSION",
-        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Left_Axillary_Lymphadenopathy, Left_Breast, Neck, Thyroid, Lungs, ABD, EXT",
-        "classUri-begins-ends": "'144:154, 157:162, 226:232, 247:255, 255:260, 269:275, 428:434, 501:510, 528:534, 556:576, 699:706, 792:803, 803:808, 801:817, 874:882, 882:887, 932:938, 1132:1142, 1144:1149, 1222:1228, 1332:1338, 1433:1442'",
-        "attributes": "'Right_breast: historic, Right_axillary_lymph_node: historic, Left_axillary_lymphadenopathy: historic, Left_breast: negated, Metastatic_lymph_node_in_right_axilla: historic'"
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Lymph_Node, Left_Axillary_Lymphadenopathy, Left_Breast, Thyroid, Lungs, Neck, ABD, EXT",
+        "attributes": "Right Breast: historic, Right Axillary Lymph Node: historic, positive for metastatic disease, Tumor: historic, 1.9 cm in diameter, Left Axillary Lymphadenopathy: historic, Left Breast: historic, no malignancy, Right Axilla: historic, Metastatic Lymph Node: historic"
     },
     "gemini-pro": {
-        "name": "Fake Patient1",
+        "name": "Patient Name: Fake Patient1",
         "type": "Clinical Note",
-        "date": "20100131",
+        "date": "20100131 1015",
         "episode": "Diagnostic",
         "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, IMPRESSION",
-        "classUri-mentions": "Right_Axilla, Right_Breast, Upper_inner_Quadrant, Left_Axilla, Left_Breast",
-        "classUri-begins-ends": "axilla: 343:349, 1604:1610",
-        "attributes": "Right_Breast: historic\nRight_Axillary_Lymph_Node: historic"
+        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Left_Axillary_Lymph_Node, Left_Breast",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Axillary_Lymph_Node: historic, Left_Axillary_Lymph_Node: historic, Left_Breast: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is January 31, 2010 at 10:15 (formatted as \"January 31, 2010 at 10:15\").",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. It outlines the clinical history, interim history, physical examination findings, and the impression from a review of screening, diagnostic imaging, and biopsy results. The patient's diagnosis of stage IIA infiltrating ductal carcinoma with metastatic lymph nodes is clearly established, and the recommended treatment plan involving neoadjuvant chemotherapy is outlined based on the diagnostic findings.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, IMPESSION",
+        "classUri-mentions": "Right_Breast, Axillary_lymph_node, Left_axillary_lymphadenopathy, Left_breast",
+        "attributes": "Right_Breast: historic, negated\nRight_Axillary Lymph Node: historic\nMRI: historic\nTumor: historic\nLeft_Axillary Lymphadenopathy: historic\nDCIS: historic, generic\nBreast MRI: historic\nMetastatic Disease: historic\nAdriamycin: generic\nCarboplatin: generic\nAbraxane: generic\nMammography: generic, conditional, temporality"
+    },
+    "llama-2-70b-chat": {
+        "name": " Format: Patient's name:\n\nPatient's name: Fake Patient1",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": " January 31, 2010, at 10:15",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe patient has already been diagnosed with stage IIA (T1,N2,M0) triple negative infiltrating ductal carcinoma and DCIS of the right breast, and has undergone various diagnostic tests such as MRI, PET/CT, and ultrasound-guided core biopsy. The document discusses the patient's clinical history, interim history, and physical examination, and outlines the impression and proposed treatment plan, which includes neoadjuvant chemotherapy and mammography. Therefore, the document belongs to the 'Diagnostic' stage of patient care.",
+        "sections": " CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION.\n\nTherefore, the main content sections or headings in the provided medical document are:\n\nCLINICAL HISTORY\nINTERIM HISTORY\nPHYSICAL EXAM\nIMPRESSION",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Right\nBreast, Right\nLymph node, Right axillary\nMammary gland, Infiltrating ductal carcinoma\nDCIS, Focus of\nBreast, Left\nLymphadenopathy, Left axillary\nMRI, 1 o'clock position\nBreast, Right, Measuring 1.2x3.4x5.6 cm\nMRI, Left breast\nPET/CT, No evidence of distant metastases\nThyroid\nNeck\nLungs\nHeart\nAbdomen\nExtremities\n\nFormat: Axilla, Right_Breast, Right_Lymph node, Right axillary_Mammary gland, Infiltrating ductal carcinoma_DCIS, Focus of_Breast, Left_Lymphadenopathy, Left axillary_MRI, 1 o'clock position_Breast, Right, Measuring 1.2x3.4x5.6 cm_MRI, Left breast_PET/CT, No evidence of distant metastases_Thyroid_Neck_Lungs_Heart_Abdomen_Extremities",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their corresponding attributes, separated by commas:\n\nRight Breast: historic, T1, N2, M0\nDCIS: historic\nRight Axillary Lymph Node: historic, metastatic\nLeft Axillary Lymph Node: uncertain\nLeft Breast: historic, normal\nThyroid: uncertain\nLungs: normal\nHeart: normal\nAbdomen: normal\nExtremities: normal"
+    },
+    "llama-2-13b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\n\nPatient Name..................Fake Patient1",
+        "type": " Based on the information provided, the medical document is a 'Clinical Note'.",
+        "date": "January 31, 2010, at 10:15.",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nDiagnostic\n\nThe document includes a detailed clinical history, physical examination, and diagnostic imaging results, which indicate that the patient has been diagnosed with stage IIA infiltrating ductal carcinoma of the right breast with metastatic lymph node in the right axilla. The document also mentions the patient's treatment plan, which includes neoadjuvant chemotherapy, indicating that the patient is in the diagnostic stage of care. Therefore, the answer is (D) Diagnostic.",
+        "sections": " Sure, I can help you with that! Here is the list of main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nMain content sections:\n\n1. Clinical History\n2. Interim History\n3. Physical Exam\n4. Impression\n\nI hope this helps! Let me know if you have any further questions or if there's anything else I can assist you with.",
+        "classUri-mentions": " Sure, I can help you with that! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Left_Axillary_Lymphadenopathy, Left_Breast.\n\nHere's the list in the format you requested:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Left_Axillary_Lymphadenopathy, Left_Breast.",
+        "attributes": "Right breast: historic, DCIS, Right axillary lymph node: historic, metastatic, Left breast: conditional, MRI: historic, 1 o'clock position: historic, 1.2x3.4x5.6 cm: historic, left axillary lymphadenopathy: historic, MRI of the left breast: historic, PET/CT: historic, no evidence of distant metastases: historic, Well appearing female in NAD: uncertain, VS: uncertain, BP 120/80: uncertain, Pulse 7"
+    },
+    "llama-2-7b-chat": {
+        "name": "Patient Name: Fake Patient1\n\nAnswer format:\nPatient Name: {patient's name}",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is:\n20100131 1015\nFormat: Month DD, YYYY at HH:MM\nNote: The date is written in the format of Month DD, YYYY at HH:MM, indicating that the principal date of the document is January 31, 2010 at 10:15 AM.",
+        "episode": " Based on the information provided in the medical document, the stage of patient care relates to 'Diagnostic' (or 'Post-diagnostic'). This is because the document provides information about the patient's medical history, diagnosis, and treatment plan, which is typical of a diagnostic or post-diagnostic stage of care.\n\nThe document includes details about the patient's clinical history, including the diagnosis of triple negative infiltrating ductal carcinoma of the right breast and DCIS, as well as the results of diagnostic imaging and biopsy. The document also outlines the treatment plan, including neoadjuvant chemotherapy consisting of Adriamycin and Carboplatin, and the monitoring of tumor response during therapy.\n\nTherefore, the answer to the question is 'Diagnostic' (or 'Post-diagnostic').",
+        "sections": "Here are the main content sections or headings contained in the provided medical document:\nHistory of Present Illness, Past Medical History, Physical Exam, VS, HEENT, Neck, Lungs, Abdomen, Extremities.\nTherefore, the answer to the question is: History of Present Illness, Past Medical History, Physical Exam, VS, HEENT, Neck, Lungs, Abdomen, Extremities.",
+        "classUri-mentions": "Right_Axillary_Lymph_Node, Right_Breast, Upper_inner_Quadrant, Left_Axillary_Lymphadenopathy, Left_Breast",
+        "attributes": " Here are the attributes for each anatomical entity mentioned in the document:\n\nRight: historic, Right_Breast: historic\n\n* Historic refers to the fact that the patient has a history of cancer in the right breast.\n* Right_Breast refers to the specific location of the cancer in the right breast.\n\nMRI: generic\n\n* Generic refers to the fact that the MRI is a diagnostic tool used to evaluate the patient's condition, but it does not provide any specific information about the anatomy of the breast.\n\nTumor: conditional\n\n* Conditional refers to the fact that the size of the tumor (1.9 cm in diameter) is mentioned in the document, but it is not clear if this information is relevant to the patient's current condition.\n\nLymph node: uncertain\n\n* Uncertain refers to the fact that the biopsy of the lymph node revealed metastatic disease, but it is not clear if this information is relevant to the patient's current condition.\n\nAxillary: historic\n\n* Historic refers to the fact that the patient has a history of cancer in the axillary lymph nodes.\n\nBreast: generic\n\n* Generic refers to the fact that the breast is a general anatomical structure, and the document does not provide any specific information about the breast that is relevant to the patient's current condition.\n\nHEENT: negative\n\n* Negative refers to the fact that the document does not mention any abnormalities in the patient's eyes, ears, nose, or throat.\n\nNeck: supple\n\n* Supple refers to the fact that the patient's neck is flexible and does not show any abnormalities.\n\nThyroid: not enlarged\n\n* Not enlarged refers to the fact that the patient's thyroid gland is not larger than normal.\n\nLungs: clear\n\n* Clear refers to the fact that the document does not mention any abnormalities in the patient's lungs.\n\nAbdomen: soft, non-tender, non-distended\n\n* Soft, non-tender, non-distended refers to the fact that the patient's abdomen is soft, non-tender, and non-distended, without any abnormalities.\n\nPulses: good\n\n* Good refers to the fact that the patient has normal pulses in both arms.\n\n Clubbing, cyanosis, or edema: absent\n\n* Absent refers to the fact that the document does not mention any of these conditions."
     }
 }

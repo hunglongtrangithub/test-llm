@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient3",
+    "name": "Fake Patient3",
     "type": "Clinical Note",
-    "date": "201001161045",
+    "date": "January 16, 2010 at 10:45 AM",
     "episode": "Treatment",
     "sections": "History of Present Illness, Examination, Assessment",
-    "classUri-mentions": "Left_Breast, PR_, Right_Breast, Urinary_Bladder, Breast, Adenocarcinoma, Right_Breast, T2_Stage, Right, Ductal_Breast_Carcinoma_In_Situ, Right_Breast, Stage_2B, ER_, Upper_Outer_Quadrant, Right_Breast, Abdomen, Invasive_Ductal_Breast_Carcinoma, Limb, Breast_Carcinoma, M0_Stage, Intestine, Stage_2, Heart, Breast, Left_Breast, HER2, Right, Right, Neck, Left, Right_Breast, Breast_Carcinoma, Sentinel_Lymph_Node, Invasive_Ductal_Breast_Carcinoma, N0_Stage, Sclera, Mass, Mass",
-    "classUri-begins-ends": "1050:1061, 905:913, 481:494, 1442:1449, 999:1005, 1133:1147, 691:703, 1937:1939, 1980:1985, 2009:2013, 1980:1992, 1124:1132, 892:900, 663:683, 2040:2052, 1756:1763, 862:887, 1823:1834, 488:501, 1943:1945, 1433:1438, 1918:1935, 1616:1621, 1644:1651, 1714:1725, 924:932, 481:486, 691:696, 1578:1582, 1050:1054, 1653:1665, 999:1012, 2078:2097, 1947:1972, 1940:1942, 1548:1554, 1038:1042, 748:752",
-    "attributes": "Left_Breast: historic, PR_: historic, Right_Breast: historic, Urinary_Bladder: negated, Urinary_Bladder: historic, Breast: uncertain, Breast: historic, Adenocarcinoma: historic, Right_Breast: historic, Stage_2B: historic, ER_: historic, Upper_Outer_Quadrant: historic, Invasive_Ductal_Breast_Carcinoma: historic, Breast_Carcinoma: historic, Intestine: negated, Intestine: historic, HER2: historic, Right: historic, Right: historic, Left: historic, Breast_Carcinoma: historic, Sclera: negated, Mass: historic, Mass: historic"
+    "classUri-mentions": "M0_Stage, PR_, Right_Breast, Breast_Carcinoma, Abdomen, Mass, Stage_2B, Right, Sclera, Ductal_Breast_Carcinoma_In_Situ, T2_Stage, N0_Stage, Upper_Outer_Quadrant, HER2, Urinary_Bladder, Intestine, Left_Breast, Invasive_Ductal_Breast_Carcinoma, Sentinel_Lymph_Node, ER_, Stage_2, Left, Adenocarcinoma, Neck, Breast, Heart, Limb",
+    "attributes": "Left_Breast: historic, PR_: historic, Right_Breast: historic, Urinary_Bladder: negated, historic, Breast: uncertain, historic, Adenocarcinoma: historic, Right_Breast: historic, T2_Stage: , Right: , Ductal_Breast_Carcinoma_In_Situ: , Right_Breast: , Stage_2B: historic, ER_: historic, Upper_Outer_Quadrant: historic, Right_Breast: , Abdomen: , Invasive_Ductal_Breast_Carcinoma: historic, Limb: , Breast_Carcinoma: historic, M0_Stage: , Intestine: negated, historic, Stage_2: , Heart: , Breast: , Left_Breast: , HER2: historic, Right: historic, Right: historic, Neck: , Left: historic, Right_Breast: , Breast_Carcinoma: historic, Sentinel_Lymph_Node: , Invasive_Ductal_Breast_Carcinoma: , N0_Stage: , Sclera: negated, Mass: historic, Mass: historic"
 }

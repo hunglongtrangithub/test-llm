@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient2",
+    "name": "Fake Patient2",
     "type": "Clinical Note",
-    "date": "201003011015",
+    "date": "March 01, 2010 at 10:15 AM",
     "episode": "Medical Decision-making",
     "sections": "Final Diagnosis, Procedure, Interim History, Examination, Impression, Recommendation",
-    "classUri-mentions": "Left, ER_, Left, Neoplasm, Stage_3A, M0_Stage, PR_, Invasive_Ductal_Breast_Carcinoma, Left_Breast, T3_Stage, Left_Breast, Breast, HER2, Breast_Carcinoma, Breast, Left_Breast, Neoplasm, Axillary_Lymph_Node, N2_Stage, Axillary_Lymph_Node",
-    "classUri-begins-ends": "1082:1086, 409:417, 385:389, 1341:1349, 1040:1048, 381:383, 422:430, 1049:1074, 838:849, 373:375, 1082:1093, 1398:1404, 441:449, 390:403, 939:946, 385:396, 1261:1269, 500:519, 377:379, 1140:1159",
-    "attributes": "Neoplasm: generic, Neoplasm: generic"
+    "classUri-mentions": "Left, ER_, Axillary_Lymph_Node, M0_Stage, HER2, Stage_3A, PR_, T3_Stage, N2_Stage, Neoplasm, Breast_Carcinoma, Left_Breast, Breast, Invasive_Ductal_Breast_Carcinoma",
+    "attributes": "Left: , ER_: , Left: , Neoplasm: generic, Stage_3A: , M0_Stage: , PR_: , Invasive_Ductal_Breast_Carcinoma: , Left_Breast: , T3_Stage: , Left_Breast: , Breast: , HER2: , Breast_Carcinoma: , Breast: , Left_Breast: , Neoplasm: generic, Axillary_Lymph_Node: , N2_Stage: , Axillary_Lymph_Node: "
 }

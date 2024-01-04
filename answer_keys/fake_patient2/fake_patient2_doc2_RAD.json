@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient2",
+    "name": "Fake Patient2",
     "type": "Radiology Report",
-    "date": "200911301135",
+    "date": "November 30, 2009 at 11:35 AM",
     "episode": "Pre-diagnostic",
     "sections": "Clinical History, Technique, Findings, Impression, Assessment",
-    "classUri-mentions": "Breast, Malignant_Neoplasm, Lymph_Node, Mass, Mass, Left_Breast, Mass, Left_Breast, Left, Left, Left, Breast, Metastasis, Breast, Mass, Mass, Mass, Left_Breast, Left_Breast, Axillary_Lymph_Node, Axillary_Lymph_Node, Malignant_Neoplasm, Right, Malignant_Neoplasm, Mass, Mass, Left_Breast, Left, Right_Breast, Lymph_Node",
-    "classUri-begins-ends": "523:530, 1485:1495, 1299:1310, 849:853, 1502:1506, 413:424, 401:405, 938:949, 413:417, 938:942, 1447:1451, 1760:1766, 1632:1650, 773:780, 1058:1062, 1144:1148, 1409:1413, 640:651, 1164:1175, 1586:1606, 1224:1244, 1803:1813, 879:884, 1906:1916, 906:910, 980:984, 1447:1458, 1164:1168, 879:891, 1325:1335",
-    "attributes": "Malignant_Neoplasm: generic, Mass: negated, Left_Breast: historic, Mass: historic, Left: historic, Metastasis: uncertain, Mass: generic, Mass: uncertain, Malignant_Neoplasm: uncertain, Malignant_Neoplasm: generic, Malignant_Neoplasm: uncertain, Malignant_Neoplasm: generic"
+    "classUri-mentions": "Left, Axillary_Lymph_Node, Right, Malignant_Neoplasm, Metastasis, Lymph_Node, Right_Breast, Left_Breast, Breast, Mass",
+    "attributes": "Breast: , Malignant_Neoplasm: generic, Lymph_Node: , Mass: negated, Mass: , Left_Breast: historic, Mass: historic, Left_Breast: , Left: historic, Left: , Left: , Breast: , Metastasis: uncertain, Breast: , Mass: , Mass: generic, Mass: uncertain, Left_Breast: , Left_Breast: , Axillary_Lymph_Node: , Axillary_Lymph_Node: , Malignant_Neoplasm: uncertain, generic, Right: , Malignant_Neoplasm: uncertain, generic, Mass: , Mass: , Left_Breast: , Left: , Right_Breast: , Lymph_Node: "
 }

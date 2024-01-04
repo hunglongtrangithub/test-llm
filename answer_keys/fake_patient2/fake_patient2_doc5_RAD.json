@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient2",
+    "name": "Fake Patient2",
     "type": "Radiology Report",
-    "date": "200912060245",
+    "date": "December 06, 2009 at 02:45 AM",
     "episode": "unknown",
     "sections": "Technique, Findings, Impression",
-    "classUri-mentions": "Malignant_Neoplasm, Left, Bilateral, Left_Breast, Left_Breast, Left_Breast, Malignant_Neoplasm, Breast, Malignant_Neoplasm, Breast, Left",
-    "classUri-begins-ends": "759:769, 1168:1172, 969:983, 633:644, 837:848, 1168:1179, 1043:1053, 505:511, 1250:1260, 984:991, 633:637",
-    "attributes": "Malignant_Neoplasm: negated, Malignant_Neoplasm: historic, Breast: negated, Malignant_Neoplasm: historic"
+    "classUri-mentions": "Left, Malignant_Neoplasm, Left_Breast, Bilateral, Breast",
+    "attributes": "Malignant_Neoplasm: negated, historic, Left: , Bilateral: , Left_Breast: , Left_Breast: , Left_Breast: , Malignant_Neoplasm: , Breast: negated, Malignant_Neoplasm: historic, Breast: , Left: "
 }

@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient5",
+    "name": "Fake Patient5",
     "type": "Surgical Pathology Report",
-    "date": "200905050330",
+    "date": "May 05, 2009 at 03:30 AM",
     "episode": "Pre-diagnostic",
     "sections": "Clinical History, Final Diagnosis, Comment",
-    "classUri-mentions": "Left_Axillary_Lymph_Node, HER2, Left_Breast, Atypical_Lobular_Hyperplasia, Lymph_Node, Axillary_Lymph_Node, Ductal_Breast_Carcinoma_In_Situ, Breast, Left, Invasive_Ductal_Breast_Carcinoma, ER_, Left, Intermediate_Grade, Left, Invasive_Ductal_Breast_Carcinoma, _1_O_clock, Malignant_Neoplasm, PR_, Metastasis, Mass, Breast, Breast, Ductal_Breast_Carcinoma_In_Situ",
-    "classUri-begins-ends": "413:437, 1234:1242, 385:396, 1064:1092, 871:882, 744:763, 1015:1039, 898:904, 517:521, 962:987, 1156:1164, 385:389, 997:1004, 906:910, 574:599, 523:533, 713:728, 1202:1210, 804:822, 373:377, 509:515, 839:845, 627:651",
-    "attributes": "Left_Axillary_Lymph_Node: historic, Left_Breast: historic, Left: historic, Mass: historic"
+    "classUri-mentions": "Axillary_Lymph_Node, Left, ER_, _1_O_clock, HER2, Ductal_Breast_Carcinoma_In_Situ, Malignant_Neoplasm, Atypical_Lobular_Hyperplasia, PR_, Left_Axillary_Lymph_Node, Metastasis, Lymph_Node, Left_Breast, Breast, Invasive_Ductal_Breast_Carcinoma, Intermediate_Grade, Mass",
+    "attributes": "Left_Axillary_Lymph_Node: historic, HER2: , Left_Breast: historic, Atypical_Lobular_Hyperplasia: , Lymph_Node: , Axillary_Lymph_Node: , Ductal_Breast_Carcinoma_In_Situ: , Breast: , Left: , Invasive_Ductal_Breast_Carcinoma: , ER_: , Left: historic, Intermediate_Grade: , Left: , Invasive_Ductal_Breast_Carcinoma: , _1_O_clock: , Malignant_Neoplasm: , PR_: , Metastasis: , Mass: historic, Breast: , Breast: , Ductal_Breast_Carcinoma_In_Situ: "
 }

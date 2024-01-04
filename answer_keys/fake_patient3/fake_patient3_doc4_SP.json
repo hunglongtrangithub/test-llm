@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient3",
+    "name": "Fake Patient3",
     "type": "Surgical Pathology Report",
-    "date": "201003010330",
+    "date": "March 01, 2010 at 03:30 AM",
     "episode": "unknown",
     "sections": "Final Diagnosis, Comment, Gross Description",
-    "classUri-mentions": "PR_, Metastatic_Breast_Carcinoma, Lymph_Node, Right_Axilla_Proper, Breast, ER_, HER2, Right, HER2, Lymph_Node, Right_Axilla_Proper",
-    "classUri-begins-ends": "592:600, 421:448, 337:348, 793:805, 432:438, 560:568, 641:651, 350:355, 611:619, 396:407, 350:362",
-    "attributes": ""
+    "classUri-mentions": "Right_Axilla_Proper, ER_, Right, HER2, PR_, Lymph_Node, Breast, Metastatic_Breast_Carcinoma",
+    "attributes": "PR_: , Metastatic_Breast_Carcinoma: , Lymph_Node: , Right_Axilla_Proper: , Breast: , ER_: , HER2: , Right: , HER2: , Lymph_Node: , Right_Axilla_Proper: "
 }

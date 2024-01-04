@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient5",
+    "name": "Fake Patient5",
     "type": "Radiology Report",
-    "date": "201002061015",
+    "date": "February 06, 2010 at 10:15 AM",
     "episode": "unknown",
     "sections": "Clinical History, Technique, Findings, Impression",
-    "classUri-mentions": "Abdomen, Lung, Malignant_Neoplasm, Abdomen, Lung, Lung, Lung, Left_Lobe_Of_The_Liver, Left_Lobe_Of_The_Liver, Left, Lung, Lung, Left, Multiple_Pulmonary_Nodules, Middle_Lobe_Of_The_Right_Lung, Thorax, Right_Lower_Lung_Lobe, Chest_And_Abdomen, Invasive_Ductal_Breast_Carcinoma, Left_Breast, Lung, Multiple_Pulmonary_Nodules, Axillary_Lymph_Node, Lung",
-    "classUri-begins-ends": "643:650, 895:899, 1162:1172, 970:977, 1064:1073, 663:668, 1189:1193, 1120:1142, 1023:1045, 1120:1124, 1090:1095, 917:926, 366:370, 1064:1081, 824:841, 466:471, 942:958, 528:545, 378:403, 366:377, 849:853, 917:934, 418:438, 624:628",
-    "attributes": "Left: uncertain, Left: historic, Thorax: historic, Chest_And_Abdomen: historic, Invasive_Ductal_Breast_Carcinoma: historic, Left_Breast: uncertain, Left_Breast: historic, Axillary_Lymph_Node: uncertain, Axillary_Lymph_Node: historic"
+    "classUri-mentions": "Left_Lobe_Of_The_Liver, Left, Middle_Lobe_Of_The_Right_Lung, Chest_And_Abdomen, Axillary_Lymph_Node, Malignant_Neoplasm, Multiple_Pulmonary_Nodules, Lung, Left_Breast, Thorax, Right_Lower_Lung_Lobe, Invasive_Ductal_Breast_Carcinoma, Abdomen",
+    "attributes": "Abdomen: , Lung: , Malignant_Neoplasm: , Abdomen: , Lung: , Lung: , Lung: , Left_Lobe_Of_The_Liver: , Left_Lobe_Of_The_Liver: , Left: , Lung: , Lung: , Left: uncertain, historic, Multiple_Pulmonary_Nodules: , Middle_Lobe_Of_The_Right_Lung: , Thorax: historic, Right_Lower_Lung_Lobe: , Chest_And_Abdomen: historic, Invasive_Ductal_Breast_Carcinoma: historic, Left_Breast: uncertain, historic, Lung: , Multiple_Pulmonary_Nodules: , Axillary_Lymph_Node: uncertain, historic, Lung: "
 }

@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient3",
+    "name": "Fake Patient3",
     "type": "Surgical Pathology Report",
-    "date": "201002010345",
+    "date": "February 01, 2010 at 03:45 AM",
     "episode": "Diagnostic",
     "sections": "Patient, Final Diagnosis",
-    "classUri-mentions": "Right_Breast, Right_Breast, Invasive_Ductal_Breast_Carcinoma, Upper_Outer_Quadrant, PR_, Right_Axilla_Proper, Breast_Adenocarcinoma, Lymph_Node, Left_Breast, Neoplasm, Right, PT2_Stage, Right, Neoplasm, Left, HER2, Metastatic_Carcinoma, Stage_2B, Invasive_Ductal_Breast_Carcinoma, PN1_Stage, ER_, Neoplasm, HER2, Sentinel_Lymph_Node, Ductal_Breast_Carcinoma_In_Situ",
-    "classUri-begins-ends": "560:572, 398:410, 616:641, 690:710, 1105:1113, 868:880, 441:462, 916:926, 436:447, 796:801, 398:403, 1238:1241, 868:873, 846:851, 436:440, 1160:1168, 940:960, 427:435, 365:390, 1251:1254, 1050:1058, 759:764, 1214:1227, 882:901, 718:722",
-    "attributes": "Right_Breast: uncertain, Right_Breast: historic, Breast_Adenocarcinoma: historic, Left_Breast: uncertain, Left_Breast: historic, Neoplasm: negated, Right: uncertain, Right: historic, Left: uncertain, Left: historic, Stage_2B: uncertain, Stage_2B: historic, Invasive_Ductal_Breast_Carcinoma: uncertain, Invasive_Ductal_Breast_Carcinoma: historic"
+    "classUri-mentions": "Right_Axilla_Proper, PR_, PN1_Stage, Neoplasm, Right_Breast, Metastatic_Carcinoma, Stage_2B, Right, Ductal_Breast_Carcinoma_In_Situ, Lymph_Node, Breast_Adenocarcinoma, Upper_Outer_Quadrant, HER2, Left_Breast, Invasive_Ductal_Breast_Carcinoma, Sentinel_Lymph_Node, Left, ER_, PT2_Stage",
+    "attributes": "Right_Breast: , Right_Breast: uncertain, historic, Invasive_Ductal_Breast_Carcinoma: , Upper_Outer_Quadrant: , PR_: , Right_Axilla_Proper: , Breast_Adenocarcinoma: historic, Lymph_Node: , Left_Breast: uncertain, historic, Neoplasm: negated, Right: uncertain, historic, PT2_Stage: , Right: , Neoplasm: , Left: uncertain, historic, HER2: , Metastatic_Carcinoma: , Stage_2B: uncertain, historic, Invasive_Ductal_Breast_Carcinoma: uncertain, historic, PN1_Stage: , ER_: , Neoplasm: , HER2: , Sentinel_Lymph_Node: , Ductal_Breast_Carcinoma_In_Situ: "
 }

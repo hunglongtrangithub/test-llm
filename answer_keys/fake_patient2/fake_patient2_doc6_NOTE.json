@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient2",
+    "name": "Fake Patient2",
     "type": "Clinical Note",
-    "date": "201001300325",
+    "date": "January 30, 2010 at 03:25 AM",
     "episode": "Medical Decision-making",
     "sections": "Final Diagnosis, Impression",
-    "classUri-mentions": "Left_Breast, Left, Breast_Carcinoma, Left, Left, Metastasis, ER_, PR_, T3_Stage, Stage_3A, Breast, Left_Breast, Axillary_Lymph_Node, Left_Breast, Breast_Carcinoma, Left_Breast, PR_, Invasive_Ductal_Breast_Carcinoma, HER2, Left_Axillary_Lymph_Node, M0_Stage, Mass_In_Breast, Left, Left, Left_Breast, Invasive_Ductal_Breast_Carcinoma, Left_Axillary_Lymph_Node, Secondary_Neoplasm, ER_, HER2, N2_Stage, Mass, Axillary_Lymph_Node, Left_Breast",
-    "classUri-begins-ends": "379:390, 983:987, 625:638, 1667:1671, 379:383, 664:674, 395:403, 1639:1647, 336:338, 324:334, 739:745, 1105:1116, 931:951, 983:994, 1672:1685, 620:631, 408:416, 346:371, 1657:1665, 1008:1032, 342:344, 988:999, 620:624, 1105:1109, 845:856, 1072:1097, 1140:1164, 1122:1132, 1626:1634, 426:434, 339:341, 807:811, 644:663, 1667:1678",
-    "attributes": ""
+    "classUri-mentions": "Left, ER_, Axillary_Lymph_Node, Mass_In_Breast, HER2, M0_Stage, Stage_3A, PR_, T3_Stage, Left_Axillary_Lymph_Node, Metastasis, N2_Stage, Breast_Carcinoma, Secondary_Neoplasm, Left_Breast, Breast, Invasive_Ductal_Breast_Carcinoma, Mass",
+    "attributes": "Left_Breast: , Left: , Breast_Carcinoma: , Left: , Left: , Metastasis: , ER_: , PR_: , T3_Stage: , Stage_3A: , Breast: , Left_Breast: , Axillary_Lymph_Node: , Left_Breast: , Breast_Carcinoma: , Left_Breast: , PR_: , Invasive_Ductal_Breast_Carcinoma: , HER2: , Left_Axillary_Lymph_Node: , M0_Stage: , Mass_In_Breast: , Left: , Left: , Left_Breast: , Invasive_Ductal_Breast_Carcinoma: , Left_Axillary_Lymph_Node: , Secondary_Neoplasm: , ER_: , HER2: , N2_Stage: , Mass: , Axillary_Lymph_Node: , Left_Breast: "
 }

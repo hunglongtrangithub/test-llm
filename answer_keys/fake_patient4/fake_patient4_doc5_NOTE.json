@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient4",
+    "name": "Fake Patient4",
     "type": "Clinical Note",
-    "date": "201106251115",
+    "date": "June 25, 2011 at 11:15 AM",
     "episode": "unknown",
     "sections": "Final Diagnosis, Examination, Impression",
-    "classUri-mentions": "Bilateral, Right_Axillary_Lymph_Node, Invasive_Lobular_Breast_Carcinoma, ER_, Bilateral, N2_Stage, Invasive_Ductal_Breast_Carcinoma, Left_Breast, Right, Heart, Mass_In_Breast, Mass, Breast, Breast, Bilateral_Breast_Cancer, Sclera, Neoplasm, Neck, HER2, Right, Metastasis, T3_Stage, Axillary_Lymph_Node, Invasive_Ductal_Breast_Carcinoma, Left, Mass_In_Breast, Right_Axillary_Lymph_Node, Breast, Epithelial_Ovarian_Cancer, Right, Breast, Dysplastic_Nevus, Left_Breast, PR_, Invasive_Lobular_Breast_Carcinoma, Right_Breast, M0_Stage, Secondary_Neoplasm, Right_Breast, Mass, Lung, Left_Breast, Ovary, Left, Left, Right_Breast, Bilateral_Breast_Cancer",
-    "classUri-begins-ends": "710:719, 1364:1389, 993:1019, 448:456, 2012:2021, 340:342, 920:945, 432:443, 890:895, 1826:1833, 1219:1230, 952:956, 1151:1157, 2022:2028, 2012:2038, 1744:1750, 1180:1185, 1763:1767, 476:484, 380:385, 1390:1400, 337:339, 1069:1089, 347:372, 964:968, 1294:1305, 739:764, 720:726, 1493:1510, 1213:1218, 844:850, 1711:1714, 964:975, 461:469, 398:424, 1213:1225, 343:345, 765:775, 380:392, 878:882, 1787:1792, 1289:1300, 1493:1500, 1289:1293, 1488:1492, 890:902, 710:733",
-    "attributes": "Epithelial_Ovarian_Cancer: historic, Ovary: uncertain, Ovary: historic, Left: uncertain, Left: historic"
+    "classUri-mentions": "M0_Stage, Dysplastic_Nevus, PR_, Neoplasm, Right_Breast, Secondary_Neoplasm, T3_Stage, Mass, Axillary_Lymph_Node, Right, Sclera, Bilateral, Right_Axillary_Lymph_Node, Mass_In_Breast, Ovary, HER2, N2_Stage, Metastasis, Lung, Left_Breast, Invasive_Ductal_Breast_Carcinoma, ER_, Left, Invasive_Lobular_Breast_Carcinoma, Epithelial_Ovarian_Cancer, Bilateral_Breast_Cancer, Neck, Breast, Heart",
+    "attributes": "Bilateral: , Right_Axillary_Lymph_Node: , Invasive_Lobular_Breast_Carcinoma: , ER_: , Bilateral: , N2_Stage: , Invasive_Ductal_Breast_Carcinoma: , Left_Breast: , Right: , Heart: , Mass_In_Breast: , Mass: , Breast: , Breast: , Bilateral_Breast_Cancer: , Sclera: , Neoplasm: , Neck: , HER2: , Right: , Metastasis: , T3_Stage: , Axillary_Lymph_Node: , Invasive_Ductal_Breast_Carcinoma: , Left: , Mass_In_Breast: , Right_Axillary_Lymph_Node: , Breast: , Epithelial_Ovarian_Cancer: historic, Right: , Breast: , Dysplastic_Nevus: , Left_Breast: , PR_: , Invasive_Lobular_Breast_Carcinoma: , Right_Breast: , M0_Stage: , Secondary_Neoplasm: , Right_Breast: , Mass: , Lung: , Left_Breast: , Ovary: uncertain, historic, Left: , Left: uncertain, historic, Right_Breast: , Bilateral_Breast_Cancer: "
 }

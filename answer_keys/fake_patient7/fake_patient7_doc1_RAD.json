@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient7",
+    "name": "Fake Patient7",
     "type": "Radiology Report",
-    "date": "201005101045",
+    "date": "May 10, 2010 at 10:45 AM",
     "episode": "Pre-diagnostic",
     "sections": "Clinical History, Technique, Findings, Impression",
-    "classUri-mentions": "Left, Left_Axillary_Lymph_Node, Metastasis, Left, Left_Breast, Mass, Left, Mass_In_Breast, Left_Axillary_Lymph_Node, Left_Breast, Left_Axilla_Proper, Left_Breast, Malignant_Neoplasm, Left_Breast, Carcinoma, Lobular_Mass, Left_Breast, Left, Left_Breast, Left_Axillary_Lymph_Node, Lymph_Node, Carcinoma, Left_Axilla_Proper, Metastasis, Left_Breast, Mass, Mass, Left_Breast, Left, Left",
-    "classUri-begins-ends": "1417:1421, 1279:1303, 1176:1194, 740:744, 557:568, 877:881, 628:632, 1422:1433, 1123:1147, 508:519, 953:964, 1218:1229, 1258:1268, 1417:1428, 692:701, 774:788, 1098:1109, 1098:1102, 628:639, 1447:1471, 980:990, 1081:1090, 573:584, 1326:1344, 740:751, 707:711, 440:444, 452:463, 1218:1222, 452:456",
-    "attributes": "Metastasis: uncertain, Malignant_Neoplasm: uncertain, Carcinoma: uncertain, Metastasis: uncertain, Mass: uncertain, Mass: historic, Left_Breast: historic, Left: historic"
+    "classUri-mentions": "Left_Axilla_Proper, Left, Mass_In_Breast, Malignant_Neoplasm, Left_Axillary_Lymph_Node, Metastasis, Lymph_Node, Left_Breast, Carcinoma, Lobular_Mass, Mass",
+    "attributes": "Left: , Left_Axillary_Lymph_Node: , Metastasis: uncertain, Left: , Left_Breast: , Mass: , Left: , Mass_In_Breast: , Left_Axillary_Lymph_Node: , Left_Breast: , Left_Axilla_Proper: , Left_Breast: , Malignant_Neoplasm: uncertain, Left_Breast: , Carcinoma: uncertain, Lobular_Mass: , Left_Breast: , Left: , Left_Breast: , Left_Axillary_Lymph_Node: , Lymph_Node: , Carcinoma: , Left_Axilla_Proper: , Metastasis: uncertain, Left_Breast: , Mass: , Mass: uncertain, historic, Left_Breast: historic, Left: , Left: historic"
 }

@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient4",
+    "name": "Fake Patient4",
     "type": "Clinical Note",
-    "date": "201107271115",
+    "date": "July 27, 2011 at 11:15 AM",
     "episode": "Medical Decision-making",
     "sections": "Final Diagnosis, Procedure, Interim History, Past Medical History, Examination, Impression, Recommendation",
-    "classUri-mentions": "Right, Right, Right, Invasive_Ductal_Breast_Carcinoma, Right_Breast, Neoplasm, Breast, ER_, Invasive_Ductal_Breast_Carcinoma, M0_Stage, Left_Breast, Lymph_Node, Right_Breast, Invasive_Lobular_Breast_Carcinoma, Right_Breast, Epithelial_Ovarian_Cancer, Malignant_Neoplasm, HER2, Left, N2_Stage, Left, Left_Breast, Right_Axillary_Lymph_Node, Left_Axillary_Lymph_Node, Left_Breast, Invasive_Lobular_Breast_Carcinoma, Ovary, Invasive_Ductal_Breast_Carcinoma, PR_, T3_Stage, Invasive_Lobular_Breast_Carcinoma, Right_Breast",
-    "classUri-begins-ends": "605:610, 419:424, 1542:1547, 1509:1534, 1542:1554, 1735:1743, 1770:1776, 486:494, 386:411, 382:384, 470:481, 705:716, 605:617, 1560:1586, 1315:1327, 1036:1053, 735:745, 518:526, 747:751, 378:380, 1031:1035, 747:758, 667:692, 1651:1675, 1594:1605, 436:462, 1036:1043, 637:662, 499:507, 374:376, 777:803, 419:431",
-    "attributes": "Lymph_Node: negated, Epithelial_Ovarian_Cancer: historic, Malignant_Neoplasm: negated, Left: uncertain, Left: historic, Ovary: uncertain, Ovary: historic"
+    "classUri-mentions": "M0_Stage, PR_, Neoplasm, Right_Breast, T3_Stage, Right, Left_Axillary_Lymph_Node, Lymph_Node, Right_Axillary_Lymph_Node, Ovary, HER2, N2_Stage, Left_Breast, Invasive_Ductal_Breast_Carcinoma, ER_, Left, Invasive_Lobular_Breast_Carcinoma, Epithelial_Ovarian_Cancer, Malignant_Neoplasm, Breast",
+    "attributes": "Right: , Right: , Right: , Invasive_Ductal_Breast_Carcinoma: , Right_Breast: , Neoplasm: , Breast: , ER_: , Invasive_Ductal_Breast_Carcinoma: , M0_Stage: , Left_Breast: , Lymph_Node: negated, Right_Breast: , Invasive_Lobular_Breast_Carcinoma: , Right_Breast: , Epithelial_Ovarian_Cancer: historic, Malignant_Neoplasm: negated, HER2: , Left: , N2_Stage: , Left: uncertain, historic, Left_Breast: , Right_Axillary_Lymph_Node: , Left_Axillary_Lymph_Node: , Left_Breast: , Invasive_Lobular_Breast_Carcinoma: , Ovary: uncertain, historic, Invasive_Ductal_Breast_Carcinoma: , PR_: , T3_Stage: , Invasive_Lobular_Breast_Carcinoma: , Right_Breast: "
 }

@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient3",
+    "name": "Fake Patient3",
     "type": "Clinical Note",
-    "date": "201003110325",
+    "date": "March 11, 2010 at 03:25 AM",
     "episode": "Medical Decision-making",
     "sections": "Final Diagnosis, Procedure, Interim History, Past Medical History, Examination, Impression, Recommendation",
-    "classUri-mentions": "PR_, Breast, Breast, Right, N1_Stage, Adenocarcinoma, Right, Invasive_Ductal_Breast_Carcinoma, Stage_2B, Right_Axillary_Lymph_Node, ER_, Left_Breast, Axillary_Lymph_Node, T2_Stage, Metastasis, Breast, Neoplasm, Right_Axillary_Lymph_Node, Carcinoma_Breast_Stage_IV, Left, Stage_2, HER2, Breast_Carcinoma, M0_Stage, Axillary_Lymph_Node, Neoplasm, Breast, Invasive_Ductal_Breast_Carcinoma, Right_Breast, Mass",
-    "classUri-begins-ends": "526:534, 939:945, 433:439, 1477:1482, 403:405, 1073:1087, 411:416, 1444:1469, 1064:1072, 1537:1562, 513:521, 990:1001, 728:747, 399:401, 455:473, 774:780, 1744:1752, 567:592, 763:787, 990:994, 1436:1443, 545:553, 939:952, 407:409, 487:507, 1664:1672, 1801:1807, 417:449, 1477:1489, 978:982",
-    "attributes": "Breast: uncertain, Breast: historic, Adenocarcinoma: historic, Stage_2B: historic, Left_Breast: historic, Axillary_Lymph_Node: historic, Breast: historic, Neoplasm: generic, Carcinoma_Breast_Stage_IV: historic, Left: historic, Breast_Carcinoma: historic, Neoplasm: generic, Mass: historic"
+    "classUri-mentions": "M0_Stage, PR_, Neoplasm, Breast_Carcinoma, Right_Breast, Mass, Axillary_Lymph_Node, Stage_2B, Right, T2_Stage, Carcinoma_Breast_Stage_IV, Right_Axillary_Lymph_Node, HER2, Metastasis, Left_Breast, Invasive_Ductal_Breast_Carcinoma, ER_, Left, Stage_2, Adenocarcinoma, N1_Stage, Breast",
+    "attributes": "PR_: , Breast: uncertain, historic, Breast: , Right: , N1_Stage: , Adenocarcinoma: historic, Right: , Invasive_Ductal_Breast_Carcinoma: , Stage_2B: historic, Right_Axillary_Lymph_Node: , ER_: , Left_Breast: historic, Axillary_Lymph_Node: historic, T2_Stage: , Metastasis: , Breast: historic, Neoplasm: generic, Right_Axillary_Lymph_Node: , Carcinoma_Breast_Stage_IV: historic, Left: historic, Stage_2: , HER2: , Breast_Carcinoma: historic, M0_Stage: , Axillary_Lymph_Node: , Neoplasm: generic, Breast: , Invasive_Ductal_Breast_Carcinoma: , Right_Breast: , Mass: historic"
 }

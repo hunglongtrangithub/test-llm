@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient5",
+    "name": "Fake Patient5",
     "type": "Surgical Pathology Report",
-    "date": "201002071230",
+    "date": "February 07, 2010 at 12:30 PM",
     "episode": "unknown",
     "sections": "Clinical History, Pre-op Diagnosis, Post-op Diagnosis, Procedure, Final Diagnosis",
-    "classUri-mentions": "Poorly_Differentiated_Carcinoma, Left_Lower_Lung_Lobe, HER2, Lung, Metastatic_Breast_Carcinoma, Lung, Pulmonary_Mass, Lung, Breast, Pulmonary_Mass, Breast",
-    "classUri-begins-ends": "594:625, 544:559, 690:698, 538:542, 384:411, 436:440, 468:477, 468:472, 642:648, 436:445, 395:401",
-    "attributes": "Metastatic_Breast_Carcinoma: historic, Breast: uncertain, Breast: historic"
+    "classUri-mentions": "HER2, Left_Lower_Lung_Lobe, Pulmonary_Mass, Lung, Poorly_Differentiated_Carcinoma, Breast, Metastatic_Breast_Carcinoma",
+    "attributes": "Poorly_Differentiated_Carcinoma: , Left_Lower_Lung_Lobe: , HER2: , Lung: , Metastatic_Breast_Carcinoma: historic, Lung: , Pulmonary_Mass: , Lung: , Breast: , Pulmonary_Mass: , Breast: uncertain, historic"
 }

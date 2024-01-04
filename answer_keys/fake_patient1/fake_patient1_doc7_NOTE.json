@@ -1,10 +1,9 @@
 {
-    "name": "fake_patient1",
+    "name": "Fake Patient1",
     "type": "Clinical Note",
-    "date": "201102011015",
+    "date": "February 01, 2011 at 10:15 AM",
     "episode": "Medical Decision-making",
     "sections": "Clinical History, Interim History, Examination, Impression, Recommendation",
-    "classUri-mentions": "HER2, Right_Breast, Malignant_Neoplasm, Stage_2A, Mass, Right_Breast, Mass, Right_Breast, Left, Left_Breast, M0_Stage, Right, PR_, Ductal_Carcinoma, Right, Axillary_Lymph_Node, Mass_In_Breast, Stage_2A, Lower_Outer_Quadrant, Mass, Right_Breast, Axillary_Lymph_Node, Breast, N2_Stage, Carcinoma_Breast_Stage_IV, ER_, Left_Breast, Left, Mass, Mass, Round_Mass, Axilla, Left_Breast, Left_Breast, Left_Breast, Ductal_Carcinoma, T1_Stage",
-    "classUri-begins-ends": "572:580, 935:947, 1378:1388, 1783:1791, 1178:1182, 482:494, 2064:2068, 1598:1610, 1905:1909, 1202:1213, 441:443, 1829:1834, 554:562, 1805:1821, 482:487, 516:536, 1910:1923, 422:431, 1482:1502, 1347:1351, 1829:1841, 815:834, 663:669, 437:439, 652:676, 541:549, 1510:1521, 1202:1206, 1982:1986, 1312:1316, 1464:1474, 952:958, 1117:1128, 1905:1916, 684:695, 458:474, 433:435",
+    "classUri-mentions": "Axilla, M0_Stage, PR_, Right_Breast, T1_Stage, Mass, Axillary_Lymph_Node, Right, Ductal_Carcinoma, Carcinoma_Breast_Stage_IV, Mass_In_Breast, Stage_2A, HER2, Round_Mass, N2_Stage, Lower_Outer_Quadrant, Left_Breast, Left, ER_, Malignant_Neoplasm, Breast",
     "attributes": "HER2: historic, Right_Breast: historic, Malignant_Neoplasm: uncertain, generic, historic, Stage_2A: , Mass: historic, Right_Breast: historic, Mass: , Right_Breast: , Left: , Left_Breast: historic, M0_Stage: , Right: , PR_: historic, Ductal_Carcinoma: , Right: historic, Axillary_Lymph_Node: historic, Mass_In_Breast: , Stage_2A: uncertain, historic, Lower_Outer_Quadrant: , Mass: generic, historic, Right_Breast: , Axillary_Lymph_Node: historic, Breast: historic, N2_Stage: , Carcinoma_Breast_Stage_IV: historic, ER_: historic, Left_Breast: , Left: historic, Mass: , Mass: historic, Round_Mass: , Axilla: historic, Left_Breast: historic, Left_Breast: , Left_Breast: historic, Ductal_Carcinoma: historic, T1_Stage: "
 }
