@@ -1,6 +1,7 @@
 from get_answer_keys import load_answer_keys
 from get_llm_responses import collect_llm_responses
 from get_evaluation_results import get_evaluation_results
+from natsort import os_sorted
 import json
 import os
 
@@ -14,8 +15,9 @@ MODEL_LIST = [
     "gemini-pro",
     "gpt-3.5-turbo-0613",
     "llama-2-70b-chat",
+    "llama-2-13b-chat",
     "llama-2-7b-chat",
-    "code-llama-34b",
+    # "vicuna-13b-v1.5-16k",
 ]
 
 
@@ -27,22 +29,42 @@ def get_patient_to_document_names(
     if patient_name is not None:
         # Get the document names for the patient
         patient_document_names[patient_name] = []
-        for filename in os.listdir(f"{path}/{patient_name}"):
-            if filename.endswith(".txt"):
-                doc_name = os.path.splitext(filename)[0]
-                if document_name is not None:
-                    if doc_name == document_name:
-                        patient_document_names[patient_name].append(doc_name)
-                        return patient_document_names
-                else:
+        txt_files = os_sorted(
+            [
+                filename
+                for filename in os.listdir(f"{path}/{patient_name}")
+                if filename.endswith(".txt")
+            ]
+        )
+        for filename in txt_files:
+            doc_name = os.path.splitext(filename)[0]
+            if document_name is not None:
+                if doc_name == document_name:
                     patient_document_names[patient_name].append(doc_name)
+                    return patient_document_names
+            else:
+                patient_document_names[patient_name].append(doc_name)
         return patient_document_names
-    for dirpath, _, filenames in os.walk(path):
-        if dirpath == path:
-            continue
-        patient_name = os.path.basename(dirpath)
-        txt_files = [filename for filename in filenames if filename.endswith(".txt")]
-        patient_document_names[patient_name] = txt_files
+    else:
+        patient_names = os_sorted(
+            [
+                dir_name
+                for dir_name in os.listdir(path)
+                if os.path.isdir(os.path.join(path, dir_name))
+            ]
+        )
+        for patient_name in patient_names:
+            patient_document_names[patient_name] = []
+            txt_files = os_sorted(
+                [
+                    filename
+                    for filename in os.listdir(f"{path}/{patient_name}")
+                    if filename.endswith(".txt")
+                ]
+            )
+            for filename in txt_files:
+                doc_name = os.path.splitext(filename)[0]
+                patient_document_names[patient_name].append(doc_name)
     return patient_document_names
 
 
@@ -63,12 +85,14 @@ def main():
     print("Loaded questions from questions.json")
     # Load the answer keys
     answer_keys = load_answer_keys(
-        patient_name="fake_patient1", document_name="fake_patient1_doc1_RAD"
+        patient_name="fake_patient1", 
+        document_name="fake_patient1_doc1_RAD"
     )
     print("Loaded answer keys from answer_keys.json")
     # Get patient to document names
     patient_to_document_names = get_patient_to_document_names(
-        patient_name="fake_patient1", document_name="fake_patient1_doc1_RAD"
+        patient_name="fake_patient1", 
+        document_name="fake_patient1_doc1_RAD"
     )
     print("Loaded patient to document names")
     # Collect LLM responses and evaluation
