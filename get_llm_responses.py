@@ -3,6 +3,20 @@ import google.generativeai as genai
 import os
 from helper import save_json_file, load_json_file
 
+# from transformers import pipeline, AutoModelForQuestionAnswering, AutoTokenizer
+
+# vicuna_model_name = "vicuna-13b-v1.5-16k"
+# # model = AutoModelForQuestionAnswering.from_pretrained(vicuna_model_name)
+# # tokenizer = AutoTokenizer.from_pretrained(vicuna_model_name)
+# # vicuna_pipeline = pipeline("question-answering", model=model, tokenizer=tokenizer)
+# vicuna_pipeline = pipeline("text-generation", model=vicuna_model_name)
+
+
+# def get_vicuna_response(system_prompt, user_prompt):
+#     message = vicuna_pipeline(system_prompt + "\n" + user_prompt)
+#     print(message)
+#     return message
+
 
 def get_gpt4_response(system_prompt, user_prompt):
     client = OpenAI()
@@ -41,13 +55,15 @@ def get_llm_response(model_name, system_prompt, user_prompt):
         return get_gpt4_response(system_prompt, user_prompt)
     elif model_name == "gemini-pro":
         return get_gemini_response(system_prompt, user_prompt)
+    # elif model_name == "vicuna-13b-v1.5-16k":
+    #     return get_vicuna_response(system_prompt, user_prompt)
     base_url = "https://api.naga.ac/v1/"
     api_key = os.getenv("CHIMERA_GPT_KEY")
     client = OpenAI(base_url=base_url, api_key=api_key)
     messages = [
-        {"role": "system", "content": system_prompt},
-        # {"role": "user", "content": system_prompt + "\n" + user_prompt},
-        {"role": "user", "content": user_prompt},
+        # {"role": "system", "content": system_prompt},
+        {"role": "user", "content": system_prompt + "\n" + user_prompt},
+        # {"role": "user", "content": user_prompt},
     ]
     response = client.chat.completions.create(model=model_name, messages=messages)
     message = response.choices[0].message.content
@@ -101,12 +117,12 @@ if __name__ == "__main__":
     system_prompt = "You are an alien from outer space. You have come to Earth to learn about humans."
     user_prompt = "What is your name? What planet do you come from?"
     model_names = [
-        "gpt-4",
-        "gemini-pro",
-        "gpt-3.5-turbo-0613",
-        "llama-2-70b-chat",
-        "llama-2-7b-chat",
-        "code-llama-34b",
+        # "gpt-4",
+        # "gemini-pro",
+        # "gpt-3.5-turbo-0613",
+        # "llama-2-70b-chat",
+        # "llama-2-7b-chat",
+        "llama-2-13b-chat",
     ]
     for model_name in model_names:
         print(f"Model: {model_name}")
