@@ -16,15 +16,14 @@ def normalize_string(s: str) -> str:
     return s
 
 
-MODEL_NAME = "roberta-large-mnli"
-# Load a pre-trained NLI model from Hugging Face
-NLI_MODEL = pipeline("text-classification", model=MODEL_NAME)
+# Load the NLI model
+nli_model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 
-
-def evaluate_by_nli(response: str, answer: str) -> tuple[str, float]:
-    # Use the NLI model to predict the relationship
-    result = NLI_MODEL(f"{answer} {response}")
-    label, score = result[0]["label"], result[0]["score"]
+def evaluate_by_nli(response: str, answer: str) -> tuple[list[str], list[float]]:
+    candidate_labels = ["entailment", "contradiction", "neutral"]
+    hypothesis_template = f"This text is {{}} to \"{answer}\"."
+    result = nli_model(response, candidate_labels=candidate_labels, hypothesis_template=hypothesis_template)
+    label, score = max(zip(result["labels"], result["scores"]), key=lambda x: x[1])
     return label, score
 
 
