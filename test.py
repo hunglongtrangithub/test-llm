@@ -2,7 +2,12 @@ from datetime import datetime
 from get_llm_responses import collect_llm_responses
 from get_evaluation_results import get_evaluation_results, normalize_string
 from get_answer_keys import get_answer_keys
-from main import load_questions, SYSTEM_PROMPT, make_user_prompt
+from main import (
+    load_questions,
+    SYSTEM_PROMPT,
+    make_user_prompt,
+    get_patient_to_document_names,
+)
 from helper import translate_principal_date
 import json
 
@@ -30,11 +35,13 @@ def test_get_evaluation_results():
         "question1": "The capital of France is Paris.",
         "question2": "Python is an interpreted, high-level, general-purpose programming language.",
         "question3": "medical document's principal date: January 23, 2010 at 10:45 AM",
+        "question4": "The capital of France is Paris."
     }
     responses = {
         "question1": "Paris is the capital of France.",
         "question2": "Python is a high-level, interpreted, general-purpose programming language.",
         "question3": "The principal date of the medical document is January 23, 2010 at 10:45.",
+        "question4": "The capital of France is Paris." * 1000,
     }
     # Evaluate the responses
     evaluations = get_evaluation_results(responses, answer_keys)
@@ -66,11 +73,17 @@ def test_normalize_string():
     print(normalize_string(s))
 
 
+def test_get_patient_to_document_names():
+    patient_to_document_names = get_patient_to_document_names()
+    print(json.dumps(patient_to_document_names, indent=4))
+
+
 if __name__ == "__main__":
     # test_collect_llm_responses()
-    # test_get_evaluation_results()
+    test_get_evaluation_results()
     # test_make_user_prompt()
     # test_get_answer_keys()
     # test_translate_principal_date()
-    test_normalize_string()
+    # test_normalize_string()
+    # test_get_patient_to_document_names()
     pass
