@@ -17,7 +17,6 @@ MODEL_LIST = [
     "llama-2-70b-chat",
     "llama-2-13b-chat",
     "llama-2-7b-chat",
-    # "vicuna-13b-v1.5-16k",
 ]
 
 
@@ -85,14 +84,12 @@ def main():
     print("Loaded questions from questions.json")
     # Load the answer keys
     answer_keys = load_answer_keys(
-        patient_name="fake_patient1", 
-        document_name="fake_patient1_doc1_RAD"
+        patient_name="fake_patient1", document_name="fake_patient1_doc1_RAD"
     )
     print("Loaded answer keys from answer_keys.json")
     # Get patient to document names
     patient_to_document_names = get_patient_to_document_names(
-        patient_name="fake_patient1", 
-        document_name="fake_patient1_doc1_RAD"
+        patient_name="fake_patient1", document_name="fake_patient1_doc1_RAD"
     )
     print("Loaded patient to document names")
     # Collect LLM responses and evaluation

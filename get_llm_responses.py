@@ -1,22 +1,7 @@
-import openai
 from openai import OpenAI
 import google.generativeai as genai
 import os
 from helper import save_json_file, load_json_file
-
-# from transformers import pipeline, AutoModelForQuestionAnswering, AutoTokenizer
-
-# vicuna_model_name = "vicuna-13b-v1.5-16k"
-# # model = AutoModelForQuestionAnswering.from_pretrained(vicuna_model_name)
-# # tokenizer = AutoTokenizer.from_pretrained(vicuna_model_name)
-# # vicuna_pipeline = pipeline("question-answering", model=model, tokenizer=tokenizer)
-# vicuna_pipeline = pipeline("text-generation", model=vicuna_model_name)
-
-
-# def get_vicuna_response(system_prompt, user_prompt):
-#     message = vicuna_pipeline(system_prompt + "\n" + user_prompt)
-#     print(message)
-#     return message
 
 
 def get_gpt4_response(system_prompt, user_prompt):
@@ -46,8 +31,6 @@ def get_llm_response(model_name, system_prompt, user_prompt):
         return get_gpt4_response(system_prompt, user_prompt)
     elif model_name == "gemini-pro":
         return get_gemini_response(system_prompt, user_prompt)
-    # elif model_name == "vicuna-13b-v1.5-16k":
-    #     return get_vicuna_response(system_prompt, user_prompt)
     base_url = "https://api.naga.ac/v1/"
     api_key = os.getenv("CHIMERA_GPT_KEY")
     client = OpenAI(base_url=base_url, api_key=api_key)
