@@ -55,10 +55,7 @@ def save_json_file(file_path, data):
 
 
 def translate_principal_date(principal_date):
-    # Parse the date and time
     dt = datetime.strptime(principal_date, "%Y%m%d%H%M")
-
-    # Format to a more readable form
     formatted_date = dt.strftime("%B %d, %Y at %I:%M %p")
     return formatted_date
 
