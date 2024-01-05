@@ -35,7 +35,7 @@ def test_get_evaluation_results():
         "question1": "The capital of France is Paris.",
         "question2": "Python is an interpreted, high-level, general-purpose programming language.",
         "question3": "medical document's principal date: January 23, 2010 at 10:45 AM",
-        "question4": "The capital of France is Paris."
+        "question4": "The capital of France is Paris.",
     }
     responses = {
         "question1": "Paris is the capital of France.",
