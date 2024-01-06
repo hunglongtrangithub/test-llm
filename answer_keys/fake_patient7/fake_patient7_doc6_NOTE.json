@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient7",
-    "type": "Clinical Note",
-    "date": "July 12, 2010 at 02:15 AM",
-    "episode": "unknown",
-    "sections": "Clinical History, Interim History, Past Medical History, Examination, Impression",
-    "classUri-mentions": "Bone_Marrow, Chronic_Lymphocytic_Leukemia, M0_Stage, Dysplastic_Nevus, PR_, Neoplasm, T1_Stage, Metastatic_Carcinoma, Stage_1B, Tumor_Cell_Invasion, Sclera, Ductal_Carcinoma, Ductal_Breast_Carcinoma_In_Situ, N1mi_Stage, Left_Axillary_Lymph_Node, Lymph_Node, Vascular, HER2, Lung, High_Grade, Thyroid_Gland, Left_Breast, Sentinel_Lymph_Node, ER_, Left, Neck, Breast, Heart",
-    "attributes": "N1mi_Stage: , Heart: , Left_Axillary_Lymph_Node: historic, Vascular: historic, Neoplasm: , ER_: historic, High_Grade: historic, Chronic_Lymphocytic_Leukemia: uncertain, historic, Stage_1B: historic, Sclera: , T1_Stage: , Bone_Marrow: historic, Lymph_Node: historic, Metastatic_Carcinoma: historic, Breast: , Neoplasm: generic, HER2: historic, Left_Breast: historic, Ductal_Carcinoma: historic, Neck: , M0_Stage: , Sentinel_Lymph_Node: historic, Left: historic, Left: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Lung: , Ductal_Carcinoma: historic, PR_: historic, Left_Breast: historic, Dysplastic_Nevus: uncertain, Thyroid_Gland: negated, Tumor_Cell_Invasion: historic"
-}

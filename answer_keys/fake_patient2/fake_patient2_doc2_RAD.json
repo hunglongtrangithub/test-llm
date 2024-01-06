@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient2",
-    "type": "Radiology Report",
-    "date": "November 30, 2009 at 11:35 AM",
-    "episode": "Pre-diagnostic",
-    "sections": "Clinical History, Technique, Findings, Impression, Assessment",
-    "classUri-mentions": "Left, Axillary_Lymph_Node, Right, Malignant_Neoplasm, Metastasis, Lymph_Node, Right_Breast, Left_Breast, Breast, Mass",
-    "attributes": "Breast: , Malignant_Neoplasm: generic, Lymph_Node: , Mass: negated, Mass: , Left_Breast: historic, Mass: historic, Left_Breast: , Left: historic, Left: , Left: , Breast: , Metastasis: uncertain, Breast: , Mass: , Mass: generic, Mass: uncertain, Left_Breast: , Left_Breast: , Axillary_Lymph_Node: , Axillary_Lymph_Node: , Malignant_Neoplasm: uncertain, generic, Right: , Malignant_Neoplasm: uncertain, generic, Mass: , Mass: , Left_Breast: , Left: , Right_Breast: , Lymph_Node: "
-}

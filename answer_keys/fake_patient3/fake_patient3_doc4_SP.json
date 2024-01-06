@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient3",
-    "type": "Surgical Pathology Report",
-    "date": "March 01, 2010 at 03:30 AM",
-    "episode": "unknown",
-    "sections": "Final Diagnosis, Comment, Gross Description",
-    "classUri-mentions": "Right_Axilla_Proper, ER_, Right, HER2, PR_, Lymph_Node, Breast, Metastatic_Breast_Carcinoma",
-    "attributes": "PR_: , Metastatic_Breast_Carcinoma: , Lymph_Node: , Right_Axilla_Proper: , Breast: , ER_: , HER2: , Right: , HER2: , Lymph_Node: , Right_Axilla_Proper: "
-}

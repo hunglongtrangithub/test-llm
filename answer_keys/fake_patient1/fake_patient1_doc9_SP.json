@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient1",
-    "type": "Surgical Pathology Report",
-    "date": "February 15, 2011 at 12:30 PM",
-    "episode": "Diagnostic",
-    "sections": "Clinical History, Final Diagnosis",
-    "classUri-mentions": "Stage_2A, Right_Breast, Right, ER_, PR_, Invasive_Lobular_Breast_Carcinoma, Left_Axillary_Lymph_Node, Ductal_Breast_Carcinoma_In_Situ, HER2, Lymph_Node, Left_Breast, PN0_Stage, PT1a_Stage, Ductal_Carcinoma, Left, Lobular_Breast_Carcinoma_In_Situ, Neoplasm",
-    "attributes": "PN0_Stage: , PR_: , Right_Breast: uncertain, historic, Neoplasm: negated, Left_Axillary_Lymph_Node: , Lymph_Node: negated, Neoplasm: negated, Left_Breast: , Left_Axillary_Lymph_Node: , Ductal_Breast_Carcinoma_In_Situ: , Left: , HER2: , Invasive_Lobular_Breast_Carcinoma: , Left: historic, Right: uncertain, historic, Stage_2A: uncertain, historic, PT1a_Stage: , ER_: , Invasive_Lobular_Breast_Carcinoma: historic, HER2: , Lobular_Breast_Carcinoma_In_Situ: , Lymph_Node: negated, Ductal_Carcinoma: historic, Left_Breast: historic"
-}

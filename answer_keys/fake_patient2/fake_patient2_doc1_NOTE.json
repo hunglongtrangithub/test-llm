@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient2",
-    "type": "Clinical Note",
-    "date": "November 03, 2009 at 10:45 AM",
-    "episode": "unknown",
-    "sections": "History of Present Illness, Allergies, Examination, Assessment",
-    "classUri-mentions": "Left, Sclera, Urinary_Bladder, Neck, Intestine, Right_Breast, Left_Breast, Breast, Heart, Abdomen, Limb, Mass",
-    "attributes": "Neck: , Left_Breast: historic, Sclera: negated, Intestine: negated, historic, Mass: negated, Urinary_Bladder: negated, historic, Mass: , Breast: , Limb: , Left: historic, Left: , Left: historic, Left: , Mass: , Abdomen: , Left_Breast: historic, Left_Breast: , Left_Breast: , Right_Breast: negated, Mass: historic, Heart: , Mass: historic"
-}

@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient1",
-    "type": "Clinical Note",
-    "date": "May 31, 2010 at 11:45 AM",
-    "episode": "unknown",
-    "sections": "Final Diagnosis, Interim History, Examination, Impression",
-    "classUri-mentions": "T1_Stage, Breast, Upper_inner_Quadrant, Right_Axillary_Lymph_Node, Neck, Metastasis, Thyroid_Gland, Secondary_Neoplasm, Breast_Carcinoma, Lung, Sclera, Ductal_Carcinoma, Mass, Heart, Stage_2A, Right_Breast, Right, Dysplastic_Nevus, Axillary_Lymph_Node, M0_Stage, N2_Stage",
-    "attributes": "Breast: historic, Upper_inner_Quadrant: historic, Lung: , T1_Stage: , Secondary_Neoplasm: negated, historic, Right_Breast: , Dysplastic_Nevus: uncertain, Mass: historic, Thyroid_Gland: negated, Right_Breast: historic, Heart: , Right_Axillary_Lymph_Node: historic, M0_Stage: , Metastasis: historic, Breast: historic, Ductal_Carcinoma: , Sclera: , Stage_2A: , Axillary_Lymph_Node: historic, Right_Breast: historic, Right: , N2_Stage: , Axillary_Lymph_Node: historic, Right: historic, Ductal_Carcinoma: , Right: , Right_Breast: , Breast_Carcinoma: historic, Neck: , Mass: historic"
-}

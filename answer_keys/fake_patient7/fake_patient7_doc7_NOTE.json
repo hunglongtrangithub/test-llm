@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient7",
-    "type": "Clinical Note",
-    "date": "October 26, 2010 at 10:15 AM",
-    "episode": "unknown",
-    "sections": "Clinical History, Interim History, Past Medical History, Examination, Impression",
-    "classUri-mentions": "Bone_Marrow, Chronic_Lymphocytic_Leukemia, M0_Stage, Dysplastic_Nevus, PR_, Neoplasm, T1_Stage, Metastatic_Carcinoma, Stage_1B, Tumor_Cell_Invasion, Sclera, Ductal_Breast_Carcinoma_In_Situ, Ductal_Carcinoma, N1mi_Stage, Left_Axillary_Lymph_Node, Lymph_Node, Skin, Vascular, HER2, Lung, High_Grade, Thyroid_Gland, Left_Breast, Sentinel_Lymph_Node, Left, ER_, Neck, Breast, Heart",
-    "attributes": "High_Grade: historic, M0_Stage: , Vascular: historic, Left_Breast: historic, Metastatic_Carcinoma: historic, Neck: , Left_Axillary_Lymph_Node: historic, Neoplasm: historic, Left: historic, Sentinel_Lymph_Node: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Lymph_Node: historic, Stage_1B: historic, Left: historic, HER2: historic, N1mi_Stage: , Left_Breast: historic, Skin: negated, Sclera: , Ductal_Carcinoma: historic, Left_Breast: negated, Ductal_Carcinoma: historic, Bone_Marrow: historic, Tumor_Cell_Invasion: historic, Left_Breast: historic, PR_: historic, T1_Stage: , Left: historic, Left: historic, Thyroid_Gland: negated, Left_Breast: historic, Chronic_Lymphocytic_Leukemia: uncertain, historic, Heart: , Dysplastic_Nevus: uncertain, Breast: , Ductal_Carcinoma: historic, Lung: , ER_: historic"
-}

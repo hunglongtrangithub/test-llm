@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient2",
-    "type": "Surgical Pathology Report",
-    "date": "November 30, 2009 at 03:30 AM",
-    "episode": "Diagnostic",
-    "sections": "Final Diagnosis, Comment, Gross Description",
-    "classUri-mentions": "Left_Axilla_Proper, Left, ER_, HER2, _2_O_clock, Ductal_Breast_Carcinoma_In_Situ, PR_, Left_Breast, High_Grade, Lymph_Node, Breast, Invasive_Ductal_Breast_Carcinoma, Metastatic_Carcinoma",
-    "attributes": "_2_O_clock: , Left_Axilla_Proper: , Left_Breast: , Lymph_Node: , HER2: , Breast: , Invasive_Ductal_Breast_Carcinoma: , Lymph_Node: , Lymph_Node: , _2_O_clock: , Left_Axilla_Proper: , Left: , ER_: , Left: , HER2: , Metastatic_Carcinoma: , PR_: , Ductal_Breast_Carcinoma_In_Situ: , High_Grade: "
-}

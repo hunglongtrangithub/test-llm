@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient4",
-    "type": "Clinical Note",
-    "date": "April 04, 2011 at 10:25 AM",
-    "episode": "unknown",
-    "sections": "Final Diagnosis, Examination, Impression",
-    "classUri-mentions": "M0_Stage, Dysplastic_Nevus, PR_, Right_Breast, Secondary_Neoplasm, T3_Stage, Mass, Axillary_Lymph_Node, Right, Sclera, Bilateral, Right_Axillary_Lymph_Node, Ovary, HER2, N2_Stage, Lung, Left_Breast, Invasive_Ductal_Breast_Carcinoma, Left, ER_, Invasive_Lobular_Breast_Carcinoma, Epithelial_Ovarian_Cancer, Bilateral_Breast_Cancer, Neck, Breast, Heart",
-    "attributes": "Bilateral_Breast_Cancer: , Lung: , Right: , Invasive_Ductal_Breast_Carcinoma: , Right: , Axillary_Lymph_Node: , Heart: , Left: , T3_Stage: , Left_Breast: , Invasive_Ductal_Breast_Carcinoma: , PR_: , Breast: , Secondary_Neoplasm: , Left_Breast: , Dysplastic_Nevus: , Right_Breast: , Mass: , Sclera: , Bilateral: , Bilateral: , M0_Stage: , Bilateral_Breast_Cancer: , ER_: , Left: uncertain, historic, Invasive_Lobular_Breast_Carcinoma: , Right_Breast: , Ovary: uncertain, historic, Epithelial_Ovarian_Cancer: historic, Neck: , Mass: , Right_Axillary_Lymph_Node: , Breast: , N2_Stage: , HER2: , Breast: , Invasive_Lobular_Breast_Carcinoma: "
-}

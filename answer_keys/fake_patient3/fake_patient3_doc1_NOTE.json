@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient3",
-    "type": "Clinical Note",
-    "date": "January 16, 2010 at 10:45 AM",
-    "episode": "Treatment",
-    "sections": "History of Present Illness, Examination, Assessment",
-    "classUri-mentions": "M0_Stage, PR_, Right_Breast, Breast_Carcinoma, Abdomen, Mass, Stage_2B, Right, Sclera, Ductal_Breast_Carcinoma_In_Situ, T2_Stage, N0_Stage, Upper_Outer_Quadrant, HER2, Urinary_Bladder, Intestine, Left_Breast, Invasive_Ductal_Breast_Carcinoma, Sentinel_Lymph_Node, ER_, Stage_2, Left, Adenocarcinoma, Neck, Breast, Heart, Limb",
-    "attributes": "Left_Breast: historic, PR_: historic, Right_Breast: historic, Urinary_Bladder: negated, historic, Breast: uncertain, historic, Adenocarcinoma: historic, Right_Breast: historic, T2_Stage: , Right: , Ductal_Breast_Carcinoma_In_Situ: , Right_Breast: , Stage_2B: historic, ER_: historic, Upper_Outer_Quadrant: historic, Right_Breast: , Abdomen: , Invasive_Ductal_Breast_Carcinoma: historic, Limb: , Breast_Carcinoma: historic, M0_Stage: , Intestine: negated, historic, Stage_2: , Heart: , Breast: , Left_Breast: , HER2: historic, Right: historic, Right: historic, Neck: , Left: historic, Right_Breast: , Breast_Carcinoma: historic, Sentinel_Lymph_Node: , Invasive_Ductal_Breast_Carcinoma: , N0_Stage: , Sclera: negated, Mass: historic, Mass: historic"
-}

@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient7",
-    "type": "Radiology Report",
-    "date": "May 16, 2010 at 10:45 AM",
-    "episode": "Pre-diagnostic",
-    "sections": "Clinical History, Procedure, Technique, Impression",
-    "classUri-mentions": "Axilla, Left_Axilla_Proper, Left, Mass_In_Breast, Left_Axillary_Lymph_Node, Lymph_Node, Left_Breast, Skin, Mass",
-    "attributes": "Axilla: , Left: , Left_Axillary_Lymph_Node: historic, Mass: , Mass_In_Breast: , Left_Breast: , Left_Breast: , Left_Breast: , Skin: , Left_Axilla_Proper: , Lymph_Node: , Mass_In_Breast: , Mass: , Left_Breast: historic, Axilla: , Left: , Left: historic, Left_Breast: , Left: , Lymph_Node: , Left_Breast: , Left_Axillary_Lymph_Node: , Mass_In_Breast: historic, Mass: , Left_Axillary_Lymph_Node: , Skin: , Left_Breast: "
-}

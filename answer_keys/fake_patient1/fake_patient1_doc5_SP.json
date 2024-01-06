@@ -1,9 +1,0 @@
-{
-    "name": "Fake Patient1",
-    "type": "Surgical Pathology Report",
-    "date": "July 10, 2010 at 10:15 AM",
-    "episode": "Diagnostic",
-    "sections": "Clinical History, Final Diagnosis",
-    "classUri-mentions": "Right_Breast, Right, PM0_Stage, Axillary_Lymph_Node, Metastatic_Carcinoma, Ductal_Breast_Carcinoma_In_Situ, HER2, Left_Axillary_Lymph_Node, Secondary_Neoplasm, Ductal_Carcinoma, Metastasis, Upper_inner_Quadrant, PN2_Stage, PT1_Stage, Right_Axillary_Lymph_Node, Neoplasm",
-    "attributes": "Right: , Metastatic_Carcinoma: , Right: historic, Ductal_Carcinoma: historic, PM0_Stage: , Ductal_Breast_Carcinoma_In_Situ: negated, Metastasis: historic, Axillary_Lymph_Node: , PT1_Stage: , HER2: , Right_Breast: historic, Upper_inner_Quadrant: , Neoplasm: historic, Left_Axillary_Lymph_Node: historic, Right_Axillary_Lymph_Node: , Ductal_Carcinoma: , Right_Breast: historic, PN2_Stage: , Secondary_Neoplasm: , Right_Breast: , Axillary_Lymph_Node: historic"
-}
