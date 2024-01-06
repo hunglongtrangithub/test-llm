@@ -20,6 +20,7 @@ input/
 output/
 answer_keys/
 llm_responses/
+share/
 
 # Ignore system files
 .DS_Store
