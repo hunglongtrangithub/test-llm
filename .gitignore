@@ -18,6 +18,8 @@ pyvenv.cfg
 # Ignore data files
 input/
 output/
+answer_keys/
+llm_responses/
 
 # Ignore system files
 .DS_Store
