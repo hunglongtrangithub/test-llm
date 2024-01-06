@@ -4,6 +4,6 @@
     "date": "August 30, 2010 at 11:15 AM",
     "episode": "unknown",
     "sections": "Clinical History, Interim History, Impression",
-    "classUri-mentions": "Right_Axilla_Proper, M0_Stage, PR_, Neoplasm, Right_Breast, Secondary_Neoplasm, Abdomen, T1_Stage, Right, Ductal_Carcinoma, Left_Axillary_Lymph_Node, Right_Axillary_Lymph_Node, Stage_2A, HER2, Metastasis, Lung, N2_Stage, Left_Breast, ER_, Left, Thorax, Heart, Limb",
+    "classUri-mentions": "T1_Stage, PR_, Right_Axilla_Proper, Abdomen, Right_Axillary_Lymph_Node, Neoplasm, Thorax, Left_Breast, Metastasis, Secondary_Neoplasm, Lung, HER2, Ductal_Carcinoma, Left, Heart, Stage_2A, Right_Breast, Right, Limb, ER_, Left_Axillary_Lymph_Node, M0_Stage, N2_Stage",
     "attributes": "Right: historic, Right_Breast: historic, Metastasis: negated, historic, Limb: negated, historic, Neoplasm: historic, ER_: historic, M0_Stage: , Right_Breast: historic, Stage_2A: historic, Abdomen: negated, historic, M0_Stage: , Right_Axillary_Lymph_Node: historic, Lung: negated, historic, Left_Axillary_Lymph_Node: , Ductal_Carcinoma: , HER2: historic, Left: , N2_Stage: , Secondary_Neoplasm: , Right_Breast: historic, Right: historic, Right: historic, Right_Breast: historic, N2_Stage: , Thorax: historic, Right_Axillary_Lymph_Node: historic, Ductal_Carcinoma: historic, Heart: negated, historic, PR_: historic, Secondary_Neoplasm: historic, T1_Stage: , Left_Breast: , Stage_2A: , Right_Axilla_Proper: historic, T1_Stage: , Right: historic"
 }

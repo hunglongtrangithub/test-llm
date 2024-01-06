@@ -1,22 +1,56 @@
 {
     "gpt-4": {
-        "name": "The name of the patient as mentioned in the document is Fake Patient1.",
+        "name": "The patient's name is Fake Patient1.",
         "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
-        "date": "The date of the medical document as noted in the text is August 30, 2010.",
+        "date": "August 30, 2010 at 11:15",
         "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
-        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION",
-        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Chest, Tumor_Bed, Heart, Lungs, Abdomen, Extremities, Left_Breast, Left_Axillary_Lymph_Node",
-        "classUri-begins-ends": "'436:444, 549:554, 587:593, 1261:1269, 1373:1378'",
-        "attributes": "'Right breast: historic, generic', 'Right axillary lymph node: historic, generic', 'Left breast: historic, generic', 'Left axillary lymph node: historic, generic'"
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Surgical_Incision, Chest, Lungs, Tumor_Bed, Cardiac, Abdomen, Extremities, Left_Breast, Left_Axillary_Lymph_Node",
+        "attributes": "Right_Breast: historic, Right_Axillary_Lymph_Node: historic, Surgical_Incision: historic, Chest: generic, Lungs: generic, Abdomen: generic, Extremities: generic, Left_Breast: historic, Left_Axillary_Lymph_Node: historic"
     },
     "gemini-pro": {
         "name": "Fake Patient1",
         "type": "Clinical Note",
-        "date": "20100830",
-        "episode": "Diagnostic",
-        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION",
-        "classUri-mentions": "Right_Breast, Right_Axilla, Lungs, Abdomen, Extremities, Left_Breast, Left_Axillary_Lymph_Nodes",
-        "classUri-begins-ends": "left breast: 685:695, 1052:1062\nleft axillary lymph node: 1062:1077",
-        "attributes": "Right: historic, Right_Breast: historic"
+        "date": "20100830 1115",
+        "episode": "Medical Decision-making",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Right_Axilla, Chest, Lungs, Abdomen, Extremities",
+        "attributes": "Right_Breast: historic, Right_Axilla: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document, as noted in the text, is August 30, 2010 at 11:15 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, On physical exam, IMPRESSION",
+        "classUri-mentions": "Right_Breast, right axillary, lymph node, infiltrating ductal carcinoma, ER negative, PR negative, HER2 negative, Adriamycin, Carboplatin, Abraxane, Tamoxifen, surgical incision, redness, erythema, irritation, signs of infection, chest CT, radiation therapy, lymphadenopathy, post-surgical changes, metastatic disease, tumor bed, physical exam, VSS, Cardiac exam, S1, S2, murmurs, rubs, gallops, lungs, auscultation, wheezes, rales, rhonchi, abdomen, hepatosplenomegaly, extremities, clubbing, cyanosis, edema, stage 2A, neoadjuvant chemotherapy, left breast, left axillary lymph node, disease.",
+        "attributes": "Right breast: historic, post-surgical changes\nRight axilla: historic, post-surgical changes\nChest: historic\nLymphadenopathy: negated\nMetastatic disease: negated\nCardiac exam: generic, normal\nLungs: generic, clear\nAbdomen: generic, soft, non-tender, without hepatosplenomegaly\nExtremities: generic, without clubbing, cyanosis, or edema\nLeft breast: historic, stage 2A infiltrating ductal carcinoma, left axillary lymph node metastases\nLeft axilla: historic, left axillary lymph node metastases\nNeoadjuvant chemotherapy: historic\nRadiation therapy: historic\nDisease: negated"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient1",
+        "type": " The type of medical document referenced in the text is a 'Clinical Note'.\n\nFormat:\n\n* Report ID: 6,doc6\n* Patient ID: pt123123123\n* Patient Name: Fake Patient1\n* Principal Date: 20100830 1115\n* Record Type: NOTE\n* Patient DOB: 04/01/1960\n\nTherefore, the answer to the question is:\n\n* Type of medical document: Clinical Note",
+        "date": "August 30, 2010, 11:15",
+        "episode": " Medical Decision-making",
+        "sections": " CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION.",
+        "classUri-mentions": " Sure, here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Right breast\n* Axilla\n* Left breast\n* Left axilla\n* Chest\n* Lungs\n* Abdomen\n* Extremities\n\nSo, the answer would be:\n\nRight_Breast, Axilla, Left_Breast, Left_Axilla, Chest, Lungs, Abdomen, Extremities",
+        "attributes": " Right Breast: historic, T1 N2 M0 infiltrating ductal carcinoma, Status post modified radical mastectomy\nRight Axilla: historic, N2, status post right axillary lymph node dissection\nLeft Breast: T1, N2, M0 infiltrating ductal carcinoma\nLeft Axilla: N2\nTamoxifen: currently taking, conditional\nAdriamycin and Carboplatin: negated, historic\nAbraxane: negated, historic\nChest CT: negative, historic\nRadiation therapy: completed, historic\nSurgical incision: healed, historic\nPost-surgical changes: present, historic\nMetastatic disease: negated, historic\nTumor bed: historic\nVSS: normal, current\nCardiac exam: normal, current\nLungs: clear, current\nAbdomen: soft, non-tender, current\nExtremities: without clubbing, cyanosis or edema, current\nNeoadjuvant chemotherapy: negated, historic\nRadiation therapy: completed, historic\nDisease: negated, current\nFollow-up: in 6 months, conditional"
+    },
+    "llama-2-13b-chat": {
+        "name": "Patient Name: Fake Patient1",
+        "type": " Based on the information provided, the medical document is a \"CLINICAL NOTE\".",
+        "date": " Sure, I can help you with that!\n\nThe principal date of the medical document is:\n\nMonth DD, YYYY at HH:MM:\n\nThe principal date is: 20100830 1115 (August 30, 2010 at 11:15)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides information about the patient's medical history, clinical history, and interim history, including details about the patient's cancer diagnosis, treatment, and response to treatment. It also includes physical examination findings and an impression section outlining the patient's current status and future treatment plans. All these components indicate that the document is connected to the diagnostic stage of patient care, where the patient's condition is being evaluated and managed. Therefore, the answer is 'Diagnostic'.",
+        "sections": " Sure, I can help you with that! Based on the provided medical document, the main content sections or headings are:\n\n* CLINICAL HISTORY\n* INTERIM HISTORY\n* IMPRESSION\n\nSo, the answer to your question is: CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION.",
+        "classUri-mentions": " Sure, here is the list of distinct anatomical entities mentioned in the document, in the order they appear:\n\nRight_Breast, Axilla, Left_Breast, T1, N2, M0, Infiltrating_Ductal_Carcinoma, Left_Axillary_Lymph_Node_Metastases, Tamoxifen, Radiation_Therapy, Surgical_Incision.",
+        "attributes": " Sure, I can help you with that! Here are the attributes for each anatomical entity mentioned in the document:\n\nRight: historic\nRight Breast: historic\nLeft Breast: uncertain\nLeft Axillary Lymph Node: uncertain\nTumor Bed: conditional\n\nHere's the list of attributes for each entity, as requested:\n\nRight: historic\nRight Breast: historic\nLeft Breast: uncertain\nLeft Axillary Lymph Node: uncertain\nTumor Bed: conditional"
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient ID: pts123123123\nPatient Name: Fake Patient1",
+        "type": " Based on the provided medical document, the type of medical document referenced is a 'Surgical Pathology Report'.\n\nThe document contains information related to a patient's surgical history, including their medical condition, treatment, and follow-up. The term 'CLINICAL HISTORY' is used in the document, indicating that it is a clinical report rather than a radiology or pathology report. Additionally, the information provided in the document is consistent with the format and content of a surgical pathology report, including the patient's personal information, medical history, and surgical details.\n\nTherefore, the answer to the question is 'Surgical Pathology Report'.",
+        "date": "",
+        "episode": "Based on the information provided in the medical document, the stage of patient care relates to 'Diagnostic' or 'Medical Decision-making'.\nThe document provides information about the patient's medical history, including their diagnosis, treatment plan, and current status. The clinical history section mentions the patient's stage 2A (T1 N2 M0) infiltrating ductal carcinoma of the right breast with right axillary lymph node metastases, which indicates that the patient has been diagnosed with breast cancer. The interim history section provides updates on the patient's condition after surgery and radiation therapy, including the healing of their surgical incision and the absence of any signs of infection or metastatic disease.\nThe impression section summarizes the patient's condition and treatment plan, indicating that the patient will continue on Tamoxifen and will be seen in 6 months for further evaluation. This section suggests that the patient is currently undergoing medical decision-making and treatment planning, rather than being in the pre-diagnostic or unknown stages.\nTherefore, the answer to the question is 'Diagnostic' or 'Medical Decision-making",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* CLINICAL HISTORY\n* INTERIM HISTORY\n* IMPRESSION\n\nTherefore, the answer is:\n\nHistory of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Axilla\n* Breast (right breast, left breast)\n* Lymph node (right axillary lymph node, left axillary lymph node)\n* Tumor (infiltrating ductal carcinoma)\n* Node (T1 N2 M0)\n* Chest\n* Thorax\n* Abdomen\n* Extremities (without clubbing, cyanosis or edema)\n\nNote: The document does not mention any other anatomical entities, so this list includes all the entities mentioned in the document.",
+        "attributes": " | Anatomical Entity | Attributes |\n| --- | --- |\n| Right Breast | historic |\n| Right Axillary Lymph Node | historic |\n| T1 | historic |\n| N2 | historic |\n| M0 | historic |\n| Left Breast | generic |\n| Left Axillary Lymph Node | generic |\n| Lungs | uncertain |\n| Abdomen | uncertain |\n| Extremities | uncertain |\n\nExplanation:\n\n* The document mentions the patient's medical history, including the stage of their cancer (stage 2A), the location of the primary tumor (right breast), and the involvement of lymph nodes (right axillary lymph node metastases). These are all considered \"historic\" attributes, as they are part of the patient's medical past.\n* The document does not provide any information about the patient's current anatomy or physiological state, other than a brief physical examination that reveals no abnormalities. These are considered \"uncertain\" attributes, as there is no current information available to categorize them.\n* The document does not mention any other anatomical entities or attributes, such as the heart, liver, or other organs.\n\nNote: The attributes are listed in a format that pairs each anatomical entity with its corresponding attribute category (historic, generic, uncertain, etc.). This format allows for easy identification and organization of the attributes mentioned in the document."
     }
 }

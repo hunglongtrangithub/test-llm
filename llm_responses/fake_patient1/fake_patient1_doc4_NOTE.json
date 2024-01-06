@@ -2,21 +2,55 @@
     "gpt-4": {
         "name": "The patient's name as mentioned in the document is Fake Patient1.",
         "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
-        "date": "The date of the medical document as noted in the text is May 31, 2010 at 11:45.",
+        "date": "The principal date of the medical document is May 31, 2010 at 11:45.",
         "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
-        "sections": "Report ID, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB, DIAGNOSIS, INTERIM HISTORY, Physical Exam, IMPRESSION",
-        "classUri-mentions": "Right_Breast, Axillary_Lymph_Node, Upper_Inner_Quadrant_of_the_Right_Breast, Right_Axillary_Lymph_Nodes, Breast, Thyroid, Lungs, Neck, ABD, EXT",
-        "classUri-begins-ends": "'104:155, 214:237, 587:609, 978:1001'",
-        "attributes": "'Right breast: historic, Right breast: generic, Right axillary lymph node: historic, Right axillary lymph node: generic'"
+        "sections": "DIAGNOSIS, INTERIM HISTORY, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Right_breast, Axillary_lymph_node, Upper_inner_quadrant_of_the_right_breast, Right_axillary_lymph_nodes, Breast, Thyroid, Lungs, Neck, ABD, EXT",
+        "attributes": "Right Breast: historic, \nRight Axillary Lymph Nodes: historic"
     },
     "gemini-pro": {
         "name": "Patient Name: Fake Patient1",
         "type": "Clinical Note",
-        "date": "Principal Date: 20100531",
+        "date": "May 31, 2010 at 11:45",
         "episode": "Medical Decision-making",
         "sections": "Interim History, Physical Exam, Impression",
-        "classUri-mentions": "Right_Breast, Axillary_Lymph_Nodes, Breast_Upper_inner_Quadrant, Right_Axillary_Lymph_Nodes",
-        "classUri-begins-ends": "breast: 1137:1142",
-        "attributes": "Right_Breast: historic\nRight_Axillary_Lymph_Node: historic"
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axillary_Lymph_Nodes",
+        "attributes": "Right_Breast: historic,\nRight_Axillary_Lymph_Nodes: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient1.\"",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "May 31, 2010 at 11:45",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "Interim History, Physical Exam, Impression",
+        "classUri-mentions": "Right_Breast, Axillary_lymph_node, Upper_inner_Quadrant",
+        "attributes": "Right Breast: historic, generic\nAxillary Lymph Nodes: historic, generic"
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient1",
+        "type": " The medical document referenced in the text is a 'Clinical Note'.",
+        "date": " May 31, 2010, 11:45 AM",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nIs there anything else you would like to know or any other way I can assist you? ",
+        "sections": " History of Present Illness, Interim History, Physical Exam, Impression.\n\nNote: The document does not contain any section heading titles, so the response is based on the content of the document. The sections are identified based on their purpose and relevance to the patient's medical history and condition.",
+        "classUri-mentions": " Axilla, Right_Breast, Upper_inner_Quadrant, Right_axillary_lymph_nodes, Thyroid, Lungs, Heart, Abdomen, Extremities",
+        "attributes": "Right: historic\nRight Breast: historic\nAxillary lymph node: historic, generic\nBreast examination: uncertain\nMass: historic, conditional\nMetastatic right axillary lymph node: historic, conditional\nPET/CT: historic\nPhysical Exam: uncertain\nLUNGS: uncertain\nCOR: uncertain\nABD: uncertain\nEXT: uncertain"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I'd be happy to help! Based on the information provided in the medical document, the patient's name is:\n\nFake Patient1\n\nThis information can be found in the \"Patient ID\" section of the document.",
+        "type": " Based on the information provided in the medical document, the type of medical document is a \"Clinical Note\". Therefore, the answer is (C) Clinical Note.",
+        "date": " Based on the information provided in the medical document, the principal date is:\n\nMonth DD, YYYY at HH:MM:\n\n2010-05-31 11:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant.\n\nThe document mentions the following anatomical entities:\n\n1. Axilla (right axillary lymph nodes)\n2. Right Breast (infiltrating ductal carcinoma, palpable lump, measuring 1.0x2.9x3.5 cm)\n3. Upper inner quadrant (of the right breast, at the 1 o'clock position)\n\nTherefore, the list of distinct anatomical entities in the document is: Axilla,",
+        "attributes": "Right: historic\nRight Breast: historic\nAxillary lymph node: historic, uncertain (metastasis)\nBreast examination: historic\nBreast MRI: historic, conditional (revealed the mass... measuring 1.0x2.9x3.5 cm from previous 1.2x3.4x5.6 cm)\nPET/CT: historic, conditional (showed no evidence of distant metastases)\nPhysical Exam: historic\nVS: historic (BP 120/80, Pulse 7"
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the information provided in the medical document, the patient's name is:\n\nPatient ID: p123123123\n\nName: Fake Patient1",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": " According to the medical document provided, the principal date of the medical document is:\n\nMay 31, 2010 at 11:45 AM (format: Month DD, YYYY at HH:MM)\n\nTherefore, the answer is:\n\nMay 31, 2010 at 11:45 AM",
+        "episode": "Based on the information provided in the medical document, the stage of patient care relates to 'Diagnostic' (or 'Interim History').\nThe document provides information about the patient's medical history, including their initial visit for breast cancer diagnosis, the results of breast MRI and PET/CT scans, and their ongoing management of the disease. The document also includes the patient's diagnosis of Stage 2A (T1, N2, M0) infiltrating ductal carcinoma of the right breast, which is a diagnostic label.\nTherefore, the answer to the question is 'Diagnostic' (or 'Interim History').",
+        "sections": " Sure, I can help you with that! Based on the provided medical document, the main content sections or headings are:\n\nHistory of Present Illness, Past Medical History, Physical Exam, and Impression.\n\nTherefore, the answer is: History of Present Illness, Past Medical History, Physical Exam, Impression.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Axilla\n* Breast\n* Lymph nodes (twice)\n* Node (once)\n* Neck\n* Lungs\n* Abdomen\n* Extremities (once)\n\nNote: The term \"Node\" appears only once, and refers to the metastatic right axillary lymph nodes.",
+        "attributes": " Here are the attributes associated with each anatomical entity mentioned in the document:\n\nRight:\n\n* historic (DIAGNOSIS: Stage 2A (T1,N2,M0) infiltrating ductal carcinoma of the right breast triple negative)\n* current (physical exam: Well appearing female in NAD)\n\nRight Breast:\n\n* historic (DIAGNOSIS: Stage 2A (T1,N2,M0) infiltrating ductal carcinoma of the right breast triple negative)\n* current (Breast MRI on 5/25/10 revealed the mass at the 1 o\u2019clock position measuring 1.0x2.9x3.5 cm from previous 1.2x3.4x5.6 cm. The metastatic right axillary lymph node now measures 4.0 mm from previous 7.0 mm)\n\nLymph Nodes:\n\n* current (metastatic right axillary lymph node now measures 4.0 mm from previous 7.0 mm)\n\nPulmonary:\n\n* normal (LUNGS: CTA, No wheezes, rales, rhonchi)\n\nCardiac:\n\n* normal (VS: BP 120/80, Pulse 72, Temp 97.2)\n\nExtremities:\n\n* normal (EXT: Good pulses, No clubbing, cyanosis or edema)\n\nPlease note that the attributes are listed in a specific format, with each attribute separated by commas."
     }
 }
