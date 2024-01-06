@@ -71,25 +71,17 @@ def load_questions():
     return json.load(open("questions.json", "r"))
 
 
-def make_user_prompt(question, document):
-    # Construct the user prompt
-    user_prompt = USER_PROMPT_TEMPLATE.format(question=question, document=document)
-    return user_prompt
-
-
 def main():
     # This functions loads the questions, answer keys, and collect LLM responses, and then evaluates the responses
     # Load the questions
     questions = load_questions()
     print("Loaded questions from questions.json")
     # Load the answer keys
-    answer_keys = load_answer_keys(
-        patient_name="fake_patient1", document_name="fake_patient1_doc1_RAD"
-    )
-    print("Loaded answer keys from answer_keys.json")
+    answer_keys = load_answer_keys(patient_name="fake_patient1", document_name=None)
+    print("Loaded answer keys from answer_keys")
     # Get patient to document names
     patient_to_document_names = get_patient_to_document_names(
-        patient_name="fake_patient1", document_name="fake_patient1_doc1_RAD"
+        patient_name="fake_patient1", document_name=None
     )
     print("Loaded patient to document names")
     # Collect LLM responses and evaluation
@@ -102,7 +94,7 @@ def main():
                 llm_respones = collect_llm_responses(
                     model_name,
                     SYSTEM_PROMPT,
-                    make_user_prompt,
+                    USER_PROMPT_TEMPLATE,
                     patient_name,
                     document_name,
                     questions,

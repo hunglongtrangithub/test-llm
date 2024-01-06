@@ -45,7 +45,7 @@ def get_llm_response(model_name, system_prompt, user_prompt):
 def collect_llm_responses(
     model_name: str,
     system_prompt: str,
-    make_user_prompt: callable,
+    user_prompt_template: str,
     patient_name: str,
     document_name: str,
     questions: dict[str, str],
@@ -63,10 +63,10 @@ def collect_llm_responses(
     print(f"Collecting responses of {model_name} for {document_name}")
     model_responses = {}
     for question_type, question in questions.items():
-        print("Question type:", question_type)
-        user_prompt = make_user_prompt(question, document)
+        print("Question type: ", question_type)
+        user_prompt = user_prompt_template.format(question=question, document=document)
         response = get_llm_response(model_name, system_prompt, user_prompt)
-        print("Response:", response)
+        print("Response: ", response)
         model_responses[question_type] = response
     responses[model_name] = model_responses
     save_json_file(f"llm_responses/{patient_name}/{document_name}.json", responses)
