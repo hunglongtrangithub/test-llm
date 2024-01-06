@@ -1,0 +1,278 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+    line-height: 120%;
+    word-spacing: 0.25em;
+}
+header {
+    background: MidnightBlue;
+    color: white;
+    height: 30px;
+}
+header h1 {
+    margin-top: 0px;
+}
+footer {
+    background: SteelBlue;
+    color: white;
+    height: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: space-between;
+    max-width: 320px;
+    background: PowderBlue;
+}
+@media all {
+    .article {
+        -webkit-flex: 5 0px;
+        flex: 5 0px;
+        -webkit-order: 1;
+        order: 1;    }
+    .nav {
+        text-align: left;
+        -webkit-flex: 1 auto;
+        flex: 1 auto;
+        -webkit-order: 2;
+        order: 2;
+    }
+    footer {
+        -webkit-order: 3;
+        order: 3;
+    }
+}
+
+#ia {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: powderBlue;
+    border-bottom: 2px solid navy;
+    z-index: 10;
+}
+.legend {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    background: white;
+    border: 2px solid navy;
+    padding: 0 15px 15px 15px;
+    z-index: 1;
+
+}
+.legend h3 {
+    text-align: center;
+}
+.legend table {
+    width: 100%;
+}
+.legend td {
+    width: 50%;
+}
+
+.GNR_ {
+  position: relative;
+  display: inline-block gray;
+  border-bottom: 0.12em solid gray;
+  border-radius: 5px;
+}
+
+.AFF_ {
+  position: relative;
+  display: inline-block green;
+  border-bottom: 0.12em solid green;
+  border-radius: 5px;
+}
+
+.UNC_ {
+  position: relative;
+  display: inline-block gold;
+  border-bottom: 0.16em dotted gold;
+  border-radius: 5px;
+}
+
+.NEG_ {
+  position: relative;
+  display: inline-block red;
+  border-bottom: 0.14em dashed red;
+  border-radius: 5px;
+}
+
+.UNN_ {
+  position: relative;
+  display: inline-block orange;
+  border-bottom: 0.14em dashed orange;
+  border-radius: 5px;
+}
+
+._DRG_ {
+  color: Red;
+}
+._DRG_::after {
+  content: "\25B3";
+  vertical-align: super;  font-size: smaller;}
+
+._DIS_ {
+  color: Black;
+}
+._DIS_::after {
+  content: "\25BD";
+  vertical-align: super;  font-size: smaller;}
+
+._FND_ {
+  color: Magenta;
+}
+._FND_::after {
+  content: "\2022";
+  vertical-align: super;  font-size: smaller;}
+
+._PRC_ {
+  color: Blue;
+}
+._PRC_::after {
+  content: "\25C6";
+  vertical-align: super;  font-size: smaller;}
+
+._ANT_ {
+  color: Gray;
+}
+._ANT_::after {
+  content: "\25C9";
+  vertical-align: super;  font-size: smaller;}
+
+._ATT_ {
+  color: Gray;
+}
+._ATT_::after {
+  content: "\25FE";
+  vertical-align: super;  font-size: smaller;}
+
+._DEV_ {
+  color: Blue;
+}
+._DEV_::after {
+  content: "\2600";
+  vertical-align: super;  font-size: smaller;}
+
+._LAB_ {
+  color: Gray;
+}
+._LAB_::after {
+  content: "\2714";
+  vertical-align: super;  font-size: smaller;}
+
+._PHN_ {
+  color: Magenta;
+}
+._PHN_::after {
+  content: "\2604";
+  vertical-align: super;  font-size: smaller;}
+
+._SBJ_ {
+  color: CadetBlue;
+}
+._SBJ_::after {
+  content: "\2605";
+  vertical-align: super;  font-size: smaller;}
+
+._TTL_ {
+  color: CadetBlue;
+}
+._TTL_::after {
+  content: "\2605";
+  vertical-align: super;  font-size: smaller;}
+
+._EVT_ {
+  color: DarkSeaGreen;
+}
+._EVT_::after {
+  content: "\263C";
+  vertical-align: super;  font-size: smaller;}
+
+._ENT_ {
+  color: Black;
+}
+._ENT_::after {
+  content: "\25FE";
+  vertical-align: super;  font-size: smaller;}
+
+._TMX_ {
+  color: Black;
+}
+._TMX_::after {
+  content: "\2742";
+  vertical-align: super;  font-size: smaller;}
+
+._MOD_ {
+  color: Coral;
+}
+._MOD_::after {
+  content: "\259F";
+  vertical-align: super;  font-size: smaller;}
+
+._LABM_ {
+  color: Coral;
+}
+._LABM_::after {
+  content: "\21B7";
+  vertical-align: super;  font-size: smaller;}
+
+._UNK_ {
+  color: DarkMagenta;
+}
+._UNK_::after {
+  content: "\2753";
+  vertical-align: super;  font-size: smaller;}
+
+[TIP] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+[TIP]::before,
+[TIP]::after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+[TIP]::before {
+  position: absolute;
+  bottom: 0%;
+  left: 100%;
+  margin-bottom: 5px;
+  padding: 7px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(TIP);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+[TIP]:hover::before,
+[TIP]:hover::after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
