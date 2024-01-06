@@ -19,7 +19,9 @@ def normalize_string(s: str) -> str:
 nli_model = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 
 
-def evaluate_by_nli(response: str, answer: str) -> tuple[list[str], list[float]]:
+def evaluate_by_nli(response: str, answer: str) -> tuple[str, float]:
+    if not response:
+        return "empty", 0.0
     candidate_labels = ["entailment", "contradiction", "neutral"]
     hypothesis_template = f'This text is {{}} to "{answer}".'
     result = nli_model(
