@@ -4,6 +4,7 @@ from get_evaluation_results import get_evaluation_results
 from natsort import os_sorted
 import json
 import os
+import argparse
 
 # SYSTEM_PROMPT = "Your task is to analyze the provided medical document and answer the following questions accurately. For each question, only answer with relevant information from the document and present your answers in the specified format. Pay close attention to the format requirements for each question to ensure your responses align with the expected structure. Your goal is to provide clear, concise, and correctly formatted answers based on the content of the document."
 # SYSTEM_PROMPT = "Your task is to analyze the provided medical document and answer the following question accurately. Only answer with relevant information from the document and present your answer in the specified format. Pay close attention to the format requirements for the question to ensure your response align with the expected structure. Your goal is to provide a clear, concise, and correctly formatted answer based on the content of the document."
@@ -17,6 +18,9 @@ MODEL_LIST = [
     "llama-2-70b-chat",
     "llama-2-13b-chat",
     "llama-2-7b-chat",
+    "vicuna-7b-v1.5-16k",
+    "vicuna-13b-v1.5-16k",
+    "vicuna-33b-v1.3",
 ]
 
 
@@ -68,24 +72,40 @@ def get_patient_to_document_names(
 
 
 def load_questions():
-    return json.load(open("questions.json", "r"))
+    try:
+        with open("questions.json", "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        raise FileNotFoundError("The file questions.json was not found.")
 
 
-def main():
+def load_evaluation_results():
+    try:
+        with open("evaluation_results.json", "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print("The file evaluation_results.json was not found. Creating a new one.")
+        return dict()
+
+
+def main(args):
     # This functions loads the questions, answer keys, and collect LLM responses, and then evaluates the responses
     # Load the questions
     questions = load_questions()
     print("Loaded questions from questions.json")
     # Load the answer keys
-    answer_keys = load_answer_keys(patient_name="fake_patient1", document_name=None)
+    answer_keys = load_answer_keys(
+        patient_name=args.patient_name, document_name=args.document_name
+    )
     print("Loaded answer keys from answer_keys")
     # Get patient to document names
     patient_to_document_names = get_patient_to_document_names(
-        patient_name="fake_patient1", document_name=None
+        patient_name=args.patient_name, document_name=args.document_name
     )
     print("Loaded patient to document names")
     # Collect LLM responses and evaluation
-    evaluations = {}
+    evaluations = load_evaluation_results()
+    print("Loaded evaluation results")
     for patient_name, document_names in patient_to_document_names.items():
         evaluations[patient_name] = {}
         for document_name in document_names:
@@ -105,8 +125,23 @@ def main():
                 evaluations[patient_name][document_name][model_name] = evals
     # Save the evaluations
     json.dump(evaluations, open("evaluation_results.json", "w"), indent=4)
-    print("Evaluation results saved to evaluation_results.json")
+    print("Updated evaluation results saved to evaluation_results.json")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description="Process some patient and document names."
+    )
+    parser.add_argument(
+        "patient_name", type=str, default=None, help="Name of the patient"
+    )
+    parser.add_argument(
+        "document_name",
+        type=str,
+        nargs="?",
+        default=None,
+        help="Name of the document (optional)",
+    )
+
+    args = parser.parse_args()
+    main(args)
