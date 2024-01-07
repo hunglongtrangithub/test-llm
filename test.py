@@ -1,11 +1,11 @@
 from datetime import datetime
-from get_llm_responses import collect_llm_responses
+from get_llm_responses import collect_llm_responses, get_llm_response
 from get_evaluation_results import get_evaluation_results, normalize_string
 from get_answer_keys import get_answer_keys
 from main import (
     load_questions,
     SYSTEM_PROMPT,
-    make_user_prompt,
+    USER_PROMPT_TEMPLATE,
     get_patient_to_document_names,
 )
 from helper import translate_principal_date
@@ -22,7 +22,7 @@ def test_collect_llm_responses():
     responses = collect_llm_responses(
         model_name,
         SYSTEM_PROMPT,
-        make_user_prompt,
+        USER_PROMPT_TEMPLATE,
         patient_name,
         document_name,
         questions,
@@ -46,12 +46,6 @@ def test_get_evaluation_results():
     # Evaluate the responses
     evaluations = get_evaluation_results(responses, answer_keys)
     print(json.dumps(evaluations, indent=4))
-
-
-def test_make_user_prompt():
-    question = "What is the capital of France?"
-    document = "The capital of France is Paris."
-    print(make_user_prompt(question, document))
 
 
 def test_get_answer_keys():
@@ -78,12 +72,20 @@ def test_get_patient_to_document_names():
     print(json.dumps(patient_to_document_names, indent=4))
 
 
+def test_get_llm_response():
+    system_prompt = "You are an alien from outer space. You have come to Earth to learn about humans."
+    user_prompt = "What is your name? What planet do you come from?"
+    model_name = "vicuna-7b-v1.5-16k"
+    response = get_llm_response(model_name, system_prompt, user_prompt)
+    print(response)
+
+
 if __name__ == "__main__":
     # test_collect_llm_responses()
-    test_get_evaluation_results()
-    # test_make_user_prompt()
+    # test_get_evaluation_results()
     # test_get_answer_keys()
     # test_translate_principal_date()
     # test_normalize_string()
     # test_get_patient_to_document_names()
+    test_get_llm_response()
     pass
