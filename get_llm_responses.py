@@ -1,7 +1,19 @@
+import openai
 from openai import OpenAI
 import google.generativeai as genai
 import os
 from helper import save_json_file, load_json_file
+
+
+def get_vicuna_response(model_name, system_prompt, user_prompt):
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.base_url = "http://localhost:8000/v1/"
+    messages = [
+        {"role": "user", "content": system_prompt + "\n" + user_prompt},
+    ]
+    response = openai.chat.completions.create(model=model_name, messages=messages)
+    message = response.choices[0].message.content
+    return message
 
 
 def get_gpt4_response(system_prompt, user_prompt):
@@ -31,6 +43,14 @@ def get_llm_response(model_name, system_prompt, user_prompt):
         return get_gpt4_response(system_prompt, user_prompt)
     elif model_name == "gemini-pro":
         return get_gemini_response(system_prompt, user_prompt)
+    elif model_name in [
+        "vicuna-7b-v1.5",
+        "vicuna-13b-v1.5",
+        "vicuna-7b-v1.5-16k",
+        "vicuna-13b-v1.5-16k",
+        "vicuna-33b-v1.3",
+    ]:
+        return get_vicuna_response(model_name, system_prompt, user_prompt)
     base_url = "https://api.naga.ac/v1/"
     api_key = os.getenv("CHIMERA_GPT_KEY")
     client = OpenAI(base_url=base_url, api_key=api_key)
