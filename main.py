@@ -18,9 +18,9 @@ MODEL_LIST = [
     "llama-2-70b-chat",
     "llama-2-13b-chat",
     "llama-2-7b-chat",
-    "vicuna-7b-v1.5-16k",
-    "vicuna-13b-v1.5-16k",
-    "vicuna-33b-v1.3",
+    # "vicuna-7b-v1.5-16k",
+    # "vicuna-13b-v1.5-16k",
+    # "vicuna-33b-v1.3",
 ]
 
 
