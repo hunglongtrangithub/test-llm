@@ -12,15 +12,15 @@ import argparse
 SYSTEM_PROMPT = "Your task is to analyze the provided medical document and answer the following question accurately. Only answer with relevant information from the document and present your answer in the specified format. Pay close attention to the format requirements for the question to ensure your response align with the expected structure. Your goal is to provide a clear, concise, and correctly formatted answer based on the content of the document. Avoid extraneous details to ensure your answer is clear, concise, and correctly formatted, directly reflecting the document's content."
 USER_PROMPT_TEMPLATE = "{question}\n{document}"
 MODEL_LIST = [
-    "gpt-4",
-    "gemini-pro",
-    "gpt-3.5-turbo-0613",
-    "llama-2-70b-chat",
-    "llama-2-13b-chat",
-    "llama-2-7b-chat",
+    # "gpt-4",
+    # "gemini-pro",
+    # "gpt-3.5-turbo-0613",
+    # "llama-2-70b-chat",
+    # "llama-2-13b-chat",
+    # "llama-2-7b-chat",
     # "vicuna-7b-v1.5-16k",
     # "vicuna-13b-v1.5-16k",
-    # "vicuna-33b-v1.3",
+    "vicuna-33b-v1.3",
 ]
 
 
@@ -107,9 +107,15 @@ def main(args):
     evaluations = load_evaluation_results()
     print("Loaded evaluation results")
     for patient_name, document_names in patient_to_document_names.items():
-        evaluations[patient_name] = {}
+        evaluations[patient_name] = (
+            {} if patient_name not in evaluations else evaluations[patient_name]
+        )
         for document_name in document_names:
-            evaluations[patient_name][document_name] = {}
+            evaluations[patient_name][document_name] = (
+                {}
+                if document_name not in evaluations[patient_name]
+                else evaluations[patient_name][document_name]
+            )
             for model_name in MODEL_LIST:
                 llm_respones = collect_llm_responses(
                     model_name,
@@ -133,7 +139,11 @@ if __name__ == "__main__":
         description="Process some patient and document names."
     )
     parser.add_argument(
-        "patient_name", type=str, default=None, help="Name of the patient"
+        "patient_name",
+        type=str,
+        nargs="?",
+        default=None,
+        help="Name of the patient",
     )
     parser.add_argument(
         "document_name",
