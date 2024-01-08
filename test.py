@@ -8,7 +8,7 @@ from main import (
     USER_PROMPT_TEMPLATE,
     get_patient_to_document_names,
 )
-from helper import translate_principal_date
+from helper import translate_principal_date, merge_two_evluation_dicts
 import json
 
 
@@ -80,6 +80,17 @@ def test_get_llm_response():
     print(response)
 
 
+def test_merge_two_evaluation_dicts():
+    dict1 = {"level1": {"level2": {"key1": "value1", "key2": "value2"}}}
+    dict2 = {"level1": {"level2": {"key3": "value3", "key2": "new_value2"}}}
+    expected_result = {
+        "level1": {"level2": {"key1": "value1", "key2": "new_value2", "key3": "value3"}}
+    }
+    result = merge_two_evluation_dicts(dict1, dict2)
+    print(result)
+    assert result == expected_result
+
+
 if __name__ == "__main__":
     # test_collect_llm_responses()
     # test_get_evaluation_results()
@@ -87,5 +98,6 @@ if __name__ == "__main__":
     # test_translate_principal_date()
     # test_normalize_string()
     # test_get_patient_to_document_names()
-    test_get_llm_response()
+    # test_get_llm_response()
+    test_merge_two_evaluation_dicts()
     pass

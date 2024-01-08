@@ -49,7 +49,9 @@ def load_json_file(file_path):
 
 
 def save_json_file(file_path, data):
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    dir_name = os.path.dirname(file_path)
+    if dir_name:  # only create directories if dir_name is not empty
+        os.makedirs(dir_name, exist_ok=True)
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
 
@@ -60,8 +62,21 @@ def translate_principal_date(principal_date):
     return formatted_date
 
 
+def merge_two_evluation_dicts(dict1, dict2):
+    for key in dict2:
+        if key in dict1:
+            if isinstance(dict1[key], dict) and isinstance(dict2[key], dict):
+                merge_two_evluation_dicts(dict1[key], dict2[key])
+            else:
+                dict1[key] = dict2[key]
+        else:
+            dict1[key] = dict2[key]
+    return dict1
+
+
 if __name__ == "__main__":
     # print("Available models:")
     # print("\n".join(fetch_chat_models()))
-    list_paths("input")
+    # list_paths("input")
     # print(list(os.walk("input")))
+    pass
