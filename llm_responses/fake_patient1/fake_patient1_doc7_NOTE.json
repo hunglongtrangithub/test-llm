@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The referenced medical document is a 'Clinical Note'.",
+        "date": "February 01, 2011 at 10:15",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Left_Axillary_Lymph_Nodes, Left_Breast, Axilla, Lower_Outer_Left_Breast, 4_O\u2019clock_Region, Lower_Outer_Quadrant_of_the_Left_Breast, Surgical_Incision_of_the_Right_Breast, Axillary_Wound, New_Left_Breast_Nodule",
+        "attributes": "Right_Breast: historic, Right_Axillary_Lymph_Nodes: historic, Left_Breast: historic, uncertain, Left_Breast_Nodule: uncertain, Left_Axillary_Lymph_Nodes: historic, Surgical_Incision_Right_Breast: historic, Axillary_Wound: historic"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient1",
+        "type": "Clinical Note",
+        "date": "20110201 1015",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Axillary_Lymph_Nodes, Right_Breast, Left_Breast, Lower_Outer_Quadrant",
+        "attributes": "Right_Breast: historic, Right_Axilla: historic, Left_Axillary_Lymph_Nodes: historic, Left_Breast: uncertain"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is February 1, 2011 at 10:15.",
+        "episode": "The document relates to the \"Diagnostic\" stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Lower_outer_left_breast, 4_o'clock_region",
+        "attributes": "Left Breast: uncertain, historic, generic, conditional\nRight Breast: historic\nLeft Axillary (lymph nodes): historic"
+    },
+    "llama-2-70b-chat": {
+        "name": "Patient Name: Fake Patient1",
+        "type": " The medical document referenced in the text is a Clinical Note. Therefore, the answer is (D) Clinical Note.",
+        "date": "February 1, 2011, at 10:15 AM",
+        "episode": " Based on the information provided in the medical document, which stage of patient care does it relate to?\n\nThe medical document discusses the patient's history of metastatic breast cancer, including previous treatments such as chemotherapy, mastectomy, and radiation therapy, as well as a new nodule in her left breast that is suspected to be malignant. It also includes recommendations for further diagnostic testing, specifically an ultrasound-guided core biopsy of the mass. Therefore, the document relates to the Diagnostic stage of patient care.\n\nAnswer: B - Diagnostic",
+        "sections": " CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION, RECOMMENDATIONS",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\n* Right breast\n* Axilla\n* Left breast\n* Upper inner quadrant\n* Lower outer quadrant\n\nSo, the answer would be: Right_Breast, Axilla, Left_Breast, Upper_inner_Quadrant, Lower_outer_Quadrant.",
+        "attributes": "Right: historic\nRight Breast: historic\nLeft Breast: uncertain, generic\nLeft Axillary Lymph Nodes: historic\nLeft Breast Nodule: uncertain, generic\n4 O'Clock Region: uncertain, generic"
+    },
+    "llama-2-13b-chat": {
+        "name": " Based on the information provided in the medical document, the patient's name is:\n\nFake Patient1\n\nThis information can be found in the \"Patient ID\" section of the document, which lists the patient's name as \"Fake Patient1\".",
+        "type": " Based on the information provided in the medical document, the type of medical document is a \"Clinical Note\".",
+        "date": " Sure, I can help you with that! Based on the information provided in the medical document, the principal date is:\n\nMonth DD, YYYY at HH:MM:\n\n2011-02-01 10:15 (February 1st, 2011 at 10:15 AM)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. ",
+        "sections": " Sure! Based on the provided document, here are the main content sections or headings it contains, excluding any administrative or header information:\n\n* Clinical History\n* Interim History\n* Physical Exam\n* Impression\n* Recommendations\n\nSo the answer would be: Clinical History, Interim History, Physical Exam, Impression, Recommendations.",
+        "classUri-mentions": " Sure, I'd be happy to help! Based on the information provided in the medical document, the distinct anatomical entities mentioned can be listed in the following order:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Lower_outer_Quadrant.\n\nHere's the list of entities, using underscores to connect multiple words in a single entity:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Lower_outer_Quadrant.",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their attributes, separated by commas:\n\nRight Breast: historic, Right Axillary Lymph Nodes: historic, Left Breast: uncertain, Left Axillary Lymph Nodes: uncertain, Breast: generic, Nodule: generic, Mass: generic, Hypoechoic Mass: generic, Surgical Incision: historic, Axilla: historic, "
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient ID: pt123123123\n\nName: Fake Patient1",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": " According to the medical document, the principal date is:\n\n2011-02-01 10:15 (Month DD, YYYY at HH:MM)\n\nThis information can be found in the first line of the document under the heading \"Principal Date\": \"20110201 1015\".",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION, RECOMMENDATIONS",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, listed in the specified format:\n\nAxilla, Right\nBreast, Right\nBreast, Left\nLymph nodes, Axillary\nMammary gland, Lower outer quadrant, Left\nQuadrant, Lower outer, Left\n\nI hope this helps! Let me know if you have any further questions.",
+        "attributes": "Right Breast: historic, Right Axillary Lymph Nodes: historic, Left Breast: uncertain, Left Axillary Lymph Nodes: uncertain, Small Nodule in Left Breast: generic, Lower Outer Left Breast Position: generic, 4 O'Clock Region: generic, Hypoechoic Mass: generic, Surgical Incision of Right Breast: historic, Axillary Wound: historic"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'. This is evident from the header of the document, which indicates that it is a 'NOTE' record. Additionally, the document contains clinical information about a patient's history, physical examination, and recommendations for further testing or treatment. It is not a 'Radiology Report', 'Surgical Pathology Report', or any other specific type of medical document, as those would typically have different headers and formats. Therefore, the answer is 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is February 1, 2011 at 10:15, formatted as '02/01/2011 at 10:15'.",
+        "episode": "The document relates to the medical decision-making stage of patient care. The document provides a clinical history and interim history of a patient with breast cancer, and recommends an ultrasound guided core biopsy of a new left breast nodule. The examination and recommendations made by the healthcare provider indicate that a medical decision needs to be made regarding the management of the patient's condition.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant, Left\\_Breast, Lower\\_outer\\_Quadrant, Nodule.",
+        "attributes": "Right: historic, Left: historic\nBreast: historic, Right: historic, Left: historic\nLymph_Nodes: historic, Right: historic, Left: historic\nMargin: historic, Right: negative, Left: negative\nAxilla: historic, Right: historic, Left: historic\nMass: historic, Left: historic\nAxillary_Wound: historic, Right: historic, Left: historic\nIncision: historic, Right: historic, Left: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is not provided.",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is not explicitly provided in the text.",
+        "episode": "The stage of patient care described in the document is \"Medical Decision-making\". This is indicated by the information provided about the patient's history of breast cancer, her current presentation with a new nodule in her left breast, and the recommendations for further testing and treatment. The document outlines the patient's history, interim history, physical exam, and impression, and makes recommendations for further testing and treatment. This information suggests that the document is related to the medical decision-making stage of patient care, as it involves the evaluation and management of the patient's symptoms and the development of a plan for further testing and treatment.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Right\\_Axilla, Left\\_Breast, Left\\_Axilla",
+        "attributes": "Right: historic, Right\\_Breast: historic, Left\\_Breast: uncertain, metastatic\\_lymph\\_nodes: uncertain, ER: negative, PR: negative, Her2: negative, chemotherapy: given, mastectomy: performed, radiation\\_therapy: given, Tamoxifen: maintaining, left\\_breast\\_nodule: uncertain"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "Principal Date: February 1, 2011 at 10:15",
+        "episode": "The stage of patient care related to this document is \"Diagnostic\".",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Lower_outer_Quadrant",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Breast_Margin: negative, Right_Axillary: historic, Left: present, Left_Breast: present, Left_Breast_Mass: 1x2 cm, Left_Breast_Ultrasound: 1.1x1.2x2.1 cm hypoechoic mass"
+    }
+}

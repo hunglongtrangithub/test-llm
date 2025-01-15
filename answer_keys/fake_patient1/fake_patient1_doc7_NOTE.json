@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient1",
+    "type": "Clinical Note",
+    "date": "February 01, 2011 at 10:15 AM",
+    "episode": "Medical Decision-making",
+    "sections": "Clinical History, Interim History, Examination, Impression, Recommendation",
+    "classUri-mentions": "Left_Breast, N2_Stage, Malignant_Neoplasm, T1_Stage, Axillary_Lymph_Node, Right, Mass_In_Breast, Left, Lower_Outer_Quadrant, Round_Mass, PR_, M0_Stage, Axilla, Stage_2A, Breast, Carcinoma_Breast_Stage_IV, HER2, Right_Breast, Mass, Ductal_Carcinoma, ER_",
+    "attributes": "HER2: historic, Right_Breast: historic, Malignant_Neoplasm: uncertain, generic, historic, Stage_2A: , Mass: historic, Right_Breast: historic, Mass: , Right_Breast: , Left: , Left_Breast: historic, M0_Stage: , Right: , PR_: historic, Ductal_Carcinoma: , Right: historic, Axillary_Lymph_Node: historic, Mass_In_Breast: , Stage_2A: uncertain, historic, Lower_Outer_Quadrant: , Mass: generic, historic, Right_Breast: , Axillary_Lymph_Node: historic, Breast: historic, N2_Stage: , Carcinoma_Breast_Stage_IV: historic, ER_: historic, Left_Breast: , Left: historic, Mass: , Mass: historic, Round_Mass: , Axilla: historic, Left_Breast: historic, Left_Breast: , Left_Breast: historic, Ductal_Carcinoma: historic, T1_Stage: "
+}

@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is 'February 07, 2010 at 12:30'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, PRE-OP DIAGNOSIS, POST-OP DIAGNOSIS, PROCEDURE, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Breast, Lung, Left_Lower_Lobe",
+        "attributes": "'Lung': historic, 'Left Lower Lobe': historic, 'Breast': historic, 'HER2/NEU': negated"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient5",
+        "type": "Surgical Pathology Report",
+        "date": "20100207 1230",
+        "episode": "Diagnostic",
+        "sections": "LUNG, LEFT LOWER LOBE, BRONCHOSCOPIC BIOPSY, METASTATIC POORLY DIFFERENTIATED CARCINOMA CONSISTENT WITH BREAST PRIMARY, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "LUNG, LEFT_LOWER_LOBE",
+        "attributes": "Lung, Left Lower Lobe: metastatic, poorly differentiated carcinoma"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document, as noted in the text, is February 07, 2010 at 12:30.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, PRE-OP DIAGNOSIS, POST-OP DIAGNOSIS, PROCEDURE, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "LUNG, LEFT LOWER LOBE, BRONCHOSCOPIC BIOPSY, METASTATIC POORLY DIFFERENTIATED CARCINOMA, BREAST PRIMARY",
+        "attributes": "Left Lower Lobe Lung: historic\nBronchoscopic Biopsy: historic\nMetastatic Poorly Differentiated Carcinoma: historic\nBreast Primary: historic\nHER2/NEU: negative"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n===================================================================\n\nPatient Name..................Fake Patient5",
+        "type": "The medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": " February 07, 2010 at 12:30",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe document contains information about the patient's clinical history, pre-op diagnosis, post-op diagnosis, procedure, final diagnosis, and immunohistochemistry results. It also mentions the patient's birth date, age, and gender. All these pieces of information are relevant to the diagnostic process and not to any other stages of patient care like pre-diagnostic, medical decision-making, or unknown. Therefore, the correct answer is 'Diagnostic'.",
+        "sections": " CLINICAL HISTORY, PRE-OP DIAGNOSIS, POST-OP DIAGNOSIS, PROCEDURE, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\nLung, Left Lower Lobe\nBreast\nAxilla\nUpper Inner Quadrant\n\nFormat: Axilla, Right_Breast, Upper_inner_Quadrant",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document:\n\nLung: historic, Left: historic, Lower Lobe: historic, Bronchoscopic: historic, EBUS: historic\n\nMetastatic: historic, Poorly differentiated: historic, Carcinoma: historic, Breast: historic, Primary: historic\n\nHER2/NEU: negative (not amplified), historic "
+    },
+    "llama-2-13b-chat": {
+        "name": "Fake Patient5 ",
+        "type": " Based on the information provided, the type of medical document is a 'Surgical Pathology Report'.\n\nHere's the breakdown of the answer:\n\n* The document is identified by a Report ID (9, doc9) and a Patient ID (pt101102103), which suggests that it is a formal medical document.\n* The document is labeled as a 'SP' record type, which stands for 'Surgical Pathology'.\n* The document contains clinical history and procedure information, such as the patient's age, gender, and medical history, as well as the procedure performed (bronchoscopy and EBUS).\n* The document also includes a final diagnosis and immunohistochemistry results, which are typical components of a surgical pathology report.\n\nTherefore, based on the information provided, the medical document is a 'Surgical Pathology Report'.",
+        "date": " Based on the information provided in the medical document, the principal date is:\n\nMonth DD, YYYY at HH:MM:\n2010-02-07 12:30",
+        "episode": "Based on the information provided in the medical document, the answer to your question is 'Diagnostic'. This is because the document includes information about the patient's medical history, pre-op diagnosis, post-op diagnosis, procedure, final diagnosis, and immunohistochemistry results, which are all relevant to the diagnostic stage of patient care. Therefore, the document relates to the 'Diagnostic' stage of patient care.\n\nAnswer: 'Diagnostic'",
+        "sections": " Sure, here are the main content sections or headings contained in the body of the medical document, excluding any administrative or header information:\n\nMain Content Sections:\n\n* Clinical History\n* Pre-Op Diagnosis\n* Procedure\n* Final Diagnosis\n* Immunohistochemistry\n\nPlease note that the document only contains four main content sections, and there are no subheadings or subsections within these sections.",
+        "classUri-mentions": "Sure, I can help you with that! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nLung, Left Lower Lobe\nBreast\nAxilla\nRight Breast\nUpper Inner Quadrant\n\nSo, the answer would be: Lung, Left Lower Lobe, Breast, Axilla, Right Breast, Upper Inner Quadrant.\n\nI hope this helps! Let me know if you have any further questions or if there's anything else I can assist you with.",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document:\n\nLung: Left, lower lobe\nLung mass: historic\nBreast: historic, primary\nMETASTATIC POORLY DIFFERENTIATED CARCINOMA: historic, primary\nHER2/NEU: negative (not amplified), historic"
+    },
+    "llama-2-7b-chat": {
+        "name": " The patient's name as mentioned in the document is:\n\nPatient Name: Fake Patient5",
+        "type": "Based on the provided medical document, the answer to the question \"What type of medical document is referenced in the text?\" is:\nType: Radiology Report\n\nThe document is a Radiology Report, as it provides information about a bronchoscopy procedure and includes results of a lung biopsy, which is typically reported by a radiologist. The document includes information such as the patient's ID, name, date of birth, and medical history, as well as the final diagnosis and immunohistochemistry results. The format of the document is consistent with that of a Radiology Report, with sections for clinical history, pre-op diagnosis, procedure, post-op diagnosis, and final diagnosis.",
+        "date": " The principal date of the medical document as noted in the text is:\n\nFebruary 7, 2010 at 12:30 PM (02/07/2010 12:30)\n\nFormat: Month DD, YYYY at HH:MM",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides information about the patient's history, pre-op diagnosis, post-op diagnosis, procedure, final diagnosis, and immunohistochemistry results. The final diagnosis confirms the presence of metastatic poorly differentiated carcinoma consistent with a breast primary, which indicates that the document is related to the diagnostic stage of patient care. Therefore, the answer is 'Diagnostic'.",
+        "sections": " Based on the provided medical document, the main content sections are:\n\n* CLINICAL HISTORY\n* PRE-OP DIAGNOSIS\n* POST-OP DIAGNOSIS\n* PROCEDURE\n* FINAL DIAGNOSIS\n* IMMUNOHISTOCHEMISTRY\n\nTherefore, the answer is:\n\nCLINICAL HISTORY, PRE-OP DIAGNOSIS, POST-OP DIAGNOSIS, PROCEDURE, FINAL DIAGNOSIS, IMMUNOHISTOCHEMISTRY",
+        "classUri-mentions": "Sure, I'd be happy to help you with that! Based on the provided medical document, the distinct anatomical entities mentioned are:\nAxilla, Right_Breast, Upper_inner_Quadrant\n\nI hope this helps! Let me know if you have any further questions.",
+        "attributes": "Okay, here are the attributes for each anatomical entity mentioned in the document:\nRight: historic\nRight_Breast: historic\nLung: historic\nLeft Lower Lobe: historic\nBronchoscopy: generic\nEBUS: generic\nFinal Diagnosis: historic\nLung: generic\nLeft Lower Lobe: generic\nMetastatic Poorly Differentiated Carcinoma: historic\nBreast: generic\nHer2/Neu: negative (not amplified): uncertain\nPlease note that some of the attributes are listed as \"generic\" because they are not specific to the patient in the document."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient5.\"",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'. The document contains a patient's clinical history, pre-operative and post-operative diagnoses, procedure, and final diagnosis. It also includes information about the patient's immunohistochemistry results, specifically for HER2/NEU, which is negative. The record type indicated in the header of the document is 'SP', indicating that it is a surgical pathology note.",
+        "date": "The principal date of the medical document is February 7th, 2010 at 12:30 PM, formatted as '02/07/2010 at 12:30 PM'.",
+        "episode": "The document relates to the 'Post-operative' or 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Final Diagnosis, Immunohistochemistry",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant.",
+        "attributes": "Right: historic, Right\\_Breast: historic, Left: historic, Left\\_Lung: historic, Left\\_Lower\\_Lobe: historic, Lung\\_Mass: historic, Lung: historic, Breast: historic, Poorly\\_Differentiated: historic, Carcinoma: historic, Metastatic: historic, Her2/Neu: negative, Negative (not amplified): negative."
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient5\".",
+        "type": "The type of medical document referenced in the text is a \"Surgical Pathology Report.\" This is based on the information provided in the document, which includes a clinical history, pre-op and post-op diagnoses, and a procedure. Additionally, the final diagnosis, immunohistochemistry results, and other pathology-related information are also present in the document, which indicates that it is a surgical pathology report.",
+        "date": "The principal date of the medical document is formatted as '20100207 1230'.",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is based on the information provided in the document, which includes the patient's history of metastatic breast carcinoma, the pre-operative and post-operative diagnosis of a lung mass, the procedure of bronchoscopy with EBUS, and the final diagnosis of metastatic poorly differentiated carcinoma consistent with breast primary. The document also includes information on immunohistochemistry, specifically the result of HER2/NEU being negative (not amplified). This information is relevant to medical decision-making, such as determining the appropriate treatment plan for the patient.",
+        "sections": "Main content sections or headings:\n\n* Clinical History\n* Pre-op Diagnosis\n* Procedure\n* Final Diagnosis\n* Immunohistochemistry\n\nNote: The document does not contain any clear section or heading for the patient's medical history or physical examination.",
+        "classUri-mentions": "Lung, Left\\_Lower\\_Lobe",
+        "attributes": "Left_Lung: historic, metastatic, carcinoma\nRight: historic\nRight_Breast: historic, primary, carcinoma\nLung_Mass: historic, metastatic, carcinoma\nBronchoscopy: historic\nEBUS: historic\nLung_Lower_Left_Lobe: historic, biopsy\nImmunohistochemistry: historic, HER2/NEU"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is noted as '20100207 1230'.",
+        "episode": "The document relates to the \"Medical Decision-making\" stage of patient care. The patient has already undergone a bronchoscopy and EBUS procedure, and a final diagnosis has been provided, indicating that the patient has a metastatic poorly differentiated carcinoma consistent with a breast primary. Additionally, immunohistochemistry results for HER2/NEU are negative, which will inform further treatment decisions.",
+        "sections": "Clinical History, Pre-op Diagnosis, Post-op Diagnosis, Procedure, Final Diagnosis, Immunohistochemistry",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Lung, Left_Lower_Lobe",
+        "attributes": "Left\\_Lung: negated, uncertain, generic, conditional, historic, temporality"
+    }
+}

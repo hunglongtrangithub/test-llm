@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient4",
+    "type": "Surgical Pathology Report",
+    "date": "July 12, 2011 at 10:30 AM",
+    "episode": "Treatment",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "Neoplasm, N2_Stage, Malignant_Neoplasm, Axillary_Lymph_Node, Right, PT3_Stage, Left, PR_, PN2_Stage, Atypical_Lobular_Hyperplasia, M0_Stage, Breast, T3_Stage, Invasive_Lobular_Breast_Carcinoma, Invasive_Ductal_Breast_Carcinoma, HER2, Intermediate_Grade, _2_O_clock, Right_Breast, Carcinoma, PM0_Stage, Invasive_Carcinoma, ER_, Lymph_Node",
+    "attributes": "Breast: , N2_Stage: , Malignant_Neoplasm: , PT3_Stage: , Left: , Invasive_Ductal_Breast_Carcinoma: , Neoplasm: negated, ER_: , _2_O_clock: , HER2: historic, Atypical_Lobular_Hyperplasia: , T3_Stage: , PM0_Stage: , Invasive_Lobular_Breast_Carcinoma: , Lymph_Node: negated, Invasive_Lobular_Breast_Carcinoma: historic, Right_Breast: historic, Axillary_Lymph_Node: , ER_: historic, PR_: , Intermediate_Grade: , Right: , Right: historic, M0_Stage: , Invasive_Ductal_Breast_Carcinoma: historic, PN2_Stage: , Carcinoma: , Invasive_Carcinoma: , Breast: , PR_: historic, HER2: , Right_Breast: historic"
+}

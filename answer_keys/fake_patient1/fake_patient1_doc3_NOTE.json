@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient1",
+    "type": "Clinical Note",
+    "date": "January 31, 2010 at 10:15 AM",
+    "episode": "unknown",
+    "sections": "Clinical History, Interim History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, Dysplastic_Nevus, Neoplasm, N2_Stage, Right_Axillary_Lymph_Node, Malignant_Neoplasm, T1_Stage, Ductal_Breast_Carcinoma_In_Situ, Right, Metastasis, Lung, Heart, Right_Axilla_Proper, Neck, Secondary_Neoplasm, M0_Stage, Breast, Stage_2A, Thyroid_Gland, Tumor_Stage_Finding, Right_Breast, Sclera, Mass, Ductal_Carcinoma, Lymph_Node",
+    "attributes": "M0_Stage: , Lymph_Node: , Metastasis: historic, N2_Stage: , Thyroid_Gland: negated, Malignant_Neoplasm: historic, Sclera: , Secondary_Neoplasm: negated, historic, Right_Axilla_Proper: , Malignant_Neoplasm: negated, historic, Right_Breast: historic, Tumor_Stage_Finding: historic, Right_Breast: , Right: historic, N2_Stage: , Right_Breast: historic, Ductal_Breast_Carcinoma_In_Situ: historic, T1_Stage: , Right: , Left_Breast: negated, historic, Neoplasm: historic, Right: historic, Breast: historic, Ductal_Carcinoma: generic, historic, Ductal_Carcinoma: , Lymph_Node: historic, Stage_2A: , Right_Breast: historic, Mass: historic, T1_Stage: , Lung: , Ductal_Carcinoma: historic, Ductal_Carcinoma: historic, Right_Breast: historic, M0_Stage: , Right: historic, Dysplastic_Nevus: uncertain, Right: , Right_Axillary_Lymph_Node: historic, Right: historic, Ductal_Breast_Carcinoma_In_Situ: historic, Heart: , Neoplasm: , Neck: , Stage_2A: historic"
+}

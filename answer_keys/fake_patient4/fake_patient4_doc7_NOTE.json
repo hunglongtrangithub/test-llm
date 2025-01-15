@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient4",
+    "type": "Clinical Note",
+    "date": "July 27, 2011 at 11:15 AM",
+    "episode": "Medical Decision-making",
+    "sections": "Final Diagnosis, Procedure, Interim History, Past Medical History, Examination, Impression, Recommendation",
+    "classUri-mentions": "Left_Breast, Neoplasm, N2_Stage, Right_Axillary_Lymph_Node, Malignant_Neoplasm, Right, Left, PR_, M0_Stage, Breast, Ovary, T3_Stage, Invasive_Lobular_Breast_Carcinoma, Invasive_Ductal_Breast_Carcinoma, HER2, Right_Breast, Left_Axillary_Lymph_Node, ER_, Epithelial_Ovarian_Cancer, Lymph_Node",
+    "attributes": "Right: , Right: , Right: , Invasive_Ductal_Breast_Carcinoma: , Right_Breast: , Neoplasm: , Breast: , ER_: , Invasive_Ductal_Breast_Carcinoma: , M0_Stage: , Left_Breast: , Lymph_Node: negated, Right_Breast: , Invasive_Lobular_Breast_Carcinoma: , Right_Breast: , Epithelial_Ovarian_Cancer: historic, Malignant_Neoplasm: negated, HER2: , Left: , N2_Stage: , Left: uncertain, historic, Left_Breast: , Right_Axillary_Lymph_Node: , Left_Axillary_Lymph_Node: , Left_Breast: , Invasive_Lobular_Breast_Carcinoma: , Ovary: uncertain, historic, Invasive_Ductal_Breast_Carcinoma: , PR_: , T3_Stage: , Invasive_Lobular_Breast_Carcinoma: , Right_Breast: "
+}

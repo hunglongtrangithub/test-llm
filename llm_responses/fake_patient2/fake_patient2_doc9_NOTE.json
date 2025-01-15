@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "August 19, 2010 at 11:30",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Reason for Visit, History of Present Illness, Past Medical History, IMPRESSION",
+        "classUri-mentions": "Back, Thoracic_Spine, CT_Spine, Vertebral_Column, Pulmonary_Nodules, Chest, Abdomen, Pelvis, Left_Breast, Left_Axillary_Lymph_Node, Pulmonary_Lesions, Compression_Fracture_of_Thoracic_Spine, Small_Pleural_Effusions, Atelectasis, Right_Lower_Lobe, Right_Upper_Lobe, Left_Middle_Lobe, T9, T10, Left_Sixth_Rib, Right_Fifth_Rib",
+        "attributes": "'Thoracic spine: historic', 'Left breast: historic, generic', 'Left axillary lymph node: historic', 'Thoracic spine: uncertain', 'Right lower lobe: historic', 'Right upper lobe: historic', 'Left middle lobe: historic', 'Vertebral column: historic', 'T9: historic', 'T10: historic', 'Left sixth rib: historic', 'Right fifth rib: historic'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient2",
+        "type": "Clinical Note",
+        "date": "20100819 1130",
+        "episode": "Diagnostic",
+        "sections": "History of Present Illness, Past Medical History, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Thoracic_spine, Axillary_Lymph_Node, Right_Lower_Lobe, Right_Upper_Lobe, Left_Middle_Lobe, Vertebral_Column, T9, T10, Sixth_Rib, Fifth_Rib",
+        "attributes": "Left_Axillary_Lymph_Node: historic\nLeft_Breast: historic\nLeft_Sixth_Rib: historic\nRight_Fifth_Rib: historic\nThoracic_Spine: historic, temporality\nT9: historic\nT10: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document, as noted in the text, is August 19, 2010 at 11:30 (formatted as 'Month DD, YYYY at HH:MM').",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, IMPLICATIONS",
+        "classUri-mentions": "Thoracic_spine, CT_spine, metastatic_disease, pulmonary_nodules, CT_of_the_chest_abdomen_and_pelvis, left_breast, axillary_lymph_node, chemotherapy, Adriamycin, Cytoxan, Taxotere, Radiation_Therapy, remission, claustrophobia, pleural_effusions, atelectasis, pulmonary_nodule, pleural_effusions, right_greatest_than_left, right_lower_lobe, right_upper_lobe, left_middle_lobe, vertebral_column, T9, T10, left_sixth_rib, right_fifth_rib, invasive_ductal_carcinoma, ER_positive, PR_positive, HER2_negative",
+        "attributes": "Thoracic Spine: historic\nPain: historic\nFatigue: historic\nShortness of Breath: historic\nWeakness: historic\nCT Spine: historic\nMetastatic Disease: generic, historic\nVertebral Column: historic\nPulmonary Nodules: historic\nCT of the chest/abdomen and pelvis: conditional\nLeft Breast Cancer: historic\nStage IIIA: historic\nLeft Modified Radical Mastectomy: historic\nMetastatic Disease to the Left Axillary Lymph Node: historic\nChemotherapy with Adriamycin, Cytoxan, and Taxotere: historic\nRadiation Therapy: historic\nRemission: historic\nClaustrophobia: historic\nCompression Fracture of Thoracic Spine: historic\nPleural Effusions: historic\nAtelectasis: historic\n6 mm Pulmonary Nodule in the Right Lower Lobe: historic\n4 mm Pulmonary Nodule in the Right Upper Lobe: historic\n2 mm Nodules in the Left Middle Lobe: historic\nBony Metastasis in the Vertebral Column at T9 and T10: historic\nMetastatic Deposits in the Left Sixth Rib: historic\nMetastatic Deposits in the Right Fifth Rib: historic\nMetastatic Disease from Previously Treated Stage 3A Invasive Ductal Carcinoma of the Left Breast: historic\nER Positive: historic\nPR Positive: historic\nHER2 Negative: historic"
+    },
+    "llama-2-70b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\n\nPatient Name..................Fake Patient2",
+        "type": " NOTE",
+        "date": "August 19, 2010, at 11:30 AM",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " History of Present Illness, Past Medical History, Impression.\n\nTherefore, the main content sections or headings in the provided medical document are:\n\n1. History of Present Illness: This section provides information about the patient's current symptoms, medical history, and treatment plan.\n2. Past Medical History: This section provides information about the patient's previous medical conditions, surgeries, and treatments.\n3. Impression: This section provides the doctor's interpretation of the patient's symptoms and test results, and outlines the diagnosis and proposed treatment plan.",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nThoracic spine, Thoracic_spine\nLeft breast, Left_breast\nAxilla, Axilla\nLeft axillary lymph node, Left_axillary_lymph_node\nPulmonary nodules, Pulmonary_nodules\nRight upper lobe, Right_upper_lobe\nRight lower lobe, Right_lower_lobe\nLeft middle lobe, Left_middle_lobe\nVertebral column, Vertebral_column\nT9, T9\nT10, T10\nLeft sixth rib, Left_sixth_rib\nRight fifth rib, Right_fifth_rib",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their corresponding attributes, separated by commas:\n\nThoracic spine: historic, pulmonary nodules: historic, right lung: historic, right lower lobe: historic, right upper lobe: historic, left lung: historic, left middle lobe: historic, vertebral column: historic, T9: historic, T10: historic, left sixth rib: historic, right fifth rib: historic, left breast: historic, invasive ductal carcinoma: historic"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I can help you with that! Here is the answer to your question:\n\nWhat is the patient's name as mentioned in the document?\n\nBased on the information provided in the document, the patient's name is:\n\nFake Patient2\n\nPlease note that the patient's name is mentioned in the document as \"Fake Patient2\" to protect their privacy.",
+        "type": "The medical document referenced in the text is a 'Clinical Note.'",
+        "date": " Sure, I'd be happy to help! Here's the answer to your question, formatted as requested:\n\nPrincipal Date: 2010-08-19 11:30\n\nNote that the principal date is August 19, 2010 at 11:30 AM, as noted in the \"Principal Date\" field of the medical document.",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is \"Medical Decision-making\".\n\nThe document relates to the patient's recent admittance to the hospital for severe back pain, which is suspected to be caused by metastatic disease from her previously treated breast cancer. The document outlines the patient's history of breast cancer, including her previous treatments and current symptoms, and provides the results of a CT scan that revealed multiple metastatic lesions in the patient's lungs and vertebral column. The document also mentions the patient's declination of an MRI due to claustrophobia and the recommendation for further imaging to evaluate for any further lesions.\n\nTherefore, the document is focused on the patient's current medical condition and the decision-making process related to her treatment, which places it within the \"Medical Decision-making\" stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Impression.",
+        "classUri-mentions": "Thoracic spine, Right_pleural effusion, Right_lower_lobe, Right_upper_lobe, Left_middle_lobe, T9, T10, Left_sixth_rib, Right_fifth_rib, Axilla, Left_breast.",
+        "attributes": "Thoracic spine: historic, pulmonary nodules: historic, right lower lobe: historic, right upper lobe: historic, left middle lobe: historic, vertebral column: historic, left sixth rib: historic, right fifth rib: historic"
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the medical document provided, the patient's name is:\n\nPatient ID: ptw246246246\n\nName: Fake Patient2",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "August 19, 2010 at 11:30",
+        "episode": "Based on the information provided in the medical document, the stage of patient care that the document relates to is 'Diagnostic' because the document describes the patient's symptoms, medical history, and diagnostic test results, including a CT scan and MRI, which are used to determine the patient's diagnosis and course of treatment. Therefore, the answer is 'Diagnostic'.",
+        "sections": "History of Present Illness, Past Medical History, Impression.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the specified format:\n\n* Axilla\n* Breast\n* Thoracic spine\n* Vertebral column\n* Ribs (6th left and 5th right)\n* Lungs (pleural effusions and nodules in right and left lobes)\n\nNote: The document mentions multiple anatomical locations, but I have only listed each entity once, as per the requested format.",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document, paired with its attributes, separated by commas:\n\nThoracic spine: historic, pulmonary nodules: historic, pleural effusions: right, greater than left, atelectasis: right, pulmonary nodule: right, lower lobe, new, 6 mm, pulmonary nodule: right, upper lobe, new, 4 mm, nodules: left, middle lobe, new, 2 mm, vertebral column: T9, T1"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is August 19, 2010, at 11:30 AM, formatted as '08/19/2010 at 11:30 AM'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Impression, Plan.",
+        "classUri-mentions": "Axilla, Left\\_Breast, Upper\\_inner\\_Quadrant, Thoracic\\_spine, Pulmonary\\_lesions, Compression\\_fracture, Left\\_sixth\\_rib, Right\\_fifth\\_rib, Right\\_lower\\_lobe, Right\\_upper\\_lobe, Left\\_middle\\_lobe.",
+        "attributes": "Right: historic, Right_Breast: historic, Left_Thorax: historic, Left_Lung: historic, Left_Axillary_Lymph_Node: historic, Left_Lymphatic_Drainage: historic, Left_Arm: historic, Left_Shoulder: historic, Left_Forearm: historic, Left_Wrist: historic, Left_Hand: historic, Left_Elbow: historic, Left_Radius: historic, Left_Ulna: historic, Left_Wrist_Joint: historic, Left_Elbow_Joint: historic, Left_Radius_Joint: historic, Left_Ulna_Joint: historic, Left_Thoracic_Spine: historic, Left_Lumbar_Spine: historic, Vertebrae: historic, Spinal_Cord: historic, Thoracic_Duct: historic, Right_Breast: historic, Right_Lung: historic, Right_Axillary_Lymph_Node: historic, Right_Lymphatic_Drainage: historic, Right_Arm: historic, Right_Shoulder: historic, Right_Forearm: historic, Right_Wrist: historic, Right_Hand: historic, Right_Elbow: historic, Right_Radius: historic, Right_Ulna: historic, Right_Wrist_Joint: historic, Right_Elbow_Joint: historic, Right_Radius_Joint: historic, Right_Ulna_Joint: historic, Lung_Cancer: historic, Mastectomy: historic, Chemotherapy: historic, Radiation_Therapy: historic, Metastatic_Disease: historic, Compression_Fracture: historic, Pulmonary_Lesions: historic, Pleural_Effusions: historic, Atelectasis: historic, Pulmonary_Nodule: historic, Right_Lower_Lobe: historic, Right_Upper_Lobe: historic, Left_Middle_Lobe: historic, CT_Scan: historic, Thoracic_Columna: historic, Cervical_Spine: historic, Vertebra: historic, Spinal_Cord: historic, T9: historic, T10: historic, Left_Sixth_Rib: historic, Right_Fifth_Rib: historic, Lung_Metastasis: historic, Lumbar_Spine: historic, Modified_Radical_Mastectomy: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name is not mentioned in the provided medical document.",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is August 19, 2010 at 11:30, formatted as 'Month DD, YYYY at HH:MM'.",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is because the document details the patient's current condition, the results of her CT scan and MRI, and the plan for further evaluation and treatment. The document also notes the patient's past medical history, including her previous treatment for breast cancer and her current symptoms, which are being used to inform the medical decision-making process.",
+        "sections": "Main content sections:\nHistory of Present Illness,\nPast Medical History,\nImpression.",
+        "classUri-mentions": "Axilla, Left\\_Axillary\\_Lymph\\_Node, Thoracic\\_Spine, T9\\_Vertebra, T10\\_Vertebra, Left\\_Breast, Left\\_Middle\\_Lobe, Right\\_Lower\\_Lobe, Right\\_Upper\\_Lobe, Sixth\\_Rib, Fifth\\_Rib",
+        "attributes": "Right: uncertain, Right_Breast: uncertain, Left_Breast: historic, CT: generic, MRI: negated, Thoracic_Spine: historic, Vertebral_Column: historic, Axillary_Lymph_Node: historic, CT_Chest/Abdomen/Pelvis: conditional, Chemotherapy: historic, Adriamycin: historic, Cytoxan: historic, Taxotere: historic, Radiation_Therapy: historic, Oncology: historic, Remission: historic, May: historic"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as '20100819 1130'.",
+        "episode": "The stage of patient care related to this document is \"Medical Decision-making\".",
+        "sections": "History of Present Illness, Past Medical History, Impression",
+        "classUri-mentions": "Axilla, Left; Breast, Left; Lymph Node, Left Axillary; Thoracic Spine, T9; Thoracic Spine, T10; Vertebral Column, T9; Vertebral Column, T10; Rib, Left Sixth; Rib, Right Fifth; Lung, Right Lower Lobe; Lung, Right Upper Lobe; Lung, Left Middle Lobe",
+        "attributes": "Left_Breast: historic, stage IIIA, status post left modified radical mastectomy, metastatic disease to left axillary lymph node, chemotherapy with Adriamycin, Cytoxan, and Taxotere, Radiation Therapy, remission, back pain, no MRI due to claustrophobia\nRight_Breast: no mention\nT9: historic, T10: historic, metastatic disease in vertebral column\nLeft_6th_Rib: historic, metastatic deposits\nRight_5th_Rib: historic, metastatic deposits\nThoracic_Spine: compression fracture, concerning for underlying metastatic disease\nPulmonary_Nodules: right greater than left, small pleural effusions, atelectasis, 6 mm nodule in right lower lobe, 4 mm nodule in right upper lobe, 2 mm nodules in left middle lobe\nRight_Greater_Than_Left: small pleural effusions\nAtelectasis: present\nCT_Scan: revealed metastatic disease in vertebral column, ribs, and pulmonary nodules"
+    }
+}

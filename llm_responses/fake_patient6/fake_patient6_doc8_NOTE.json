@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "April 15, 2011 at 11:15",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Node, Surgical_Incision, Right_Breast, Cardiac, Lungs, Abdomen, Extremities, Tumor_Bed",
+        "attributes": "Left_Breast: historic, generic, \nLeft_Axillary_Lymph_Node: historic, generic, \nRight_Breast: historic, generic"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient6",
+        "type": "Clinical Note",
+        "date": "20110415 1115",
+        "episode": "Medical Decision-making",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, On physical exam, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Node, Right_Breast",
+        "attributes": "Right: historic, Right_Breast: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is \"Fake Patient6.\"",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is April 15, 2011 at 11:15 AM.",
+        "episode": "The document relates to the stage of patient care known as \"Medical Decision-making.\" This is indicated by the patient's clinical history, interim history, physical exam, and impression section, which all involve the evaluation of the patient's condition, treatment options, and plans for further care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, PHYSICAL EXAM, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Left_Axillary_lymph_node, ER, PR, HER2, Taxotere, Carboplatin, Breast_segmental_mastectomy, Axillary_lymph_node_dissection, Surgical_incision, Range_of_motion, Exercises, Herceptin, Right_Breast, DCIS, pTis, pNx, Tamoxifen, Radiation_therapy, Physical_exam, VSS, Cardiac_exam, S1, S2, murmurs, rubs, gallops, Lungs, wheezes, rales, rhonchi, Abdomen, hepatosplenomegaly, Extremities, clubbing, cyanosis, edema, Impression",
+        "attributes": "Left: generic, historic\nRight: generic, historic\nLeft_Breast: generic, historic\nLeft_Axillary_Lymph_Node: generic, historic\nRight_Breast: generic, historic\nLeft_Breast_Segmental_Mastectomy: historic\nLeft_Axillary_Lymph_Node_Dissection: historic\nRight_Breast_Segmental_Mastectomy: historic\nTamoxifen: historic"
+    },
+    "llama-2-70b-chat": {
+        "name": "Patient Name: Fake Patient6 ",
+        "type": " Certainly! Here's the answer to the question you asked:\nThe type of medical document being referenced is a CLINICAL NOTE. Therefore, the answer is (D) NOTE.",
+        "date": " April 15, 2011 at 11:15",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nThe patient has already undergone neoadjuvant chemotherapy and surgery, and is now being assessed for radiation therapy. The document provides information about the patient's medical history, clinical stage, and treatment plan, which suggests that the patient is in the diagnostic stage of care, where the focus is on determining the best course of treatment based on the patient's specific diagnosis.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, IMPRESSION.\n\nPlease note that the above answer is in a comma-separated format as requested in the prompt. The answer lists the main content sections or headings in the provided medical document, excluding any administrative or header information.",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Axilla\n* Left breast\n* Upper inner quadrant\n* Right breast\n* DCIS\n* Right segmental mastectomy\n* Left breast segmental mastectomy\n* Left axillary lymph node dissection\n* Radiation therapy\n* Herceptin\n* Tamoxifen\n* S1\n* S2\n* Lungs\n* Abdomen\n* Extremities\n\nFormat: Axilla, Left breast, Upper inner quadrant, Right breast, DCIS, Right segmental mastectomy, Left breast segmental mastectomy, Left axillary lymph node dissection, Radiation therapy, Herceptin, Tamoxifen, S1, S2, Lungs, Abdomen, Extremities.",
+        "attributes": "Right: historic\nRight_Breast: historic\nLeft: historic, T1, N1, M0\nLeft_Breast: T1, N1, M0\nAxillary_Lymph_Node: T1, N1, M0\nDCIS: historic, ER, PR positive\nTamoxifen: historic\nRadiation_Therapy: historic, planned"
+    },
+    "llama-2-13b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\n\nPatient Name..................Fake Patient6",
+        "type": " Based on the information provided, the medical document is a \"Clinical Note\" type of document. Therefore, the answer is:\n\nB. Clinical Note",
+        "date": "The principal date of the medical document, formatted as 'Month DD, YYYY at HH:MM', is April 15, 2011, at 11:15.\n\nAnswer: April 15, 2011, at 11:15.\n\nFormat: Month DD, YYYY at HH:MM.",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nMedical Decision-making\n\nThe document provides information about the patient's clinical history, including the diagnosis of invasive ductal carcinoma of the left breast with left axillary lymph node metastases, and the treatment plan, including neoadjuvant chemotherapy and radiation therapy. The document also includes information about the patient's past medical history, such as a previous diagnosis of DCIS in the right breast, and the results of the patient's physical examination. This information is used to inform the patient's ongoing medical care and to make decisions about their treatment plan. Therefore, the stage of patient care is Medical Decision-making.",
+        "sections": " Sure, I can help you with that! Here are the main content sections or headings present in the provided medical document, excluding any administrative or header information:\n\nMain Content Sections:\n\n1. Clinical History\n2. Interim History\n3. Past Medical History (PMH)\n4. Physical Examination\n5. Impression\n\nI hope this helps! Let me know if you have any further questions or if there's anything else I can assist you with.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Left_Axillary_Lymph_Node, Heart, Lungs, Abdomen, Extremities.",
+        "attributes": " Sure, I can help you with that! Based on the provided medical document, here are the attributes for each anatomical entity mentioned:\n\n* Left Breast: historic, T1 N1 M0\n* Right Breast: negative (DCIS, pTis, pNx)\n* Axillary Lymph Node: metastatic\n* Left Axillary Lymph Node: historic, T0 N0 (after neoadjuvant chemotherapy)\n\nNote that I have only listed the attributes for the anatomical entities specifically mentioned in the document, and have not included attributes for entities that are not mentioned, such as the patient's heart or lungs.\n\nHere is the list of attributes in the specified format:\n\nLeft Breast: historic, T1 N1 M0\nRight Breast: negative (DCIS, pTis, pNx)\nAxillary Lymph Node: metastatic\nLeft Axillary Lymph Node: historic, T0 N0 (after neoadjuvant chemotherapy)"
+    },
+    "llama-2-7b-chat": {
+        "name": "Patient Name: Fake Patient6 ",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "April 15, 2011, at 11:15 AM",
+        "episode": " Based on the information provided in the document, the stage of patient care that it relates to is 'Diagnostic'. This is evident from the clinical history and interim history sections of the document, which provide detailed information about the patient's medical condition, including her diagnosis, treatment, and current status. The document also includes information about the patient's medical history, including her previous diagnosis of DCIS and previous treatment with neoadjuvant chemotherapy.\n\nTherefore, the answer to the question is 'Diagnostic'.",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* CLINICAL HISTORY\n* INTERIM HISTORY\n* PATIENT MEDICAL HISTORY (PMH)\n* IMPRESSION\n\nTherefore, the answer is:\n\nCLINICAL HISTORY, INTERIM HISTORY, PMH, IMPRESSION",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Left_Axillary_Lymph_Node_Metastases, Breast, Lymph_Node, Tumor_Bed, Neoadjuvant_Chemotherapy, Radiation_Therapy, Herceptin.",
+        "attributes": "Here are the attributes for each anatomical entity mentioned in the document:\nRight: historic, Right_Breast: historic\nPatient ID....................pt789789789\nPatient Name..................Fake Patient6\nPrincipal Date................20110415 1115\nRecord Type...................NOTE\nPatient DOB...................05/01/1941\n\nCLINICAL HISTORY: This is a 69 year old post-menopausal female with clinical stage 2A (T1 N1 M0) invasive ductal carcinoma of the left breast with left axillary lymph node metastases. She is ER positive, PR negative and HER2 positive. She is status post 6 cycles of Taxotere and Carboplatin followed by left breast segmental mastectomy and left axillary lymph node dissection performed on 3/1/11.  \nINTERIM HISTORY: Her surgical incision is completely healed. She has no redness, erythema, irritation or signs"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient6\".",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is '20110415 1115', formatted as 'April 15, 2011 at 11:15 AM'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Axilla, Left\\_Breast, Right\\_Breast, Upper\\_inner\\_Quadrant, Left\\_axillary\\_lymph\\_node",
+        "attributes": "Left: historic, Left_Breast: historic, Left_Axillary_Lymph_Nodes: historic\n\nRight: historic, Right_Breast: historic, Right_Axillary_Lymph_Nodes: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient6\".",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is not explicitly mentioned in the provided text.",
+        "episode": "This document relates to the \"Medical Decision-making\" stage of patient care. This is indicated by the patient's presentation for a radiation therapy consultation and the mention of ongoing treatment with Herceptin and pending radiation therapy. The document also includes information about the patient's medical history, including prior breast cancer diagnoses and treatments, which is relevant to the current decision-making process for her care.",
+        "sections": "Main content sections:\n\n1. Clinical History\n2. Interim History\n3. Past Medical History\n4. Physical Exam\n5. Impression",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Node",
+        "attributes": "Left: negated, uncertain, generic, conditional\nLeft_Breast: historic, uncertain, generic, conditional, temporality\nLeft_Axillary_Lymph_Node: historic, uncertain, generic, conditional, temporality\nER: generic, uncertain, conditional\nPR: generic, uncertain, conditional\nHER2: generic, uncertain, conditional\nTaxotere: historic, uncertain, conditional\nCarboplatin: historic, uncertain, conditional\nHerceptin: historic, uncertain, conditional\nRight: historic, uncertain, generic, conditional\nRight_Breast: historic, uncertain, generic, conditional, temporality\nTamoxifen: historic, uncertain, conditional\nRadiation_Therapy: uncertain, generic, conditional\nRe-excision: historic, uncertain, conditional\nDCIS: generic, uncertain, conditional"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as '20110415 1115'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.\n\nThis stage is characterized by the decision-making process, including the selection of a specific treatment plan, medication, or other intervention for the patient. The document discusses the patient's medical history, follow-up care, and the plan for radiation therapy, indicating that the patient has already undergone neoadjuvant chemotherapy and surgery.",
+        "sections": "History of Present Illness, Interim History, Past Medical History, Physical Exam, Impression",
+        "classUri-mentions": "Axilla, Left_Breast, Left_Axillary_Lymph_Node, Right_Breast, Upper_inner_Quadrant, Lower_outer_Quadrant",
+        "attributes": "Left_Breast: historic, T1 N1 M0, invasive ductal carcinoma, ER positive, PR negative, HER2 positive, post-menopausal, stage 2A, status post 6 cycles of Taxotere and Carboplatin, left breast segmental mastectomy, left axillary lymph node dissection, Radiation Therapy consultation, start of single agent Herceptin, Herceptin continued\n\nRight_Breast: historic, DCIS, ER and PR positive, stage 0 (pTis, pNx), right segmental mastectomy, re-excision for positive margins, Tamoxifen, radiation therapy, VSS, cardiac exam normal, lungs clear, abdomen soft, non-tender, no hepatosplenomegaly, extremities without clubbing, cyanosis, or edema"
+    }
+}

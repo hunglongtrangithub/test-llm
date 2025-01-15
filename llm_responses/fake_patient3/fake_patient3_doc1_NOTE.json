@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is January 16, 2010 at 10:45.",
+        "episode": "The stage of patient care the document relates to is 'Medical Decision-making'.",
+        "sections": "Chief complaint, History of Present Illness, Physical Examination, Assessment",
+        "classUri-mentions": "Right_Breast, Upper_outer_quadrant_of_the_right_breast, Left_Breast, Neck, Heart, Abdomen, Back, Extremities",
+        "attributes": "Right_Breast: historic, current, Right_Breast_Mass: historic, Left_Breast: historic"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient3",
+        "type": "Clinical Note",
+        "date": "20100116 1045",
+        "episode": "Pre-diagnostic",
+        "sections": "Chief complaint, History of Present Illness, Past Medical History, Physical Examination, Assessment",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast",
+        "attributes": "Right_Breast: historic\nLeft_Breast: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document, as noted in the text, is January 16, 2010, at 10:45 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Examination, Assessment",
+        "classUri-mentions": "Right_breast, Upper_outer_quadrant, 10_o'clock_position, Left_breast, Adenocarcinoma, Stage_2B, T2, N0, M0, DCIS",
+        "attributes": "Right_Breast: historic, negated\nLeft_Breast: historic"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient3",
+        "type": " The type of medical document referenced in the text is a 'Clinical Note'.\n\nThe document includes information about the patient's medical history, physical examination, and assessment, which are all typical components of a clinical note. Additionally, the document includes details about the patient's diagnosis and planned treatment, which further supports the conclusion that it is a clinical note. Therefore, the answer to the question is:\n\nType of medical document: Clinical Note",
+        "date": " January 16, 2010, at 10:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": " Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their corresponding attributes, separated by commas:\n\nRight Breast: historic, invasive ductal carcinoma, T2 N0 M0, segmental mastectomy\nLeft Breast: historic, stage 2B adenocarcinoma, mastectomy\nER: positive\nPR: positive\nHER2/NEU: negative"
+    },
+    "llama-2-13b-chat": {
+        "name": "Fake Patient3 ",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": " Sure, I can help you with that! Here's the answer to your question:\n\nWhat is the principal date of the medical document as noted in the text, formatted as 'Month DD, YYYY at HH:MM'?\n\nThe principal date of the medical document is:\n\n2010-01-16 at 10:45\n\nPlease note that the time is not explicitly stated in the document, so I have assumed that it is 10:45 AM based on the format of the document.",
+        "episode": "Based on the information provided in the medical document, the answer to the question is \"Diagnostic.\" The document relates to the patient's diagnosis of breast cancer and the plan for further management and treatment, including a segmental mastectomy and sentinel lymph node biopsy. Therefore, the correct answer is \"Diagnostic.\"",
+        "sections": " Sure, I can help you with that! Based on the provided medical document, the main content sections or headings are:\n\nHistory of Present Illness\nPast Medical History\nPhysical Exam\nAssessment\n\nSo, the answer to your question is: History of Present Illness, Past Medical History, Physical Exam, Assessment.",
+        "classUri-mentions": " Sure, I can help you with that! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\n Right Breast\nUpper Outer Quadrant\nLeft Breast\nMastectomy Scar\nIncision Site\nAbdomen\nBack\nExtremities\n\nNote that some of these entities are mentioned multiple times in the document, but I have only listed each one once in the order they appear.",
+        "attributes": " Sure, I can help you with that! Here is the list of attributes for each anatomical entity mentioned in the document, as they are described in the document:\n\nRight breast:\n\n* Historic (pre-existing condition)\n\nLeft breast:\n\n* Previous mastectomy scar (historic)\n\nRight breast cancer:\n\n* Invasive ductal carcinoma (IDC)\n* Associated with ducal carcinoma in situ (DCIS)\n\nSentinel lymph node biopsy:\n\n* Conditional (dependent on the result of the biopsy)\n\nHere is the list of attributes for each entity, pairing each entity with its attributes, as you requested:\n\nRight breast: historic\nLeft breast: historic, previous mastectomy scar\nRight breast cancer: IDC, associated with DCIS\nSentinel lymph node biopsy: conditional"
+    },
+    "llama-2-7b-chat": {
+        "name": " The patient's name as mentioned in the document is:\n\nPatient ID: pt135135135\n\nPatient Name: Fake Patient3",
+        "type": "The referenced medical document is a 'Clinical Note'.",
+        "date": " The principal date of the medical document is:\n\n2010-01-16 at 10:45 AM\n\nFormat: Month DD, YYYY at HH:MM\n\nTherefore, the answer is: 2010-01-16 at 10:45 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care since it describes the patient's diagnosis and treatment plan, including the biopsy results, cancer stage, and planned surgery. Therefore, the answer is 'Medical Decision-making'.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": " Based on the medical document provided, the following are the distinct anatomical entities mentioned, listed in the order they appear:\n\n1. Axilla\n2. Breast\n3. Upper outer quadrant\n4. Lower inner quadrant\n5. Mammogram\n6. Ultrasound\n7. Core needle biopsy\n8. Biopsy site\n9. Lymph nodes\n10. Sentinel lymph node\n11. Breast cancer\n12. DCIS (Ductal carcinoma in situ)\n13. Invasive ductal carcinoma\n14. ER (Estrogen receptor) positive\n15. PR (Progesterone receptor) positive\n16. HER2/NEU (Human epidermal growth factor receptor 2/neurosphere-embryonic tyrosine kinase 2) negative\n\nNote: The entities listed are the anatomical locations or diagnostic tests mentioned in the document, and do not include the patient's personal information or medical history.",
+        "attributes": "Right breast: historic, Right breast cancer: historic, invasive ductal carcinoma: historic, ER positive: uncertain, PR positive: uncertain, HER2/NEU negative: uncertain, breast cancer: historic, stage 2B adenocarcinoma: historic, left breast: historic, mastectomy: historic, XRT: historic,  Right breast segmental mastectomy: conditional, sentinel lymph node biopsy: conditional."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is January 16, 2010 at 1045, formatted as '01/16/2010 at 1045'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_outer\\_Quadrant, Right\\_Breast\\_with\\_incision, Left\\_Breast\\_with\\_mastectomy\\_scar, Abdomen, Back, Extremities",
+        "attributes": "Right: historic, Right_Breast: historic\nLeft: historic, Left_Breast: historic\nBreast: historic, Breast_Cancer: historic, Breast_Cancer_Right: historic, Breast_Cancer_Left: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "What is the patient's name as mentioned in the document?\n===================================================================\n\nPatient Name..................Fake Patient3",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is not explicitly provided in the text.",
+        "episode": "The stage of patient care in this document is \"Medical Decision-making\". The document describes the patient's diagnosis, past medical history, current symptoms, and the decision to proceed with a right breast segmental mastectomy and sentinel lymph node biopsy. This information is used to make medical decisions regarding the patient's treatment plan.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Assessment",
+        "classUri-mentions": "Right\\_Breast, Upper\\_outer\\_quadrant, Right\\_Breast, Axilla, Left\\_Breast, Upper\\_inner\\_quadrant",
+        "attributes": "Right: historic, uncertain, generic, conditional, uncertain\nRight\\_Breast: historic, uncertain, generic, conditional, uncertain\nLeft\\_Breast: historic, uncertain, generic, conditional, uncertain\nDCIS: uncertain"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as \"20100116 1045\".",
+        "episode": "The stage of patient care relates to 'Diagnostic' as the document describes the patient's history, presentation, and diagnostic tests performed to determine the nature and extent of the cancer.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Assessment",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant",
+        "attributes": "Right_Breast: historic, invasive_ductal_carcinoma, ER_positive, PR_positive, HER2/NEU_negative, DCIS, mastectomy, Right_Breast_Incision: historic, core_needle_biopsy: historic, 1.5x1.9x1.0_cm, irregular_hypoechoic_mass: 10_o'clock_position, ultrasound, architectural_distortion, calcifications, mammogram, left_breast: previous_mastectomy_scar,"
+    }
+}

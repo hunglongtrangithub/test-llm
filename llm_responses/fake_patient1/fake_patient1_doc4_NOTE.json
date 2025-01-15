@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is May 31, 2010 at 11:45.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "DIAGNOSIS, INTERIM HISTORY, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Axillary_Lymph_Node, Upper_Inner_Quadrant_of_the_Right_Breast, Right_Axillary_Lymph_Nodes, Breast, Thyroid, Lungs, ABD, EXT",
+        "attributes": "Right Breast: historic, Right Axillary Lymph Node: historic"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient1",
+        "type": "Clinical Note",
+        "date": "20100531 1145",
+        "episode": "Medical Decision-making",
+        "sections": "DIAGNOSIS, INTERIM HISTORY, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axillary_Lymph_Nodes",
+        "attributes": "Right_Breast: historic\nRight_Axillary_Lymph_Nodes: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is May 31, 2010 at 11:45 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "Interim History, Physical Exam, Impression",
+        "classUri-mentions": "Right_Breast, Axillary_lymph_node, Mass, Metastatic_lymph_node, Distant_metastases, Female, NAD, BP, Pulse, Temp, NC/AT, PERRL, EOMI, sclera, Neck, Thyroid, Lungs, Wheezes, Rales, Rhonchi, COR, Murmurs, Rubs, Gallops, ABD, HSM, EXT, Pulses, Clubbing, Cyanosis, Edema, Neoadjuvant_chemotherapy.",
+        "attributes": "Right_Breast: historic, generic\nAxillary lymph nodes: historic, generic\nBreast examination: historic, generic\nMass: historic, temporality\nMetastatic right axillary lymph node: historic, temporality\nBreast MRI: historic, temporality\nPhysical Exam: generic\nVS (Vital Signs): generic\nHEENT (Head, eyes, ears, nose, throat): generic\nNeck: generic\nLungs: generic\nCOR (Cardiovascular system): generic\nABD (Abdomen): generic\nEXT (Extremities): generic\nNeoadjuvant chemotherapy: generic, conditional"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient1",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "May 31, 2010, at 11:45 AM",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe patient has already been diagnosed with triple negative infiltrating ductal carcinoma of the right breast, and the document describes the patient's response to neoadjuvant chemotherapy, which is a diagnostic indicator of the disease's progression. The document also mentions the patient's ongoing management and monitoring, which further supports the 'Diagnostic' classification.\n\nTherefore, the answer is:\n\nDiagnostic",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression.",
+        "classUri-mentions": " Axilla, Right_Breast, Upper_inner_Quadrant, Lungs, Thyroid, Heart, Abdomen",
+        "attributes": "Right: historic\nRight Breast: historic\nAxillary lymph nodes: historic, uncertain (metastasis)\nBreast MRI: uncertain (1.0x2.9x3.5 cm, 1.2x3.4x5.6 cm)\nPET/CT: uncertain (no evidence of distant metastases)\nNeck: uncertain (no masses)\nLungs: uncertain (No wheezes, rales, rhonchi)\nHeart: uncertain (RRR, No murmurs, rubs or gallops)"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I can help you with that! Here is the answer to your question in the format you specified:\n\nWhat is the patient's name as mentioned in the document?\n\nThe patient's name as mentioned in the document is:\n\nFake Patient1",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "May 31, 2010, at 11:45 AM.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. ",
+        "sections": "History of Present Illness, Interim History, Physical Exam, IMPRESSION.",
+        "classUri-mentions": " Sure, I can help you with that! Based on the medical document provided, here are the distinct anatomical entities mentioned, in the order they appear:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Breast, Lymph_Node, Right.\n\nSo, the answer is: Axilla, Right_Breast, Upper_inner_Quadrant, Breast, Lymph_Node, Right.",
+        "attributes": "Right breast: historic, Right axillary lymph node: historic, metastatic right axillary lymph node: historic, breast: generic, MRI breast: conditional, PET/CT breast: conditional"
+    },
+    "llama-2-7b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\nThe patient's name as mentioned in the document is \"Fake Patient1\".",
+        "type": " Based on the information provided in the medical document, the type of medical document is a 'Surgical Pathology Report'.\n\nThe report includes the following information:\n\n* The patient's demographics, including their name, date of birth, and patient ID number\n* The date of the biopsy and the time of the procedure\n* The patient's medical history, including their initial diagnosis and ongoing management of breast cancer\n* A detailed description of the biopsy findings, including the size and location of the mass, the involvement of lymph nodes, and the results of any imaging studies (e.g., MRI, PET/CT)\n* The pathologist's impressions and diagnosis, including the type of cancer and the response to neoadjuvant chemotherapy\n\nAll of these elements are consistent with a Surgical Pathology Report, which is a medical document that provides a detailed analysis of a patient's tissue sample(s) after they have been removed during a biopsy or surgical procedure.",
+        "date": "May 31, 2010, 11:45",
+        "episode": "Based on the information provided in the medical document, the stage of patient care relates to 'Diagnostic' (or 'Interim History').\nThe document provides information about the patient's medical history, including their initial visit for breast cancer diagnosis, the results of breast MRI and PET/CT scans, and their ongoing management of the disease. The document also includes the patient's diagnosis of Stage 2A (T1, N2, M0) infiltrating ductal carcinoma of the right breast, which is a diagnostic label.\nTherefore, the answer to the question is 'Diagnostic' (or 'Interim History').",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Right_axillary_lymph_nodes, Thyroid, Neck, Lungs, Heart, Abdomen, Extremities.",
+        "attributes": " Okay, here are the attributes for each anatomical entity mentioned in the document:\n\nRight: historic, Right_Breast: historic\n\n'Right' is attributed as 'historic' because the patient has a history of right breast cancer.\n'Right_Breast' is also attributed as 'historic' because the patient has a history of cancer in the right breast.\n\nOther attributes for the anatomical entities mentioned in the document are:\n\nAxillary lymph nodes:\n- N2: uncertain\n\nThe document mentions that the patient has multiple abnormally enlarged right axillary lymph nodes, but does not specify the number or size of the nodes. Therefore, the attribute for this entity is listed as 'uncertain'.\n\nOther attributes for the anatomical entities mentioned in the document are:\n\nBreast mass:\n- T1: negative\n- N3: negative\n\nThe document does not mention any information about the size or location of the breast mass, so the attributes for these properties are listed as 'negative'.\n\nMetastatic right axillary lymph node:\n- M0: negative\n\nThe document does not mention any information about the presence or absence of metastasis in the right axillary lymph node, so the attribute for this entity is listed as 'negative'.\n\nPlease note that the attributes are listed based on the information provided in the document, and may not necessarily reflect the actual attributes of the anatomical entities in question."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is not provided.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'. This is indicated by the 'Record Type' field being set to 'NOTE' and the document containing information about the patient's medical history, physical examination, laboratory results, and diagnostic imaging. The note also includes the patient's diagnosis, interim history, and treatment plan.",
+        "date": "The principal date of the medical document is May 31, 2010 at 11:45 AM, formatted as '05/31/2010 at 11:45 AM'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression.",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant",
+        "attributes": "Right: historic, Right_Breast: historic, Patient: historic\nPatient: historic\nBreast: historic, Right_Breast: historic, Patient: historic\nInfiltrating: historic, Triple: historic, Negative: historic, Patient: historic\nLumpy: historic, Palpable: historic, Right: historic, Upper: historic, Inner: historic, Quadrant: historic\nEnlarged: historic, Multiple: historic, Axillary: historic, Patient: historic\nCancer: historic, Biopsy: historic, Breast: historic, Triple: historic, Negative: historic, Patient: historic\nAxillary: historic, Lymph: historic, Node: historic, Metastasis: historic, Patient: historic\nNAD: historic, Patient: historic\nVS: historic, Blood_Pressure: historic, Patient: historic\nPulse: historic, Temperature: historic, Patient: historic\nHEENT: historic, EOMI: historic, Patient: historic\nNeck: historic, Mass: historic, Thyroid: historic, Enlarged: historic, Patient: historic\nLungs: historic, CTA: historic, Wheezes: historic, Rales: historic, Rhonchi: historic, Patient: historic\nCOR: historic, Murmurs: historic, Rubs: historic, Patient: historic\nAbdomen: historic, Soft: historic, Non-tender: historic, Non-distended: historic, No_HSM: historic, Patient: historic\nExtremities: historic, Good_Pulses: historic, Clubbing: historic, Cyanosis: historic, Edema: historic, Patient: historic\nPartial_Response: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient1\".",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note\".",
+        "date": "The principal date of the medical document is formatted as 'Month DD, YYYY at HH:MM' and is noted as '20100531 1145'.",
+        "episode": "The stage of patient care described in the document is \"Medical Decision-making.\"",
+        "sections": "Main content sections:\n\nHistory of Present Illness,\nPast Medical History,\nPhysical Exam,\nImpression.",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant, 1 o\u2019clock\\_position, 2 cm\\_lump, 1.2x3.4x5.6 cm\\_mass, 1.0x2.9x3.5 cm\\_mass, 4.0 mm\\_lymph\\_node, 7.0 mm\\_lymph\\_node",
+        "attributes": "Right: historic, Right\\_Breast: historic, Axillary\\_Lymph\\_Nodes: historic, Abraxane: conditional"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is May 31, 2010, at 11:45.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant",
+        "attributes": "Right_Breast: historic, anatomical, uncertain, negated, temporality, generic, conditional\n\nRight: historic, anatomical, uncertain, negated, temporality, generic, conditional\n\nAxillary_lymph_nodes: historic, anatomical, uncertain, negated, temporality, generic, conditional\n\n1_oclock_position: anatomical, uncertain, negated, conditional, generic\n\n1.0x2.9x3.5_cm: anatomical, uncertain, negated, conditional, generic\n\n4.0_mm: anatomical, uncertain, negated, conditional, generic\n\nRight_axillary_lymph_node: historic, anatomical, uncertain, negated, temporality, generic, conditional\n\n7.0_mm: anatomical, uncertain, negated, conditional, generic\n\nWell_appearing_female: anatomical, uncertain, negated, conditional, generic\n\nNAD: anatomical, uncertain, negated, conditional, generic\n\nBP: numerical, uncertain, negated, conditional, generic\n\nPulse: numerical, uncertain, negated, conditional, generic\n\nTemp: numerical, uncertain, negated, conditional, generic\n\n97.2: numerical, uncertain, negated, conditional, generic\n\nNC/AT: anatomical, uncertain, negated, conditional, generic\n\nPERRL: anatomical, uncertain, negated, conditional, generic\n\nEOMI: anatomical, uncertain, negated, conditional, generic\n\nsclera_non-icteric: anatomical, uncertain, negated, conditional, generic\n\nSupple: anatomical, uncertain, negated, conditional, generic\n\nNo_masses: anatomical, uncertain, negated, conditional, generic\n\nThyroid_not_enlarged: anatomical, uncertain, negated, conditional, generic\n\nCTA: anatomical, uncertain, negated, conditional, generic\n\nNo_wheezes: anatomical, uncertain, negated, conditional, generic\n\nRales: anatomical, uncertain, negated, conditional, generic\n\nRhonchi: anatomical, uncertain, negated, conditional, generic\n\nCOR: anatomical, uncertain, negated, conditional, generic\n\nRRR: anatomical, uncertain, negated, conditional, generic\n\nNo_murmurs: anatomical, uncertain, negated, conditional, generic\n\nRubs: anatomical, uncertain, negated, conditional, generic\n\nGallops: anatomical, uncertain, negated, conditional, generic\n\nSoft: anatomical, uncertain, negated, conditional, generic\n\nNon-tender: anatomical, uncertain, negated, conditional, generic\n\nNon-distended: anatomical, uncertain, negated, conditional, generic\n\nNo_HSM: anatomical, uncertain, negated, conditional, generic\n\nGood_pulses: anatomical, uncertain, negated, conditional, generic\n\nNo_clubbing: anatomical, uncertain, negated, conditional, generic\n\nCyanosis: anatomical, uncertain, negated, conditional, generic\n\nEdema: anatomical, uncertain, negated, conditional, generic"
+    }
+}

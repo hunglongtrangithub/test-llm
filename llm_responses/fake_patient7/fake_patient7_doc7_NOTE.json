@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "October 26, 2010 at 10:15",
+        "episode": "The stage of patient care that the document relates to is 'Medical Decision-making'.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Left_breast, Tumor_bed, Left_axillary_sentinel_lymph_node, Left_axillary_lymph_node, Surgical_margins, Lymph_nodes, Mastectomy_incision, Chronic_Lymphocytic_Leukemia, Bone_marrow, HEENT, Neck, Thyroid, Lungs, BREAST, COR, ABD, EXT",
+        "attributes": "Left_Breast: historic, Left_Axillary_Sentinel_Lymph_Node: historic, Left_Axillary_Lymph_Node: historic, Lungs: generic, Neck: generic, BREAST: generic, ABD: generic, EXT: generic, Thyroid: negated, Skin: negated, HSM: negated, COR: generic"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient7",
+        "type": "Clinical Note",
+        "date": "20101026 1015",
+        "episode": "Medical Decision-making",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Axilla, Left_Axillary, Sentinel_Lymph_Node, Lymph_Node",
+        "attributes": "Breast: historic, conditional\nLeft_Breast: historic, conditional\nLeft_Axillary_Lymph_Node: historic, conditional"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is October 26, 2010 at 10:15 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Axilla",
+        "attributes": "Left_Breast: historic, negated, generic\nInfiltrating_Ductal_Carcinoma: historic, generic\nDCIS: historic, generic\nER: historic, generic\nPR: historic, generic\nHER2: historic, generic\nAnastrozole: generic\nRadiation_Therapy: historic\nTumor_Bed: historic\nBiopsy: historic\nModified_Radical_Mastectomy: historic\nSentinel_Lymph_Node_Biopsy: historic\nAxillary_Lymph_Node_Dissection: historic\nPathology: historic\nSurgical_Margins: historic, negated\nMetastatic_Carcinoma: historic, generic\nChronic_Lymphocytic_Leukemia: historic, generic\nImmunosuppressive_Therapy: historic, generic\nAlemtuzumab: historic, generic\nWBC: historic\nBone_Marrow_Biopsy: historic, generic\nPhysical_Exam: generic\nBP: historic, generic\nPulse: historic, generic\nTemp: historic, generic\nHEENT: generic\nNECK: generic\nLUNGS: generic\nCOR: generic\nABD: generic\nEXT: generic\nAnastrozole_Therapy: historic, generic"
+    },
+    "llama-2-70b-chat": {
+        "name": "Fake Patient7",
+        "type": " The referenced medical document is a 'Clinical Note'.",
+        "date": " October 26, 2010, at 10:15 AM",
+        "episode": " Medical Decision-Making",
+        "sections": " CLINICAL HISTORY, INTERIM HISTORY, PMH, PHYSICAL EXAM, IMPRESSION.\n\nPlease note that the formatting of the document may differ from the original due to the absence of specific headers or layout. However, the information provided mirrors the contents of the given document.",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_inner_Quadrant, Lymph_Vascular, Left_Axillary_Sentinel_Lymph_Node, Left_Axillary_Lymph_Node, Left_Mastectomy_Incision, Chronic_Lymphocytic_Leukemia, Bone_Marrow, Thyroid, Lungs, Heart, Abdomen, Extremities",
+        "attributes": "Sure! Here is the list of attributes for each anatomical entity mentioned in the document, formatted as 'Entity: attribute, Entity: attribute', separated by commas:\n\nLeft Breast: historic, Left Breast: conditional, Left Axillary Sentinel Lymph Node Biopsy: historic, Left Axillary Lymph Node Dissection: historic, Lymph Nodes: historic, Lymph Nodes: conditional, Thyroid: negative, Thyroid: uncertain, Bone Marrow: historic, Bone Marrow: uncertain, Lungs: conditional, Heart"
+    },
+    "llama-2-13b-chat": {
+        "name": "Fake Patient7",
+        "type": " Based on the content of the document, the type of medical document is a \"Clinical Note\". Therefore, the answer is:\n\nC. Clinical Note",
+        "date": "10/26/2010 at 10:15",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, Physical Exam.",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\nAxilla, Left_Breast, Upper_inner_Quadrant, Lymph_vascular, Lymph nodes, Left_mastectomy_incision, Chronic_Lymphocytic_Leukemia, WBC, Bone_marrow, HEENT, NECK, LUNGS, BREAST, COR, ABD, EXT.",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document paired with its attributes, like 'Right: historic, Right_Breast: historic', separated by commas:\n\nLeft Breast: historic, DCIS, T1, N1mi, M0, infiltrating ductal carcinoma\nLeft Axilla: historic, lymph node dissection, lymph node biopsy\nLymph Nodes: historic, metastatic carcinoma\nLeft Mastectomy Incision: historic, well healed, without signs of infection"
+    },
+    "llama-2-7b-chat": {
+        "name": "Fake Patient7",
+        "type": "Clinical Note.\n\nPlease provide the actual document title or mention if the type is unknown.",
+        "date": " The principal date of the medical document as noted in the text is:\n\n2010-10-26 at 10:15 AM\n\nFormat: Month DD, YYYY at HH:MM\n\nNote: The time of 10:15 AM is included in the text, but it is not explicitly stated as the principal date.",
+        "episode": "Medical Decision-making",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PMH, Physical Exam.",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_inner_Quadrant, Left_Axillary_Sentinel_Lymph_Node, Left_Axillary_Lymph_Node, Left_Mastectomy_Incision, Lymph_Nodes.",
+        "attributes": "Sure, I can help you with that! Here is a list of attributes for each anatomical entity mentioned in the document paired with its attributes, like 'Right: historic, Right_Breast: historic', separated by commas:\n\nLeft Breast: historic, T1, N1mi, M0\nLeft Axillary Sentinel Lymph Node Biopsy: historic\nLeft Axillary Lymph Node Dissection: historic\nLymph Nodes: historic, 14, metastatic carcinoma\nRight Breast: historic\nLeft Mastectomy"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is not provided explicitly. However, the document contains information related to a patient with a medical condition, treatment, and history. The document does not provide the patient's full name.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is October 26, 2010 at 10:15 AM, formatted as '10/26/2010 10:15 AM'.",
+        "episode": "The document relates to the stage of patient care known as 'Medical Decision-making'. This is indicated by the physician's assessment and plan for ongoing care, which includes monitoring the patient's response to therapy and reevaluating the treatment plan every 6 months. The document also contains clinical and interim history, as well as vital signs and physical examination findings, which are relevant to the medical decision-making process.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Anatomical entities mentioned in the document:\n\n* Axilla, Left\\_Breast, Upper\\_inner\\_Quadrant, Tumor\\_Bed, Left\\_Axillary\\_Sentinel\\_Lymph\\_Node\\_Biopsy, Left\\_Axillary\\_Lymph\\_Node\\_Dissection, Left\\_Mastectomy\\_Incision, Left\\_Breast, Surgical\\_Margins, Lymph\\_Nodes, Mastectomy, Radiation\\_Therapy, Breast\\_Cancer, Infiltrating\\_Ductal\\_Carcinoma, DCIS, ER\\_Positive, PR\\_Positive, HER2\\_Negative, Chronic\\_Lymphocytic\\_Leukemia, Immunosuppressive\\_Therapy, Alemtuzumab, Well\\_Appearing\\_Female, NAD, BP\\_120/80, Pulse\\_71, Temp\\_97.0, NC/AT, PERRL, EOMI, sclera\\_non\\_icteric, Supple, No\\_mass, No\\_enlarged\\_thyroid, No\\_murmurs, No\\_rubs, No\\_gallops, Soft, Non-tender, Non-distended, Good\\_pulses, No\\_clubbing, Cyanosis\\_or\\_edema",
+        "attributes": "Right: historic\nRight_Breast: historic\nLeft: historic\nLeft_Breast: historic\nInfiltratingDuctalCarcinoma: historic, invasive\nDCIS: historic, invasive\nN1mi: historic, regional lymph node involvement\nM0: historic, no distant metastasis\nER: positive, estrogen receptor\nPR: positive, progesterone receptor\nHER2: negative, human epidermal growth factor receptor 2\nAnastrozole: current therapy\nChronicLymphocyticLeukemia: diagnosed, immunosuppressive therapy\nAlemtuzumab: immunosuppressive therapy\nCTA: current finding\nBP: 120/80, blood pressure\nPulse: 71, heart rate\nTemp: 97.0, body temperature\nNC/AT: health examination, no abnormal findings\nPERRL: health examination, no abnormal findings\nEOMI: health examination, no abnormal findings\nsclera non-icteric: health examination, no icterus\nSupple: neck, supple\nNo masses: neck, no masses\nThyroid not enlarged: neck, no enlargement\nCT scan: chest, thorax, abdomen, and pelvis\nRRR: heart, regular rhythm\nNo murmurs: heart, no abnormal sounds\nRubs or gallops: heart, no abnormal vibrations or beats\nGood pulses: limbs, normal pulses\nNo clubbing: extremities, no clubbing\nCyanosis: no cyanosis\nEdema: no edema"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "Patient Name: Fake Patient7",
+        "type": "Clinical Note",
+        "date": "The principal date of the medical document is not explicitly given in the provided text.",
+        "episode": "The stage of patient care related in this document is \"Medical Decision-making.\" This is indicated by the statement \"She has tolerated therapy well without significant side effects. She completed radiation therapy to the left breast with additional treatment to the tumor bed in August 2010.\" This statement suggests that the patient is currently undergoing treatment and that the medical team is closely monitoring her response to therapy. Additionally, the statement \"We will continue to see her every 6 months\" indicates that the patient's care will continue beyond the diagnostic and pre-diagnostic stages.",
+        "sections": "Main content sections or headings:\nHistory of Present Illness,\nInterim History,\nPast Medical History,\nPhysical Exam,\nImpression.",
+        "classUri-mentions": "Left_Breast, Left_Axillary, Left_Modified_Radical_Mastectomy, Left_Axillary_Sentinel_Lymph_Node_Biopsy, Left_Axillary_Lymph_Node_Dissection, Infiltrating_Ductal_Carcinoma, 1.8_cm, Nuclear_Grade_3, Lympho-vascular_Invasion, Negative_Surgical_Margins, 14_Lymph_Nodes, Metastatic_Carcinoma, Chronic_Lymphocytic_Leukemia, Alemtuzumab, Immunosuppressive_Therapy, WBC, Bone_Marrow_Biopsy, Stable_Disease",
+        "attributes": "Left: historic, Left_Breast: historic, Left_Axillary: historic, Left: conditional, Left\\_Axillary\\_Sentinel\\_Node: historic, Left\\_Axillary\\_Lymph\\_Node: historic, Left\\_Mastectomy\\_Incision: historic, Left\\_Modified\\_Radical\\_Mastectomy: historic, Left\\_Axillary\\_Sentinel\\_Node\\_Biopsy: historic, Left\\_Axillary\\_Lymph\\_Node\\_Dissection: historic, Infiltrating\\_Ductal\\_Carcinoma: generic, Nuclear\\_Grade\\_3: generic, Lympho-vascular\\_Invasion: generic, Surgical\\_Margins: generic, Chronic\\_Lymphocytic\\_Leukemia: generic, Immunosuppressive\\_Therapy: generic, Alemtuzumab: generic, White\\_Blood\\_Cell: generic, Bone\\_Marrow\\_Biopsy: generic, Stable\\_Disease: generic, Anastrozole: generic, Therapy: generic, Radiation\\_Therapy: generic, Post-menopausal: generic, Stage\\_1B: generic, T1: generic, N1mi: generic, M0: generic, ER\\_Positive: generic, PR\\_Positive: generic, HER2\\_Negative: generic"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as '20101026 1015' (October 26, 2010, at 10:15).",
+        "episode": "The stage of patient care relating to this document is \"Medical Decision-making\".",
+        "sections": "History of Present Illness, Interim History, Clinical History, Past Medical History, Physical Exam, Vitals Signs, Laboratory Data, Impression",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, T1, N1mi, M0, Infiltrating_ductal_carcinoma, DCIS, ER_positive, PR_positive, HER2_negative, Left_axillary_sentinel_lymph_node_biopsy, Left_axillary_lymph_node_dissection, Left_modified_radical_mastectomy, Infiltrating_ductal_carcinoma_of_the_left_breast, 1.8_cm, nuclear_grade_3, Lympho-vascular_invasion, Surgical_margins, Chronic_Lymphocytic_Leukemia, Alemtuzumab, Well_healed_left_mastectomy_incision, Stable_disease, Bone_marrow_biopsy",
+        "attributes": "Right: historic, Left_Breast: historic, DCIS: historic, Infiltrating_Ductal_Carcinoma: historic, T1: historic, N1mi: historic, M0: historic, ER: positive, PR: positive, HER2: negative, Anastrozole: 3 months, Radiation_Therapy: left_breast, Tumor_Bed: additional_treatment, Surgery: left_modified_radical_mastectomy, Lymph_Node_Biopsy: left_axillary_sentinel, Lymph_Node_Dissection: left_axillary, Pathology: infiltrating_ductal_carcinoma, 1.8_cm, nuclear_grade_3, Lympho-vascular_Invasion, Surgical_Margins: negative, 14_lymph_nodes, 1_positive_for_metastatic_carcinoma, Chronic_Lymphocytic_Leukemia: diagnosed_in_May_2002, Alemtuzumab: immunosuppressive_therapy, WBC: normal, Bone_Marrow_Biopsy: stable_disease, Well_appearing_female_in_NAD, Physical_Exam: PMH, VS: BP, Pulse, Temp, HEENT: NC/AT, PERRL, EOMI, sclera non-icteric, NECK: Supple, no_masses, thyroid_not_enlarged, LUNGS: CTA, No wheezes, rales, rhonchi, BREAST: left_breast, well_healed_surgical_scar, right_breast: NAD, COR: RRR, No murmurs, rubs, or gallops, ABD: Soft, non-tender, non-distended, No HSM, EXT: Good pulses, no clubbing, cyanosis, or edema, Impression: tolerated_therapy_reasonably_well, continue_every_6_months"
+    }
+}

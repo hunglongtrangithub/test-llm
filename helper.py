@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import unicodedata
 import json
 import os
 
@@ -74,9 +75,46 @@ def merge_two_evluation_dicts(dict1, dict2):
     return dict1
 
 
+def merge_two_llm_respones_dirs(dir1, dir2):  # Save the merged responses to dir1
+    dir1_patients = [
+        dir for dir in os.listdir(dir1) if os.path.isdir(os.path.join(dir1, dir))
+    ]
+    dir2_patients = [
+        dir for dir in os.listdir(dir2) if os.path.isdir(os.path.join(dir2, dir))
+    ]
+    print(dir1_patients, dir2_patients)
+    common_patients = set(dir1_patients).intersection(dir2_patients)
+    for patient in common_patients:
+        dir1_patient_files = os.listdir(f"{dir1}/{patient}")
+        dir2_patient_files = os.listdir(f"{dir2}/{patient}")
+        common_patient_files = set(dir1_patient_files).intersection(dir2_patient_files)
+        for file in common_patient_files:
+            dir1_patient_file_path = f"{dir1}/{patient}/{file}"
+            dir2_patient_file_path = f"{dir2}/{patient}/{file}"
+            dir1_patient_file = load_json_file(dir1_patient_file_path)
+            dir2_patient_file = load_json_file(dir2_patient_file_path)
+            dir1_patient_file = merge_two_evluation_dicts(
+                dir1_patient_file, dir2_patient_file
+            )
+            save_json_file(dir1_patient_file_path, dir1_patient_file)
+
+
+def normalize_string(s: str) -> str:
+    # Convert to lowercase
+    s = s.lower()
+
+    # Normalize whitespace
+    s = " ".join(s.split())
+
+    # Normalize Unicode characters
+    s = unicodedata.normalize("NFKC", s)
+    return s
+
+
 if __name__ == "__main__":
     # print("Available models:")
     # print("\n".join(fetch_chat_models()))
     # list_paths("input")
     # print(list(os.walk("input")))
+    merge_two_llm_respones_dirs("llm_responses copy", "vicuna_llm_responses copy")
     pass

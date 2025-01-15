@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient6",
+    "type": "Clinical Note",
+    "date": "April 15, 2011 at 11:15 AM",
+    "episode": "Treatment",
+    "sections": "Clinical History, Interim History, Past Medical History, Impression",
+    "classUri-mentions": "Left_Breast, Neoplasm, PT1s_Stage, PT0_Stage, T1_Stage, Ductal_Breast_Carcinoma_In_Situ, Right, Left, Lung, Heart, PR_, PN1_Stage, PT1_Stage, Secondary_Neoplasm, M0_Stage, PNx_Stage, Abdomen, Stage_2A, PN0_Stage, Invasive_Ductal_Breast_Carcinoma, HER2, Tumor_Stage_Finding, Limb, Right_Breast, PM0_Stage, Left_Axillary_Lymph_Node, ER_, N1_Stage",
+    "attributes": "PT1_Stage: , Ductal_Breast_Carcinoma_In_Situ: historic, PT0_Stage: , Lung: negated, historic, Invasive_Ductal_Breast_Carcinoma: historic, Tumor_Stage_Finding: , Right_Breast: uncertain, historic, Left_Breast: , N1_Stage: , Limb: negated, historic, ER_: historic, Heart: negated, historic, HER2: historic, PNx_Stage: , Secondary_Neoplasm: , PM0_Stage: , Neoplasm: , Left: , Right: uncertain, historic, Stage_2A: historic, Left_Axillary_Lymph_Node: , Left_Axillary_Lymph_Node: historic, T1_Stage: , Abdomen: negated, historic, ER_: historic, PR_: historic, Invasive_Ductal_Breast_Carcinoma: , Left_Axillary_Lymph_Node: historic, PT1s_Stage: , PN1_Stage: , PN0_Stage: , Left_Breast: , Secondary_Neoplasm: historic, Left_Breast: historic, Tumor_Stage_Finding: historic, Stage_2A: , M0_Stage: , Left: historic, Left: , PR_: historic, Left_Breast: historic"
+}

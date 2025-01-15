@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "February 10, 2010 at 10:15",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "Reason For Visit, Diagnosis, Procedure, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Right_Axilla, Sentinel_Lymph_Node, Surgical_Incision, Axillary_Wound, Right_Axillary_Lymph_Node",
+        "attributes": "'Right Breast: historic, Right Axilla: historic, Sentinel Lymph Node: historic'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient3",
+        "type": "Clinical Note",
+        "date": "20100210 1015",
+        "episode": "Diagnostic",
+        "sections": "Reason For Visit, Diagnosis, Procedure, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Axilla, Right_Breast, Sentinel_lymph_node",
+        "attributes": "Right: historic\nRight_Breast: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is February 10, 2010 at 10:15 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "Reason For Visit, Diagnosis, Procedure, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Right_Breast, Axilla, Upper_inner_Quadrant, ER positive, PR positive, Her2 negative, FISH, Segmental mastectomy, Right axilla, Sentinel lymph node, Surgical incision, Bruising, Infection, Pain, Fever, Nausea, Vomiting, Invasive ductal carcinoma, Stage 2, Micro-metastases, Sentinel lymph node dissection",
+        "attributes": "Right_Breast: historic, negated, generic\nRight: historic\nER: positive, generic\nPR: positive, generic\nHer2: negative, generic\nFISH: generic\nRight_segmental_mastectomy: historic\nRight_axilla: historic, negated\nSentinel_lymph_node: historic\nFebruary_1_2010: historic\n44_year_old_woman: generic\nStage_2_invasive_ductal_carcinoma: historic\nAxillary_wound: historic, negated\nBruising: negated\nInfection: negated\nPain: negated\nFever: negated\nNausea: negated\nVomiting: negated\nRight_axillary_lymph_node_dissection: conditional, future"
+    },
+    "llama-2-70b-chat": {
+        "name": "Patient Name..................Fake Patient3",
+        "type": " Certainly! Here's the answer to the question:\nThe type of medical document being referenced is a 'Clinical Note'.",
+        "date": " February 10, 2010 at 10:15",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nFormat:\n\nQuestion: Which stage of patient care does the document relate to?\n\nAnswer: Diagnostic",
+        "sections": " Reason For Visit, Diagnosis, Procedure, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": " Axilla, Right_Breast, Sentinel_Lymph_Node",
+        "attributes": " Sure, here are the attributes for each anatomical entity mentioned in the document, formatted as requested:\n\n* Right Breast: historic, ER positive, PR positive, Her2 negative\n* Axilla: historic, well healed\n* Sentinel Lymph Node: historic, multifocal carcinoma, micro-metastases\n* Right Axillary Lymph Node: historic, to be dissected\n\nSo, the response would be:\n\nRight Breast: historic, ER positive, PR positive, Her2 negative\nAxilla: historic, well healed\nSentinel Lymph Node: historic, multifocal carcinoma, micro-metastases\nRight Axillary Lymph Node: historic, to be dissected"
+    },
+    "llama-2-13b-chat": {
+        "name": "Patient Name..................Fake Patient3",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "February 10, 2010, at 10:15 AM",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nDiagnostic\n\nReason: The document provides a diagnosis of Stage II invasive ductal carcinoma of the right breast, which is a specific and definitive diagnosis. Additionally, the document includes details of the patient's procedure (right segmental mastectomy and sentinel lymph node excision) and recommendations for further treatment (right axillary lymph node dissection), which indicates that the patient is in the diagnostic stage of care.\n\nTherefore, the answer is:\n\nDiagnostic",
+        "sections": "Reason For Visit, Diagnosis, Procedure, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": " Sure! Here is the list of distinct anatomical entities mentioned in the document, in the order they appear, using underscores to connect multiple words in a single entity:\n\nRight_Breast, Axilla, Sentinel_Lymph_Node, Right_Axilla, Breast",
+        "attributes": "Right: historic, Right Breast: historic, invasive ductal carcinoma: uncertain, T2: uncertain, N1: uncertain, M0: uncertain, ER positive: uncertain, PR positive: uncertain, Her2 negative: uncertain, Right segmental mastectomy: historic, right axilla: historic, sentinel lymph node excision: historic, 44 year old woman: generic, postoperative: historic, well healed surgical incision: historic, well healed axillary wound: historic, no signs of bruising: historic, no infection"
+    },
+    "llama-2-7b-chat": {
+        "name": "Patient Name..................Fake Patient3",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": " The principal date of the medical document as noted in the text is:\n\nFebruary 10, 2010 at 10:15 AM\n\nFormat: Month DD, YYYY at HH:MM\n\nTherefore, the answer is: February 10, 2010 at 10:15 AM.",
+        "episode": " Based on the information provided in the document, the stage of patient care to which it relates is:\n\n'Diagnostic'\n\nThe document describes the patient's diagnosis and treatment plan, including the stage of their cancer (Stage II invasive ductal carcinoma), the procedures they underwent (right segmental mastectomy and right axilla, sentinel lymph node excision), and the recommendations for further treatment (right axillary lymph node dissection). This information is typical of a diagnostic note or operative report, rather than a pre-diagnostic or preoperative note.\n\nTherefore, the answer is:\n\nDiagnostic\n\n(Note: If the document provided contained different information or was from a different stage of patient care, the answer would be different. For example, if the document described the patient's preoperative evaluation or postoperative recovery, the answer would be 'Pre-diagnostic' or 'Post-diagnostic', respectively.)",
+        "sections": "History of Present Illness, Physical Exam, Impression, Recommendations.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Right breast\n* Axilla\n* Sentinel lymph node\n* Right axilla\n* Breast\n* N1 (lymph node)\n* T2 (tumor size)\n* M0 (no metastasis)\n\nFormatted as requested:\nAxilla, Right_Breast, Sentinel_Lymph_Node, Right_Axilla, Breast, N1, T2, M0.",
+        "attributes": " Here are the attributes for each anatomical entity mentioned in the document:\n\n* Right: historic (as it refers to the right breast that has been previously operated on)\n* Right Breast: historic (as it refers to the right breast that has been previously surgically removed)\n* Axilla: historic (as it refers to the axilla that has been previously surgically excised)\n* Lymph Node: uncertain (as it is not specified which lymph node is being referred to, and there are multiple lymph nodes mentioned in the document)\n* Carcinoma: generic (as it is a general term for cancer, without specific details on the type of cancer)\n* Stage II: historic (as it refers to the patient's stage of cancer at the time of the initial surgery)\n* T2: uncertain (as it is not specified which T2 refers to, without more context it could refer to multiple things)\n* N1: uncertain (as it is not specified which lymph nodes are being referred to, and there are multiple lymph nodes mentioned in the document)\n* M0: uncertain (as it is not specified which M0 refers to, without more context it could refer to multiple things)\n* ER positive: uncertain (as it is not specified which ER refers to, without more context it could refer to multiple things)\n* PR positive: uncertain (as it is not specified which PR refers to, without more context it could refer to multiple things)\n* Her2 negative: uncertain (as it is not specified which Her2 refers to, without more context it could refer to multiple things)\n\nNote: The attributes are listed in a format of \"Entity: Attribute\", separated by commas, where the entity is the name of the anatomical structure or disease mentioned in the document, and the attribute is the specific attribute associated with that structure or disease."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is February 1, 2010, formatted as '02/01/2010 10:15'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care. The patient has been diagnosed with Stage II invasive ductal carcinoma of the right breast and has undergone a right segmental mastectomy and right axilla, sentinel lymph node excision. The document provides information on the patient's condition, treatment plan, and recommendations for further treatment.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Axilla, Right\\_Breast, Sentinel\\_Lymph\\_Node\\_Excision, Stage\\_II\\_Invasive\\_Ductal\\_Carcinoma\\_of\\_the\\_Right\\_Breast",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Axilla: historic, Lymph_Nodes: historic, Carcinoma: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient3\".",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\" The document is identified as a \"NOTE\" in the \"Record Type\" field. The document contains information related to the patient's diagnosis, procedure, and physical examination, as well as the provider's impression and recommendations.",
+        "date": "The principal date of the medical document is February 1, 2010, formatted as '02/01/2010.' This date is noted in the text as the date of the surgical procedure (right segmental mastectomy and right axilla, sentinel lymph node excision).",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is based on the fact that the document contains information about the patient's diagnosis and treatment plan, which indicates that the healthcare team is in the process of making decisions about the patient's care. Additionally, the document includes a recommendation for a further procedure (right axillary lymph node dissection) and notes that the patient's treatment plan will be discussed further after this procedure, indicating that the healthcare team is actively making decisions about the patient's care.",
+        "sections": "History of Present Illness, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant",
+        "attributes": "Right: historic, Right\\_Breast: historic, Right\\_Axilla: historic, Sentinel\\_Lymph\\_Node: uncertain, multifocal\\_carcinoma: uncertain, micro-metastases: uncertain"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as 'February 10, 2010 at 10:15'.",
+        "episode": "The document relates to the \"Medical Decision-making\" stage of patient care.",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Sentinel_Lymph_Node",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Axilla: historic, Sentinel: historic, Lymph_Node: historic, ER positive: uncertain, PR positive: uncertain, Her2 negative by FISH: uncertain, Post op breast surgery: negated, Recovery: negated, Interim_History: negated, Physical_Exam: negated, Impression: negated, Right_Axillary_Lymph_Node_Dissection: negated, Further_Treatment_Plan: negated"
+    }
+}

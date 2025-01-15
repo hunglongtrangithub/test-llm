@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is August 16, 2010 at 10:45.",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "CLINICAL HISTORY, MAMMOGRAPHY, IMPRESSION, ACR BI-RADS category (left breast)",
+        "classUri-mentions": "Left_breast, Left_axillary_lymph_node",
+        "attributes": "'Left breast lump': uncertain, \n'Enlarged left axillary lymph node': uncertain, \n'Left breast': generic, \n'1.0 cm ill-defined mass at the 4 o\u2019clock position of the left breast': uncertain, \n'Left axillary': generic, \n'2 abnormal dense round lymph nodes measuring 3.0 cm and 2.1 cm': uncertain, \n'Sonography of the left breast': generic, \n'1.0x0.8x0.7 cm hypoechoic mass at the 4 o\u2019clock central position': uncertain, \n'This mass': generic, \n'Sonography of the left axilla': generic, \n'2 abnormal lymph nodes': uncertain, \n'Cortical thickening': uncertain, \n'Suspicious 1.0 cm solid mass located in the left breast at 4 o\u2019clock': uncertain, \n'2 palpable enlarged left axillary lymph nodes': uncertain, \n'Ultrasound guided core biopsy the left breast mass': conditional\n'Ultrasound guided core biopsy of the abnormal left axillary lymph node': conditional, \n'ACR BI-RADS category (left breast)': generic, \n'Abnormal left axillary lymph node': uncertain."
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient6",
+        "type": "Radiology Report",
+        "date": "20100816 1045",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, MAMMOGRAPHY, SONOGRAPHY, IMPRESSION",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_inner_Quadrant, Left_Axillary_Lymph_Node",
+        "attributes": "Left_Breast: historic\nLeft_Axillary_Lymph_Node: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document, as noted in the text, is August 16, 2010 at 10:45 AM.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, MAMMOGRAPHY, Sonography of the left breast, Sonography of the left axilla, IMPRESSION, ACR BI-RADS category",
+        "classUri-mentions": "Left_Breast, Axilla, lymph_node",
+        "attributes": "Left Breast: \n- Ill-defined mass at the 4 o'clock position\n- 1.0 cm in size\n- Hypoechoic\n- Irregular shape\n\nLeft Axillary Lymph Nodes:\n- Abnormal dense round lymph nodes\n- Measuring 3.0 cm and 2.1 cm in size\n- Cortical thickening\n- Worrisome for extra-nodal extension and metastatic disease"
+    },
+    "llama-2-70b-chat": {
+        "name": " Fake Patient6",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "August 16, 2010, at 10:45",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nAnswer: Diagnostic",
+        "sections": "History of Present Illness, MAMMOGRAPHY, Sonography, IMPRESSION, ACR BI-RADS.",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\n* Left breast\n* Axilla\n* Left axillary lymph node\n* 4 o'clock position\n* Left breast mass\n* Hypoechoic mass\n* Cortical thickening\n\nFormat: Axilla, Left breast, Left axillary lymph node, 4 o'clock position, Left breast mass, Hypoechoic mass, Cortical thickening",
+        "attributes": " Left Breast: historic, Highly Suggestive of Malignancy\nLeft Axillary Lymph Node: historic, Highly Suspicious for Metastatic Disease"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I'd be happy to help! Here's the answer to your question based on the information provided in the medical document:\n\nWhat is the patient's name as mentioned in the document?\n\nBased on the document, the patient's name is:\n\nFake Patient6\n\nPlease note that the patient's name is mentioned as \"Fake Patient6\" in the document, so it is not possible to provide any personal information about the patient beyond this name.",
+        "type": "The medical document referenced in the text is a 'Radiology Report.'\n\nIt can be identified as a Radiology Report based on the information provided in the document, specifically the patient's history, mammography results, sonography results, impression, and ACR BI-RADS category. All of these components are typical of a radiology report used to communicate a patient's diagnosis and treatment plan to their healthcare provider. Therefore, the type of medical document referenced in the text is a Radiology Report.",
+        "date": "August 16, 2010 at 10:45.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. Therefore, the answer is 'Diagnostic'.\n\nFormat:\nThe document relates to the {Pre-diagnostic, Diagnostic, Medical Decision-making, unknown} stage of patient care.\n\nIn this case, the answer is 'Diagnostic'.",
+        "sections": " Sure! Here is the list of main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nHistory of Present Illness, Past Medical History, Physical Exam, MAMMOGRAPHY, SONOGRAPHY, IMPRESSION.",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_inner_Quadrant, Left_Axillary_view, Left_Breast, 4_o'clock_position, Left_axilla, Central_position, 4_o'clock_central_position.",
+        "attributes": " Sure, I can help you with that! Here are the attributes for each anatomical entity mentioned in the document, as they are described in the document:\n\nLeft Breast:\n\n* Historic (since the mammography was performed on 8/8/10)\n\nRight Breast:\n\n* Not mentioned in the document\n\nLeft Axillary Lymph Node:\n\n* Historic (since the sonography was performed on the left axilla)\n* Cortical thickening (worrisome for extra-nodal extension and favors a diagnosis of metastatic disease)\n\nRight Axillary Lymph Node:\n\n* Not mentioned in the document\n\nSo, the list of attributes for each anatomical entity is:\n\nLeft Breast: historic\nLeft Axillary Lymph Node: historic, cortical thickening\nRight Breast: not mentioned\nRight Axillary Lymph Node: not mentioned"
+    },
+    "llama-2-7b-chat": {
+        "name": "Fake Patient6 ",
+        "type": "What type of medical document is referenced in the text?\nAnswer: Radiology Report\nReasoning:\nThe document provided is a Radiology Report, specifically a Mammography Report, as it details the findings of a diagnostic mammography examination performed on a patient. The report includes information on the patient's medical history, the results of the mammography examination, and the radiologist's impressions and recommendations. The format of the report, including the use of abbreviations and technical terms specific to radiology, further supports this conclusion.",
+        "date": "August 16, 2010 at 10:45",
+        "episode": "Based on the information provided in the medical document, the stage of patient care that the document relates to is 'Diagnostic'.\nThis is because the document provides details of the patient's clinical history, mammography, sonography, and the impressions of the radiologist, all of which are part of the diagnostic process. The document also mentions the recommendation for ultrasound-guided core biopsy, which is a diagnostic procedure used to confirm the presence of cancer.\nTherefore, the answer to the question is 'Diagnostic'.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document:\n\n* Axilla\n* Breast\n* Lymph node\n* Mass\n* Node\n\nListed in the order they appear in the document:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Lymph node, Mass, Node",
+        "attributes": "Here are the attributes for each anatomical entity mentioned in the document:\nRight: historic\nRight Breast: historic\n\nPlease note that the document only mentions the right breast once, in the context of the patient's medical history, where it is described as \"right breast.\" Therefore, the attribute for this entity is \"historic.\""
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report' (RAD).",
+        "date": "The principal date of the medical document as noted in the text is August 16, 2010 at 1045. The date is formatted as '08/16/2010 1045'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression, ACR BI-RADS category (left breast), Abnormal left axillary lymph node.",
+        "classUri-mentions": "Axilla, Left\\_Breast, Left\\_axillary\\_node, Mass.",
+        "attributes": "Left: historic, Left\\_Breast: historic, Left\\_Axillary\\_Lymph\\_Node: historic, Left\\_Axillary\\_Lymph\\_Nodes: historic\n\nRight: historic, Right\\_Breast: historic, Right\\_Axillary\\_Lymph\\_Node: historic, Right\\_Axillary\\_Lymph\\_Nodes: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is not provided.",
+        "type": "The type of medical document referenced in the text is a \"Radiology Report.\" The document describes the findings of a mammography, sonography, and the recommended course of action for a patient with a suspicious mass in the left breast and enlarged lymph nodes in the left axilla. The report includes a clinical history, mammography and sonography results, and impressions, and it recommends an ultrasound-guided core biopsy for both the breast mass and the lymph nodes. The document is identified as a \"RAD\" record type and includes a report ID, patient ID, patient name, and principal date.",
+        "date": "The principal date of the medical document is August 16, 2010, at 10:45, formatted as 'Month DD, YYYY at HH:MM'. This information can be found in the third line of the document under the 'Principal Date' heading.",
+        "episode": "The stage of patient care that the provided document relates to is \"Medical Decision-making.\" This is because the document describes the patient's clinical history, mammography results, sonography findings, and the recommendations for further diagnostic procedures, such as ultrasound-guided core biopsy, based on the identified abnormalities. The document also mentions the ACR BI-RADS category for the left breast mass, which suggests a high likelihood of malignancy, and the suspicion of metastatic disease in the left axillary lymph nodes. These findings and recommendations indicate that the patient is in the medical decision-making stage of care, where the healthcare team and the patient discuss the most appropriate diagnostic and treatment options based on the available information.",
+        "sections": "Main content sections:\nHistory of Present Illness,\nMammography,\nSonography,\nImpression.",
+        "classUri-mentions": "Left_Breast, 4_o'clock_position, 1.0_cm_mass, ill-defined",
+        "attributes": "Left: historic, uncertain, generic, conditional\nLeft_Breast: historic, uncertain, generic, conditional\nLeft_Axillary: historic, uncertain, generic, conditional, temporality"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is noted as \"20100816 1045\".",
+        "episode": "The stage of patient care related to this document is \"Diagnostic\".",
+        "sections": "Mammography, Sonography, Clinical History, Impression, ACR BI-RADS Category",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant",
+        "attributes": "Left: historic, Left_Breast: historic, Left_Breast: 4 o'clock, Left_Breast: ill-defined, Left_Breast: 1.0 cm, Left_Breast: mass, Left_Axillary: historic, Left_Axillary: abnormal, Left_Axillary: dense, Left_Axillary: round, Left_Axillary: 2 nodes, Left_Axillary: 3.0 cm, Left_Axillary: 2.1 cm, Left_Axillary: lymph node, Left_Axillary: enlarged, Left_Axillary: cortical thickening, Left_Axillary: worrisome, Left_Axillary: extra-nodal extension, Left_Axillary: favors, Left_Axillary: diagnosis, Left_Axillary: metastatic disease, Left_Axillary: suspicious, Left_Axillary: 2 nodes, Left_Axillary: ultrasound guided core biopsy recommended, Left_Axillary: ACR BI-RADS category 5, Left_Axillary: Highly suggestive of malignancy, Left_Axillary: Abnormal left axillary lymph node, Left_Axillary: highly suspicious for metastatic disease, Left_Breast: ultrasound guided core biopsy recommended, Left_Axillary: ultrasound guided core biopsy recommended."
+    }
+}

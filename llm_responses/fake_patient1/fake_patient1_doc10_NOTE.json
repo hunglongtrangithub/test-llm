@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The document is a 'Clinical Note'.",
+        "date": "March 01, 2011 at 10:15",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axilla, Lower_outer_left_breast, Left_surgical_incision, Right_breast_incision",
+        "attributes": "'Left breast: historic, uncertain, Left axillary lymph node: historic, Right breast: historic, Right axillary lymph node: historic, Lower outer left breast: historic'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient1",
+        "type": "Clinical Note",
+        "date": "20110301 1015",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axilla",
+        "attributes": "- Left_Breast: historic\n- Right_Breast: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is March 01, 2011 at 10:15 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY,Briefly the patient was diagnosed in January of 2010 with metastatic breast cancer of the right breast.,INTERIM HISTORY,Pathology came back as stage IA (pT1a, pN0) invasive lobular carcinoma with a focus of lobular carcinoma in situ of the left breast, lower outer quadrant, 4 o'clock position.,Physical Exam,Impression,Recommendations",
+        "classUri-mentions": "left_breast, invasive_lobular_carcinoma, ER, PR, HER2/NEU, metastatic_breast_cancer, right_breast, stage_2A, T1, N1, M0, chemotherapy, Adriamycin, Carboplatin, Abraxane, right_mastectomy, axillary_lymph_node_dissection, surgical_margins, radiation_therapy, axilla_area, Tamoxifen, small_nodule, mammography, firm_mass, lower_outer_left_breast, ultrasound, hypoechoic_mass, 4_o\u2019clock_region, malignancy, left_breast_segmental_mastectomy, left_axillary_lymph_node_biopsy, stage_IA, pT1a, pN0, lobular_carcinoma_in_situ, lower_outer_quadrant, 4_o\u2019clock_position, physical_examination, surgical_incision, infection, swelling, erythema, pain, fever, nausea, vomiting, radiation_therapy.",
+        "attributes": "Left Breast: historic, uncertain, generic\nRight Breast: historic\nLeft axillary lymph node: historic\nRight axillary lymph node: historic"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient1",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "March 1, 2011, at 10:15",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION, RECOMMENDATIONS",
+        "classUri-mentions": " Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Lower_outer_quadrant",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document paired with its attributes, separated by commas:\n\nLeft Breast: historic, invasive lobular carcinoma, stage 1A (pT1a, pN0)\nRight Breast: historic, metastatic breast cancer, stage 2A (T1, N1, M0)\nAxilla: historic, negative surgical margins, radiation therapy\nAxillary Lymph Node Dissection: historic\nMammography: firm mass, 1x2 cm"
+    },
+    "llama-2-13b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\n\nPatient Name..................Fake Patient1",
+        "type": " Based on the content of the medical document, the type of medical document is a \"Clinical Note\".\n\nHere's the answer in the specified format:\n\nType of Medical Document: Clinical Note\n\nThe document provides a detailed description of the patient's clinical history, including their diagnosis, previous treatments, and current symptoms. It also includes the results of physical examinations and diagnostic tests, such as mammography and ultrasound, as well as the patient's treatment plan and recommendations. Therefore, this document is classified as a Clinical Note.",
+        "date": " Sure, I can help you with that!\n\nThe principal date of the medical document is:\n\nMonth: March\nDD: 1\nYYYY: 2011\nHH: 10 (10:15)",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nMedical Decision-making\n\nExplanation:\n\nThe document provides a detailed clinical history of the patient's diagnosis, treatment, and current status, including the patient's recent surgery and upcoming radiation therapy. The document also includes the patient's medical history, physical examination findings, and impression. This information is used to make medical decisions and develop a treatment plan, which falls under the category of medical decision-making. Therefore, the stage of patient care is correctly classified as Medical Decision-making.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION, RECOMMENDATIONS",
+        "classUri-mentions": " Based on the information provided in the medical document, the distinct anatomical entities mentioned are:\n\nLeft Breast, Lower Outer Quadrant\nRight Breast\nAxilla\n\nTherefore, the answer is:\n\nLeft Breast, Right Breast, Axilla",
+        "attributes": " Sure, I'd be happy to help! Here are the attributes for each anatomical entity mentioned in the document, as they are described in the document:\n\n* Left Breast:\n\t+ Negated: None\n\t+ Uncertain: None\n\t+ Generic: None\n\t+ Conditional: None\n\t+ Historic: pT1a, pN0 invasive lobular carcinoma with a focus of lobular carcinoma in situ\n* Right Breast:\n\t+ Negated: stage 2A (T1, N1, M0) metastatic breast cancer\n\t+ Uncertain: None\n\t+ Generic: None\n\t+ Conditional: None\n\t+ Historic: previously diagnosed with metastatic breast cancer\n* Axilla:\n\t+ Negated: None\n\t+ Uncertain: None\n\t+ Generic: None\n\t+ Conditional: None\n\t+ Historic: left axillary lymph node biopsy\n\nI hope this helps! Let me know if you have any further questions."
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient ID: pt123123123\n\nPatient Name: Fake Patient1",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": " The principal date of the medical document as noted in the text is:\n\nMarch 1, 2011 at 10:15 AM (Format: Month DD, YYYY at HH:MM)\n\nTherefore, the answer is:\n\nMarch 1, 2011 at 10:15 AM",
+        "episode": " Based on the information provided in the medical document, the stage of patient care that the document relates to is 'Diagnostic'. This is indicated by the mention of the patient's symptoms, the results of the mammography and ultrasound tests, and the diagnosis of invasive lobular carcinoma and lobular carcinoma in situ. The document provides information about the patient's medical history, physical examination, and diagnostic test results, which are all relevant to the diagnostic stage of patient care. Therefore, the answer is 'Diagnostic'.",
+        "sections": " Here are the main content sections or headings contained in the provided medical document:\n\n* Clinical History\n* Interim History\n* Physical Exam\n* Impression\n* Recommendations\n\nTherefore, the answer to the question is: Clinical History, Interim History, Physical Exam, Impression, Recommendations.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Lower_outer_Quadrant",
+        "attributes": " | Entity | Attributes |\n| --- | --- |\n| Patient | Historic |\n| Patient ID | Historic |\n| Patient Name | Historic |\n| Principal Date | Historic |\n| Record Type | NOTE |\n| Patient DOB | Historic |\n| Left Breast | Historic |\n| Right Breast | Historic |\n| Mammography | Historic |\n| Ultrasound | Historic |\n| Surgical margins | Historic |\n| Axillary lymph node biopsy | Historic |\n| Pathology | Historic |\n| Stage | Historic |\n| pT1a | Historic |\n| pN0 | Historic |\n| Lobular carcinoma in situ | Historic |\n| Invasive lobular carcinoma | Historic |\n| Radiation therapy | Conditional |\n\nExplanation:\n\n* Patient, Patient ID, Patient Name, Principal Date, Record Type, Patient DOB are all historic entities as they are mentioned in the document as previous events or conditions.\n* Left Breast and Right Breast are both historic entities as they are mentioned in the document as existing entities that have been affected by the patient's cancer.\n* Mammography and Ultrasound are both historic entities as they are mentioned in the document as diagnostic tools used to examine the patient's breast tissue.\n* Surgical margins and Axillary lymph node biopsy are both historic entities as they are mentioned in the document as events that have occurred in the past.\n* Pathology is a historic entity as it is mentioned in the document as the result of the biopsy performed on the patient's breast tissue.\n* Stage and pT1a are historic entities as they are mentioned in the document as the patient's cancer stage and tumor grade, respectively.\n* Lobular carcinoma in situ and Invasive lobular carcinoma are both historic entities as they are mentioned in the document as the types of cancer diagnosed in the patient's breast.\n* Radiation therapy is a conditional entity as it is mentioned in the document as a recommended treatment for the patient's cancer, but the actual treatment outcome is unknown."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is not provided in the document. The document only provides the patient ID and the patient's medical history.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'. This is indicated by the 'NOTE' value in the 'Record Type' field. The note provides information about the patient's clinical history, interim history, physical examination, impression, and recommendations.",
+        "date": "The principal date of the medical document is March 1st, 2011 at 10:15 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Axilla, Left\\_Breast, Lower\\_outer\\_Quadrant, Lobular\\_Carcinoma\\_In\\_Situ, Left\\_Axillary\\_Lymph\\_Node\\_Biopsy",
+        "attributes": "Left\\_Breast: historic, Left\\_Breast: invasive\\_lobular\\_carcinoma, Left\\_Breast: LCIS, Left\\_Breast: segmental\\_mastectomy, Left\\_Breast: left\\_axillary\\_lymph\\_node\\_biopsy, Left\\_Breast: radiation\\_therapy"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is formatted as: 20110301 1015.",
+        "episode": "The stage of patient care described in the document is \"Medical Decision-making.\" This is based on the information provided about the patient's diagnosis and treatment plan, which includes a diagnosis of invasive lobular carcinoma of the left breast, a history of metastatic breast cancer in the right breast, and a recommendation for radiation therapy to the left breast. This information suggests that the patient is in the process of making medical decisions about her treatment options, which falls within the \"Medical Decision-making\" stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Left\\_Breast, Lower\\_outer\\_Quadrant, 4\\_o\\'clock\\_position, Left\\_Axillary\\_Lymph\\_Node, Segmental\\_Mastectomy, Tamoxifen, Right\\_Breast, Axillary\\_Lymph\\_Node\\_Dissection, Mastectomy",
+        "attributes": "Left: uncertain, Left_Breast: uncertain\nRight: historic, Right_Breast: historic\nSurgical_Incision\\_Left: uncertain, Surgical\\_Incision\\_Right: historic\nMasses: uncertain, Infection: uncertain, Swelling: uncertain, Erythema: uncertain, Pain: uncertain, Fever: uncertain, Nausea: uncertain, Vomiting: uncertain"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "Principal Date: 20110301 1015",
+        "episode": "The stage of patient care relates to 'Medical Decision-making'.",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression, Recommendations",
+        "classUri-mentions": "Axillary_Lymph_Node_Biopsy, Left_Breast, Lower_Outer_Quadrant, Right_Breast, Segmental_Mastectomy, Left_Axillary_Lymph_Node_Dissection, Right_Mastectomy, Axilla, Left_Breast_Surgical_Incision, Right_Breast_Surgical_Incision",
+        "attributes": "Left_Breast: temporality, invasive_lobular_carcinoma, stage_IA, pT1a, pN0, lobular_carcinoma_in_situ, 4_o'clock_position, physical_examination, well_healed_left_surgical_incision, right_breast: historical, stage_2A, T1, N1, M0, chemotherapy: Adriamycin, Carboplatin, Abraxane, right_mastectomy: 7/10/10, negative_surgical_margins, radiation_therapy: right_breast, axilla_area, oral_Tamoxifen, metastatic_breast_cancer, newly_diagnosed, ER_positive, PR_positive, HER2/NEU_negative"
+    }
+}

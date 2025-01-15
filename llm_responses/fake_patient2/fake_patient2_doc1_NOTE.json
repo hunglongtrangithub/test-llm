@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "November 03, 2009 at 10:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Chief complaint, History of Present Illness, Allergies, Physical Examination, Assessment",
+        "classUri-mentions": "Left_Breast, Right_Breast, Abdomen, Back, Extremities",
+        "attributes": "'Left_Breast: generic, Left_Breast: temporality, Right_Breast: generic'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient2",
+        "type": "Clinical Note",
+        "date": "20091103 1045",
+        "episode": "Pre-diagnostic",
+        "sections": "Chief complaint, History of Present Illness, Allergies, Physical Examination, Assessment",
+        "classUri-mentions": "Left_Breast, Right_Breast",
+        "attributes": "Left_Breast: palpable lump\nRight_Breast: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document, as noted in the text, is November 3, 2009 at 10:45 AM (20091103 1045).",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Chief complaint, History of Present Illness, Overall feeling and symptoms, Allergies, Physical Examination, Assessment",
+        "classUri-mentions": "Left_breast, 2_o'clock_POSITION",
+        "attributes": "Left_Breast: new, hard, palpable\nRight_Breast: without mass or abnormalities"
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient2\n\nFormat: The patient's name is [insert name here].",
+        "type": " The type of medical document being described is a Clinical Note. Therefore, the answer is \"Clinical Note.\"",
+        "date": "November 3, 2009, at 10:45 AM",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe patient has a new hard palpable lump in the left breast and is scheduled for a Mammogram to further evaluate the lump. The document includes the patient's medical history, physical examination, and assessment, which are all part of the diagnostic process. Therefore, the answer is 'Diagnostic'.",
+        "sections": " History of Present Illness, Physical Exam, Assessment",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Left_2_o'clock_position, Right_Breast.\n\nHere is a list of distinct anatomical entities mentioned in the document, in the order they appear:\n\n1. Axilla (armpit)\n2. Right Breast\n3. Upper inner Quadrant (of the breast)\n4. Left Breast\n5. Left 2 o'clock position (of the breast)\n6. Right Breast (again, to mention the absence of a mass",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document, paired with their corresponding attributes, separated by commas:\n\nLeft Breast: Historic, Palpable Lump\nRight Breast: Historic\nLeft Breast Lump: New\nHeart: Normal, RRR\nAbdomen: Non-tender, Non-distended, Soft\nExtremities: Without Clubbing, Cyanosis, or Edema\nNeck: Supple\nBack: No CVAT"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I can help you with that! Here's the answer to your question:\n\nWhat is the patient's name as mentioned in the document?\n\nAnswer:\n\nThe patient's name as mentioned in the document is:\n\nFake Patient2",
+        "type": " Based on the information provided in the document, the type of medical document is a \"Clinical Note\".",
+        "date": " Sure, I'd be happy to help!\n\nThe principal date of the medical document is:\n\n2009-11-03 10:45 (Month DD, YYYY at HH:MM)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nThe document discusses the patient's symptoms, medical history, and planned diagnostic tests, such as a mammogram, which indicates that the patient is in the diagnostic stage of care. The healthcare provider is trying to determine the cause of the patient's symptoms and develop a diagnosis, which aligns with the diagnostic stage of patient care. Therefore, the answer is 'Diagnostic'.",
+        "sections": " Sure, I can help you with that! Based on the provided document, here are the main content sections or headings it contains, excluding any administrative or header information:\n\nMain Content Sections:\n\n1. History of Present Illness\n2. Past Medical History\n3. Physical Examination\n\nPlease note that the document does not contain any sections such as 'Administrative Information', 'Demographics', or 'Reason for Visit'.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Left_2_oclock_position.",
+        "attributes": "Sure! Here is a list of attributes for each anatomical entity mentioned in the document:\n\nLeft Breast: historic, palpable\nRight Breast: historic\nLeft Breast Lump: palpable\nPatient: peri-menopausal, female\nHeart: RRR (regular rhythm, regular rate)\nAbdomen: soft, non-tender, non-distended\nExtremities: no clubbing, cyanosis, or edema\nCVAT: none\n\nNote:\n\n* \"historic\" indicates that the entity has been"
+    },
+    "llama-2-7b-chat": {
+        "name": " The patient's name as mentioned in the document is:\n\nPatient ID: ptw246246246\n\nPatient Name: Fake Patient2",
+        "type": " Based on the provided medical document, the type of medical document is a 'Clinical Note'.\n\nThe document is written in a narrative format, with a clear subject (the patient) and a specific purpose (to document the patient's medical history and physical examination findings). The document includes relevant information such as the patient's demographics, medical history, symptoms, and physical examination findings. The document also includes a clear assessment and plan, with instructions for further testing (a Mammogram) and follow-up.\n\nTherefore, the answer to the question is 'Clinical Note'.",
+        "date": " The principal date of the medical document as noted in the text is:\n\n2009-11-03 10:45 (Month DD, YYYY at HH:MM)",
+        "episode": " Based on the information provided in the document, the stage of patient care related to this document is 'Diagnostic'. This is because the document details the patient's symptoms, medical history, and physical examination findings, as well as the plan for further diagnostic testing (i.e., a mammogram). The document does not provide information on pre-diagnostic or pre-procedure stages, and there is no indication of the patient being in the 'Medical Decision-making' stage. Therefore, the answer is 'Diagnostic'.",
+        "sections": "History of Present Illness, Physical Examination, Assessment.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document:\n\n* Left breast\n* Right breast\n* Axilla\n* Neck\n* Heart\n* Abdomen\n* Back\n* Extremities (no further sub-entities mentioned)",
+        "attributes": "Sure! Here is the list of attributes for each anatomical entity mentioned in the document:\n\nLeft breast: palpable lump, historic\nRight breast: historic\nLeft breast: palpable lump, historic\nRight breast: historic\nLeft breast: palpable lump, historic\nRight breast: historic"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is '11/03/2009 at 1045'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Anatomical entities mentioned in the document:\n\n* Left breast\n* Right breast\n* Axilla\n* Upper inner quadrant",
+        "attributes": "Left: historic, Left_Breast: historic, Left_Breast_Lymphnode: historic, Left_Breast_Lymphnode_Bilateral: historic\nRight: historic, Right_Breast: historic, Right_Breast_Lymphnode: historic, Right_Breast_Lymphnode_Bilateral: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "What is the patient's name as mentioned in the document?\n===================================================================\n\nPatient Name..................Fake Patient2",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\" The document is identified as a \"NOTE\" in the \"Record Type\" field. The document contains information related to the patient's chief complaint, history of present illness, physical examination, and assessment, which are typical components of a clinical note.",
+        "date": "The principal date of the medical document as noted in the text is formatted as '20091103 1045'.",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making\". This is because the physician has assessed the patient's symptoms, performed a physical examination, and made a plan for further diagnostic testing (Mammogram). The physician has also discussed the results with the patient and her husband.",
+        "sections": "History of Present Illness, Physical Exam, Assessment",
+        "classUri-mentions": "Left\\_Breast, 2\\_o'clock\\_position",
+        "attributes": "Left\\_Breast: historic, uncertain"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as \"20091103 1045\".",
+        "episode": "The stage of patient care relates to 'Diagnostic' as the document describes a patient presenting with a new hard palpable lump in the left breast, and the doctor has scheduled a Mammogram for further assessment.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Axilla, Left_Breast, 2_oclock_position, Right_Breast, Upper_inner_Quadrant",
+        "attributes": "Left_Breast: new, hard, palpable, lump, temporality\nLeft_Breast: peri-menopausal, female, age: 51, negated\nLeft_Breast: no previous complaints or symptoms, negated\nLeft_Breast: noticed October 2009, historic\nMammogram: scheduled, conditional\nGood_energy_level: overall, ECOG_performance_status: 0, negated\nDiarrhea: denies, negated\nConstipation: denies, negated\nBowel_habits: denies change, negated\nBladder_habits: denies change, negated\nNo_known_drug_allergies, negated\nGENERAL: middle_aged, female, alert, in_no_distress, negated\nHEENT: normal, negated\nNECK: supple, without_lymphadenopathy, negated\nHEART: RRR, without_murmurs, negated\nRIGHT\\_BREAST: without\\_mass\\_or\\_abnormalities, negated\nABDOMEN: soft, non-tender, non-distended, no\\_masses, negated\nBACK: no\\_CVAT, negated\nEXTREMITIES: no\\_clubbing, no\\_cyanosis, no\\_edema, negated"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient3",
+    "type": "Clinical Note",
+    "date": "June 24, 2010 at 12:30 PM",
+    "episode": "unknown",
+    "sections": "History of Present Illness, Past Medical History, Impression",
+    "classUri-mentions": "Lumbar_Spine, Breast_Carcinoma, Right_Breast, Abdomen_And_Pelvis, Thorax, Right_Axillary_Lymph_Node, Left_Sixth_Rib, Vertebral_Column, Upper_Lobe_Of_The_Right_Lung, Secondary_Neoplasm, Middle_Lobe_Of_The_Right_Lung, Right_Fifth_Rib, Right_Lower_Lung_Lobe, Right, Metastasis, Multiple_Pulmonary_Nodules, Lung, Entire_Lower_Back",
+    "attributes": "Breast_Carcinoma: historic, Right_Breast: uncertain, historic, Vertebral_Column: historic, Metastasis: negated, historic, Vertebral_Column: historic, Lung: , Multiple_Pulmonary_Nodules: negated, historic, Entire_Lower_Back: historic, Lung: , Upper_Lobe_Of_The_Right_Lung: , Metastasis: , Lumbar_Spine: historic, Lumbar_Spine: , Metastasis: historic, Lung: negated, historic, Middle_Lobe_Of_The_Right_Lung: , Lumbar_Spine: negated, historic, Right_Lower_Lung_Lobe: , Abdomen_And_Pelvis: negated, historic, Thorax: negated, historic, Right: uncertain, historic, Metastasis: historic, Left_Sixth_Rib: , Secondary_Neoplasm: , Lumbar_Spine: , Multiple_Pulmonary_Nodules: , Right_Axillary_Lymph_Node: historic, Right_Axillary_Lymph_Node: historic, Right_Fifth_Rib: "
+}

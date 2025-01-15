@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "August 18, 2010 at 11:30",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, COMMENT",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Node",
+        "attributes": "'Left breast': uncertain, historic, 'Left axillary lymph node': historic, 'Right breast': historic, 'Breast, left, 4 o'clock': temporality, 'Left, axillary lymph node': temporality, 'Estrogen Receptor': negated, 'Progesterone Receptor': negated, 'Her2/NEU': generic"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient6",
+        "type": "Surgical Pathology Report",
+        "date": "20100818 1130",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, COMMENT",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axillary_Lymph_Node",
+        "attributes": "Right_Breast: historic\nLeft_Breast:\nLeft_Axillary_Lymph_Node:"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is \"Fake Patient6\".",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is August 18, 2010 at 11:30 (formatted as 'Month DD, YYYY at HH:MM').",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, COMMENT",
+        "classUri-mentions": "Breast, Left, Axillary_Lymph_Node",
+        "attributes": "Breast, Left: historic, Left_Breast: historic, Axillary Lymph Node: historic"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n===================================================================\nThe patient's name is Fake Patient6.",
+        "type": " The medical document referenced in the text is a 'Surgical Pathology Report'.\n\nTherefore, the answer to the question is:\n\nType of medical document: Surgical Pathology Report",
+        "date": " The principal date of the medical document as noted in the text, formatted as 'Month DD, YYYY at HH:MM' is:\n\nAugust 18, 2010 at 11:30",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " History of Present Illness, Final Diagnosis, Comment.\n\nHere's a brief explanation of each section:\n\n1. History of Present Illness: This section provides background information on the patient's symptoms and medical history leading up to the current diagnosis. In this case, it mentions the patient's mass in the left breast and palpable left axillary lymph node, as well as a previous diagnosis of DCIS (ductal carcinoma in situ) in the right breast.\n2. Final Diagnosis: This section outlines the diagnosis based on the biopsy results. It lists the location of the tumor (left breast, 4 o'clock), the type of cancer (invasive ductal carcinoma and ductal carcinoma in situ), and the nuclear grade (2). It also mentions the involvement of a lymph node.\n3. Comment: This section provides additional information or observations that may be relevant to the patient's treatment plan. In this case, it mentions the results of hormone immunohistochemistry tests, which can help guide treatment decisions. The patient's estrogen receptor is positive, progesterone receptor is negative, and Her2/NEU is positive.",
+        "classUri-mentions": "Sure, here is the list of distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Left\nBreast, Left\nBreast, Right\nAxillary lymph node, Left",
+        "attributes": " Based on the information provided in the document, the following are the anatomical entities and their corresponding attributes:\n\n* Right breast: historic\n* Left breast: invasive ductal carcinoma, nuclear grade 2, ductal carcinoma in situ, nuclear grade 2\n* 4 o'clock position: invasive ductal carcinoma, nuclear grade 2\n* Axillary lymph node: invasive ductal carcinoma, nuclear grade 2\n\nTherefore, the attributes for each anatomical entity mentioned in the document are:\n\nRight breast: historic\nLeft breast: invasive ductal carcinoma, nuclear grade 2, ductal carcinoma in situ, nuclear grade 2, 4 o'clock position\nAxillary lymph node: invasive ductal carcinoma, nuclear grade 2\n\nFormat:\nRight: historic, Left: invasive ductal carcinoma, nuclear grade 2, ductal carcinoma in situ, nuclear grade 2, 4 o'clock position, Axillary lymph node: invasive ductal carcinoma, nuclear grade 2"
+    },
+    "llama-2-13b-chat": {
+        "name": "Patient Name: Fake Patient6",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report.'",
+        "date": " Based on the information provided in the medical document, the principal date is:\n\nAugust 18, 2010 at 11:30 (Month DD, YYYY at HH:MM)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides information about the patient's medical history, clinical history, final diagnosis, and hormone immunohistochemistry results, which are all relevant to the diagnostic stage of patient care. The document does not provide information about pre-diagnostic or medical decision-making stages, and it does not indicate that the patient is unknown. Therefore, the correct answer is 'Diagnostic.'\n\nFormat:\nThe document relates to the 'Diagnostic' stage of patient care.\n\nThis answer is",
+        "sections": " Based on the provided medical document, the main content sections or headings it contains are:\n\n* Clinical History\n* Final Diagnosis\n* Comment\n\nTherefore, the answer to the question is:\n\nHistory of Present Illness, Past Medical History, Physical Exam, Final Diagnosis, Comment",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Left\nBreast, Left\nBreast, Right\nAxillary lymph node, Left\n\nAnswer: Axilla, Left_Breast, Left_Breast, Right_Axillary lymph node, Left",
+        "attributes": " Sure, I can help you with that! Based on the information provided in the medical document, here are the attributes for each anatomical entity mentioned:\n\nLeft Breast:\n\n* Negated: No information is provided about the right breast.\n* Uncertain: No information is provided about the status of the left breast.\n* Generic: Not specified.\n* Conditional: Not specified.\n* Historic: Yes, the document mentions a history of DCIS of the right breast diagnosed in 1999.\n* Temporality: Not specified.\n\nRight Breast:\n\n* Negated: Yes, the document states that there is no information about the right breast.\n* Uncertain: Not applicable.\n* Generic: Not specified.\n* Conditional: Not specified.\n* Historic: Yes, the document mentions a history of DCIS of the right breast diagnosed in 1999.\n* Temporality: Not specified.\n\nLeft Axillary Lymph Node:\n\n* Negated: No information is provided about the left axillary lymph node.\n* Uncertain: Not specified.\n* Generic: Not specified.\n* Conditional: Not specified.\n* Historic: Yes, the document mentions a palpable left axillary lymph node.\n* Temporality: Not specified.\n\nBased on the information provided, here is the list of attributes for each anatomical entity:\n\nLeft Breast: historic, uncertain\nRight Breast: historic\nLeft Axillary Lymph Node: historic"
+    },
+    "llama-2-7b-chat": {
+        "name": "Patient Name..................Fake Patient6",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document as noted in the text is:\nAugust 18, 2010 at 11:30 AM\n\nFormatted as 'Month DD, YYYY at HH:MM': 08/18/2010 at 11:30",
+        "episode": " Based on the information provided in the medical document, the stage of patient care related to this document is \"Diagnostic.\"\n\nThe document details the findings from a breast ultrasound guided core biopsy and an axillary lymph node ultrasound guided core biopsy performed on a 69-year-old female patient with a mass in the left breast and a palpable left axillary lymph node. The final diagnosis includes invasive ductal carcinoma, nuclear grade 2 in the left breast and axillary lymph node, as well as hormone immunohistochemistry results indicating that the cancer is estrogen receptor positive.\n\nTherefore, the stage of patient care related to this document is \"Diagnostic,\" as it provides detailed information about the patient's diagnosis and the results of diagnostic tests performed to reach that diagnosis.",
+        "sections": "Okay, here are the main content sections or headings contained in the provided medical document:\nHistory of Present Illness, Past Medical History, Physical Exam, Final Diagnosis, and Hormone Immunohistochemistry.\nTherefore, the answer is: History of Present Illness, Past Medical History, Physical Exam, Final Diagnosis, and Hormone Immunohistochemistry.",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Left\nBreast, Left\nBreast, Right\nAxillary lymph node\n\nFormat: Axilla, Left_Breast, Left_Breast, Right_Axillary lymph node",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document:\n\nLeft Breast: historic, invasive, nuclear grade 2\nRight Breast: historic, DCIS, diagnosed in 1999\nAxillary Lymph Node: historic, invasive, nuclear grade 2\n\nNote: The attributes are based on the information provided in the document and may not be a comprehensive list of all possible attributes for each anatomical entity."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name mentioned in the document is not explicitly provided. The document only mentions the patient ID as \"pt789789789\".",
+        "type": "The type of medical document is a 'Clinical Note' as indicated by the 'Record Type' field being 'SP' which stands for 'Clinical Note'.",
+        "date": "The principal date of the medical document is August 18, 2010, at 11:30 AM, formatted as '08/18/2010 at HH:MM'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Distinct anatomical entities mentioned in the document and listed in the order they appear are:\n\n* Breast, Left\n* Axillary lymph node, Left\n* Ultrasound guided core biopsy\n* Ductal carcinoma in situ (DCIS)\n* Invasive ductal carcinoma\n* Nuclear grade\n* Hormone immunohistochemistry\n* Estrogen receptor\n* Progesterone receptor\n* Her2/NEU\n\nThe above entities are formatted as comma-separated values, with underscores connecting multiple words in a single entity, similar to 'Breast, Left\\_Axillary lymph node, Left\\_Ultrasound guided core biopsy\\_Ductal carcinoma in situ\\_Invasive ductal carcinoma\\_Nuclear grade\\_Hormone immunohistochemistry\\_Estrogen receptor\\_Progesterone receptor\\_Her2/NEU'.",
+        "attributes": "Left: historic, Left_Breast: historic\nLeft_Axillary_Lymph_Node: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient6\".",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is noted as \"20100818 1130\" in the format \"Month DD, YYYY at HH:MM\".",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is because the document contains information about the patient's final diagnosis of invasive ductal carcinoma and ductal carcinoma in situ, as well as the results of hormone immunohistochemistry, which will inform the medical team's decision-making regarding the appropriate course of treatment for the patient.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Diagnosis, Hormone Immunohistochemistry",
+        "classUri-mentions": "Left\\_Breast\\_4\\_OClock\\_Ultrasound\\_Guided\\_Core\\_Biopsy, Left\\_Axillary\\_Lymph\\_Node\\_Ultrasound\\_Guided\\_Core\\_Biopsy",
+        "attributes": "Left: historic, Left\\_Breast: historic, Right: historic, Right\\_Breast: historic, Axilla: uncertain, Lymph\\_Node: uncertain, Ultrasound: uncertain, Core\\_Biopsy: uncertain, DCIS: historic, Invasive\\_Ductal\\_Carcinoma: generic, Nuclear\\_Grade\\_2: generic, Estrogen\\_Receptor: generic, H-score: generic, Progesterone\\_Receptor: generic, Her2/NEU: generic, Hormone\\_Immunohistochemistry: generic."
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient6.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is noted as 'August 18, 2010 at 11:30'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "History of Present Illness, Clinical History, Final Diagnosis, Comment",
+        "classUri-mentions": "Axilla, Right_Breast, Left_Breast, Upper_inner_Quadrant, 4_O'clock, Ductal_Carcinoma, Invasive_Ductal_Carcinoma, Ductal_Carcinoma_in_Situ, Nuclear_Grade_2, Axillary_Lymph_Node, Invasive_Ductal_Carcinoma, Estrogen_Receptor, Progesterone_Receptor, Her2_NEU",
+        "attributes": "Left_Breast: uncertain, invasive, ductal, carcinoma, nuclear_grade_2, 4_O'clock;\nLeft_Axillary_Lymph_Node: uncertain, invasive, ductal, carcinoma, nuclear_grade_2;\nRight_Breast: historic, DCIS, 1999;\nHormone_Immunohistochemistry: Estrogen_Receptor_positive, H-score_60, Progesterone_Receptor_negative, H-score_0, Her2/NEU_positive, 3+"
+    }
+}

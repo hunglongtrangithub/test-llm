@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is January 30, 2010 at 15:25.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "DIAGNOSIS, Therapy, REASON FOR VISIT, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Axillary_Lymph_Node, Left_Axillary_Lymph_Node",
+        "attributes": "'Left breast: generic', 'Left axillary lymph node: generic'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient2",
+        "type": "Clinical Note",
+        "date": "20100130 1525",
+        "episode": "Diagnostic",
+        "sections": "Diagnosis, Therapy, Reason for Visit, Past Medical History",
+        "classUri-mentions": "Left_Breast, Axillary_Lymph_Node, Upper_Outer_Aspect, Left_Axillary_Lymph_Node",
+        "attributes": "Left_Breast: historic, Left_Axillary_Lymph_Node: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name, as mentioned in the document, is Fake Patient2.",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is January 30, 2010 at 15:25.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care. The patient's visit focuses on assessing the response to neoadjuvant chemotherapy for a previously diagnosed invasive ductal carcinoma of the left breast with axillary lymph node metastasis. The report outlines completed cycles of chemotherapy, details of the initial diagnosis, and the patient's response to treatment, indicating the ongoing management and assessment of the cancer treatment's effectiveness.",
+        "sections": "DIAGNOSIS: Stage IIIA (T3 N2 M0) invasive ductal carcinoma of the left breast, ER positive, PR positive and HER2 negative.\nTHERAPY: Completed 8 cycles of Taxotere.\nREASON FOR VISIT: Assess response to neoadjuvant chemotherapy.\nINITIAL VISIT: November 3, 2009.\nCLINICAL FINDINGS: 2 cm palpable mass in the upper outer aspect of the left breast at the 2 o'clock position, multiple abnormally enlarged left axillary lymph nodes.\nPATHOLOGY: Invasive ductal carcinoma of the left breast with metastases to the left axillary lymph node.\nCHEMOTHERAPY: 4 cycles of Adriamycin and Cytoxan, 8 of a planned 12 cycles of Taxotere completed.\nHOSPITALIZATIONS: Denies.\nIMPRESSION: Partial response to neoadjuvant chemotherapy for a locally advanced, ER positive, PR positive and HER2 negative, left breast cancer.",
+        "classUri-mentions": "Left_Breast, Axillary_lymph_node",
+        "attributes": "Left_Breast: Stage IIIA, ER positive, PR positive, HER2 negative, invasive ductal carcinoma, metastases to left axillary lymph node, partial response to neoadjuvant chemotherapy.\nLeft_Axillary_lymph_node: metastases.\nUpper_outer_aspect_of_the_left_breast: 2 cm palpable mass at 2 o'clock position.\nNovember_3_2009: initial office visit.\nAdriamycin_and_Cytoxan: 4 cycles of chemotherapy.\nTaxotere: 8 of 12 cycles completed.\nNeoadjuvant_chemotherapy: assess response."
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient2\n\nFormat: \n\nPatient Name: [Insert patient name here]\n\nExplanation: \nThe patient's name is mentioned in the document as \"Fake Patient2.\" Therefore, the answer to the question is \"Fake Patient2.\"",
+        "type": " The medical document referenced in the text is a Clinical Note, therefore the answer is (D) Clinical Note.",
+        "date": " January 30, 2010, at 1525",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nFormat:\n\nReport ID: 6,doc6\nPatient ID: pt246246246\nPatient Name: Fake Patient2\nPrincipal Date: 20100130 1525\nRecord Type: NOTE\nPatient DOB: 06/21/1958\n\nDIAGNOSIS:  Stage IIIA (T3 N2 M0) invasive ductal carcinoma of the left breast, ER positive, PR positive and HER2 negative.\n\nTherapy: Completed 8 cycles of Taxotere.\n\nREASON FOR VISIT:  Assess response to neoadjuvant chemotherapy.\n\nIMPRESSION:  Patient has had a partial response to neoadjuvant chemotherapy for a locally advanced, ER positive, PR positive and HER2 negative, left breast cancer.",
+        "sections": " IMPRESSION, DIAGNOSIS, THERAPY, REASON FOR VISIT, HISTORY OF PRESENT ILLNESS, PAST MEDICAL HISTORY, MEDICATIONS, ALLERGIES",
+        "classUri-mentions": " Sure, here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\n* Left breast\n* Axilla\n* Upper outer aspect\n* 2 o'clock position\n* Left axillary lymph node\n\nSo, the answer would be: Left breast, Axilla, Upper outer aspect, 2 o'clock position, Left axillary lymph node.\n\nHere's the answer in the requested format:\n\nAxilla, Left breast, Upper outer aspect, 2 o'clock position, Left axillary lymph node",
+        "attributes": " Sure, here are the attributes for each anatomical entity mentioned in the document, paired with their corresponding attributes:\n\n* Left Breast: historic, partial response\n* Left Axillary Lymph Node: historic, metastasis\n* Right Breast: historic\n* Left Axillary Lymph Nodes: historic, abnormally enlarged\n* 2 o'clock position: uncertain\n* Upper outer aspect: uncertain\n* Left breast mass: historic\n* Adriamycin: historic\n* Cytoxan: historic\n* Taxotere: historic, ongoing\n\nFormat:\nLeft Breast: historic, partial response\nLeft Axillary Lymph Node: historic, metastasis\nRight Breast: historic\nLeft Axillary Lymph Nodes: historic, abnormally enlarged\n2 o'clock position: uncertain\nUpper outer aspect: uncertain\nLeft breast mass: historic\nAdriamycin: historic\nCytoxan: historic\nTaxotere: historic, ongoing"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I'd be happy to help! Based on the information provided in the medical document, the patient's name is:\n\nPatient Name: Fake Patient2\n\nPlease let me know if you have any other questions or if there's anything else I can help with!",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": " Sure, I'd be happy to help! Here's the answer to your question:\n\nThe principal date of the medical document is:\n\nMonth DD, YYYY at HH:MM:\n\n2010-01-30 15:25\n\nPlease note that the time is not specific, so I've only included the date and month.",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nMedical Decision-making\n\nThe document relates to the patient's ongoing management of biopsy-proven left breast cancer with axillary lymph node metastasis, including assessment of response to neoadjuvant chemotherapy. The document mentions the patient's clinical history, diagnosis, therapy, and current status, as well as the results of previous and ongoing treatment. Therefore, the stage of patient care is Medical Decision-making, as the healthcare provider is actively managing the patient's cancer treatment and monitoring their response to therapy.",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* Patient Information\n* Diagnosis\n* Therapy\n* Reason for Visit\n* Clinical Examination\n* Pathology\n* Impression\n\nTherefore, the answer should be:\n\nPatient Information, Diagnosis, Therapy, Reason for Visit, Clinical Examination, Pathology, Impression.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Left_Axillary_Lymph_Node",
+        "attributes": "Left breast: historic, Stage IIIA, invasive ductal carcinoma, ER positive, PR positive, HER2 negative, palpable mass, 2 cm, upper outer aspect, 2 o'clock position, partial response, neoadjuvant chemotherapy.\nLeft axillary lymph node: historic, metastasis, abnormally enlarged.\nAxillary lymph node: historic, metastasis, abnormally enlarged.\nAdriamycin: historic.\nCytoxan: historic.\nTax"
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient ID: pt246246246\n\nName: Fake Patient2",
+        "type": " Based on the information provided in the medical document, the type of medical document is a 'Clinical Note'.\n\nThe format of the document indicates that it is a progress note, as it mentions the patient's return visit for ongoing management of their biopsy-proven breast cancer. The document includes the patient's demographics, medical history, and clinical findings, as well as the diagnosis, treatment, and outcome of their cancer. The document also includes the clinician's impression and summary of the patient's condition.\n\nTherefore, the answer is:\n\nType of medical document: Clinical Note\n\nAnswer: Clinical Note",
+        "date": " The principal date of the medical document as noted in the text is:\n\n2010-01-30 15:25 (Month 01, Day 30, Year 2010 at 3:25 PM)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nIs there anything else you would like to know or any other way I can assist you?",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* History of Present Illness\n* Past Medical History\n* Physical Exam\n* Diagnosis\n* Therapy\n* Reason for Visit\n\nTherefore, the answer is: History of Present Illness, Past Medical History, Physical Exam, Diagnosis, Therapy, Reason for Visit.",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_outer_aspect, Left_axillary_lymph_nodes",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document:\n\nRight: historic (diagnosis of Stage IIIA (T3 N2 M0) invasive ductal carcinoma of the left breast)\nLeft: historic (diagnosis of Stage IIIA (T3 N2 M0) invasive ductal carcinoma of the left breast, ER positive, PR positive and HER2 negative)\n\nAxillary lymph nodes:\n\n* Metastatic: historic (pathology confirmed metastases to the left axillary lymph node)\n\nPatient:\n\n* Name: Fake Patient2 (historic)\n* Date of birth: 06/21/1958 (historic)\n* Principal date: 20100130 1525 (historic)\n\nVisit:\n\n* Reason for visit: Assess response to neoadjuvant chemotherapy (current)\n\nMedications:\n\n* Taxotere (current, 8 cycles completed, tolerated without significant sequela)\n\nAllergies: None mentioned (historic)\n\nPlease note that the attributes are listed in a comma-separated format as requested."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient2\".",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note.'",
+        "date": "The principal date of the medical document is 20100130 1525, which is formatted as '30 January 2010 at 3:30 PM'.",
+        "episode": "The document relates to the stage of patient care called 'Medical Decision-making'.",
+        "sections": "History of Present Illness, Past Medical History, Taxotere, Chemotherapy, Partial Response, Neoadjuvant Chemotherapy, Locally Advanced, ER Positive, PR Positive, HER2 Negative, Left Breast Cancer.",
+        "classUri-mentions": "Axilla, Left\\_Breast, Upper\\_outer\\_Quadrant, Left\\_Axillary\\_Lymph\\_Node, Breast\\_Cancer, Stage\\_IIIA, T3\\_N2\\_M0, Invasive\\_ductal\\_carcinoma, ER\\_positive, PR\\_positive, HER2\\_negative",
+        "attributes": "Left: historic, Left\\_Breast: historic\nRight\\_Breast: historic\nAxillary\\_Lymph\\_Nodes: historic, Axillary\\_Nodes: historic, Axillary\\_Nodes\\_Metastasis: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name, as mentioned in the document, is not provided. The document only mentions the patient's ID as \"pt246246246\" and refers to the patient as \"Fake Patient2.\"",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note\".",
+        "date": "The principal date of the medical document is not explicitly provided in the text.",
+        "episode": "The stage of patient care this document relates to is \"Medical Decision-making.\" This is because the document focuses on the patient's ongoing management of biopsy-proven left breast cancer with axillary lymph node metastasis, including the assessment of her response to neoadjuvant chemotherapy and the determination of future treatment options based on her partial response to chemotherapy.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression",
+        "classUri-mentions": "Left\\_Breast, Upper\\_outer\\_aspect, 2\\_o'clock\\_position, Left\\_Axilla",
+        "attributes": "Left: historic, uncertain, generic, conditional, uncertain\nLeft\\_Breast: historic, uncertain, generic, conditional, uncertain\nUpper\\_Outer: historic, uncertain, generic, conditional, uncertain\n2\\_O'clock: historic, uncertain, generic, conditional, uncertain\n\nRight: historic, uncertain, generic, conditional, uncertain\nRight\\_Breast: historic, uncertain, generic, conditional, uncertain\n\nAxillary\\_Lymph\\_Node: historic, uncertain, generic, conditional, uncertain, temporality\nAxillary: historic, uncertain, generic, conditional, uncertain, temporality"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as \"20100130 1525\".",
+        "episode": "The stage of patient care relates to \"Medical Decision-making\".",
+        "sections": "History of Present Illness, Reason for Visit, Patient Returns, Clinical Breast Examination, Core Biopsies, Completed Chemotherapy, Taxotere, Tolerated Chemotherapy, Denies Hospitalizations, Past Medical History, Surgical History, Medications, Allergies, Impression",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_outer_2_clock_position, Left_Axillary_Lymph_Nodes, Right_Breast",
+        "attributes": "Left_Breast: historic, Stage_IIIA: uncertain, invasive_ductal_carcinoma: certain, left_axillary_lymph_node: historic, metastasis: certain, ER_positive: certain, PR_positive: certain, HER2_negative: certain, 8_cycles_of_Taxotere: certain, partial_response: uncertain, neoadjuvant_chemotherapy: certain"
+    }
+}

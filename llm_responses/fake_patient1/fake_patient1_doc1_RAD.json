@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "January 23, 2010 at 10:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Right_Axilla, Lymph_Node, Nipple, Skin, Wounds",
+        "attributes": "Right Breast: historic, Right Axilla: historic"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient1",
+        "type": "Radiology Report",
+        "date": "January 23, 2010 at 10:45",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axilla, Right_Axilla, Lymph_Node",
+        "attributes": "Right_Breast: historic\nAxilla_Lymph_Node: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient1.",
+        "type": "The medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is January 23, 2010 at 10:45 AM.",
+        "episode": "The document relates to the stage of patient care known as 'Diagnostic'. This is indicated by the patient undergoing ultrasound-guided core biopsies of a mass in the right breast and an abnormal lymph node in the right axilla. The findings section describes the procedure and the placement of clips at the biopsy sites. The impression states that the biopsies were uncomplicated.",
+        "sections": "CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axilla, Right",
+        "attributes": "Right_Breast: historic, hypoechoic mass at 1 o'clock position, clip placement\nRight_Axilla: historic, abnormally thickened lymph node, clip placement"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient1",
+        "type": "The medical document referenced in the text is a 'Radiology Report'.\n\nHere's the answer in the requested format:\n\nReport ID.....................1,doc1\nPatient ID....................pt123123123\nPatient Name..................Fake Patient1\nPrincipal Date................20100123 1045\nRecord Type...................RAD\nPatient DOB...................04/01/1960\n\nThe type of medical document is 'Radiology Report'.",
+        "date": " The principal date of the medical document as noted in the text, formatted as 'Month DD, YYYY at HH:MM' is:\n\nJanuary 23, 2010 at 10:45",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe document describes a patient who has already undergone a mammogram and ultrasonography, which revealed a hypoechoic mass in the right breast and an abnormally thickened lymph node in the right axilla. The patient is now undergoing ultrasound-guided core biopsies of the mass and the abnormal lymph node to determine the nature of the abnormalities.\n\nTherefore, the document does not relate to the 'Pre-diagnostic' stage, as the patient has already undergone diagnostic tests and the abnormalities have been identified. It also does not relate to the 'Medical Decision-making' stage, as the decision to perform the biopsies has already been made and the procedure has been carried out. Therefore, the correct answer is 'Diagnostic'.",
+        "sections": " CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION.\n\nTherefore, the answer is \"CLINICAL HISTORY, PROCEDURE, FINDINGS, IMPRESSION.\"",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axilla, Right_Axilla",
+        "attributes": " Right Breast: historic, Right Axilla: historic, Right 1 o'clock abnormality: uncertain, Abnormal right axillary lymph node: historic"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure! Here is the answer to your question in the format you specified:\n\nWhat is the patient's name as mentioned in the document?\n\nAnswer:\n\nThe patient's name as mentioned in the document is:\n\nFake Patient1",
+        "type": "The referenced medical document is a 'Radiology Report'.\n\nYou can format the answer as follows:\n\nType of medical document ...................... (e.g., Radiology Report, Surgical Pathology Report, Clinical Note, or unknown)\n\nIn this case, the answer would be:\nType of medical document ...................... Radiology Report",
+        "date": "January 23, 2010 at 10:45.",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is \"Diagnostic\". The document describes a procedure called \"Ultrasound guided core biopsy\" to diagnose the cause of a palpable lump in the right breast and an abnormally thickened lymph node in the right axilla. The biopsy results will help to determine the diagnosis and guide further medical decision-making. Therefore, the document is related to the \"Diagnostic\" stage of patient care.",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* Clinical History\n* Procedure\n* Findings\n* Impression\n\nTherefore, the answer to the question should be:\n\nClinical History, Procedure, Findings, Impression",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Axilla, Right_Axilla",
+        "attributes": "Right breast: historic, Right_Breast: historic, Right axilla: historic, Right_axillary_lymph_node: historic, lymph node: uncertain, clip: generic, core biopsy: generic, Ultrasound: generic, medial approach: generic, inferomedial approach: generic, Local anesthesia: generic, 2% xylocaine: generic, small skin incision: generic, mammogram: historic, Post procedure mammogram: historic, Ultrasonography: historic, abnormally thickened lymph node: historic"
+    },
+    "llama-2-7b-chat": {
+        "name": " The patient's name mentioned in the document is:\n\nPatient ID: p123123123\n\nPatient Name: Fake Patient1",
+        "type": " Based on the medical document provided, the type of medical document is a 'Surgical Pathology Report'.\n\nThe document describes a patient who underwent ultrasound-guided core biopsies of a breast mass and an abnormal lymph node, and includes details of the procedure, findings, and impressions made by the pathologist. The format of the document is consistent with that of a surgical pathology report, including the use of abbreviations and technical terms specific to the field of pathology.\n\nTherefore, the answer to the question is:\n\nType of medical document: Surgical Pathology Report",
+        "date": "January 23, 2010 at 10:45",
+        "episode": " Based on the information provided in the document, the stage of patient care that it relates to is 'Diagnostic'.\n\nThe document details the findings and procedure performed during a diagnostic ultrasound-guided core biopsy of a patient's breast and lymph node. The clinical history section provides information about the patient's symptoms and previous imaging results, and the procedure section outlines the steps taken during the biopsy, including the use of local anesthesia, skin incision, and ultrasound guidance.\n\nTherefore, the answer to the question is 'Diagnostic'.",
+        "sections": "Based on the provided medical document, the main content sections or headings are:\nHistory of Present Illness, Past Medical History, Physical Exam, Procedure, Findings, Impression.\nTherefore, the answer is: History of Present Illness, Past Medical History, Physical Exam, Procedure, Findings, Impression.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Right breast\n* Axilla\n* Upper inner quadrant\n* 1 o'clock position\n* Lymph node\n* Right axilla\n\nFormatted as requested:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, 1_o'clock_position, Lymph_node, Right_axilla",
+        "attributes": "Right Breast: historic, Right Axilla: historic, Right 1 o'clock abnormality: uncertain, abnormal lymph node: uncertain"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'. This is indicated by the 'Record Type' field, which is set to 'RAD' for Radiology Report, but is set to 'CLN' for Clinical Note. The document contains information about a patient's medical history, procedure, and findings, as well as the clinician's impression.",
+        "date": "The principal date of the medical document is January 28, 2009, formatted as '01/28/2009'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "Main content sections or headings in the provided text:\n\n1. Clinical History\n2. Procedure\n3. Findings\n4. Impression",
+        "classUri-mentions": "Breast, Right; Axilla, Right",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Axilla: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient1\".",
+        "type": "The type of medical document referenced in the text is a \"Radiology Report.\" The document contains information about the patient's history, the procedure performed (ultrasound-guided core biopsy), and the findings, including the placement of clips at the biopsy sites. The report also includes an impression, which summarizes the results of the procedure.",
+        "date": "The principal date of the medical document is noted as \"20100123 1045\".",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making\". This is because the document describes the patient undergoing a medical procedure, ultrasound-guided core biopsy, to diagnose and potentially treat an abnormality found in her right breast and axillary lymph node. The medical decision-making stage involves the physician and patient collaborating to determine the best course of action for the patient's condition, which in this case is the core biopsy procedure.",
+        "sections": "Main content sections:\n\n* Clinical History\n* Procedure\n* Findings\n* Impression",
+        "classUri-mentions": "Right_Breast, Right\\_Axilla",
+        "attributes": "Right: historic, uncertain; Right\\_Breast: historic, generic; Right\\_Axilla: historic, uncertain; Lymph\\_Node: historic, uncertain"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is noted as '20100123 1045'.",
+        "episode": "The stage of patient care related to this medical document is \"Diagnostic\".",
+        "sections": "History of Present Illness, Clinical History, Procedure, Findings, Impression",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Right_Axillary_Lymph_Node",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Breast\\_Mass: uncertain, Right_Breast\\_Mass\\_Size: generic, Right_Axilla: conditional, Right_Axilla\\_Lymph\\_Node: conditional, Right_Axilla\\_Lymph\\_Node\\_Size: generic, Right\\_Axilla\\_Lymph\\_Node\\_Clip\\_Placement: generic"
+    }
+}

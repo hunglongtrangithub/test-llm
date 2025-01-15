@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "February 01, 2010 at 15:45",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "PATIENT HISTORY, FINAL DIAGNOSIS, HORMONE RECEPTOR IMMUNOHISTOCHEMISTRY, T STAGE, N STAGE, M STAGE",
+        "classUri-mentions": "Right_Breast, Left_Breast, Upper_Outer_Quadrant, Margins, Microcalcifications, Right_Axilla, Sentinel_Lymph_Node, Lymph_Node, Estrogen, Progesterone, HER-2/NEU, T_Stage, N_Stage, M_Stage",
+        "attributes": "Right_Breast: historic, Right_Axilla: historic, Sentinel_Lymph_Node: historic, Estrogen: positive, Progesterone: positive, HER-2/NEU: negated, HER-2/NEU (FISH): negated"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient3",
+        "type": "Surgical Pathology Report",
+        "date": "February 01, 2010 at 15:45",
+        "episode": "Diagnostic",
+        "sections": "PART 1, PART 2, HORMONE RECEPTOR IMMUNOHISTOCHEMISTRY, T STAGE, N STAGE, M STAGE",
+        "classUri-mentions": "Right_Breast, Upper_Outer_Quadrant, Right_Axilla",
+        "attributes": "Right_Breast: historic\nLeft_Breast: historic\nRight_Axilla: historic\nLymph_Node: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document, as noted in the text, is February 01, 2010 at 15:45.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "PATIENT HISTORY, FINAL DIAGNOSIS, PART 1, A, B, C, D, PART 2, E, HORMONE RECEPTOR IMMUNOHISTOCHEMISTRY RESULT, ESTROGEN, PROGESTERONE, HER-2/NEU, HER-2/NEU (FISH), T STAGE, N STAGE, M STAGE",
+        "classUri-mentions": "Right_Breast, Upper_outer_Quadrant, Invasive_Ductal_Carcinoma, DCIS, Solid_Type, Tumor_Volume, Margins, Microcalcifications, Axilla, Sentinel_Lymph_Node, Metastatic_Carcinoma, Estrogen_Receptor, Progesterone_Receptor, HER-2/NEU, FISH, T_Stage, PT2, N_Stage, PN1, M_Stage.",
+        "attributes": "Right: historic, generic, negated\nRight_Breast: historic\nLeft: historic\nLeft_Breast: historic\nAdenocarcinoma: historic\nInvasive Ductal Carcinoma: generic\nStage 2B: historic\nNeoadjuvant chemotherapy: historic\nMastectomy: historic\nRadiation therapy: historic\nSegmental Mastectomy: generic\nDCIS: generic\nMargins: historic\nMicrocalcifications: generic\nAxilla: historic\nSentinel Lymph Node: historic\nMetastatic Carcinoma: historic\nEstrogen: generic\nProgesterone: generic\nHER-2/NEU: negated, historic\nFISH: negated\nT Stage: conditional\nN Stage: conditional\nM Stage: conditional"
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient3\n\nFormat: [Patient Name]",
+        "type": " The medical document referenced in the text is a 'Surgical Pathology Report'.\n\nTherefore, the answer to the question is:\n\nType of medical document: Surgical Pathology Report",
+        "date": " February 01, 2010, at 1545",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " Sure! Here are the main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nPATIENT HISTORY\nFINAL DIAGNOSIS\nHORMONE RECEPTOR IMMUNOHISTOCHEMISTRY\nT STAGE\nN STAGE\nM STAGE",
+        "classUri-mentions": " Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\nRight Breast, Upper Inner Quadrant, Axilla, Left Breast",
+        "attributes": "Right Breast: historic, invasive ductal carcinoma, segmental mastectomy\nRight Axilla: historic, sentinel lymph node excision\nESTROGEN: positive\nPROGESTERONE: positive\nHER-2/NEU: negative\nHER-2/NEU (FISH): not amplified"
+    },
+    "llama-2-13b-chat": {
+        "name": "Patient Name..................Fake Patient3 ",
+        "type": "Sure! Here's my answer to your question:\nThe medical document referenced in the text is a 'Surgical Pathology Report'. ",
+        "date": " Sure, I'd be happy to help! Based on the information provided in the medical document, the principal date is:\n\nMonth DD, YYYY at HH:MM:\n\n2010-02-01 15:45 (February 1, 2010 at 3:45 PM)",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nDiagnostic\n\nReasoning:\n\nThe document provides a detailed description of the patient's history, including previous treatments for stage 2B left breast adenocarcinoma, and the current diagnosis of invasive ductal carcinoma of the right breast. The document also includes the results of hormone receptor immunohistochemistry and the T, N, and M stages of the patient's cancer. This information is typically collected during the diagnostic phase of patient care, as it is used to determine the patient's treatment plan and prognosis. Therefore, the stage of patient care related to this document is Diagnostic.",
+        "sections": "History of Present Illness, Final Diagnosis, Part 1, Part 2, Hormone Receptor Immunohistochemistry, T stage, N stage, M stage.\n\nPlease note that the provided medical document contains several subheadings under each section, but for the purpose of this task, I have only listed the main content sections or headings as requested.",
+        "classUri-mentions": " Sure, here is the list of distinct anatomical entities mentioned in the document, in the order they appear, using the format you requested:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Lower_outer_Quadrant, 10_oclock_Region.",
+        "attributes": "Right Breast: historic, invasive ductal carcinoma, segmental mastectomy\nRight Axilla: historic, sentinel lymph node excision\nESTROGEN: positive\nPROGESTERONE: positive\nHER-2/NEU: negative, not amplified\nLeft Breast: historic, stage 2B left breast adenocarcinoma, neoadjuvant chemotherapy\n\nNote: The attributes are based on the information provided in the document and may not be a comprehensive list of all possible attributes for each anatomical entity."
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient Name: Fake Patient3",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.\n\nTherefore, the answer is:\n\nReport ID.....................2,doc2\nPatient ID....................pt135135135\nPatient Name..................Fake Patient3\nPrincipal Date................20100201 1545\nRecord Type...................SP\nPatient DOB...................11/12/1966\n\nPATIENT HISTORY: 44 year-old female with biopsy",
+        "date": "February 01, 2010, at 1545 ",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides information about the patient's history, including a previous diagnosis of stage 2B left breast adenocarcinoma, neoadjuvant chemotherapy, right mastectomy, and radiation therapy. It also includes details about the current diagnosis, including the final diagnosis of invasive ductal carcinoma of the right breast with two foci of invasive ductal carcinoma, DCIS, and microcalcifications associated with tumor. Additionally, the document includes information",
+        "sections": "History of Present Illness, Final Diagnosis, RIGHT BREAST, SEGMENTAL MASTECTOMY, PART 1, PART 2, HORMONE RECEPTOR IMMUNOHISTOCHEMISTRY, RESULT, ESTROGEN, PROGESTERONE, HER-2/NEU, HER-2/NEU (FISH), T STAGE, N STAGE, M STAGE",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Right_Axilla, Sentinel_Lymph_Node",
+        "attributes": " Sure, I'd be happy to help! Based on the provided medical document, here are the attributes for each anatomical entity mentioned:\n\nRight:\n\n* historic (biopsy proven invasive ductal carcinoma of the right breast)\n\nRight Breast:\n\n* historic (right mastectomy and radiation therapy)\n* invasive ductal carcinoma (2 foci of invasive ductal carcinoma in the 10 o'clock region of the upper outer quadrant)\n* DCIS (solid type, representing 4% of the tumor volume)\n* margins free of tumor\n* microcalculifications associated with tumor\n\nAxilla:\n\n* sentinel lymph node excision (one lymph node positive for metastatic carcinoma)\n\nN/A (not applicable):\n\n* T stage (T2)\n* N stage (N1)\n* M stage (not applicable)\n\nHormone Receptor Immunohistochemistry:\n\n* Estrogen receptor positive (150)\n* Progesterone receptor positive (160)\n* HER-2/NEU negative (0)\n* HER-2/NEU (FISH) not amplified\n\nI hope this helps! Let me know if you have any other questions."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name mentioned in the document is \"Fake Patient\".",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report' (SP).",
+        "date": "The principal date of the medical document as noted in the text is February 1, 2010 at 3:45 PM, formatted as '02/01/2010 at 1545'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "* Right_Breast, Segmental_Mastectomy, Part\\_1: 2\\_FOCI\\_of\\_Invasive\\_Ductal\\_Carcinoma, 2.1\\_cm\\_and\\_1.1\\_cm\\_in\\_the\\_10\\_O'Clock\\_Region\\_in\\_the\\_Upper\\_Outer\\_Quadrant, B: DCIS, Solid\\_Type, representing 4% of the tumor volume, C: Margins\\_Free\\_of\\_Tumor, D: Microcalcifications\\_Associated\\_with\\_Tumor;\n* Right\\_Axilla, Sentinel\\_Lymph\\_Node\\_Excision, E: One\\_Lymph\\_Node\\_Positive\\_for\\_Metastatic\\_Carcinoma;",
+        "attributes": "Right: historic, Right_Breast: historic\nLeft: historic, Left_Breast: historic\nRight: invasive ductal carcinoma, Right_Breast: invasive ductal carcinoma\nRight: segmental mastectomy, Right_Breast: segmental mastectomy\nRight: 2 foci of invasive ductal carcinoma, Right_Breast: 2 foci of invasive ductal carcinoma\nRight: 2.1 cm and 1.1 cm in the 10'oclock region, Right_Breast: 2.1 cm and 1.1 cm in the 10'oclock region\nRight: DCIS, solid type, Right_Breast: DCIS, solid type\nRight: margins free of tumor, Right_Breast: margins free of tumor\nRight: microcalcifications associated with tumor, Right_Breast: microcalcifications associated with tumor\nRight: right axilla, Right_Breast: right axilla\nRight: sentinel lymph node excision, Right_Breast: sentinel lymph node excision\nRight: one lymph node positive for metastatic carcinoma, Right_Breast: one lymph node positive for metastatic carcinoma\nRight: positive for estrogen receptor, Right_Breast: positive for estrogen receptor\nRight: positive for progesterone receptor, Right_Breast: positive for progesterone receptor\nRight: negative for HER-2/neu, Right_Breast: negative for HER-2/neu\nRight: not amplified by HER-2/neu (FISH), Right_Breast: not amplified by HER-2/neu (FISH)\nRight: T2, Right_Breast: T2\nRight: N1, Right_Breast: N1\nRight: M0, Right_Breast: M0\nRight: P2, Right_Breast: P2"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient\".",
+        "type": "The type of medical document referenced in the text is a \"Surgical Pathology Report.\" This conclusion is drawn from the document's Record Type field, which is indicated as \"SP,\" and the detailed descriptions of the patient's history, diagnosis, and surgical procedures in Parts 1 and 2 of the report.",
+        "date": "Principal Date: February 1, 2010 at 1545",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is indicated by the presence of information about the patient's diagnosis, treatment history, and current medical condition, as well as the results of various tests and examinations, such as hormone receptor immunohistochemistry and sentinel lymph node excision. This information is used by medical professionals to make decisions about the patient's treatment plan and overall care.",
+        "sections": "Main content sections or headings:\nHistory of Present Illness,\nPast Medical History,\nPhysical Exam,\nFinal Diagnosis,\nHormone Receptor Immunohistochemistry,\nT Stage,\nN Stage,\nM Stage",
+        "classUri-mentions": "Axilla, Right\\_Axilla, Sentinel\\_Lymph\\_Node\\_Excision, Right\\_Breast, Upper\\_outer\\_Quadrant, 10\\_o'clock\\_region, Segmental\\_Mastectomy, Invasive\\_Ductal\\_Carcinoma, DCIS, Solid\\_Type, Margins\\_Free\\_of\\_Tumor, Microcalcifications\\_Associated\\_with\\_Tumor, Estrogen, Positive, 150, Progesterone, Positive, 160, HER-2/NEU, Negative, HER-2/NEU\\_(FISH), Not\\_Amplified",
+        "attributes": "Right: historic, uncertain, generic, conditional\nRight\\_Breast: historic, uncertain, generic, conditional, temporality\nLeft\\_Breast: historic, uncertain, generic, conditional, temporality\nAxilla: uncertain, generic, conditional, temporality\nSentinel\\_Lymph\\_Node: conditional, temporality"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is February 1, 2010, at 15:45.",
+        "episode": "The stage of patient care relates to 'Medical Decision-making'.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Final Diagnosis, Hormone Receptor Immunohistochemistry, T Stage, N Stage, M Stage",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, 10_oclock_region, Right_Axillary_Lymph_Node, Upper_outer_Quadrant, 10_oclock_region",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Breast: 2.1 and 1.1 cm tumors, Right_Breast: invasive ductal carcinoma, Right_Breast: 10 o'clock region, Right_Breast: upper outer quadrant, Right_Breast: DCIS, Right_Breast: solid type, Right_Breast: 4% tumor volume, Right_Breast: margin free of tumor, Right_Breast: microcalcifications, Right_Breast: axillary lymph nodes, Right_Breast: sentinel lymph node excision, Right_Breast: one positive lymph node, Right_Breast: metastatic carcinoma, Right_Breast: estrogen positive, Right_Breast: progesterone positive, Right_Breast: HER-2/NEU negative, Right_Breast: HER-2/NEU not amplified, Right_Breast: T stage: PT2, Right_Breast: N stage: PN1, Right_Breast: M stage: NOT APPLICABLE"
+    }
+}

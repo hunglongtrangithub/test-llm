@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "May 16, 2010 at 10:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, PROCEDURE, TECHNIQUE, IMPRESSION",
+        "classUri-mentions": "Left_breast_mass, Left_axillary_lymph_node, Skin, Lesions",
+        "attributes": "Left_Breast_Mass: historic, Left_Axillary_Lymph_Node: historic"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient7",
+        "type": "Radiology Report",
+        "date": "20100516 1045",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, PROCEDURE, TECHNIQUE, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Axilla, Left_Axillary_Lymph_Node",
+        "attributes": "Left_Breast: historic\nLeft_Axillary_Lymph_Node: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The referenced medical document is a 'Radiology Report'.",
+        "date": "The principal date of the medical document, as noted in the text, is May 16, 2010 at 10:45 AM.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, PROCEDURE, TECHNIQUE, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Node",
+        "attributes": "Left Breast: abnormal, mass, suspicious, successful\nLeft Axillary Lymph Node: abnormal, suspicious, successful"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient7",
+        "type": " The type of medical document referenced in the text is a 'Radiology Report.'\n\nTherefore, the answer is:\n\nType of medical document: Radiology Report",
+        "date": " The principal date of the medical document as noted in the text, formatted as 'Month DD, YYYY at HH:MM' is:\n\nMay 16, 2010 at 10:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " CLINICAL HISTORY, PROCEDURE, TECHNIQUE, IMPRESSION.\n\nTherefore, the main content sections or headings in the provided medical document are:\n\n1. CLINICAL HISTORY: This section provides background information on the patient's condition, including their age, gender, and the reason for their visit.\n2. PROCEDURE: This section outlines the specific procedure(s) performed on the patient, including the type of biopsy and the location of the masses and lymph node biopsied.\n3. TECHNIQUE: This section describes the method used to perform the procedure, including the use of ultrasound guidance, the type of needle used, and the number of passes made.\n4. IMPRESSION: This section provides a summary of the procedure's findings and outcomes, including the successful completion of the core biopsies and the sending of the specimens to pathology for further analysis.",
+        "classUri-mentions": "Left breast, Left axillary lymph node, 10 o'clock position, 11 o'clock position, Superior axilla, Inferior axilla.\n\nFormat your response as comma-separated values, using underscores to connect multiple words in a single entity, similar to 'Axilla, Right_Breast, Upper_inner_Quadrant'.\n\nThe answer is; Left breast, Left axillary lymph node, 10 o'clock position, 11 o'clock position, Superior axilla, Inferior ax",
+        "attributes": " Based on the information provided in the document, the following are the anatomical entities mentioned along with their attributes:\n\n* Left breast mass (historic, conditional)\n\t+ Historic: The mass was previously identified and monitored.\n\t+ Conditional: The biopsy was performed to confirm the nature of the mass.\n* Left breast (historic, conditional)\n\t+ Historic: The breast was previously identified and monitored.\n\t+ Conditional: The biopsy was performed to confirm the nature of the mass.\n* 10 o'clock position of left breast (historic, conditional)\n\t+ Historic: The mass was previously identified and monitored.\n\t+ Conditional: The biopsy was performed to confirm the nature of the mass.\n* 11 o'clock position of left breast (historic, conditional)\n\t+ Historic: The mass was previously identified and monitored.\n\t+ Conditional: The biopsy was performed to confirm the nature of the mass.\n* Left axillary lymph node (historic, conditional)\n\t+ Historic: The lymph node was previously identified and monitored.\n\t+ Conditional: The biopsy was performed to confirm the nature of the lymph node.\n* Superior axilla (historic)\n\t+ Historic: The lymph node was previously identified and monitored.\n* Inferior axilla (historic)\n\t+ Historic: The lymph node was previously identified and monitored.\n\nTherefore, the attributes for each anatomical entity mentioned in the document are:\n\n* Left breast mass: historic, conditional\n* Left breast: historic, conditional\n* 10 o'clock position of left breast: historic, conditional\n* 11 o'clock position of left breast: historic, conditional\n* Left axillary lymph node: historic, conditional\n* Superior axilla: historic\n* Inferior axilla: historic\n\nFormatted response:\nLeft breast mass: historic, conditional\nLeft breast: historic, conditional\n10 o'clock position of left breast: historic, conditional\n11 o'clock position of left breast: historic, conditional\nLeft axillary lymph node: historic, conditional\nSuperior axilla: historic\nInferior axilla: historic"
+    },
+    "llama-2-13b-chat": {
+        "name": "Patient Name: Fake Patient7",
+        "type": " Based on the information provided, the medical document is a 'Radiology Report'.",
+        "date": " Sure! Based on the information provided in the medical document, the principal date is:\n\nMay 16, 2010 at 10:45 AM (20100516 1045)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " Based on the provided document, the main content sections or headings are:\n\n* Clinical History\n* Procedure\n* Technique\n* Impression\n\nTherefore, the answer should be:\n\nClinical History, Procedure, Technique, Impression",
+        "classUri-mentions": " Sure, I'd be happy to help! Here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\n* Left breast\n* Right breast\n* Axilla\n* Left axillary lymph node\n* Superior axilla\n* Inferior axilla\n\nSo the answer is:\n\nLeft breast, Right breast, Axilla, Left axillary lymph node, Superior axilla, Inferior axilla.",
+        "attributes": "Left Breast Mass: historic, uncertain\nLeft Axillary Lymph Node: historic, uncertain\nRight Breast: historic\nRight Axilla: uncertain"
+    },
+    "llama-2-7b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\nThe patient's name as mentioned in the document is:\nPatient Name..................Fake Patient7",
+        "type": " Based on the information provided in the medical document, the type of medical document referenced is a 'Surgical Pathology Report'.\n\nThe document describes the procedures and findings of a surgical biopsy, including the use of ultrasound guidance for the biopsy, the removal of tissue samples for further examination, and the placement of clips at the biopsy sites. The document also includes the patient's demographic information and the results of the biopsy, including the impression of successful core biopsies of the suspicious masses and the sent specimens to pathology. All of these elements are typical of a Surgical Pathology Report.\n\nTherefore, the answer is:\n\nType of medical document referenced: Surgical Pathology Report",
+        "date": "May 16, 2010 at 10:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nReport ID.....................2,doc2\nPatient ID....................pt357357357\nPatient Name..................Fake Patient7\nPrincipal Date................20100516 1045\nRecord Type...................RAD\nPatient DOB...................03/01/1938\n\nCLINICAL HISTORY:\nPatient is a 72 year old female who returns for ultrasound guided core biopsy",
+        "sections": "History of Present Illness, Procedure, Technique, Impression.",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\nAxilla, Left\nBreast, Left\nLymph Node, Left Axillary\nBreast Mass, Left, 10 O'clock Position\nBreast Mass, Left, 11 O'clock Position",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document paired with its attributes, separated by commas:\n\nLeft Breast: historic, uncertain\nLeft Axillary Lymph Node: historic, uncertain\nRight Breast: historic\nLeft Axilla: historic\nSuperior Axilla: historic\nInferior Axilla: historic"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a \"Radiology Report.\"",
+        "date": "The principal date of the medical document is May 16, 2010 at 10:45 AM, formatted as '05161045'.",
+        "episode": "The document relates to the stage of patient care known as 'Medical Decision-making.' This is indicated by the presence of clinical history, procedure, technique, impression, and post-procedure digital mammography. These sections describe the patient's condition, the medical intervention(s) performed, and the results of those interventions. The document does not provide enough information to determine if it relates to 'Pre-diagnostic,' 'Diagnostic,' or 'Unknown' stages of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Procedure, Technique.",
+        "classUri-mentions": "Axilla, Left\\_Breast, Left\\_axillary\\_lymph\\_node, Left\\_Breast\\_mass, 10\\_o'clock\\_position, 11\\_o'clock\\_position",
+        "attributes": "Right: historic, Right_Breast: historic\nLeft: historic, Left_Breast: historic\nLeft_axillary: historic, Left_axillary_Lymph_Node: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a \"Radiology Report.\"",
+        "date": "The principal date of the medical document is noted in the text as \"20100516 1045\" formatted as \"Month DD, YYYY at HH:MM\".",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is indicated by the procedures performed on the patient, including ultrasound-guided core biopsy of the left breast mass and abnormal left axillary lymph node, with clip placement. The patient's clinical history and impression also support this conclusion, as the purpose of these procedures is to gather information to inform medical decision-making regarding the patient's diagnosis and treatment plan.",
+        "sections": "Main content sections:\nClinical History,\nProcedure,\nTechnique,\nImpression.",
+        "classUri-mentions": "Left_Breast, 10_o'clock_position, Left_Breast, 11_o'clock_position, Left_axilla, Superior, Left_axilla, Inferior",
+        "attributes": "Left: generic, temporality\nLeft_Breast: generic, temporality, historic\nLeft_Axillary_Lymph_Node: generic, temporality"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient7.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'. The document is specifically about an ultrasound-guided core biopsy of the left breast mass and an abnormal left axillary lymph node.",
+        "date": "The principal date of the medical document is noted as 'May 16, 2010 at 10:45'.",
+        "episode": "The stage of patient care related to this document is \"Diagnostic\". The document describes an ultrasound-guided core biopsy procedure performed on the left breast mass and an abnormal left axillary lymph node, which is a diagnostic procedure to determine the nature of the masses and lymph node.",
+        "sections": "History of Present Illness, Clinical History, Procedure, Technique, Impression",
+        "classUri-mentions": "Axilla, Left_Breast, 10_o'clock_position, 11_o'clock_position, Left_Axillary_Lymph_Node, Superior_Axilla, Inferior_Axilla",
+        "attributes": "Left_Breast: negated, uncertain, generic, conditional, historic, temporality\n10_oclock_position: negated, uncertain, generic, conditional, historic, temporality\n11_oclock_position: negated, uncertain, generic, conditional, historic, temporality\nLeft_Axillary_Lymph_Node: negated, uncertain, generic, conditional, historic, temporality\nSuperior_Axilla: negated, uncertain, generic, conditional, historic, temporality\nInferior_Axilla: negated, uncertain, generic, conditional, historic, temporality"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "December 06, 2009 at 14:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "TECHNIQUE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Invasive_Ductal_Carcinoma, DCIS, Bilateral_Breast, IV_Contrast, Retro_Areolar_Region, Post_Biopsy_Site, Inferior_Aspect_Left_Breast, 2_O\u2019clock_Position, Right_Breast",
+        "attributes": "Left_Breast: historic, generic, Right_Breast: generic, Retro_Areolar_Region_Left_Breast: generic, Inferior_Aspect_Left_Breast: generic"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient2",
+        "type": "Radiology Report",
+        "date": "20091206 1445",
+        "episode": "Diagnostic",
+        "sections": "TECHNIQUE, FINDINGS, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Retro_areolar_region, Inferior_aspect_of_left_breast, Axilla, Right_Breast",
+        "attributes": "Left_Breast: historic, generic,\nRight_Breast: historic, generic,"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient2.",
+        "type": "The referenced medical document is a Radiology Report.",
+        "date": "The principal date of the medical document is December 6, 2009 at 14:45.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "Findings, Impression",
+        "classUri-mentions": "left_breast, Invasive_ductal_carcinoma, DCIS, retro_areolar_region, malignancy, inferior_aspect, 2_o'clock_position, right_breast, enhancing_masses, Medical_Oncologist, Surgeon",
+        "attributes": "Left Breast: historic, uncertain, generic\nInvasive ductal carcinoma: historic, generic\nDCIS: historic, generic\nBiopsy: historic\nRetro areolar region: historic\nPost biopsy site: historic\nAbnormal enhancement: historic\nInferior aspect of left breast: historic\n2 o'clock position: historic\nBenign appearing enhancing masses: generic\nRight Breast: generic"
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient2\n\nFormat: \nPatient Name: [Insert patient name here]",
+        "type": " The type of medical document referenced in the text is a 'Radiology Report'.\n\nThe report includes information about the patient's personal details, medical history, and the results of a bilateral breast MRI with and without IV contrast. The report also includes the impression and recommendation for further evaluation and treatment, which are all typical components of a radiology report. Therefore, the type of medical document is 'Radiology Report'.",
+        "date": "December 06, 2009, at 1445 ",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe diagnostic stage of patient care involves using various tests and examinations to determine a patient's health problem or condition after symptoms or signs have already been identified. This phase begins when a doctor orders a test or consultation and ends when a definitive diagnosis is made or when further testing is deemed unnecessary. Test results, such as those obtained through blood work, imaging studies, or biopsies, are used to guide decision-making during this period. Based on the findings, the healthcare provider will choose whether additional testing or referrals to specialists are required before making a final diagnosis and developing an appropriate treatment plan.",
+        "sections": " History of Present Illness, Technique, Findings, Impression",
+        "classUri-mentions": " Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Retro_areolar_region, Post_biopsy_site, Inferior_aspect, 2_oclock_position, Right_and_left_breasts.",
+        "attributes": " Right Breast: historic, generic\nLeft Breast: historic, uncertain, conditional\nLeft Breast (post biopsy site): historic, uncertain, conditional\nLeft Breast (inferior aspect, 2 o'clock position): historic, uncertain, conditional\nMultiple benign appearing enhancing masses (both breasts): generic, uncertain\n\nFormat:\nRight: historic, generic\nLeft: historic, uncertain, conditional\nLeft (post biopsy site): historic, uncertain, conditional\nLeft (inferior aspect, 2 o'clock position): historic, uncertain, conditional\nMultiple benign appearing enhancing masses (both breasts): generic, uncertain"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I can help you with that! Here's the answer to your question in the specified format:\n\nWhat is the patient's name as mentioned in the document?\n\nBased on the document, the patient's name is:\n\nFake Patient2\n\nPlease note that the patient's name is mentioned as \"Fake Patient2\" in the document, as the actual patient's name is not provided in the text.",
+        "type": " Based on the information provided in the document, the type of medical document is a Radiology Report. The document includes a patient's history of malignancy, radiologic findings, and a diagnosis, all of which are typical components of a radiology report. Therefore, the answer is:\n\nType of medical document: Radiology Report",
+        "date": " Sure, I can help you with that!\n\nThe principal date of the medical document is:\n\nMonth DD, YYYY at HH:MM:\n\n2009-12-06 14:45",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nFormat:\n\n* Report ID: 5,doc5\n* Patient ID: pt246246246\n* Patient Name: Fake Patient2\n* Principal Date: 20091206 1445\n* Record Type: RAD\n* Patient DOB: 06/21/1958\n\nThe patient, a 51-year-old peri-menopausal female, has been newly diagn",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Retro_areolar_region, Inferior_aspect",
+        "attributes": " Based on the provided medical document, the following are the attributes for each anatomical entity mentioned:\n\nLeft Breast:\n\n* Historic (as it has been biopsied and diagnosed with malignancy)\n* Abnormal enhancement (compatible with patient's history of malignancy)\n\nRight Breast:\n\n* Benign appearing enhancing masses (multiple)\n* Uncertain (as they do not appear worrisome for malignancy based on MRI criteria)\n\nRetroareolar region of the Left Breast:\n\n* Historic (post biopsy changes)\n* Abnormal enhancement (compatible with patient's history of malignancy)\n\nInferior aspect of the Left Breast at the 2 o'clock position:\n\n* Abnormal enhancement (measuring 1.2 cm)\n* Malignant appearing (based on MRI criteria)\n\nOther breasts:\n\n* Benign appearing enhancing masses (multiple)\n* Uncertain (as they do not appear worrisome for malignancy based on MRI criteria)\n\nTherefore, the attributes for each anatomical entity mentioned in the document are:\n\nLeft Breast: historic, abnormal enhancement\nRight Breast: benign appearing enhancing masses, uncertain\nRetroareolar region of the Left Breast: historic, abnormal enhancement\nInferior aspect of the Left Breast at the 2 o'clock position: abnormal enhancement, malignant appearing\nOther breasts: benign appearing enhancing masses, uncertain."
+    },
+    "llama-2-7b-chat": {
+        "name": "Patient Name..................Fake Patient2 ",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.\n\nThe document includes details about the patient's recent diagnosis of malignancy, the MRI findings, and the impression and recommendation of the radiologist. The report also includes the patient's personal information, such as their name, date of birth, and medical record number. The 'TECHNIQUE' and 'FINDINGS' sections outline the methods used for the MRI and the abnormalities discovered, respectively. Based on the information given, the medical document's type is appropriately identified as a",
+        "date": " Sure, I can help you with that! Based on the medical document provided, the principal date is:\n\nDecember 6, 2009 at 2:45 PM (written as \"20091206 1445\")",
+        "episode": " Based on the information provided in the medical document, the stage of patient care related to the document is 'Diagnostic'. This is indicated by the mention of the patient's recent diagnosis of left breast Invasive ductal carcinoma and DCIS, as well as the MRI evaluation for the extent of disease. The document specifically highlights the findings of the MRI examination, including abnormal enhancement in the retroareolar region and inferior aspect of the left breast, and the recommendation for further evaluation and management by a Medical Oncologist and Surgeon. Therefore, the answer to the question is 'Diagnostic'.",
+        "sections": " Sure, here are the main content sections or headings contained in the provided medical document:\n\nHistory of Present Illness, Past Medical History, Physical Exam, TECHNIQUE, FINDINGS, IMPRESSION.\n\nSo, the answer is: History of Present Illness, Past Medical History, Physical Exam, TECHNIQUE, FINDINGS, IMPRESSION.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Axilla\n* Breast\n* Right breast\n* Upper inner quadrant\n* Retro areolar region\n* Inferior aspect\n* 2 o'clock position\n* Masses (benign appearing)\n* Malignancy\n\nNote: The document mentions multiple entities in each of these categories, but I have listed each entity only once in the order it appears.",
+        "attributes": "Left Breast: historic, invasive ductal carcinoma, DCIS, abnormal enhancement, malignant, BIRADS CATEGORY: 5\nRight Breast: historic, benign"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name is not explicitly mentioned in the document. The document contains information about a patient with a principal date of 200912061445, a patient ID of pt246246246, and a record type of RAD. The patient is described as a 51-year-old peri-menopausal female who has been diagnosed with left breast Invasive ductal carcinoma and DCIS on biopsy. The document includes findings from an MRI and an impression that the patient has a BIRADS category of 5, indicating a malignant appearing area of enhancement in the left breast. The patient has been scheduled to see a Medical Oncologist and a Surgeon.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is December 6th, 2009 at 2:45 PM, formatted as '12/06/2009 at 1445'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, MRI Findings, Impression, BIRADS Category",
+        "classUri-mentions": "Axilla, Left\\_Breast, Inferior, 2\\_o\\_clock\\_position",
+        "attributes": "Left: historic, Left\\_Breast: historic, Invasive\\_Ductal\\_Carcinoma: historic, DCIS: historic, Retro\\_areolar\\_region: historic, 2\\_o'clock\\_position: historic, Breast\\_MRI: generic, Bilateral\\_breast: generic, IV\\_contrast: generic, Enhancement: generic, Abnormal\\_enhancement: generic, Benign\\_appearing\\_masses: generic, Multiple: generic, Malignancy: generic\n\nRight: generic, Right\\_Breast: generic, Enhancement: generic, Benign\\_appearing\\_masses: generic, Multiple: generic, Malignancy: generic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a \"Radiology Report.\"",
+        "date": "The principal date of the medical document is formatted as 'Month DD, YYYY at HH:MM' and is noted as '20091206 1445'.",
+        "episode": "This document relates to the 'Medical Decision-making' stage of patient care. The patient has a newly diagnosed malignancy, and the purpose of the MRI is to evaluate the extent of the disease. The report includes findings related to the presence of malignant-appearing masses, including a specific area of enhancement in the left breast that corresponds to the patient's history of recent diagnosis. Additionally, the report notes that the patient has been scheduled to see a Medical Oncologist and a Surgeon, indicating that the focus of care at this stage is on decision-making regarding treatment options.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Imaging Findings, Impression, BIRADS Category",
+        "classUri-mentions": "Left\\_Breast, Retro\\_areolar\\_region, Post\\_biopsy\\_site, Inferior\\_aspect\\_2\\_o'clock, 1.2\\_cm, Right\\_Breast, Multiple\\_benign\\_appearing\\_enhancing\\_masses",
+        "attributes": "Left: negated, uncertain, generic, conditional, historic\nLeft_Breast: negated, uncertain, generic, conditional, historic\nRight: historic\nRight_Breast: historic"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is noted as 'December 06, 2009 at 1445'.",
+        "episode": "The stage of patient care relates to \"Medical Decision-making\". The document discusses the findings from a breast MRI and provides information on the extent of the disease, which helps in making medical decisions for the patient's treatment plan.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, MRI Findings, Impression",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Retro_areolar_region, Inferior_aspect, 2_oclock_position",
+        "attributes": "Right: historic, Right_Breast: historic, Left: historic, Left_Breast: historic, 2 o'clock position: conditional, Inferior aspect of the left breast: temporality, Post biopsy changes: negated, Retro areolar region aspect of the left breast: negated, Abnormal enhancement: uncertain, Increased enhancement: uncertain"
+    }
+}

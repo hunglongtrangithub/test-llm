@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient4",
+    "type": "Clinical Note",
+    "date": "March 10, 2011 at 10:25 AM",
+    "episode": "unknown",
+    "sections": "Interim History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, Dysplastic_Nevus, Upper_inner_Quadrant, Axillary_Lymph_Node, Right, Mass_In_Breast, Left, Lung, Heart, Left_Axilla_Proper, Neck, Ovary, Breast, Right_Breast, Sclera, Epithelial_Ovarian_Cancer, Mass, Lobular_Mass, Lymph_Node",
+    "attributes": "Lymph_Node: historic, Sclera: , Epithelial_Ovarian_Cancer: historic, Left: historic, Mass_In_Breast: , Ovary: uncertain, historic, Mass: historic, Left: uncertain, historic, Right_Breast: historic, Upper_inner_Quadrant: historic, Lung: , Left_Breast: historic, Mass_In_Breast: , Axillary_Lymph_Node: historic, Lobular_Mass: historic, Left_Axilla_Proper: historic, Lymph_Node: historic, Upper_inner_Quadrant: historic, Right: historic, Left_Breast: , Right_Breast: historic, Left: , Right: , Right_Breast: , Dysplastic_Nevus: , Left_Breast: historic, Mass: historic, Mass: historic, Neck: , Breast: , Heart: "
+}

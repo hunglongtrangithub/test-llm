@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient5",
+    "type": "Clinical Note",
+    "date": "February 05, 2010 at 03:00 AM",
+    "episode": "unknown",
+    "sections": "Chief Complaint, Clinical History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, N2_Stage, Axillary_Lymph_Node, Right, Metastasis, Left, Lung, Heart, PR_, Secondary_Neoplasm, Cyst_Of_Right_Ovary, M0_Stage, Thorax, Abdomen, Ovary, Lower_Abdomen, T3_Stage, Invasive_Ductal_Breast_Carcinoma, HER2, Limb, Left_Axillary_Lymph_Node, ER_, Stage_3A",
+    "attributes": "N2_Stage: , Stage_3A: , Ovary: uncertain, historic, Abdomen: , PR_: historic, Heart: negated, M0_Stage: , Lung: , Lung: , Invasive_Ductal_Breast_Carcinoma: , Axillary_Lymph_Node: historic, T3_Stage: , Stage_3A: historic, Left_Breast: historic, Lower_Abdomen: , Left: historic, ER_: historic, Right: uncertain, historic, Left_Axillary_Lymph_Node: , N2_Stage: , Left_Axillary_Lymph_Node: historic, Metastasis: negated, uncertain, Thorax: negated, Secondary_Neoplasm: historic, Limb: negated, M0_Stage: , Cyst_Of_Right_Ovary: historic, Thorax: , HER2: historic, Thorax: , T3_Stage: , Left_Breast: historic, Invasive_Ductal_Breast_Carcinoma: historic, Left: , Left_Breast: , Secondary_Neoplasm: "
+}

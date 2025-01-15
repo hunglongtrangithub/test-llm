@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient6",
+    "type": "Clinical Note",
+    "date": "August 30, 2010 at 02:15 AM",
+    "episode": "unknown",
+    "sections": "Clinical History, Interim History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, Dysplastic_Nevus, PT1s_Stage, Malignant_Neoplasm, T1_Stage, Ductal_Breast_Carcinoma_In_Situ, Right, Left, Lung, Heart, PR_, Neck, Secondary_Neoplasm, M0_Stage, PNx_Stage, Breast, Thyroid_Gland, Invasive_Ductal_Breast_Carcinoma, HER2, Right_Breast, Sclera, Left_Axillary_Lymph_Node, ER_, Lymph_Node, N1_Stage",
+    "attributes": "Left_Breast: , Dysplastic_Nevus: uncertain, Right_Breast: uncertain, historic, PR_: historic, PNx_Stage: , Left: , Left: historic, Right: historic, Ductal_Breast_Carcinoma_In_Situ: historic, N1_Stage: , Left: historic, Sclera: , Secondary_Neoplasm: negated, historic, Breast: historic, Invasive_Ductal_Breast_Carcinoma: , Right_Breast: historic, Thyroid_Gland: negated, ER_: historic, PT1s_Stage: , HER2: historic, Left_Axillary_Lymph_Node: , T1_Stage: , Neck: , Secondary_Neoplasm: , Left_Breast: historic, Invasive_Ductal_Breast_Carcinoma: historic, Right: uncertain, historic, Lung: , Left: historic, ER_: historic, PR_: historic, Lymph_Node: historic, Left_Breast: historic, M0_Stage: , Malignant_Neoplasm: historic, Left_Breast: historic, Heart: , Invasive_Ductal_Breast_Carcinoma: historic"
+}

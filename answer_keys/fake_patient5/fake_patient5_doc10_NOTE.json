@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient5",
+    "type": "Clinical Note",
+    "date": "February 15, 2010 at 01:00 AM",
+    "episode": "unknown",
+    "sections": "Chief Complaint, Clinical History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, N2_Stage, Axillary_Lymph_Node, Right, Metastasis, Left, Liver, Lung, Heart, PR_, Secondary_Neoplasm, Cyst_Of_Right_Ovary, M0_Stage, Pulmonary_Mass, Abdomen, Breast, Ovary, Left_Lower_Lung_Lobe, Lower_Abdomen, T3_Stage, Invasive_Ductal_Breast_Carcinoma, HER2, Limb, Chest_And_Abdomen, Left_Axillary_Lymph_Node, ER_, Left_Lobe_Of_The_Liver, Multiple_Pulmonary_Nodules, Stage_3A",
+    "attributes": "Liver: , Metastasis: , Left_Axillary_Lymph_Node: historic, T3_Stage: , Secondary_Neoplasm: historic, Abdomen: , Multiple_Pulmonary_Nodules: historic, Lower_Abdomen: , Cyst_Of_Right_Ovary: historic, Lung: , Lung: , PR_: historic, Limb: negated, M0_Stage: , Left_Breast: historic, Secondary_Neoplasm: , Lung: , Left_Lower_Lung_Lobe: historic, Invasive_Ductal_Breast_Carcinoma: , N2_Stage: , Invasive_Ductal_Breast_Carcinoma: historic, Left_Axillary_Lymph_Node: , Stage_3A: historic, Left: historic, Stage_3A: , Left: , Breast: historic, Chest_And_Abdomen: historic, HER2: historic, Left_Lobe_Of_The_Liver: historic, Left_Breast: , T3_Stage: , Lung: , Metastasis: , Left: , Left_Breast: , Metastasis: historic, Left: historic, M0_Stage: , Invasive_Ductal_Breast_Carcinoma: , Lung: historic, Pulmonary_Mass: historic, Lung: historic, Lung: historic, Left_Breast: historic, Heart: negated, Ovary: uncertain, historic, ER_: historic, Right: uncertain, historic, Axillary_Lymph_Node: historic, N2_Stage: "
+}

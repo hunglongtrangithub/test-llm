@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient5",
+    "type": "Clinical Note",
+    "date": "May 10, 2009 at 10:15 AM",
+    "episode": "unknown",
+    "sections": "Clinical History, Past Medical History, Examination, Impression",
+    "classUri-mentions": "Left_Breast, Dysplastic_Nevus, Neoplasm, N2_Stage, Right, Left, Lung, Heart, PR_, Neck, Secondary_Neoplasm, Cyst_Of_Right_Ovary, M0_Stage, Breast, Ovary, Thyroid_Gland, T3_Stage, Upper_Outer_Quadrant, Invasive_Ductal_Breast_Carcinoma, HER2, Tumor_Stage_Finding, Breast_Carcinoma, Sclera, Left_Axillary_Lymph_Node, ER_, Mass, Stage_3A",
+    "attributes": "Invasive_Ductal_Breast_Carcinoma: , Left_Breast: historic, Dysplastic_Nevus: uncertain, Breast: historic, Tumor_Stage_Finding: , Neck: , Stage_3A: , Right: uncertain, historic, Left: historic, M0_Stage: , ER_: historic, Thyroid_Gland: negated, Invasive_Ductal_Breast_Carcinoma: historic, Lung: , Secondary_Neoplasm: , Mass: historic, Left_Breast: historic, Sclera: , N2_Stage: , Left_Axillary_Lymph_Node: , HER2: historic, Upper_Outer_Quadrant: historic, Breast_Carcinoma: historic, Left: , Left: historic, Neoplasm: , Cyst_Of_Right_Ovary: historic, Heart: , Ovary: uncertain, historic, T3_Stage: , Left_Breast: , PR_: historic"
+}

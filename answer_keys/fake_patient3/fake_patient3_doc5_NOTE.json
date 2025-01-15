@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient3",
+    "type": "Clinical Note",
+    "date": "March 11, 2010 at 03:25 AM",
+    "episode": "Medical Decision-making",
+    "sections": "Final Diagnosis, Procedure, Interim History, Past Medical History, Examination, Impression, Recommendation",
+    "classUri-mentions": "Left_Breast, Neoplasm, Adenocarcinoma, Right_Axillary_Lymph_Node, T2_Stage, Axillary_Lymph_Node, Right, Metastasis, Left, PR_, M0_Stage, Breast, Invasive_Ductal_Breast_Carcinoma, HER2, Carcinoma_Breast_Stage_IV, Breast_Carcinoma, Right_Breast, Stage_2B, Stage_2, ER_, Mass, N1_Stage",
+    "attributes": "PR_: , Breast: uncertain, historic, Breast: , Right: , N1_Stage: , Adenocarcinoma: historic, Right: , Invasive_Ductal_Breast_Carcinoma: , Stage_2B: historic, Right_Axillary_Lymph_Node: , ER_: , Left_Breast: historic, Axillary_Lymph_Node: historic, T2_Stage: , Metastasis: , Breast: historic, Neoplasm: generic, Right_Axillary_Lymph_Node: , Carcinoma_Breast_Stage_IV: historic, Left: historic, Stage_2: , HER2: , Breast_Carcinoma: historic, M0_Stage: , Axillary_Lymph_Node: , Neoplasm: generic, Breast: , Invasive_Ductal_Breast_Carcinoma: , Right_Breast: , Mass: historic"
+}

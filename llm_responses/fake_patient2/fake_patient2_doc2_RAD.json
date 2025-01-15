@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is 'November 30, 2009 at 11:35'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, TECHNIQUE, FINDINGS, IMPRESSION, ASSESSMENT AND RECOMMENDATIONS, RECOMMENDATION, OVERALL ASSESSMENT",
+        "classUri-mentions": "Left_Breast, Right_Breast, Upper_outer_Left_Breast, Left_Axillary_Lymph_Nodes",
+        "attributes": "'Left_Breast: generic, conditional', 'Right_Breast: generic', 'Left_Axillary_Lymph_Nodes: generic, conditional'"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient2",
+        "type": "Radiology Report",
+        "date": "November 30, 2009 at 11:35",
+        "episode": "Diagnostic",
+        "sections": "CLINICAL HISTORY, TECHNIQUE, FINDINGS, IMPRESSION, ASSESSMENT AND RECOMMENDATIONS",
+        "classUri-mentions": "Left_Breast, Right_Breast, Axillary_Lymph_Nodes, Upper_outer_Left_Breast, Axillary_Lymph_Nodes",
+        "attributes": "Left_Breast: generic\nRight_Breast: historic\nLeft_Breast_Axillary_Lymph_Nodes: generic\nLeft_Breast_Abnormal_Lymph_Nodes: generic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document, as noted in the text, is November 30, 2009 at 11:35.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, TECHNIQUE, FINDINGS, IMPRESSION, ASSESSMENT AND RECOMMENDATIONS, OVERALL ASSESSMENT",
+        "classUri-mentions": "Left_breast, Axillary_lymph_nodes",
+        "attributes": "Left: negated, uncertain, generic, conditional, historic\nLeft Breast: negated, uncertain, generic, conditional, historic\nRight: negated, historic\nRight Breast: negated, historic\nAxillary: generic, historic\nLymph Nodes: negated, historic"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n\nAnswer: Fake Patient2\n\nFormat: \n\nWhat is [the question]\n\nAnswer: [answer]\n\nNote: Make sure to follow the exact formatting instructions given in the prompt while answering each question. This will help you create answers that are well-structured and easy to read.",
+        "type": " The document is a Radiology Report. Therefore, the answer is (a) Radiology Report.",
+        "date": "November 30, 2009 11:35",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides details of the patient's clinical history, technique used for imaging, findings, impression, and recommendations for further diagnostic procedures. The presence of a mass in the left breast, calcifications, and abnormal axillary lymph nodes suggestive of metastatic disease, and the recommendation for ultrasound guided core biopsy and MR evaluation of extent of disease, all indicate that the document is related to the diagnostic stage of patient care. Therefore, the answer is 'Diagnostic'.",
+        "sections": " CLINICAL HISTORY, TECHNIQUE, FINDINGS, IMPRESSION, ASSESSMENT AND RECOMMENDATIONS.\n\nTherefore, the main content sections or headings in the provided medical document are:\n\nCLINICAL HISTORY\nTECHNIQUE\nFINDINGS\nIMPRESSION\nASSESSMENT AND RECOMMENDATIONS",
+        "classUri-mentions": " Axilla, Left_Breast, Upper_outer_quadrant",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document, paired with its attributes:\n\nLeft breast: historic, conditional\nRight breast: historic\nAxillary lymph nodes: historic, uncertain\nFibro glandular tissue: generic\nMass: historic, conditional\nCalcifications: historic, conditional\nHypoechoic mass: historic, conditional\nThickened cortex: historic, uncertain"
+    },
+    "llama-2-13b-chat": {
+        "name": "Fake Patient2",
+        "type": "The medical document referenced in the text is a 'Radiology Report'.",
+        "date": "November 30, 2009 11:35\n\nThe document's principal date, as noted in the text, formatted as 'Month DD, YYYY at HH:MM', is November 30, 2009, at 11:35.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "CLINICAL HISTORY, TECHNIQUE, FINDINGS, IMPRESSION, ASSESSMENT AND RECOMMENDATIONS.",
+        "classUri-mentions": " Based on the information provided in the medical document, the following are the distinct anatomical entities mentioned, listed in the order they appear:\n\n* Left breast\n* Right breast\n* Axilla\n* Left breast mass\n* Right breast\n* CC view\n* 2 o'clock region\n\nTherefore, the answer is:\n\nLeft breast, Right breast, Axilla, Left breast mass, 2 o'clock region, CC view",
+        "attributes": "Right: historic, Right_Breast: historic, Left: uncertain, Left_Breast: highly suggestive for malignancy, Axillary_Lymph_Nodes: historic, Ultrasound: uncertain, Mammogram: uncertain, Calcifications: uncertain, Mass: uncertain, Lymph_Nodes: historic, Metastatic_Disease: historic, MR_Evaluation: uncertain, Breast_Imaging: uncertain, Ultrasound_Guided_Core_Biopsy: uncertain"
+    },
+    "llama-2-7b-chat": {
+        "name": "Fake Patient2",
+        "type": " Based on the provided medical document, the type of medical document referenced is a 'Surgical Pathology Report'.\n\nThe document provides a detailed analysis of a patient's breast tissue, including a mammogram, ultrasound, and biopsy results. The report includes information such as the patient's demographics, clinical history, and imaging findings, as well as a diagnosis and recommendations for further evaluation and treatment.\n\nThe language used in the document is consistent with the language and format used in surgical pathology reports, and the focus on the diagnosis and treatment of a breast mass suggests that the document is related to surgical pathology.\n\nTherefore, the answer to the question is 'Surgical Pathology Report'.",
+        "date": " Sure, I can help you with that! Based on the provided medical document, the principal date of the medical document is:\n\nNovember 30, 2009 at 11:35 AM (Formatted as 'Month DD, YYYY at HH:MM')\n\nHere is the answer in the specified format:\n\nNovember 30, 2009 at 11:35 AM",
+        "episode": " Based on the information provided in the medical document, the stage of patient care that the document relates to is \"Diagnostic\".\n\nThe document describes the findings of a diagnostic mammography and ultrasound examination performed on a 51-year-old peri-menopausal female patient with a new hard palpable lump in the left breast. The findings are consistent with a malignancy, and the document recommends an ultrasound-guided core biopsy to confirm the diagnosis.\n\nTherefore, the answer is \"Diagnostic\".",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* CLINICAL HISTORY\n* TECHNIQUE\n* FINDINGS\n* IMPRESSION\n* ASSESSMENT AND RECOMMENDATIONS\n\nTherefore, the answer is:\n\nHistory of Present Illness, Past Medical History, Physical Exam, Finding, Impression, Assessment and Recommendations.",
+        "classUri-mentions": "Sure! Here is a list of the distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Right\nBreast, Left\nBreast, Right\nUpper\nInner\nQuadrant\n\nLet me know if you need further assistance!",
+        "attributes": " Based on the provided medical document, the following are the attributes for each anatomical entity mentioned:\n\n1. Right breast:\n\t* Historic (no mass or calcifications are mentioned)\n2. Left breast:\n\t* Historic (a large firm mass is seen in the upper outer region, with calcifications adjacent to it)\n3. Lymph nodes (left axillary):\n\t* Uncertain (the document only mentions abnormally thickened lymph nodes, without providing any further information about their size or location)\n4. Axillary region:\n\t* Uncertain (similar to the lymph nodes, the document only mentions abnormally thickened lymph nodes without providing any further information)\n\nTherefore, the list of attributes for each anatomical entity is:\n\nRight: historic\nLeft: historic\nLymph nodes (left axillary): uncertain\nAxillary region: uncertain"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name is not mentioned in the document. The document provides information about a patient's clinical history, technique, findings, impression, assessment and recommendations related to a mammogram and ultrasound of the left breast.",
+        "type": "The type of medical document referenced in the text is a 'Radiology Report'.",
+        "date": "The principal date of the medical document is 20091130 1135, which is formatted as \"November 30, 2009 at 11:35 AM.\"",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Clinical History, Technique, Findings, Impression, Assessment and Recommendations.",
+        "classUri-mentions": "Axilla, Left\\_Breast, Upper\\_outer, Mass, Calcifications, Lymph\\_nodes, Hypoechoic, Abnormally\\_thickened",
+        "attributes": "Left: historic, Left\\_Breast: historic, Right: historic, Right\\_Breast: historic, Left\\_Axillary\\_Lymph\\_Nodes: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient2\".",
+        "type": "The type of medical document referenced in the text is a \"Radiology Report.\"",
+        "date": "The principal date of the medical document is November 30, 2009 at 11:35 AM.",
+        "episode": "This document relates to the 'Medical Decision-making' stage of patient care as it contains a detailed assessment and recommendations for further evaluation and treatment based on the patient's clinical history, mammography, ultrasound, and lymph node findings. The document suggests a likely diagnosis of malignancy and recommends an ultrasound-guided core biopsy of the mass in the left breast, and further evaluation with MR imaging to assess the extent of disease.",
+        "sections": "Main content sections:\n\n* Clinical History\n* Technique\n* Findings\n* Impression\n* Assessment and Recommendations",
+        "classUri-mentions": "Left\\_Breast, Upper\\_outer\\_Quadrant\\_2\\_oclock, Left\\_Axilla",
+        "attributes": "Left_Breast: historic, dense\nRight_Breast: historic, not mentioned, not mentioned\nLeft_Axillary: historic, thickened, suspicious\nLeft_Breast: hypoechoic, large, firm, mass, 2 o\u2019clock, 1.3x3.2x5.1 cm, calcifications, suggestive of malignancy, biopsy recommended\nLeft_Axillary: abnormally thickened, lymph nodes, suspicious of metastatic disease, largest lymph node, thickened cortex of at least 6 mm"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient2.",
+        "type": "The type of medical document referred to in the text is a 'Radiology Report'. This can be inferred from the title of the document (Full field digital mammography with CAD was performed including routine views of both breasts, spot magnification views on the right with a full 90 degree lateral and spot compression views on the left), which is a standard description for a radiology report. Additionally, the report discusses findings from an ultrasound evaluation, which is a common complement to a radiology report.",
+        "date": "The principal date of the medical document is noted as '20091130 1135'.",
+        "episode": "The stage of patient care related to this document is 'Diagnostic'.",
+        "sections": "History of Present Illness, Clinical History, Technique, Findings, Impression, Assessment and Recommendations, Overall Assessment",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_outer_2_oclock_region, Right_Breast",
+        "attributes": "Right: negated, Right_Breast: uncertain, Right_Fibro_Glandular: historic, Right_Calcifications: negated, Left: conditional, Left_Breast: generic, Left_Mass: generic, Left_Ultrasound: historic, Left_Lymph_Nodes: generic, Left_Axillary: historic, Left_Cortex: specific, Impression: historic, Malignancy: generic, Recommendation: conditional, Assessment_and_Recommendations: conditional, Overall_Assessment: generic"
+    }
+}

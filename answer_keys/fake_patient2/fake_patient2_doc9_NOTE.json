@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient2",
+    "type": "Clinical Note",
+    "date": "August 19, 2010 at 11:30 AM",
+    "episode": "unknown",
+    "sections": "History of Present Illness, Past Medical History, Impression",
+    "classUri-mentions": "Left_Breast, Secondary_Malignant_Neoplasm_Of_Bone, Neoplasm, Vertebral_Column, Metastasis, Left, Lung, PR_, Upper_Lobe_Of_The_Right_Lung, Thoracic_Spine, Thorax, Left_Sixth_Rib, Stage_IIIA_Breast_Carcinoma, Invasive_Ductal_Breast_Carcinoma, Right_Fifth_Rib, Right_Lower_Lung_Lobe, HER2, Middle_Lobe_Of_The_Right_Lung, ER_, Left_Axillary_Lymph_Node, Multiple_Pulmonary_Nodules, Abdomen_And_Pelvis, Stage_3A",
+    "attributes": "Metastasis: , Abdomen_And_Pelvis: negated, historic, Neoplasm: uncertain, historic, ER_: , Left: , Stage_3A: , Lung: , Thoracic_Spine: , Lung: negated, historic, Vertebral_Column: negated, historic, Metastasis: uncertain, Vertebral_Column: historic, Secondary_Malignant_Neoplasm_Of_Bone: , HER2: , Left_Breast: uncertain, historic, Multiple_Pulmonary_Nodules: , Left_Breast: , Left_Sixth_Rib: , Middle_Lobe_Of_The_Right_Lung: , Left: uncertain, historic, Thorax: negated, historic, Left: , Invasive_Ductal_Breast_Carcinoma: , Vertebral_Column: , Metastasis: historic, Lung: , PR_: , Metastasis: negated, historic, Right_Fifth_Rib: , Multiple_Pulmonary_Nodules: negated, historic, Right_Lower_Lung_Lobe: , Left_Axillary_Lymph_Node: historic, Stage_IIIA_Breast_Carcinoma: uncertain, historic, Upper_Lobe_Of_The_Right_Lung: , Thoracic_Spine: historic"
+}

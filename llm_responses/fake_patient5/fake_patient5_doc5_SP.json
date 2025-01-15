@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "September 02, 2009 at 14:20",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, COMMENT, Pathologic Stage",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Nodes, Upper_Outer_Quadrant, Surgical_Margins, Axillary_Lymph_Nodes",
+        "attributes": "'Left Breast: historic', 'Left axillary lymph nodes: historic'"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient5",
+        "type": "Surgical Pathology Report",
+        "date": "20090902 1420",
+        "episode": "Diagnostic",
+        "sections": "FINAL DIAGNOSIS, PART 1: LEFT BREAST, MODIFIED RADICAL MASTECTOMY, PART 2: LEFT AXILLARY LYMPH NODE DISSECTION, HORMONE IMMUNOHISTOCHEMISTRY, Pathologic Stage",
+        "classUri-mentions": "Left_Breast, Axilla, Left_Axillary_Lymph_Nodes",
+        "attributes": "Left_Axillary_Lymph_Nodes: historic\nLeft_Breast: historic\nLeft_Upper_Outer_Quadrant: historic\nLymph_Nodes: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient5.",
+        "type": "The medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document, as noted in the text, is \"September 02, 2009 at 14:20.\"",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "FINAL DIAGNOSIS, PART 1, LEFT BREAST, MODIFIED RADICAL MASTECTOMY, INVASIVE DUCTAL CARCINOMA, NUCLEAR GRADE 2, TUMOR MASS IN THE 1 O\u2019CLOCK REGION IN THE UPPER OUTER QUADRANT, INVASIVE DUCTAL CARINOMA, NUCLEAR GRADE 2, TUMOR MASS IN THE 2 O\u2019CLOCK REGION IN THE UPPER OUTER QUADRANT, DUCTAL CARCINOMA IN SITU, NUCLEAR GRADE 2, SURGICAL MARGINS ARE NEGATIVE, CHANGES CONSISTANT WITH PREVIOUS CORE BIOPSY, CHANGES CONSISTANT WITH S/P CHEMOTHERAPY, MICROCALCIFICATIONS ASSOCIATED WITH MALIGNANT, PART 2, LEFT AXILLARY LYMPH NODE DISSECTION, A, 2 OUT OF 6 AXILLARY LYMPH NODES POSITIVE FOR METASTATIC CARCINOMA (2/6), COMMENT, HORMONE IMMUNOHISTOCHEMISTRY, Estrogen Receptor: positive, H-score: 100, Progesterone Receptor: positive, H-score: 45, Her2/NEU: negative, 1+, Her2/NEU (FISH): Not Amplified, Pathologic Stage, T Stage: PT3, N Stage: PN2, M Stage: PM0.",
+        "classUri-mentions": "Left_Breast, Left_Axillary_lymph_nodes",
+        "attributes": "LEFT BREAST: \n- Attributes: invasive ductal carcinoma, nuclear grade 2, tumor mass in the 1 o'clock region in the upper outer quadrant, tumor mass in the 2 o'clock region in the upper outer quadrant, ductal carcinoma in situ, surgical margins are negative, changes consistent with previous core biopsy, changes consistent with S/P chemotherapy, microcalcifications associated with malignant\n\nLEFT AXILLARY LYMPH NODE:\n- Attributes: 2 out of 6 axillary lymph nodes positive for metastatic carcinoma\n\nESTROGEN RECEPTOR:\n- Attributes: positive, H-score: 100\n\nPROGESTERONE RECEPTOR:\n- Attributes: positive, H-score: 45\n\nHER2/NEU:\n- Attributes: negative, 1+\n\nHER2/NEU (FISH):\n- Attributes: Not amplified\n\nPathologic Stage:\n- T Stage: PT3\n- N Stage: PN2\n- M Stage: PM0"
+    },
+    "llama-2-70b-chat": {
+        "name": " What is the patient's name as mentioned in the document?\n===================================================================\nThe patient's name is Fake Patient5.",
+        "type": " The type of medical document referenced in the text is a 'Surgical Pathology Report'.\n\nTherefore, the answer to the question is:\n\nType of medical document: Surgical Pathology Report",
+        "date": " September 02, 2009, at 14:20",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides a detailed description of the patient's clinical history, including the patient's age, gender, and medical history, as well as the results of various diagnostic tests, such as the invasive ductal carcinoma, nuclear grade 2, tumor mass, and lymph node dissection.\n\nThe document also includes the final diagnosis, which indicates that the patient has invasive ductal carcinoma of the left breast, metastatic to the left axillary lymph nodes, clinical stage 3A, and the results of hormone immunohistochemistry, such as estrogen receptor, progesterone receptor, and Her2/NEU.\n\nTherefore, based on the information provided in the document, it is clear that the patient is in the diagnostic stage of care, where the focus is on identifying and confirming the diagnosis of the patient's medical condition.",
+        "sections": " Sure! Here are the main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nHistory of Present Illness, Final Diagnosis, Part 1: LEFT BREAST, MODIFIED RADICAL MASTECTOMY, Part 2: LEFT AXILLARY LYMPH NODE DISSECTION, Comment, HORMONE IMMUNOHISTOCHEMISTRY, Pathologic Stage.\n\nTherefore, the answer to the question is: History of Present Illness, Final Diagnosis, Part 1: LEFT BREAST, MODIFIED RADICAL MASTECTOMY, Part 2: LEFT AXILLARY LYMPH NODE DISSECTION, Comment, HORMONE IMMUNOHISTOCHEMISTRY, Pathologic Stage.",
+        "classUri-mentions": " Axilla, Left_Breast, Upper_outer_quadrant, 2_oclock_region, upper_outer_quadrant, Left_axillary_lymph_nodes",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document paired with its attributes, separated by commas:\n\nLeft Breast: historic, metastatic\nLeft Axillary Lymph Nodes: metastatic, historic\nTumor Mass: 1 O\u2019CLOCK REGION, UPPER OUTER QUADRANT, 2 O\u2019CLOCK REGION, UPPER OUTER QUADRANT\nDuctal Carcinoma: invasive, NUCLEAR GRADE 2, SITU\nSurgical"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I can help you with that! Based on the information provided in the medical document, the patient's name is:\n\nFake Patient5\n\nThe name is mentioned in the document as the \"Patient Name\" in the header of the document, and it is also mentioned in the \"CLINICAL HISTORY\" section.",
+        "type": " Based on the information provided in the medical document, the type of medical document is a 'Surgical Pathology Report'.",
+        "date": "September 02, 2009 at 14:20",
+        "episode": " Based on the information provided in the document, the stage of patient care is:\n\nDiagnostic\n\nThe document provides a detailed description of the patient's clinical history, including the patient's age, gender, and the diagnosis of invasive ductal carcinoma of the left breast with metastatic disease to the left axillary lymph nodes. The document also includes the results of various diagnostic tests, including hormone immunohistochemistry and fluorescence in situ hybridization (FISH), which provide additional information about the patient's tumor. Therefore, the document is primarily focused on the diagnostic stage of patient care.",
+        "sections": " Sure! Based on the provided medical document, the main content sections or headings are:\n\n* Clinical History\n* Final Diagnosis\n* Comment\n\nSo, the answer to the question is: Clinical History, Final Diagnosis, Comment.",
+        "classUri-mentions": " Sure, here are the distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Nuclear_Grade_2, Tumor_Mass, Surgical_Margins, Core_Biopsy, Microcalifications, Malignant.",
+        "attributes": " Sure, I can help you with that! Based on the medical document you provided, here are the attributes for each anatomical entity mentioned:\n\nLeft Breast:\n\n* Historic\n\nRight Breast:\n\n* Not mentioned\n\nLeft Axillary Lymph Nodes:\n\n* Metastatic\n\nRight Axillary Lymph Nodes:\n\n* Not mentioned\n\nEstrogen Receptor:\n\n* Positive\n\nProgesterone Receptor:\n\n* Positive\n\nHer2/NEU:\n\n* Negative\n\nHer2/NEU (FISH):\n\n* Not Amplified\n\nNote that I have only included attributes that are directly mentioned in the document. I have not included attributes that can be inferred or assumed based on the information provided."
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient ID: p101102103\nPatient Name: Fake Patient5\n\nThere is no actual patient name mentioned in the document, as it is a fictional patient created for educational purposes.",
+        "type": "Based on the provided medical document, the type of medical document referenced is a 'Surgical Pathology Report'.\nThe answer can be presented in the following format:\nWhat type of medical document is referenced in the text? Is it a 'Radiology Report', 'Surgical Pathology Report', 'Clinical Note', or is the type 'unknown' (unspecified)?\nAnswer: Surgical Pathology Report\n\nThe document provides information on the patient's medical history, clinical diagnosis, and pathological findings, which are typical of a Surgical Pathology Report. The report includes details on the patient's age, gender, and medical history, as well as the results of the pathological examination, including the type and grade of the tumor, the presence of metastasis, and the results of hormone immunohistochemistry. All of these details are consistent with the format and content of a Surgical Pathology Report. Therefore, the type of medical document referenced in the text is a Surgical Pathology Report.",
+        "date": "September 02, 2009, at 14:20.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. ",
+        "sections": "CLINICAL HISTORY, FINAL DIAGNOSIS, PART 1: LEFT BREAST, MODIFIED RADICAL MASTECTOMY, PART 2: LEFT AXILLARY LYMPH NODE DISSECTION, COMMENT, HORMONE IMMUNOHISTOCHEMISTRY, Pathologic Stage",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\nAxilla, Left\nBreast, Left\nUpper_inner_Quadrant\nAxillary_lymph_nodes",
+        "attributes": " Here are the attributes for each anatomical entity mentioned in the document:\n\nLeft:\n\n* Historic: Yes (metastatic to the left axillary lymph nodes)\n* Modified radical mastectomy: Yes\n\nLeft Breast:\n\n* Invasive ductal carcinoma, nuclear grade 2: Yes\n* Invasive ductal carcinoma, nuclear grade 2: Yes (in the 1 o'clock region in the upper outer quadrant and the 2 o'clock region in the upper outer quadrant)\n* Ductal carcinoma in situ, nuclear grade 2: Yes\n* Surgical margins: Negative\n* Changes consistent with previous core biopsy: Yes\n* Changes consistent with surgery and chemotherapy: Yes\n* Microcalifications associated with malignant: Yes\n\nLeft Axillary Lymph Node:\n\n* Positive for metastatic carcinoma: Yes (2/6 axillary lymph nodes)\n\nNote:\n\n* Historic: Yes (invasive ductal carcinoma of the left breast, metastatic to the left axillary lymph nodes)\n\nTherefore, the attributes for each anatomical entity mentioned in the document are:\n\nLeft: historic, modified radical mastectomy\nLeft Breast: invasive ductal carcinoma, nuclear grade 2, ductal carcinoma in situ, nuclear grade 2, surgical margins negative, changes consistent with previous core biopsy, changes consistent with surgery and chemotherapy, microcalifications associated with malignant\nLeft Axillary Lymph Node: positive for metastatic carcinoma"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "What is the patient's name as mentioned in the document?\n===================================================================\n\nThe patient's name is not mentioned in the document.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report' (SP). This is indicated by the 'SP' recorded as the 'Record Type' in the top section of the document.",
+        "date": "The principal date in the medical document is September 2, 2009 at 2:20 PM, formatted as '02/Sep/2009 at 14:20'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care. The patient is described as having invasive ductal carcinoma of the left breast, metastatic to the left axillary lymph nodes, and a clinical stage of 3A. The patient has undergone left mastectomy and axillary lymph node dissection, and the final diagnosis includes details of the tumor, surgical margins, and hormone immunohistochemistry results.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam",
+        "classUri-mentions": "Axillary_Lymph_Nodes,Left\\_Breast,Upper\\_outer\\_quadrant,Left\\_Axilla,Invasive\\_ductal\\_carcinoma,Nuclear\\_grade\\_2,Tumor\\_mass,Surgical\\_margins,Negative,Changes\\_consistent\\_with\\_previous\\_core\\_biopsy,Changes\\_consistent\\_with\\_s/p\\_chemotherapy,Microcalcifications\\_associated\\_with\\_malignant.",
+        "attributes": "Left: historic, Left_Breast: historic, Left_Axillary_Lymph_Nodes: historic\nRight: historic, Right_Breast: historic, Right_Axillary_Lymph_Nodes: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient5\".",
+        "type": "The type of medical document referenced in the text is a \"Surgical Pathology Report.\"",
+        "date": "The principal date of the medical document is not explicitly mentioned in the provided text.",
+        "episode": "The stage of patient care described in the document is \"Medical Decision-making\". This is indicated by the mention of clinical stage 3A, surgical procedures such as neoadjuvant chemotherapy, mastectomy, and axillary lymph node dissection, and pathologic stage T3N2PM0. These details suggest that the document is focused on the medical decision-making process related to the patient's breast cancer diagnosis and treatment.",
+        "sections": "Main content sections:\nClinical History,\nFinal Diagnosis Part 1,\nFinal Diagnosis Part 2,\nComment,\nPathologic Stage.",
+        "classUri-mentions": "Left_Breast,_Left_Axilla",
+        "attributes": "Left_Breast: pre-menopausal, invasive, ductal, carcinoma, metastatic, axillary, lymph, nodes, stage, 3A, S/P, neoadjuvant, chemotherapy, mastectomy, axillary, lymph, node, dissection, nuclear, grade, 2, tumor, mass, 1, o'clock, region, upper, outer, quadrant, tumor, mass, 2, o'clock, region, upper, outer, quadrant, ductal, carcinoma, in, situ, nuclear, grade, 2, surgical, margins, negative, changes, consistent, with, previous, core, biopsy, changes, consistent, with, S/P, chemotherapy, microcalifications, associated, with, malignant\n\nLeft_Axillary_Lymph_Nodes: metastatic, carcinoma, (2/6), positive, 2, out, of, 6, axillary, lymph, nodes, positive, for, metastatic, carcinoma, (2/6)"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is noted as '20090902 1420'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. The document contains information about the final diagnosis of the patient, which includes details about the breast and axillary lymph node biopsy results.",
+        "sections": "History of Present Illness, Clinical History, Final Diagnosis, Part 1: LEFT BREAST, Modified Radical Mastectomy, Part 2: LEFT AXILLARY LYMPH NODE DISSECTION, Microcalcifications, Hormone Immunohistochemistry, Pathologic Stage, T Stage: PT3, N Stage: PN2, M Stage: PM0",
+        "classUri-mentions": "Axilla, Left_Breast, Upper_outer_Quadrant, Left_Axillary_Lymph_Nodes",
+        "attributes": "Left_Breast: historic, invasive, ductal, carcinoma, grade_2, tumor\\_mass, 1\\_o'clock, region, upper\\_outer\\_quadrant, invasive, ductal, carcinoma, grade\\_2, tumor\\_mass, 2\\_o'clock, region, upper\\_outer\\_quadrant, ductal, carcinoma, in\\_situ, nuclear\\_grade\\_2, surgical\\_margins, negative, changes\\_consistent, core\\_biopsy, changes\\_consistent, chemotherapy, microcalcifications, malignant, Left_Axillary_Lymph\\_Nodes: historic, positive, metastatic, carcinoma, axillary\\_lymph\\_nodes, 2/6, Right_Breast: not\\_mentioned, Right_Axillary_Lymph_Nodes: not\\_mentioned"
+    }
+}

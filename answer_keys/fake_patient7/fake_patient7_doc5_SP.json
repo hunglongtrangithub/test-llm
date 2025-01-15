@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient7",
+    "type": "Surgical Pathology Report",
+    "date": "June 21, 2010 at 01:30 AM",
+    "episode": "Diagnostic",
+    "sections": "Clinical History, Final Diagnosis, Comment",
+    "classUri-mentions": "Left, Left_Breast, Sentinel_Lymph_Node, PT1_Stage, PN1mi_Stage, Malignant_Neoplasm, Metastatic_Carcinoma, Invasive_Carcinoma, Left_Axillary_Lymph_Node, Mass, Ductal_Carcinoma, Axillary_Lymph_Node, Lymph_Node, PMx_Stage",
+    "attributes": "PN1mi_Stage: , Ductal_Carcinoma: historic, Ductal_Carcinoma: , Lymph_Node: negated, Sentinel_Lymph_Node: , Metastatic_Carcinoma: , Lymph_Node: , PMx_Stage: , Malignant_Neoplasm: negated, Left_Breast: historic, Lymph_Node: negated, Left_Axillary_Lymph_Node: , Mass: , Left_Breast: historic, Ductal_Carcinoma: , Axillary_Lymph_Node: historic, PT1_Stage: , Sentinel_Lymph_Node: , Malignant_Neoplasm: negated, Left_Breast: , Left: historic, Mass: , Invasive_Carcinoma: , Left: "
+}

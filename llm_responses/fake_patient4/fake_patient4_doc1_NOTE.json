@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name is Fake Patient4.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "March 10, 2011 at 10:25",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Reason for Visit, Interim History, Past History, Physical Exam, Impression",
+        "classUri-mentions": "Right_Breast, Left_Breast, Upper_inner_quadrant_of_right_breast, Upper_inner_quadrant_of_left_breast, Right_axillary_lymph_nodes, Left_axilla, Left_ovarian_carcinoma, Abdomen, Bilateral_salpingo-oophorectomy, Right_breast_mass, Left_breast_nodule",
+        "attributes": "'Right breast': historic, temporality, \n'Left breast': historic, temporality, \n'Right axillary lymph nodes': historic, temporality, \n'Left axillary lymph nodes': historic, temporality, \n'Left ovarian': historic"
+    },
+    "gemini-pro": {
+        "name": "Patient Name: Fake Patient4",
+        "type": "Clinical Note",
+        "date": "March 10, 2011 at 10:25",
+        "episode": "Diagnostic",
+        "sections": "Reason for Visit, Interim History, Past History, Physical Exam, Impression",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Left_Breast, Upper_inner_Quadrant, Right_Axillary_Lymph_Nodes, Left_Axilla",
+        "attributes": "Right_Breast: historic\nRight_Breast_Mass: historic\nLeft_Breast: historic\nLeft_Breast_Mass: historic\nLeft_Ovary: historic\nLeft_Axillary_Lymph_Nodes: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient4.",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document, as noted in the text, is 'March 01, 2011 at 00:00'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "Reason for Visit, Interim History, Past History, Physical Exam, Impression",
+        "classUri-mentions": "Right_Breast, Left_Breast, Upper_inner_Quadrant, 2 o'clock_position, 11 o'clock_position, Lobulated_mass, Nodular_mass, Hypoechoic_mass, right_axillary_lymph_nodes, left_axilla",
+        "attributes": "Right Breast: historic, negated, uncertain\nLeft Breast: historic, negated, uncertain\nRight Axillary Lymph Nodes: historic\nLeft Axilla: historic\nLeft Ovarian Carcinoma: historic"
+    },
+    "llama-2-70b-chat": {
+        "name": "Fake Patient4",
+        "type": " The medical document referenced in the text is a \"Clinical Note.\"",
+        "date": " The principal date of this medical record, as stated in the text, is March 10, 2011, at 10:25 AM.\n\nFormat: Month DD, YYYY at HH:MM\n\nAnswer: Mar 10, 2011 at 10:25",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care. The patient has already been evaluated and diagnosed with bilateral breast masses, and the document describes the results of mammography and ultrasound examinations. The patient is scheduled for core biopsy, and the document mentions the patient will return to discuss further treatment options once pathology is finalized. Therefore, the answer is 'Diagnostic'.",
+        "sections": " Reason for Visit, Interim History, Past History, Physical Exam, Impression.\n\nTherefore, the main content sections or headings in the provided medical document are:\n\nReason for Visit: This section provides background information about why the patient visited the doctor, including their symptoms and concerns.\n\nInterim History: This section provides additional information about the patient's medical history, including test results and diagnoses made so far.\n\nPast History: This section provides an overview of the patient's past medical conditions and treatments, including surgeries, medications, and other relevant information.\n\nPhysical Exam: This section describes the findings from the physical examination conducted by the healthcare provider, including observations about the patient's appearance, vital signs, and organ systems.\n\nImpression: This section summarizes the healthcare provider's interpretation of the patient's condition and suggests next steps for further evaluation or treatment.",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Left_Breast, Upper_inner_Quadrant, Right_Axilla, Left_Axilla",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their corresponding attributes, separated by commas:\n\nRight Breast: historic, Right Axillary Lymph Nodes: historic, Left Breast: historic, Left Axillary Lymph Nodes: historic, Ovaries: historic, Uterus: historic, Bilateral Salpingo-Oophorectomy: historic, Left Ovary: historic, Right Ovary: historic"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I'd be happy to help! Based on the information provided in the medical document, the patient's name is:\n\nPatient Name: Fake Patient4\n\nPlease note that the patient's name is mentioned in the document as \"Fake Patient4\" to protect the patient's privacy.",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "March 10, 2011, at 10:25 AM",
+        "episode": " Based on the information provided in the medical document, the stage of patient care is:\n\nDiagnostic\n\nReason: The document states that the patient is scheduled for core biopsy of the right breast mass and left breast nodule, indicating that the patient is in the diagnostic stage of care. The document also mentions previous mammography and ultrasound results, which supports the diagnostic stage. Additionally, the document does not mention any specific treatment plans or interventions, which is consistent with the diagnostic stage.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Left_Breast, Upper_inner_Quadrant, Right_Axilla, Left_Axilla",
+        "attributes": "Right_Breast: historic, conditional, Right_Axillary_Lymph_Nodes: historic, Left_Breast: historic, conditional, Left_Axillary_Lymph_Nodes: historic, Right_Ovary: historic, Left_Ovary: historic, Bilateral_Salpingo-oophorectomy: historic, Neck: supple, no masses, Lungs: CTA, no wheezes, rales, rhonchi, Cardiac: RRR, No murmurs, rubs or gallops, Abdomen"
+    },
+    "llama-2-7b-chat": {
+        "name": "What is the patient's name as mentioned in the document?\nThe patient's name as mentioned in the document is \"Fake Patient4\".",
+        "type": "Based on the provided medical document, the type of medical document referenced is a 'Surgical Pathology Report'.\nThe answer can be formatted as follows:\nWhat type of medical document is referenced in the text? Is it a 'Radiology Report', 'Surgical Pathology Report', 'Clinical Note', or is the type 'unknown' (unspecified)?\nAnswer: Surgical Pathology Report\n\nThe document is a Surgical Pathology Report, as it provides a detailed analysis of the patient's tissue samples obtained through a biopsy procedure. The report includes information on the patient's medical history, physical examination findings, and the results of various diagnostic tests, including mammography and ultrasound. The report also includes the pathologist's impression and recommendations for further treatment. Therefore, the type of medical document referenced is a Surgical Pathology Report.",
+        "date": "The principal date of the medical document as noted in the text is:\nMarch 10, 2011 at 10:25 AM\n\nFormatted as 'Month DD, YYYY at HH:MM':\nMarch 10, 2011 at 10:25",
+        "episode": " Based on the information provided in the medical document, the stage of patient care that the document relates to is 'Diagnostic'. This is evident from the following points:\n\n1. The document is titled \"Impression\" which indicates that it is a part of the diagnostic process.\n2. The patient presents with a concern about masses in her breasts, which suggests that the purpose of the visit is for diagnostic evaluation.\n3. The document mentions the results of mammography and ultrasound tests, which are commonly performed during the diagnostic evaluation of breast abnormalities.\n4. The impression section provides a summary of the diagnostic findings, including the location and size of the masses, and the recommendation for further diagnostic testing (core biopsy) to confirm the diagnosis.\n\nTherefore, the answer to the question is 'Diagnostic'.",
+        "sections": " Based on the provided medical document, the main content sections or headings can be listed as follows:\n\n* History of Present Illness\n* Interim History\n* Past History\n* Physical Exam\n\nTherefore, the answer is: History of Present Illness, Interim History, Past History, Physical Exam.",
+        "classUri-mentions": " Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\n* Axilla\n* Breast (2 separate entities: Right Breast, Left Breast)\n* Lymph nodes (2 separate entities: Right Axillary Lymph Nodes, Left Axilla)\n\nFormatted as requested:\nAxilla, Right Breast, Upper Inner Quadrant, Left Breast, Right Axillary Lymph Nodes, Left Axilla.",
+        "attributes": " Based on the provided medical document, the attributes for each anatomical entity mentioned are:\n\nRight:\n\n* Historic (history of lumpy breasts)\n* Generic (mass in the upper inner quadrant of the right breast)\n* Conditional (lobulated mass in the upper inner quadrant of the right breast at 2 o'clock position, measured 1.2x3.0 cm)\n\nLeft:\n\n* Historic (history of lumpy breasts)\n* Generic (nodular mass in the upper inner quadrant of the left breast at 11 o'clock position, measured 2 cm in diameter)\n* Conditional (hypoechoic mass in the 2 o'clock region of the right breast, measured 1.1x2.2x3.3 cm)\n\nNote: The attributes listed are based on the information provided in the document and may not be exhaustive or accurate for all cases."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient4.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.\n\nReason: The document is identified as a 'Clinical Note' in the 'Record Type' field. Additionally, the document contains a detailed description of the patient's medical history, physical examination, and imaging findings, which are typically found in a clinical note.\n\nFormatting:\n\nQuestion: What type of medical document is referenced in the text? Is it a 'Radiology Report', 'Surgical Pathology Report', 'Clinical Note', or is the type 'unknown' (unspecified)?\n\nAnswer: The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is March 1, 2011. The date is formatted as 'Month DD, YYYY at HH:MM' and is presented as '03/01/2011 1025'.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam.",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant, Left\\_Breast, Upper\\_inner\\_Quadrant, Right\\_axillary\\_lymph\\_nodes, Left\\_axilla, Soft, NT, ND, No\\_HSM",
+        "attributes": "Right: historic, Right\\_Breast: historic, Left\\_Breast: historic\n\nExplanation:\n\n1. Right: historic - The patient has a history of lumpy breasts, which was mentioned in the interim history section of the document.\n2. Right\\_Breast: historic - The patient presented with a mass in the right breast that was detected on self-examination. The mammography and ultrasound also revealed a lobulated mass in the upper inner quadrant of the right breast at 2 o'clock position that measured 1.2x3.0 cm.\n3. Left\\_Breast: historic - The patient also felt another lump in her left breast, described as hard and painful. The mammography and ultrasound also revealed a nodular mass in the upper inner quadrant of the left breast at 11 o'clock position that measured 2 cm in diameter.\n\nNote: The attributes \"historic\" refer to the presence of a condition or symptom in the patient's past history, as mentioned in the document."
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient4\".",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is March 10, 2011 at 10:25.",
+        "episode": "The stage of patient care related to this document is \"Medical Decision-making.\" This is because the document details the patient's history, physical examination, and imaging findings, which are used to make a diagnosis and determine the appropriate treatment plan. The patient has bilateral breast masses and is scheduled for a core biopsy, indicating that the medical team is in the process of making a diagnosis and planning treatment.",
+        "sections": "Main content sections or headings:\n\n* Reason for Visit\n* Interim History\n* Past History\n* Physical Exam\n* Impression",
+        "classUri-mentions": "Right\\_Breast, Upper\\_inner\\_Quadrant, Lobulated\\_Mass, 1.2x3.0\\_cm, 2\\_o'clock\\_position\nLeft\\_Breast, Upper\\_inner\\_Quadrant, Nodular\\_Mass, 2\\_cm\\_diameter, 11\\_o'clock\\_position\nRight\\_Breast, 2\\_o'clock\\_position, Hypoechoic\\_Mass, 1.1x2.2x3.3\\_cm\nLeft\\_Breast, 11\\_o'clock\\_position, Nodular\\_Mass, 1.1x1.2x1.2\\_cm\nRight\\_Axilla, Thickened\\_Lymph\\_Nodes\nLeft\\_Axilla, Normal\\_Appearing\\_Lymph\\_Nodes",
+        "attributes": "Right: historic, Right\\_Breast: historic, Left\\_Breast: historic, Left\\_Axilla: normal, Ovarian\\_Carcinoma: treated, Taxol: treatment, Carboplatin: treatment"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient4.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "Principal date of the medical document: March 10, 2011 at 10:25",
+        "episode": "The stage of patient care related to this document is \"Diagnostic\".",
+        "sections": "History of Present Illness, Interim History, Past Medical History, Physical Exam, Impression",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Left_Breast, Upper_inner_Quadrant",
+        "attributes": "Right_Breast: historic, lobulated, 1.2x3.0 cm, 2 o'clock position, hypoechoic\nRight_Breast_Mass: 1.1x2.2x3.3 cm\nRight_Axillary_Lymph_Nodes: thickened\n\nLeft_Breast: historic, nodular, hard, painful, 2 cm in diameter, 1.1x1.2x1.2 cm\nLeft_Axillary_Lymph_Nodes: normal appearing\n\nUltrasound: 1.1x1.2x1.2 cm"
+    }
+}

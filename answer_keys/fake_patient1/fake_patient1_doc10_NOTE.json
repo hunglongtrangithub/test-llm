@@ -1,0 +1,9 @@
+{
+    "name": "Fake Patient1",
+    "type": "Clinical Note",
+    "date": "March 01, 2011 at 10:15 AM",
+    "episode": "Medical Decision-making",
+    "sections": "Clinical History, Interim History, Examination, Impression, Recommendation",
+    "classUri-mentions": "Left_Breast, Malignant_Neoplasm, T1_Stage, PT1a_Stage, Axillary_Lymph_Node, Left, Lower_Outer_Quadrant, PR_, Lobular_Breast_Carcinoma_In_Situ, M0_Stage, Axilla, Stage_1A, Breast, Stage_2A, PN0_Stage, Invasive_Lobular_Breast_Carcinoma, HER2, Carcinoma_Breast_Stage_IV, Right_Breast, Left_Axillary_Lymph_Node, Mass, ER_, N1_Stage",
+    "attributes": "Left_Breast: historic, M0_Stage: , Left_Axillary_Lymph_Node: historic, Carcinoma_Breast_Stage_IV: historic, Left_Breast: historic, Lobular_Breast_Carcinoma_In_Situ: , Axilla: historic, Stage_1A: , Mass: historic, Left_Breast: historic, Mass: generic, historic, ER_: historic, PN0_Stage: , Axillary_Lymph_Node: historic, N1_Stage: , Breast: historic, Invasive_Lobular_Breast_Carcinoma: , PN0_Stage: , Left_Breast: historic, Invasive_Lobular_Breast_Carcinoma: historic, Left: historic, Left_Breast: , Lobular_Breast_Carcinoma_In_Situ: historic, Mass: historic, Left_Axillary_Lymph_Node: , Mass: historic, HER2: historic, Left: historic, PT1a_Stage: , Left_Breast: historic, T1_Stage: , Right_Breast: historic, PT1a_Stage: , Lower_Outer_Quadrant: historic, Invasive_Lobular_Breast_Carcinoma: historic, Right_Breast: negated, Malignant_Neoplasm: generic, historic, Stage_1A: historic, Right_Breast: historic, Stage_2A: historic, Left_Breast: , PR_: historic, Left: , Left: historic"
+}

@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is August 30, 2010 at 11:15.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION",
+        "classUri-mentions": "Right_breast, Right_axillary_lymph_node, Surgical_incision, Chest, Lungs, Abdomen, Extremities, Left_breast, Left_axillary_lymph_node",
+        "attributes": "Right_Breast: historic, Right_Axillary_Lymph_Node: historic, Surgical_Incision: historic, Chest: historic, Tumor_Bed: historic, Cardiac: generic, Lungs: generic, Abdomen: generic, Extremities: generic, Left_Breast: historic, Left_Axillary_Lymph_Node: historic"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient1",
+        "type": "Clinical Note",
+        "date": "20100830 1115",
+        "episode": "Medical Decision-making",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION",
+        "classUri-mentions": "Right_Breast, Right_Axillary_Lymph_Node, Chest, Right_Axilla, Tumor_Bed",
+        "attributes": "Right_Breast: historic\nRight_Axillary_Lymph_Nodes: historic"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is August 30, 2010 at 11:15 (formatted as 'Month DD, YYYY at HH:MM').",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION",
+        "classUri-mentions": "Right_breast, Right_axillary_lymph_node, ER, PR, HER2, Adriamycin, Carboplatin, Abraxane, Tamoxifen, surgical_incision, redness, erythema, irritation, signs_of_infection, chest_CT, lymphadenopathy, visualized_field, metastatic_disease, tumor_bed, physical_exam, VSS, Cardiac_exam, S1, S2, murmurs, rubs, gallops, Lungs, wheezes, rales, rhonchi, Abdomen, hepatosplenomegaly, Extremities, clubbing, cyanosis, edema, stage_2A, T1, N2, M0, infiltrating_ductal_carcinoma, left_breast, left_axillary_lymph_node, neoadjuvant_chemotherapy, radiation_therapy, disease",
+        "attributes": "Right Breast: historic, post-surgical changes\nRight Axilla: historic, post-surgical changes\nChest: generic, no evidence of any lymphadenopathy\nVisualized field: generic\nTumor bed: historic, additional treatment given\nSurgical incision: historic, completely healed\nRedness: negated\nErythema: negated\nIrritation: negated\nInfection: negated\nMetastatic disease: negated\nPatient: historic, pleasant\nLeft Breast: generic\nLeft Axilla: generic\nNeoadjuvant chemotherapy: historic\nRadiation therapy: historic\nTamoxifen: generic\nDisease: negated, no evidence of"
+    },
+    "llama-2-70b-chat": {
+        "name": "Patient Name: Fake Patient1",
+        "type": " The type of medical document referenced in the text is a 'Clinical Note'.\n\nFormat:\n\n* Report ID: 6,doc6\n* Patient ID: pt123123123\n* Patient Name: Fake Patient1\n* Principal Date: 20100830 1115\n* Record Type: NOTE\n* Patient DOB: 04/01/1960\n\nTherefore, the answer to the question is:\n\n* Type of medical document: Clinical Note",
+        "date": "August 30, 2010, 11:15",
+        "episode": " Medical Decision-making",
+        "sections": " Sure, here are the main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nCLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION.\n\nTherefore, the response format should be:\n\nCLINICAL HISTORY, INTERIM HISTORY, PHYSICAL EXAM, IMPRESSION.",
+        "classUri-mentions": " Based on the information provided in the document, the following are the distinct anatomical entities mentioned, in the order they appear:\n\n* Right breast\n* Axilla (right)\n* Lymph nodes (right axillary)\n* Breast (left)\n* Axilla (left)\n\nTherefore, the answer to the question would be:\n\nRight_Breast, Axilla (right), Lymph_nodes (right_axillary), Breast (left), Axilla (left)",
+        "attributes": "Right Breast: historic, Right Axillary Lymph Node: historic, Left Breast: uncertain, Left Axillary Lymph Node: uncertain"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure! Here's the answer to your question:\n\nWhat is the patient's name as mentioned in the document?\n\nThe patient's name is:\n\nFake Patient1",
+        "type": "The medical document referenced in the text is a 'Clinical Note'.",
+        "date": "August 30, 2010, 11:15",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nFormat:\nThe document relates to the 'DIAGNOSTIC' stage of patient care.\n\nExplanation:\nThe medical document provided describes the patient's clinical history, interim history, and impression, which suggests that the document relates to the diagnostic stage of patient care. The diagnostic stage involves identifying a patient's medical condition and determining the appropriate course of action or treatment. The document includes information about the patient's medical history, cancer stage, surgical procedure, and treatment plan",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* CLINICAL HISTORY\n* INTERIM HISTORY\n* IMPRESSION\n\nThe document includes information about the patient's demographics, medical history, surgical history, and current physical examination. It also includes the patient's diagnosis, treatment plan, and follow-up schedule.",
+        "classUri-mentions": " Sure, I'd be happy to help! Based on the information provided in the medical document, the distinct anatomical entities mentioned are:\n\nAxilla, Right_Breast, Upper_inner_Quadrant",
+        "attributes": " Sure, I can help you with that! Based on the information provided in the medical document, here are the attributes for each anatomical entity mentioned:\n\n* Right breast:\n\t+ Historic (past surgery: modified radical mastectomy)\n* Right axilla:\n\t+ Historic (past surgery: axillary lymph node dissection)\n* Left breast:\n\t+ Negated (no evidence of disease)\n* Tumor bed:\n\t+ Additional treatment (radiation therapy)\n\nI hope this helps! Let me know if you have any further questions or if there's anything else I can assist you with."
+    },
+    "llama-2-7b-chat": {
+        "name": " Based on the provided medical document, the patient's name is:\n\nPatient ID: pt123123123\n\nPatient Name: Fake Patient1",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": " The principal date of the medical document as noted in the text is:\n\n2010-08-30 11:15 (August 30, 2010 at 11:15 AM)\n\nFormatted according to the requested format:\n\nMonth DD, YYYY at HH:MM\n\n= 2010 DD 8 at HH 11:15",
+        "episode": " Based on the information provided in the document, the stage of patient care relates to 'Diagnostic' or 'Interim History'. This is because the document contains information about the patient's medical history, diagnosis, and current status, including the stage of the cancer, treatment plans, and follow-up appointments.\n\nTherefore, the answer is:\n\nDiagnostic or Interim History",
+        "sections": "CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION.\n\nFormat: CLINICAL HISTORY, INTERIM HISTORY, IMPRESSION.",
+        "classUri-mentions": "Right_Breast, Upper_inner_Quadrant, Right_Axilla, Left_Breast, Left_Axillary.",
+        "attributes": " | Entity | Attributes |\n| --- | --- |\n| Patient ID | historic |\n| Patient Name | generic |\n| Principal Date | historic |\n| Record Type | NOTE |\n| Patient DOB | historic |\n| Stage | historic |\n| Tumor location | historic |\n| Lymph node involvement | historic |\n| Hormone receptor status | uncertain (ER negative, PR negative, HER2 negative) |\n| Neoadjuvant chemotherapy | conditional |\n| Radiation therapy | conditional |\n| Tamoxifen | conditional |\n| Follow-up schedule | temporal (6 months) |\n\nNote:\n\n* 'historic' indicates that the attribute is mentioned in the document as a past fact or event\n* 'generic' indicates that the attribute does not provide any specific information about the patient\n* 'conditional' indicates that the attribute is mentioned in the document as a potential or expected event, based on the information provided\n* 'temporal' indicates that the attribute is mentioned in the document as a future event or appointment."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "This medical document is a 'Clinical Note.'",
+        "date": "The principal date of the medical document is August 30, 2010 at 11:15, formatted as '08/30/2010 11:15'.",
+        "episode": "The provided medical document relates to the stage of patient care called 'Post-diagnostic'. This is indicated in the document by the mention of the patient's'stage 2A (T1 N2 M0) infiltrating ductal carcinoma of the right breast with right axillary lymph node metastases' in the 'CLINICAL HISTORY' section. Additionally, the document mentions the patient's 'no evidence of metastatic disease' and 'no evidence of any lymphadenopathy in the visualized field' in the 'INTERIM HISTORY' section, both of which suggest that the patient is in remission and does not have any active disease.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression.",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant, Patient, 51\\_year\\_old\\_female, Peri\\_menopausal, Stage\\_2A\\_T1\\_N2\\_M0, Infiltrating\\_ductal\\_carcinoma, ER\\_negative, PR\\_negative, HER2\\_negative, Left\\_Breast, Left\\_axillary\\_lymph\\_node\\_metastases, Neoadjuvant\\_chemotherapy, Radiation\\_therapy, Tamoxifen, No\\_evidence\\_of\\_disease, 6\\_months\\_follow\\_up.",
+        "attributes": "Right: historic, Right_Breast: historic, Left: historic, Left\\_Breast: historic, Axillary\\_Lymph\\_Nodes: historic\n\nNote: The document mentions that the patient is 51 years old and has stage 2A (T1 N2 M0) infiltrating ductal carcinoma of the right breast with right axillary lymph node metastases. Additionally, the patient underwent a right breast modified radical mastectomy and right axillary lymph node dissection, and received radiation therapy to the right breast with additional treatment to the tumor bed. The patient is status post 4 cycles of Adriamycin and Carboplatin followed 12 cycles of Abraxane and is currently on Tamoxifen. The document also mentions that the patient's surgical incision is completely healed, and she has no redness, erythema, irritation, or signs of infection. No evidence of metastatic disease is present. The patient underwent a chest CT for radiation therapy planning, which revealed no evidence of any lymphadenopathy in the visualized field. The patient's cardiac exam reveals a normal S1 and S2 without murmurs, rubs, or gallops. The patient's lungs are clear to auscultation without wheezes, rales, or rhonchi. The patient's abdomen is soft, non-tender without hepatosplenomegaly. The patient's extremities are without clubbing, cyanosis, or edema."
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient1\".",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\"",
+        "date": "The principal date of the medical document is not explicitly stated in the provided text.",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making\". This is indicated by the following information in the document:\n\n* The patient has a history of infiltrating ductal carcinoma of the right breast with right axillary lymph node metastases and has undergone neoadjuvant chemotherapy and radiation therapy.\n* The patient is currently taking Tamoxifen and will continue to do so.\n* The patient has no evidence of disease and will be seen in 6 months.\n\nThese details suggest that the patient is currently in the medical decision-making stage of care, where decisions are being made about the patient's ongoing treatment and follow-up care.",
+        "sections": "Main content sections:\nPatient Demographics,\nClinical History,\nInterim History,\nImpression.",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant, Right\\_Axillary\\_Lymph\\_Node, Left\\_Breast, Left\\_Axillary\\_Lymph\\_Node",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Axillary\\_Lymph\\_Node: historic, ER: negative, PR: negative, HER2: negative, Tamoxifen: conditional, Radiation\\_Therapy: temporal"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient1.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is 'August 30, 2010 at 11:15'.",
+        "episode": "The stage of patient care relates to the 'Medical Decision-making' as the document outlines the patient's history, interim findings, and treatment plan.",
+        "sections": "History of Present Illness, Interim History, Physical Exam, Impression",
+        "classUri-mentions": "Axilla, Right_Breast, Upper_inner_Quadrant, Chest, Right_Breast, Right_Axilla, Tumor_Bed, Cardiac, Lungs, Abdomen, Extremities",
+        "attributes": "Right: historic, Right_Breast: historic, Right_Axillary: historic, Left: negated, Left_Breast: negated, Left_Axillary: negated, Incision: negated, Infection: negated, Redness: negated, Erythema: negated, Irritation: negated, Lymphadenopathy: uncertain, Chest_CT: uncertain, Post-surgical: conditional, Radiation_Therapy: conditional, Tumor_Bed: conditional, VSS: negated, Cardiac_Exam: negated, Lungs: negated, Abdomen: negated, Extremities: negated, Clubbing: negated, Cyanosis: negated, Edema: negated, Evidence_of_Disease: negated, Tamoxifen: conditional, 6_Months: conditional"
+    }
+}

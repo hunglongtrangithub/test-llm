@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is February 05, 2010 at 03:00.",
+        "episode": "The stage of patient care the document relates to is 'Diagnostic'.",
+        "sections": "CHIEF COMPLAINT, CLINICAL HISTORY, Past Medical History, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Breath, Chest, Abdominal_pain, Left_breast, Left_axillary_lymph_nodes, Right_ovarian_cyst, Endometriosis, S1, S2, Extremities, Lungs, Lower_abdomen, CT_scan_of_the_chest",
+        "attributes": "'Left breast': historic, generic, 'Left axillary lymph nodes': historic, 'Right ovarian cyst': historic, 'Endometriosis': historic, 'Cardiac': generic, 'Extremities': generic, 'Lungs': generic, 'Abdomen': generic, 'Lower abdomen': uncertain, 'Chest': uncertain"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient5",
+        "type": "Clinical Note",
+        "date": "20100205 0300",
+        "episode": "Medical Decision-making",
+        "sections": "CHIEF COMPLAINT, CLINICAL HISTORY, Past Medical History, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Left_Breast, Left_Axillary_Lymph_Nodes, Ovarian_Cyst",
+        "attributes": "- Left_Breast: historic,\n- Left_Axillary_Lymph_Nodes: historic,\n- Right_Ovary: historic,\n- Lung: coarse_breath_sounds"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is February 5, 2010 at 03:00.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care.",
+        "sections": "CHIEF COMPLAINT, CLINICAL HISTORY, Past Medical History, Physical Exam, IMPRESSION",
+        "classUri-mentions": "Abdomen, Axillary, Breast, Lungs, Ovarian_cyst",
+        "attributes": "Left_Breast: historic, metastases\nLeft_Axillary_lymph_nodes: historic, metastases\nAbdomen: generic\nLungs: generic, historic\nChest: generic\nLower_abdomen: generic\nCT_scan: conditional"
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient5\n\nFormat: The patient's name is Fake Patient5, as stated in the document.",
+        "type": " The document is a Clinical Note, therefore the answer is (D) Clinical Note.",
+        "date": "February 05, 2010 at 03:00.",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* CHIEF COMPLAINT\n* CLINICAL HISTORY\n* PAST MEDICAL HISTORY\n* PHYSICAL EXAM\n* IMPRESSION\n\nTherefore, the response should be:\n\nCHIEF COMPLAINT, CLINICAL HISTORY, PAST MEDICAL HISTORY, PHYSICAL EXAM, IMPRESSION",
+        "classUri-mentions": " Left Breast, Axilla, Left Axillary Lymph Nodes, Ovary, Endometrium, Abdominal, Lower Abdominal",
+        "attributes": " Sure, here's the list of anatomical entities and their attributes, as described in the document:\n\n* Left breast: historic, metastatic\n* Left axillary lymph nodes: historic, metastatic\n* Right breast: historic\n* Ovarian cyst: historic\n* Endometriosis: historic\n* Lungs: current, normal\n* Heart: current, normal\n* Abdomen: current, tender\n\nSo, the formatted response would be:\n\nLeft breast: historic, metastatic\nLeft axillary lymph nodes: historic, metastatic\nRight breast: historic\nOvarian cyst: historic\nEndometriosis: historic\nLungs: current, normal\nHeart: current, normal\nAbdomen: current, tender"
+    },
+    "llama-2-13b-chat": {
+        "name": " Sure, I can help you with that! Based on the provided document, the patient's name is:\n\nPatient Name: Fake Patient5\n\nPlease let me know if you have any other questions!",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "February 05, 2010, at 03:00.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": " Sure, I can help you with that! Based on the provided document, here are the main content sections or headings it contains, excluding any administrative or header information:\n\nMain Content Sections:\n\n* Chief Complaint\n* Clinical History\n* Past Medical History\n* Physical Exam\n* Impression\n\nPlease let me know if you need any further assistance!",
+        "classUri-mentions": "Sure! Here are the distinct anatomical entities mentioned in the document, listed in the order they appear:\n\nAxilla, Left_Breast, Upper_inner_Quadrant, Lung, Heart, Abdomen, Ovary",
+        "attributes": "Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their attributes, as described in the document:\n\nLeft breast: historic, invasive ductal carcinoma\nLeft axillary lymph nodes: historic, metastases\nRight ovarian cyst: historic\nEndometriosis: historic"
+    },
+    "llama-2-7b-chat": {
+        "name": " The patient's name as mentioned in the document is:\n\nPatient ID: pt101102103\n\nName: Fake Patient5",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document as noted in the text is:\n20100205 0300\nFormat: Month DD, YYYY at HH:MM\nNote: The date is written in the format of Month DD, YYYY at HH:MM, indicating that the principal date of the document is February 5, 2010 at 3:00 AM.",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe document provides information about the patient's medical history, physical examination, and diagnostic impressions. The Chief Complaint and Clinical History sections of the document indicate that the patient is presenting with chest and abdominal pain, and the clinical history reveals that the patient has a history of invasive ductal carcinoma of the left breast with left axillary lymph node metastases. The document also mentions that the patient is currently on maintenance therapy with Tamoxifen, which further supports the diagnosis.\n\nTherefore, based on the content of the document, the stage of patient care it relates to is 'Diagnostic', as the patient is being evaluated and diagnosed for possible complications or recurrence of their cancer.",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* History of Present Illness\n* Past Medical History\n* Physical Exam\n* Impression\n\nTherefore, the answer to the question is: History of Present Illness, Past Medical History, Physical Exam, Impression.",
+        "classUri-mentions": "Sure! Here are distinct anatomical entities mentioned in the document, in the order they appear:\n\nAxilla, Left_Breast, Upper_inner_Quadrant, Lung, Heart, Abdomen, Ovary.",
+        "attributes": "Here are the attributes for each anatomical entity mentioned in the document:\nRight: historic\nRight Breast: historic\nOvarian Cyst: generic\nEndometriosis: generic\nLower Abdomen: temporality\n\nPlease note that the attributes are listed based on the information provided in the document, and may not be exhaustive or definitive for all cases."
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date as noted in the text is:\n\nMonth: February\nDay: 5th\nYear: 2010\nTime: 0300\n\nFormatted as 'MM/DD/YYYY at HH:MM', the principal date is: 021520100300.",
+        "episode": "The document relates to the 'Medical Decision-making' stage of patient care, as it involves the physician making a decision on the appropriate course of action for the patient based on their clinical history, physical examination, and imaging studies. The specific decision mentioned in the document is to obtain a CT scan of the chest to rule out pneumonia or metastatic disease.",
+        "sections": "History of Present Illness, Past Medical History, Physical Exam, Impression",
+        "classUri-mentions": "Axilla, Left\\_Breast, Upper\\_inner\\_Quadrant, Lung, Lower\\_abdomen",
+        "attributes": "Left: historic, Left_Breast: historic, Left_Axillary_Lymph_Nodes: historic\nRight: historic, Right_Breast: historic, Right_Axillary_Lymph_Nodes: historic\nAbdomen: generic, Lower_Abdomen: uncertain"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name as mentioned in the document is not provided in the given information.",
+        "type": "The type of medical document referenced in the text is a \"Clinical Note.\" This is based on the information provided in the document, including the Record Type field which indicates the document is a note, as well as the content of the document which describes the patient's chief complaint, clinical history, physical exam, and impression.",
+        "date": "The principal date of the medical document is formatted as 'Month DD, YYYY at HH:MM' and is not explicitly provided in the text. Therefore, I cannot accurately answer the question based on the provided document.",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making\". This is because the document describes the patient's medical history, physical examination, and the doctor's impressions and plan for further investigation, which are all related to the medical decision-making process. The patient has a history of breast cancer and has been on maintenance therapy with Tamoxifen, and the doctor is considering a CT scan to rule out pneumonia or metastatic disease, indicating that the focus is on the patient's ongoing medical management. The document does not indicate any pre-diagnostic or diagnostic information, and the \"Pre-diagnostic\" and \"Diagnostic\" stages are therefore not applicable. The document does not contain enough information to determine if the stage of patient care is unknown.",
+        "sections": "Main content sections or headings:\nChief Complaint,\nClinical History,\nPast Medical History,\nPhysical Exam,\nImpression.",
+        "classUri-mentions": "Left\\_Breast, Left\\_Axillary\\_Lymph\\_Nodes, Axillary\\_Lymph\\_Nodes\\_Metastases",
+        "attributes": "Left: stage 3A (T3, N2, M0), ER positive, PR positive, HER2/NEU negative, surgery without complication, recovery uneventful, on Tamoxifen since October 2009\nRight: uncertain, historic\nLeft_Breast: historic, invasive ductal carcinoma, left axillary lymph node metastases, stage 3A (T3, N2, M0), ER positive, PR positive, HER2/NEU negative\nLeft_Axillary_Lymph_Nodes: metastases\nTamoxifen: on since October 2009, tolerated well, no significant side effects\nOvarian: historic, right, cyst\nEndometriosis: historic, unknown side"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient5.",
+        "type": "The type of medical document referenced in the text is a 'Clinical Note'.",
+        "date": "The principal date of the medical document is noted as '20100205 0300'.",
+        "episode": "The stage of patient care relates to \"Medical Decision-making\".",
+        "sections": "History of Present Illness, Clinical History, Past Medical History, Physical Exam, Impression",
+        "classUri-mentions": "Axilla, Left_Breast, Invasive_Ductal_Carcinoma, Left_Axillary_Lymph_Nodes, Metastases, Left_Breast, Total_Mastectomy, Left_Axillary_Lymph_Node_Dissection, T3, N2, M0, ER_Positive, PR_Positive, HER2/NEU_Negative, Tamoxifen, Right_Ovarian_Cyst, Endometriosis, Coarse_Breath_Sounds, Lungs, Lower_Abdomen, Tenderness_in_Abdomen, Chest_Pain, Shortness_of_Breath, Stage_3A",
+        "attributes": "Left_Breast: negated, uncertain, generic, conditional, historic, temporality\nLeft_Axillary_Lymph_Nodes: negated, uncertain, generic, conditional, historic, temporality\nTamoxifen: negated, uncertain, generic, conditional, historic, temporality\nRight_Ovarian_Cyst: negated, uncertain, generic, conditional, historic, temporality\nEndometriosis: negated, uncertain, generic, conditional, historic, temporality"
+    }
+}

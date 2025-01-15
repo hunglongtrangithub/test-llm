@@ -1,0 +1,83 @@
+{
+    "gpt-4": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The referenced medical document is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is 'March 01, 2010 at 15:30'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "FINAL DIAGNOSIS, COMMENT, HORMONE IMMUNOHISTOCHEMISTRY, GROSS DESCRIPTION",
+        "classUri-mentions": "Lymph_Nodes, Right_Axilla, Breast, Estrogen_Receptor, Progesterone_Receptor, Her2/NEU, Formalin",
+        "attributes": "'Lymph Nodes, Right Axilla: historic', 'Estrogen Receptor: positive', 'Progesterone Receptor: positive', 'Her2/NEU: negated', 'Her2/NEU (FISH): uncertain'"
+    },
+    "gemini-pro": {
+        "name": "Fake Patient3",
+        "type": "Surgical Pathology Report",
+        "date": "20100301 1530",
+        "episode": "Diagnostic",
+        "sections": "FINAL DIAGNOSIS, COMMENT, GROSS DESCRIPTION",
+        "classUri-mentions": "Right_Axilla, Lymph_Nodes",
+        "attributes": "Right: historic, Right_Axilla: historic, Lymph_Nodes: 12_Of_19_Positive"
+    },
+    "gpt-3.5-turbo-0613": {
+        "name": "The patient's name as mentioned in the document is \"Fake Patient3\".",
+        "type": "The provided medical document is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is March 1, 2010 at 15:30.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "FINAL DIAGNOSIS, COMMENT, GROSS DESCRIPTION",
+        "classUri-mentions": "LYMPH NODES, RIGHT AXILLA, BREAST CARCINOMA",
+        "attributes": "LYMPH NODES, RIGHT AXILLA: negated, historic\nMETASTATIC BREAST CARCINOMA: generic, historic\nLARGEST METASTATESES: uncertain\nEstrogen Receptor: generic\nProgesterone Receptor: generic\nHer2/NEU: negated\nHer2/NEU (FISH): uncertain"
+    },
+    "llama-2-70b-chat": {
+        "name": " Patient Name: Fake Patient3\n\nFormat: vertical list, bullet points.",
+        "type": " The type of medical document being referenced is a Surgical Pathology Report. Therefore, the answer is (B) Surgical Pathology Report.",
+        "date": " March 1, 2010, at 15:30",
+        "episode": " The document relates to the 'Diagnostic' stage of patient care.\n\nThe document contains the final diagnosis, which indicates that the patient has metastatic breast cancer in their right axillary lymph nodes. This diagnosis is based on the dissection of the lymph nodes and immunohistochemistry results, including hormone receptor status. Therefore, it falls under the diagnostic stage of patient care since it provides information about the patient's condition that will guide further treatment decisions.",
+        "sections": " Sure! Here are the main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nFINAL DIAGNOSIS\nCOMMENT\nGROSS DESCRIPTION\n\nTherefore, the response format should be:\nFINAL DIAGNOSIS, COMMENT, GROSS DESCRIPTION.",
+        "classUri-mentions": "Right Axilla, Breast, Upper inner Quadrant.",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document paired with their corresponding attributes, separated by commas:\n\nRight Axilla Lymph Node: historic, Right Breast: historic, Lymph nodes: generic, Metastatic breast carcinoma: historic, Estrogen receptor: positive, Progesterone receptor: positive, Her2/Neu: negative, Her2/Neu (Fish): not applicable"
+    },
+    "llama-2-13b-chat": {
+        "name": "Patient Name: Fake Patient3",
+        "type": " Based on the content of the document, the type of medical document is a Surgical Pathology Report.",
+        "date": " Sure, I can help you with that!\n\nThe principal date of the medical document, formatted as 'Month DD, YYYY at HH:MM', is:\n\nMarch 1, 2010 at 15:30 (3:30 PM)",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nFormat:\n\nReport ID.....................4,doc4\nPatient ID....................pt135135135\nPatient Name..................Fake Patient3\nPrincipal Date................20100301 1530\nRecord Type...................SP\nPatient DOB...................11/12/1966\n\nFINAL DIAGNOSIS:\nPART 1:  LYMPH NODES, RIGHT AXILL",
+        "sections": " Sure, I'd be happy to help! Here is the list of main content sections or headings in the provided medical document, excluding any administrative or header information:\n\nMain Content Sections:\n\n1. FINAL DIAGNOSIS\n2. COMMENT\n3. GROSS DESCRIPTION\n\nPlease let me know if you have any further questions or if there's anything else I can help with!",
+        "classUri-mentions": "Right Axilla, Lymph Nodes, Breast, Metastases",
+        "attributes": " Sure! Here are the attributes for each anatomical entity mentioned in the document, paired with their corresponding entities, in the format you requested:\n\n* Right: historic\n* Right Breast: historic\n* Lymph Nodes, Right Axilla: dissection, positive for metastatic breast carcinoma\n* Largest Metastases: measuring up to 1.9 cm\n* Estrogen Receptor: positive\n* Progesterone Receptor: positive\n* Her2/NEU: negative\n* Her2/NEU (FISH): not applicable\n\nI hope this meets your requirements! Let me know if you have any further questions or need any additional information."
+    },
+    "llama-2-7b-chat": {
+        "name": "Patient Name: Fake Patient3",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": " The principal date of the medical document as noted in the text is:\n\nMarch 1, 2010 at 3:30 PM (format: Month DD, YYYY at HH:MM)\n\nTherefore, the answer is:\n\nMarch 1, 2010 at 3:30 PM",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.\n\nFormat:\n\n* Report ID: 4\n* Patient ID: pt135135135\n* Patient Name: Fake Patient3\n* Principal Date: 20100301 1530\n* Record Type: SP\n* Patient DOB: 11/12/1966\n\nThe document provides information on the patient's diagnosis, including the final diagnosis, lymph node dissection, and h",
+        "sections": " Based on the provided medical document, the main content sections or headings are:\n\n* History of Present Illness\n* Past Medical History\n* Physical Exam\n* Final Diagnosis\n* Gross Description\n\nTherefore, the answer is: History of Present Illness, Past Medical History, Physical Exam, Final Diagnosis, Gross Description.",
+        "classUri-mentions": "Right Axilla, Breast, Upper inner Quadrant.",
+        "attributes": " Based on the medical document provided, the following are the attributes for each anatomical entity mentioned:\n\n* Right: historic ( attribute of Part 1 of the FINAL DIAGNOSIS, which refers to a past event or condition)\n* Right Breast: historic (attribute of Part 1 of the FINAL DIAGNOSIS, which refers to a past event or condition)\n* Lymph Nodes: historic (attribute of Part 1 of the FINAL DIAGNOSIS, which refers to a past event or condition)\n* Axilla: historic (attribute of Part 1 of the FINAL DIAGNOSIS, which refers to a past event or condition)\n* Metastatic Breast Carcinoma: historic (attribute of Part 1 of the FINAL DIAGNOSIS, which refers to a past event or condition)\n* Estrogen Receptor: positive (attribute of HORMONE IMMUNOHISTOCHEMISTRY)\n* Progesterone Receptor: positive (attribute of HORMONE IMMUNOHISTOCHEMISTRY)\n* Her2/NEU: negative (attribute of HORMONE IMMUNOHISTOCHEMISTRY)\n* Her2/NEU (FISH): not applicable (attribute of HORMONE IMMUNOHISTOCHEMISTRY)\n\nTherefore, the list of attributes for each anatomical entity mentioned in the document is:\n\nRight: historic\nRight Breast: historic\nLymph Nodes: historic\nAxilla: historic\nMetastatic Breast Carcinoma: historic\nEstrogen Receptor: positive\nProgesterone Receptor: positive\nHer2/NEU: negative\nHer2/NEU (FISH): not applicable"
+    },
+    "vicuna-7b-v1.5-16k": {
+        "name": "The patient's name mentioned in the document is: Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report' (SP).",
+        "date": "The principal date of the medical document is March 1, 2010, at 3:30 PM, formatted as '03/01/2010 at HH:MM'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care. The final diagnosis given in the report is \"LYMPH NODES, RIGHT AXILLA, DISSECTION,\" which indicates that a biopsy or surgical sampling was performed on the patient's right axillary lymph nodes. The report also provides information on the positive results of hormone immunohistochemistry, which helps in the diagnosis of breast cancer.",
+        "sections": "The main content sections or headings in the provided medical document are:\n\n* FINAL DIAGNOSIS\n* COMMENT\n* GROSS DESCRIPTION",
+        "classUri-mentions": "Axilla, Right; Breast, Right; Upper inner quadrant.",
+        "attributes": "Right: historic, Right_Breast: historic, Lymph_Nodes: historic, Right_Axilla: historic, Metastatic_Breast_Carcinoma: historic"
+    },
+    "vicuna-13b-v1.5-16k": {
+        "name": "The patient's name mentioned in the document is \"Fake Patient3\".",
+        "type": "The type of medical document referenced in the text is a \"Surgical Pathology Report\".",
+        "date": "The principal date of the medical document is not explicitly stated in the provided text. The document includes a \"Principal Date\" field with the value \"20100301 1530,\" but it is not clear whether this represents the date the document was created or the date of the medical event being described. Therefore, it is not possible to accurately answer the question based on the provided information.",
+        "episode": "The stage of patient care that the document relates to is \"Medical Decision-making.\" This is based on the presence of a final diagnosis and comments section that provides information about the patient's condition and treatment options. The document provides information about the patient's positive lymph nodes, the size of the largest metastases, and the results of hormone immunohistochemistry. This information is important for the medical team to make decisions about the patient's treatment plan, such as the type of surgery, chemotherapy, or radiation therapy that would be appropriate. Therefore, the document relates to the medical decision-making stage of patient care.",
+        "sections": "Main content sections:\nFINAL DIAGNOSIS,\nCOMMENT,\nGROSS DESCRIPTION",
+        "classUri-mentions": "Axilla, Right\\_Breast, Upper\\_inner\\_Quadrant",
+        "attributes": "Right_Axilla_Lymph_Nodes: historic, metastatic, breast_carcinoma, positive, largest_metastases, 1.9cm\nRight: historic"
+    },
+    "vicuna-33b-v1.3": {
+        "name": "The patient's name as mentioned in the document is Fake Patient3.",
+        "type": "The type of medical document referenced in the text is a 'Surgical Pathology Report'.",
+        "date": "The principal date of the medical document is noted as 'March 1, 2010 at 15:30'.",
+        "episode": "The document relates to the 'Diagnostic' stage of patient care.",
+        "sections": "History of Present Illness, PART 1: LYMPH NODES, RIGHT AXILLA, DISSECTION, COMMENT: HORMONE IMMUNOHISTOCHEMISTRY, GROSS DESCRIPTION",
+        "classUri-mentions": "Axilla, Right; Breast, Right; Lymph Nodes, Right Axilla; Metastatic Breast Carcinoma",
+        "attributes": "Right_Axilla: historic, Right_Breast: historic, Lymph\\_Nodes: negated, Metastatic\\_Breast\\_Carcinoma: uncertain, Estrogen\\_Receptor: positive, Progesterone\\_Receptor: positive, Her2/NEU: negative, Her2/NEU\\_(FISH): conditional"
+    }
+}
