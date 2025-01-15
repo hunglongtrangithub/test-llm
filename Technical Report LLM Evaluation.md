@@ -1,7 +1,6 @@
 # Evaluating Language Models on Medical Question-Answering using DeepPhe Clinical Notes
 
-_Author: Hung Tran / LAILab_
-_Submission date:_
+_Author: Hung Tran | Language and Intelligence Lab (LAILab)_
 
 ## Abstract
 

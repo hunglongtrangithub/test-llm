@@ -4,7 +4,6 @@ from get_evaluation_results import get_evaluation_results
 from natsort import os_sorted
 import json
 import os
-from datetime import datetime
 import argparse
 
 # SYSTEM_PROMPT = "Your task is to analyze the provided medical document and answer the following questions accurately. For each question, only answer with relevant information from the document and present your answers in the specified format. Pay close attention to the format requirements for each question to ensure your responses align with the expected structure. Your goal is to provide clear, concise, and correctly formatted answers based on the content of the document."
@@ -26,7 +25,9 @@ MODEL_LIST = [
 
 
 def get_patient_to_document_names(
-    path: str = "input", patient_name: str = None, document_name: str = None
+    path: str = "input",
+    patient_name: str | None = None,
+    document_name: str | None = None,
 ) -> dict[str, list[str]]:
     # The path must contain only subdirectories as patients and only .txt files in each subdirectory as documents
     patient_document_names = {}
