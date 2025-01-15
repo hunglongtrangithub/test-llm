@@ -77,7 +77,7 @@ python main.py
 
 ## **References**
 
-- [DeepPhe](https://cancerregistry.ucsf.edu/research-tools/deep-phe)
+- [DeepPhe](https://deepphe.github.io/)
 - [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
 - [Llama 2](https://arxiv.org/abs/2307.09288)
 - [Vicuna](https://vicuna.lmsys.org/)
